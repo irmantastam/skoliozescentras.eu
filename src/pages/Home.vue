@@ -1,53 +1,45 @@
 <template>
   <div
-    class="relative w-full min-h-screen flex items-center justify-center overflow-hidden"
+    class="relative w-full md:min-h-[calc(100vh-148px)] flex items-center justify-center overflow-hidden"
   >
     <iframe
-      src="https://www.youtube.com/embed/R9Nz87tNqjI?autoplay=1&mute=1&playlist=R9Nz87tNqjI&loop=1"
+      src="https://www.youtube.com/embed/p02RlVvKDa8?autoplay=1&mute=1&playlist=p02RlVvKDa8&loop=1"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
-      class="youtube-background-iframe absolute top-1/2 left-1/2 w-auto min-w-full min-h-full max-w-none -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+      class="absolute top-1/2 left-1/2 w-[100vw] min-w-[calc(100vh*16/9)] h-[calc(100vw*9/16)] min-h-[100vh] max-w-none -translate-x-1/2 -translate-y-1/2 pointer-events-none"
     ></iframe>
 
     <div class="absolute inset-0 bg-black opacity-50"></div>
 
     <div
-      class="relative z-10 text-center p-6 max-w-3xl mx-auto bg-white bg-opacity-80 rounded-2xl shadow-xl md:p-10"
+      class="relative flex flex-col gap-2 z-10 text-center p-6 w-full max-w-3xl bg-white bg-opacity-80 rounded-2xl shadow-xl md:p-10 m-8 md:m-16"
     >
-      <h2
-        class="text-3xl md:text-4xl uppercase font-semibold text-sky-800 mb-4"
-      >
+      <h2 class="text-3xl md:text-4xl uppercase font-semibold text-sky-800">
         Skoliozės gydymo centras
       </h2>
 
       <hr />
 
-      <h1
-        class="text-3xl md:text-4xl font-semibold text-sky-600 mt-4 mb-5 leading-tight"
-      >
-        INNOVAMED
-      </h1>
+      <h1 class="text-3xl md:text-4xl font-semibold text-sky-600">INNOVAMED</h1>
 
-      <p class="text-gray-900 text-lg leading-relaxed mb-4">
-        Kviečiame pasinaudoti unikalia galimybe atlikti nemokamą skoliozės
-        testavimą mūsų centre. Ankstyva diagnostika yra itin svarbi sėkmingam
-        gydymui. Mūsų specialistai atidžiai įvertins jūsų laikyseną ir stuburo
-        būklę, suteiks pirminę konsultaciją ir atsakys į visus rūpimus
-        klausimus.
-      </p>
+      <div class="mt-2 mb-4 flex flex-col gap-2">
+        <p>
+          Kviečiame pasinaudoti unikalia galimybe atlikti nemokamą skoliozės
+          testavimą mūsų centre. Ankstyva diagnostika yra itin svarbi sėkmingam
+          gydymui.
+        </p>
 
-      <p class="text-gray-900 text-lg leading-relaxed mb-6">
-        Testavimas yra greitas ir neskausmingas. Jo metu naudojame modernią
-        įrangą, leidžiančią tiksliai nustatyti galimus nukrypimus. Po testavimo
-        gausite išsamią ataskaitą ir rekomendacijas dėl tolesnių veiksmų, jei
-        tai bus reikalinga.
-      </p>
+        <p>
+          Mūsų specialistai atidžiai įvertins jūsų laikyseną ir stuburo būklę,
+          suteiks pirminę konsultaciją ir atsakys į visus rūpimus klausimus.
+        </p>
+      </div>
 
       <RouterLink
-        class="mt-5 px-8 py-4 bg-blue-600 text-white font-semibold text-lg rounded-full hover:bg-blue-700 transition-colors duration-300 shadow-lg inline-block transform hover:scale-105"
+        class="p-4 md:px-8 self-center bg-blue-600 text-white font-semibold text-lg rounded-full hover:bg-blue-700 transition-colors duration-300 shadow-lg inline-block transform hover:scale-105"
         :to="{ name: 'contact' }"
       >
         Registruotis nemokamam testavimui
@@ -138,16 +130,3 @@
 <script setup>
 import LayoutPage from '../layouts/LayoutPage.vue'
 </script>
-
-<style scoped>
-.youtube-background-iframe {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100vw;
-  height: calc(100vw * 9 / 16);
-  transform: translate(-50%, -50%);
-  min-height: 100vh;
-  min-width: calc(100vh * 16 / 9);
-}
-</style>
