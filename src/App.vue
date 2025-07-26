@@ -3,19 +3,19 @@
     id="app-container"
     class="flex flex-col min-h-screen font-inter"
   >
-    <AppHeader />
+    <Header />
 
-    <main class="flex-grow">
+    <main>
       <router-view />
     </main>
 
-    <AppFooter />
+    <Footer />
   </div>
 </template>
 
 <script setup>
-import AppHeader from './components/sections/AppHeader.vue'
-import AppFooter from './components/sections/AppFooter.vue'
+import Header from './components/sections/Header.vue'
+import Footer from './components/sections/Footer.vue'
 </script>
 
 <style>
