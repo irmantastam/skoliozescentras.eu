@@ -1,7 +1,5 @@
 <template>
-  <header
-    class="bg-white bg-opacity-95 shadow-sm rounded-b-lg sticky top-0 z-50"
-  >
+  <header class="bg-white bg-opacity-95 shadow-sm sticky top-0 z-50">
     <Contacts class="hidden md:block" />
 
     <div

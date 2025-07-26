@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-800 text-gray-300 py-10 px-5 mt-auto rounded-t-lg">
+  <footer class="bg-gray-800 text-gray-300 py-10 px-5 mt-auto">
     <div class="max-w-6xl mx-auto flex flex-wrap justify-between gap-8">
       <div class="footer-section flex-1 min-w-[250px]">
         <h3 class="text-xl font-semibold text-blue-400 mb-4">
