@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative w-full md:min-h-[calc(100vh-148px)] flex items-center justify-center overflow-hidden"
+    class="relative w-full md:min-h-[calc(100vh-144px)] flex items-center justify-center overflow-hidden"
   >
     <iframe
       src="https://www.youtube.com/embed/p02RlVvKDa8?autoplay=1&mute=1&playlist=p02RlVvKDa8&loop=1"
