@@ -123,7 +123,7 @@
         <a
           href="https://innovamed.lt/"
           target="_blank"
-          class="inline-block px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors duration-300 shadow-md"
+          class="hidden md:inline-block px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors duration-300 shadow-md"
         >
           INNOVAMED klinikos
         </a>
@@ -155,7 +155,17 @@
       class="fixed inset-0 bg-white bg-opacity-95 z-40 flex flex-col items-center overflow-y-auto"
     >
       <nav class="w-full text-center">
-        <ul class="list-none m-0 p-0 flex flex-col gap-6">
+        <ul class="list-none m-0 p-0 flex flex-col gap-6 py-6">
+          <li>
+            <a
+              href="https://innovamed.lt/"
+              target="_blank"
+              class="inline-block md:hidden px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors duration-300 shadow-md"
+            >
+              INNOVAMED klinikos
+            </a>
+          </li>
+
           <li
             v-for="item in menuItems"
             :key="item.path"
