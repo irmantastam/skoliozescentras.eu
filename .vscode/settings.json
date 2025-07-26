@@ -1,0 +1,14 @@
+{
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  "[css][html][javascript][json][jsonc][less][markdown][postcss][vue-html][vue-postcss][vue][yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "files.associations": {
+    "*.pcss": "tailwindcss",
+    "*.vue": "vue"
+  }
+}

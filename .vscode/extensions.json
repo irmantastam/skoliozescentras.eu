@@ -1,3 +1,12 @@
 {
-  "recommendations": ["Vue.volar"]
+  "recommendations": [
+    "cpylua.language-postcss",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "william-voyek.vscode-nginx",
+    "vue.volar"
+  ],
+  "unwantedRecommendations": []
 }
