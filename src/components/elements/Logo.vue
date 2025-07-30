@@ -5,7 +5,7 @@
       class="flex flex-col gap-2 items-center no-underline text-inherit"
     >
       <img
-        src="/logo.webp"
+        src="/assets/logo.webp"
         alt="Skoliozės Centras Logo"
         class="h-8 md:h-10 shadow-sm"
       />
