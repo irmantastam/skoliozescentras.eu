@@ -3,7 +3,7 @@
     class="relative w-full md:min-h-[calc(100vh-144px)] flex items-center justify-center overflow-hidden"
   >
     <img
-      src="/assets/hero/hero.jpg"
+      src="/images/hero/hero.jpg"
       title="Skoliozės centras INNOVAMED"
       class="absolute w-[100vw] min-w-[calc(100vh*16/9)] h-[calc(100vw*9/16)] min-h-[100vh] max-w-none pointer-events-none object-cover brightness-75"
     />

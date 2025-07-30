@@ -6,16 +6,16 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=3600"
+          "value": "public, max-age=86400"
         }
       ]
     },
     {
-      "source": "/assets/(.*)",
+      "source": "/images/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=31556952, immutable"
+          "value": "public, max-age=86400, must-revalidate"
         }
       ]
     }
