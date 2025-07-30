@@ -2,20 +2,14 @@
   <div
     class="relative w-full md:min-h-[calc(100vh-144px)] flex items-center justify-center overflow-hidden"
   >
-    <iframe
-      src="https://www.youtube.com/embed/p02RlVvKDa8?autoplay=1&mute=1&playlist=p02RlVvKDa8&loop=1"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-      class="absolute top-1/2 left-1/2 w-[100vw] min-w-[calc(100vh*16/9)] h-[calc(100vw*9/16)] min-h-[100vh] max-w-none -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-    ></iframe>
-
-    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <img
+      src="/hero/hero.jpg"
+      title="Skoliozės centras INNOVAMED"
+      class="absolute w-[100vw] min-w-[calc(100vh*16/9)] h-[calc(100vw*9/16)] min-h-[100vh] max-w-none pointer-events-none object-cover brightness-75"
+    />
 
     <div
-      class="relative flex flex-col gap-2 z-10 text-center items-center p-4 w-full max-w-3xl bg-white bg-opacity-70 rounded-2xl shadow-xl md:p-10 m-4 md:m-16"
+      class="relative flex flex-col gap-2 z-10 text-center items-center p-4 w-full max-w-3xl bg-white bg-opacity-70 rounded-2xl shadow-2xl md:p-10 m-4 md:m-16"
     >
       <h1 class="text-2xl md:text-4xl uppercase font-semibold text-sky-800">
         Skoliozės gydymo centras
