@@ -23,6 +23,7 @@
   <div
     v-if="isMenuOpen"
     class="fixed inset-0 bg-white bg-opacity-95 z-40 flex flex-col items-center overflow-y-auto"
+    @click="closeMobileMenu"
   >
     <nav class="w-full text-center flex flex-col items-center gap-6">
       <Logo
@@ -42,7 +43,7 @@
           <RouterLink
             :to="{ name: item.name }"
             @click="closeMobileMenu"
-            class="block text-sky-900 text-xl font-semibold py-3 hover:text-sky-800 transition-colors duration-300"
+            class="block text-sky-900 text-xl font-semibold py-3 hover:text-sky-600 hover:underline transition-colors duration-300"
           >
             {{ item.title }}
           </RouterLink>

@@ -25,7 +25,9 @@
         target="_blank"
         rel="nofollow"
       >
-        <span class="flex items-center gap-1">
+        <span
+          class="flex items-center gap-1 hover:text-blue-200 transition-colors duration-200"
+        >
           <IconMapPin />
           <span>Aušros g. 42, LT-44158 Kaunas</span>
         </span>
@@ -36,7 +38,9 @@
         target="_blank"
         rel="nofollow"
       >
-        <span class="flex items-center gap-1">
+        <span
+          class="flex items-center gap-1 hover:text-blue-200 transition-colors duration-200"
+        >
           <IconMapPin />
           <span>Konstitucijos pr. 23, LT-08105 Vilnius</span>
         </span>

@@ -326,7 +326,7 @@ const specialists = ref([
       </ul>
       <h4 class="font-semibold text-lg text-gray-900 mb-2">Kontaktai:</h4>
       <p><strong>INNOVAMED</strong></p>
-      <p><a href="https://www.facebook.com/innovamed" target="_blank" class="text-sky-800 hover:underline">Facebook</a></p>
+      <p><a href="https://www.facebook.com/Tadas.Mikelionis.v.9" target="_blank" rel="nofollow" class="text-sky-800 hover:underline">Facebook</a></p>
       <p><a href="mailto:mikelionis.tadas@gmail.com" class="text-sky-800 hover:underline">mikelionis.tadas@gmail.com</a></p>
       <p><a href="tel:+37069993921" class="text-sky-800 hover:underline">+370 699 93921</a></p>
       <p><a href="https://www.innovamed.lt" target="_blank" class="text-sky-800 hover:underline">www.innovamed.lt</a></p>
