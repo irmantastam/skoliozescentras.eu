@@ -32,7 +32,7 @@
 
       <Contacts class="block w-full md:hidden py-4" />
 
-      <CtaLink class="block md:hidden" />
+      <ExternalCtaLink class="block md:hidden" />
 
       <ul class="list-none m-0 p-0 flex flex-col gap-6">
         <li
@@ -57,26 +57,20 @@ import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
 import Logo from '../elements/Logo.vue'
-import CtaLink from '../elements/CtaLink.vue'
+import ExternalCtaLink from '../elements/ExternalCtaLink.vue'
 import Contacts from './Contacts.vue'
 
 const menuItems = ref([
   { title: 'Komanda', name: 'team' },
   { title: 'Diagnostika', name: 'diagnostics' },
   { title: 'Nemokamas skoliozės testavimas', name: 'testing' },
-  { title: 'Gydymas Schroth', name: 'treatment' },
-  {
-    title: 'Sėkmės istorijos',
-    name: 'success-stories',
-  },
-  {
-    title: 'ISST Schroth organizacija',
-    name: 'schroth',
-  },
-  { title: 'Mokymai kineziterapeutams', name: 'training' },
+  { title: 'Gydymas Schroth metodu', name: 'treatment' },
+  { title: 'Sėkmės istorijos', name: 'success-stories' },
+  { title: 'ISST Schroth organizacija', name: 'schroth' },
+  { title: 'Skoliozės gydymo kursai Lietuvoje', name: 'training' },
   { title: 'Klinikės praktikos supervizija', name: 'supervision' },
   { title: 'ScoliTeam', name: 'scoliteam' },
-  { title: 'Edukacija', name: 'education' },
+  { title: 'Edukacija mokykloms, tėvams', name: 'education' },
   { title: 'Schroth skoliozės stovykla', name: 'camp' },
   { title: 'Susisiekime', name: 'contact' },
 ])

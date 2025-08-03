@@ -8,7 +8,7 @@
       <Logo />
 
       <div class="flex items-center gap-5">
-        <CtaLink class="hidden md:block" />
+        <ExternalCtaLink class="hidden md:block" />
 
         <Menu />
       </div>
@@ -18,7 +18,7 @@
 
 <script setup>
 import Logo from '../elements/Logo.vue'
-import CtaLink from '../elements/CtaLink.vue'
+import ExternalCtaLink from '../elements/ExternalCtaLink.vue'
 import Contacts from './Contacts.vue'
 import Menu from './Menu.vue'
 </script>

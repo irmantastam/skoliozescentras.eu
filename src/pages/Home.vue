@@ -11,7 +11,7 @@
         Apie skoliozę
       </h2>
 
-      <p class="text-sky-900 leading-relaxed">
+      <p class="text-sky-900 leading-relaxed mb-6">
         <span class="font-semibold text-blue-800">Skoliozė</span> – tai
         sudėtingas stuburo išlinkimas į šoną, apimantis tris plokštumas.
         Diagnozė nustatoma, kai stuburo iškrypimas viršija 10˚ pagal Kobbo
@@ -21,14 +21,22 @@
         širdies veiklos sutrikimai, bet ir rimtų estetinių bei psichologinių
         iššūkių.
       </p>
+
+      <CtaLink
+        route="diagnostics"
+        variant="big"
+      >
+        Skoliozės diagnostika
+      </CtaLink>
     </section>
 
     <!-- Kas yra Schroth metodas? Section - Patobulintas vizualinis elementas -->
-    <section class="p-6 bg-white rounded-lg shadow-sm mb-6 w-full max-w-4xl">
+    <section class="p-6 bg-white rounded-lg shadow-sm w-full max-w-4xl">
       <h2 class="text-3xl font-semibold text-sky-900 mb-6 text-center">
         Kas yra Schroth metodas?
       </h2>
-      <div class="md:flex md:items-center md:space-x-8">
+
+      <div class="md:flex md:items-center md:space-x-8 mb-6">
         <!-- Vizualinė dalis -->
         <div class="flex-shrink-0 mb-6 md:mb-0 md:w-1/3 flex justify-center">
           <div
@@ -77,6 +85,13 @@
           </p>
         </div>
       </div>
+
+      <CtaLink
+        route="treatment"
+        variant="big"
+      >
+        Gydymas Schroth metodu
+      </CtaLink>
     </section>
 
     <ContactTeaser />
@@ -86,8 +101,8 @@
 <script setup>
 import Hero from '../components/sections/Hero.vue'
 import LayoutPage from '../layouts/LayoutPage.vue'
-import ContactsLink from '../components/elements/ContactsLink.vue'
 import UspList from '../components/sections/UspList.vue'
+import CtaLink from '../components/elements/CtaLink.vue'
 import ContactTeaser from '../components/sections/ContactTeaser.vue'
 </script>
 

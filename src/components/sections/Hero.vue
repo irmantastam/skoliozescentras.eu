@@ -40,16 +40,14 @@
         </p>
       </div>
 
-      <ContactsLink variant="big">
-        Registruotis nemokamam testavimui
-      </ContactsLink>
+      <CtaLink variant="big"> Registruotis nemokamam testavimui </CtaLink>
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
-import ContactsLink from '../elements/ContactsLink.vue'
+import CtaLink from '../elements/CtaLink.vue'
 
 const imgSources = ref([
   '/images/hero/hero.jpg',

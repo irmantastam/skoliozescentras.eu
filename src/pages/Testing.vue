@@ -64,7 +64,6 @@
 
 <script setup>
 import LayoutPage from '../layouts/LayoutPage.vue'
-import ContactsLink from '../components/elements/ContactsLink.vue'
 import ContactTeaser from '../components/sections/ContactTeaser.vue'
 </script>
 

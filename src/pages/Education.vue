@@ -1,6 +1,8 @@
 <template>
   <LayoutPage>
-    <h1 class="text-3xl font-semibold text-sky-600">Edukacija</h1>
+    <h1 class="text-3xl font-semibold text-sky-600">
+      Edukacija mokykloms, tėvams
+    </h1>
 
     <div class="p-6 bg-white rounded-lg shadow-sm">
       <p class="text-sky-900 leading-relaxed mb-4">

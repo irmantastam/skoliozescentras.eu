@@ -26,10 +26,10 @@ const routes = [
     meta: { title: 'Diagnostika' },
   },
   {
-    path: '/gydymas',
+    path: '/gydymas-schroth-metodu',
     name: 'treatment',
     component: () => import('../pages/Treatment.vue'),
-    meta: { title: 'Gydymas' },
+    meta: { title: 'Gydymas Schroth metodu' },
   },
   {
     path: '/isst-schroth-metodas-ir-organizacija',
@@ -38,10 +38,10 @@ const routes = [
     meta: { title: 'ISST Schroth metodas ir organizacija' },
   },
   {
-    path: '/mokymai-kineziterapeutams',
+    path: '/skoliozes-gydymo-kursai-lietuvoje',
     name: 'training',
     component: () => import('../pages/Training.vue'),
-    meta: { title: 'Mokymai kineziterapeutams' },
+    meta: { title: 'Skoliozės gydymo kursai Lietuvoje' },
   },
   {
     path: '/scoliteam',
@@ -62,10 +62,10 @@ const routes = [
     meta: { title: 'Klinikės praktikos supervizija' },
   },
   {
-    path: '/edukacija',
+    path: '/edukacija-mokykloms-tevams',
     name: 'education',
     component: () => import('../pages/Education.vue'),
-    meta: { title: 'Edukacija' },
+    meta: { title: 'Edukacija mokykloms, tėvams' },
   },
   {
     path: '/schroth-skoliozes-stovykla',

@@ -59,16 +59,13 @@
       </div>
     </div>
 
-    <RouterLink
-      :to="{ name: 'contact' }"
-      class="inline-block px-8 py-3 bg-blue-600 text-white font-semibold text-lg rounded-full shadow-lg hover:bg-blue-700 transition-colors duration-300"
-    >
-      Susisiekime
-    </RouterLink>
+    <CtaLink variant="big"> Susisiekime </CtaLink>
   </section>
 </template>
 
 <script setup>
+import CtaLink from '../elements/CtaLink.vue'
+
 defineProps({
   heading: {
     type: String,
