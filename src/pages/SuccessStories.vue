@@ -1,11 +1,64 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-800 mb-8 mx-auto text-center">
+    <h1 class="text-3xl font-semibold text-sky-600">
       Sėkmės istorijos ir klientų asmeninės patirtys
-    </h2>
+    </h1>
+
+    <!-- Nuotraukų slankiklis -->
+    <div class="relative w-full max-w-4xl">
+      <div class="text-center flex flex-col items-center gap-4 text-gray-700">
+        <h2 class="text-2xl font-semibold">
+          Sėkmingi skoliozės gydymo pavyzdžiai
+        </h2>
+
+        <p class="text-lg">
+          Kairėje nuotrauka – atvykus pirmai konsultacijai, dešinėje nuotrauka –
+          gydymo procese:
+        </p>
+      </div>
+
+      <swiper
+        :modules="[Navigation, Pagination, A11y]"
+        :slides-per-view="1"
+        :navigation="{
+          nextEl: '.swiper-button-next-photo',
+          prevEl: '.swiper-button-prev-photo',
+        }"
+        :pagination="{ el: '.swiper-pagination-photo', clickable: true }"
+        class="pb-12"
+      >
+        <swiper-slide
+          v-for="(story, index) in skoliozePhotos"
+          :key="index"
+        >
+          <div class="flex flex-col items-center p-2">
+            <img
+              :src="story.url"
+              :alt="story.alt"
+              class="w-full h-auto rounded-lg shadow-md mb-2"
+            />
+            <p class="text-sm text-gray-500">{{ story.label }}</p>
+          </div>
+        </swiper-slide>
+      </swiper>
+      <!-- Custom navigation buttons for photos -->
+      <div
+        class="swiper-button-prev swiper-button-prev-photo after:text-sky-800"
+      ></div>
+      <div
+        class="swiper-button-next swiper-button-next-photo after:text-sky-800"
+      ></div>
+
+      <!-- Custom pagination for photos -->
+      <div class="swiper-pagination-photo text-center"></div>
+    </div>
 
     <!-- Atsiliepimų slankiklis -->
-    <div class="relative w-full max-w-4xl mx-auto">
+    <div class="relative w-full max-w-4xl">
+      <h2 class="text-2xl font-semibold mb-4">
+        Klientų atsiliepimai apie sėkmingą skoliozės gydymą
+      </h2>
+
       <swiper
         :modules="[Navigation, Pagination, A11y]"
         :slides-per-view="1"
@@ -46,54 +99,6 @@
 
       <!-- Custom pagination for testimonials -->
       <div class="swiper-pagination-testimonials text-center"></div>
-    </div>
-
-    <!-- Nuotraukų slankiklis -->
-    <div class="mt-16 text-center">
-      <h2 class="text-3xl font-semibold text-sky-800 mb-2">
-        Skoliozės gydymo sėkmės istorijos
-      </h2>
-      <p class="text-lg text-gray-700 mb-8">
-        Sėkmingi skoliozės gydymo pavyzdžiai. Kairėje nuotrauka – atvykus pirmai
-        konsultacijai, dešinėje nuotrauka – gydymo procese.
-      </p>
-    </div>
-
-    <div class="relative w-full max-w-4xl mx-auto">
-      <swiper
-        :modules="[Navigation, Pagination, A11y]"
-        :slides-per-view="1"
-        :navigation="{
-          nextEl: '.swiper-button-next-photo',
-          prevEl: '.swiper-button-prev-photo',
-        }"
-        :pagination="{ el: '.swiper-pagination-photo', clickable: true }"
-        class="pb-12"
-      >
-        <swiper-slide
-          v-for="(story, index) in skoliozePhotos"
-          :key="index"
-        >
-          <div class="flex flex-col items-center p-2">
-            <img
-              :src="story.url"
-              :alt="story.alt"
-              class="w-full h-auto rounded-lg shadow-md mb-2"
-            />
-            <p class="text-sm text-gray-500">{{ story.label }}</p>
-          </div>
-        </swiper-slide>
-      </swiper>
-      <!-- Custom navigation buttons for photos -->
-      <div
-        class="swiper-button-prev swiper-button-prev-photo after:text-sky-800"
-      ></div>
-      <div
-        class="swiper-button-next swiper-button-next-photo after:text-sky-800"
-      ></div>
-
-      <!-- Custom pagination for photos -->
-      <div class="swiper-pagination-photo text-center"></div>
     </div>
 
     <ContactTeaser />
@@ -140,38 +145,38 @@ const testimonials = ref([
 const skoliozePhotos = ref([
   {
     url: 'https://innovamed.lt/wp-content/uploads/2025/07/Giedrius-su-datom-768x717.jpg.webp',
-    alt: 'Skoliozės nuotrauka prieš ir po gydymo 1',
-    label: 'Nuotrauka prieš ir po gydymo 1',
+    alt: 'Skoliozės nuotrauka prieš ir gydymo procese 1',
+    label: 'Nuotrauka prieš ir gydymo procese 1',
   },
   {
     url: 'https://innovamed.lt/wp-content/uploads/2025/07/Izabele-su-datom-768x768.jpg.webp',
-    alt: 'Skoliozės nuotrauka prieš ir po gydymo 2',
-    label: 'Nuotrauka prieš ir po gydymo 2',
+    alt: 'Skoliozės nuotrauka prieš ir gydymo procese 2',
+    label: 'Nuotrauka prieš ir gydymo procese 2',
   },
   {
     url: 'https://innovamed.lt/wp-content/uploads/2025/06/IMG_2023-768x768.jpeg.webp',
-    alt: 'Skoliozės nuotrauka prieš ir po gydymo 3',
-    label: 'Nuotrauka prieš ir po gydymo 3',
+    alt: 'Skoliozės nuotrauka prieš ir gydymo procese 3',
+    label: 'Nuotrauka prieš ir gydymo procese 3',
   },
   {
     url: 'https://innovamed.lt/wp-content/uploads/2025/06/IMG_2018.jpeg.webp',
-    alt: 'Skoliozės nuotrauka prieš ir po gydymo 4',
-    label: 'Nuotrauka prieš ir po gydymo 4',
+    alt: 'Skoliozės nuotrauka prieš ir gydymo procese 4',
+    label: 'Nuotrauka prieš ir gydymo procese 4',
   },
   {
     url: 'https://innovamed.lt/wp-content/uploads/2025/07/Naomi-su-datom-768x768.jpg.webp',
-    alt: 'Skoliozės nuotrauka prieš ir po gydymo 5',
-    label: 'Nuotrauka prieš ir po gydymo 5',
+    alt: 'Skoliozės nuotrauka prieš ir gydymo procese 5',
+    label: 'Nuotrauka prieš ir gydymo procese 5',
   },
   {
     url: 'https://innovamed.lt/wp-content/uploads/2025/07/Saule-su-datom-768x768.jpg.webp',
-    alt: 'Skoliozės nuotrauka prieš ir po gydymo 6',
-    label: 'Nuotrauka prieš ir po gydymo 6',
+    alt: 'Skoliozės nuotrauka prieš ir gydymo procese 6',
+    label: 'Nuotrauka prieš ir gydymo procese 6',
   },
   {
     url: 'https://innovamed.lt/wp-content/uploads/2025/07/Justina-su-datom.jpg',
-    alt: 'Skoliozės nuotrauka prieš ir po gydymo 7',
-    label: 'Nuotrauka prieš ir po gydymo 7',
+    alt: 'Skoliozės nuotrauka prieš ir gydymo procese 7',
+    label: 'Nuotrauka prieš ir gydymo procese 7',
   },
 ])
 </script>

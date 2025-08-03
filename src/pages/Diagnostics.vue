@@ -1,14 +1,13 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-800 mb-6 mx-auto text-center">
-      Diagnostika
-    </h2>
+    <h2 class="text-3xl font-semibold text-sky-600">Diagnostika</h2>
 
     <div class="p-6 bg-white rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Skoliozės Diagnozavimas
       </h3>
-      <p class="text-sky-900 leading-relaxed mb-4">
+
+      <p class="text-sky-900 leading-relaxed">
         Ankstyvas skoliozės diagnozavimas yra labai svarbus. Anksti diagnozuota
         skoliozė leidžia įvertinti progresavimo riziką bei leidžia parinkti
         geriausius gydymo metodus ir planą. Anksti nustatytai skoliozei užtenka
@@ -17,7 +16,7 @@
       </p>
     </div>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm border-b border-gray-200">
+    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">Adams Testas</h3>
       <p class="text-sky-900 leading-relaxed mb-4">
         Vienas iš pagrindinių, paprastų ir lengvai atliekamų būdų įtarti
@@ -80,20 +79,21 @@
         ar, jei reikia, specialius įtvarus.
       </p>
       <p
-        class="text-gray-700 italic border-l-4 border-blue-400 pl-4 py-2 bg-blue-50"
+        class="text-gray-700 italic border-l-4 borderlue-400 pl-4 py-2 bg-blue-50"
       >
         <strong>Svarbu prisiminti:</strong> Adams testas nėra galutinė diagnozė
         – tai pirminis testas, padedantis įtarti ar vystosi skoliozė. Jei kyla
         įtarimų, būtina pasikonsultuoti su specialistu.
       </p>
-      <div
+
+      <!-- <div
         class="mt-6 text-center text-gray-500 border border-dashed p-8 rounded-lg bg-gray-50"
       >
         [ Čia bus Adams testo paaiškinamasis vaizdo įrašas ]
-      </div>
+      </div> -->
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm border-b border-gray-200">
+    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">Rentgeno Tyrimas</h3>
       <p class="text-sky-900 leading-relaxed mb-4">
         Rentgeno tyrimas – tai pagrindinis diagnostinis metodas, leidžiantis
@@ -171,14 +171,15 @@
           atliekamas tik tada, kai tai svarbu diagnozei ar gydymo planavimui.
         </li>
       </ul>
-      <div
+
+      <!-- <div
         class="mt-6 text-center text-gray-500 border border-dashed p-8 rounded-lg bg-gray-50"
       >
         [ Čia bus Rentgeno tyrimo nuotrauka/iliustracija ]
-      </div>
+      </div> -->
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm border-b border-gray-200">
+    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         SPINE 3D – pažangus stuburo ir laikysenos tyrimas be radiacijos
       </h3>
@@ -275,7 +276,7 @@
       </p>
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm border-b border-gray-200">
+    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         DIERS Formetric 4D
       </h3>
@@ -309,7 +310,7 @@
       </p>
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm border-b border-gray-200">
+    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Magnetinis Rezonansas (MRT)
       </h3>

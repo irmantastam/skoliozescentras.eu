@@ -1,5 +1,7 @@
 <template>
-  <section class="py-12 px-4 sm:px-6 lg:px-8 bg-blue-100 text-center w-full">
+  <section
+    class="py-12 px-4 sm:px-6 lg:px-8 bg-blue-100 text-center w-full rounded-md shadow-md"
+  >
     <h3 class="text-2xl font-semibold text-blue-800 mb-4">
       {{ heading }}
     </h3>

@@ -1,8 +1,6 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-800 mb-6 mx-auto text-center">
-      Gydymas Schroth metodu
-    </h2>
+    <h2 class="text-3xl font-semibold text-sky-600">Gydymas Schroth metodu</h2>
 
     <!-- Apie skoliozę Section -->
     <section class="p-6 bg-white rounded-lg shadow-sm">

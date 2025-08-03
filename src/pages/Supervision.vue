@@ -1,6 +1,6 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-800 mb-6 mx-auto text-center">
+    <h2 class="text-3xl font-semibold text-sky-600">
       Klinikinės praktikos supervizija
     </h2>
 
@@ -46,7 +46,7 @@
     </div>
 
     <section
-      class="p-6 bg-white rounded-lg shadow-sm border-b border-gray-200 w-full"
+      class="p-6 bg-white rounded-lg shadow-sm border border-gray-200 w-full"
     >
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Kviečiame kreiptis

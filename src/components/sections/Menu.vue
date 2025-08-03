@@ -75,7 +75,7 @@ const menuItems = ref([
   },
   { title: 'Mokymai kineziterapeutams', name: 'training' },
   { title: 'Klinikės praktikos supervizija', name: 'supervision' },
-  { title: 'Scoliteam', name: 'scoliteam' },
+  { title: 'ScoliTeam', name: 'scoliteam' },
   { title: 'Edukacija', name: 'education' },
   { title: 'Schroth skoliozės stovykla', name: 'camp' },
   { title: 'Susisiekime', name: 'contact' },

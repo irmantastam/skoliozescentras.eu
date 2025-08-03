@@ -1,15 +1,14 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-600 mb-6 mx-auto text-center">
-      ScoliTeam
-    </h2>
+    <h2 class="text-3xl font-semibold text-sky-600">ScoliTeam</h2>
 
     <!-- Introduction -->
-    <div class="mb-10 text-sky-900 leading-relaxed">
-      <p class="mb-4">
+    <div class="text-lg flex flex-col gap-4 max-w-4xl">
+      <p>
         Vienam bendram tikslui suburti skirtingų sričių Lietuvos skoliozės
         gydymo ekspertai, glaudžiai bendradarbiaujantys tarpusavyje.
       </p>
+
       <p>
         Mūsų misija – užtikrinti geriausią skoliozės gydymą Lietuvoje, taikant
         pažangiausias medicinos technologijas, mokslu pagrįstas metodikas ir
@@ -18,7 +17,7 @@
     </div>
 
     <!-- Specialists List -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <div
         v-for="specialist in specialists"
         :key="specialist.id"
@@ -27,7 +26,7 @@
         <img
           :src="specialist.image"
           :alt="specialist.name"
-          class="w-32 h-32 rounded-full object-cover mb-4 border-2 border-blue-400"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
         />
         <h3 class="text-xl font-semibold text-gray-900 mb-2">
           {{ specialist.name }}
@@ -200,12 +199,12 @@
             <img
               :src="selectedSpecialist.image"
               :alt="selectedSpecialist.name"
-              class="w-24 h-24 rounded-full object-cover mb-4 mx-auto border-2 border-blue-400"
+              class="w-24 h-24 rounded-full object-cover mb-4 mx-auto border-2 borderlue-400"
             />
             <h3 class="text-2xl font-semibold text-gray-900 mb-2 text-center">
               {{ selectedSpecialist.name }}
             </h3>
-            <div class="mt-4 text-sky-900 leading-relaxed">
+            <div class="mt-4 text-gray-700 leading-relaxed text-center">
               <div v-html="selectedSpecialist.bioHtml"></div>
             </div>
           </div>
@@ -253,7 +252,7 @@ const specialists = ref([
         <li>Dirba su tarptautine gydytojų komanda iš viso pasaulio.</li>
       </ul>
       <h4 class="font-semibold text-lg text-gray-900 mb-2">Kontaktai:</h4>
-      <p>Affidea Lietuva, UAB. Affidea klinika.</p>
+      <p><strong>Affidea Lietuva, UAB.</strong> Affidea klinika.</p>
       <p>Vilnius, Kaunas, Šiauliai.</p>
       <p><a href="mailto:G.bernotavicius@gmail.com" class="text-sky-800 hover:underline">G.bernotavicius@gmail.com</a></p>
     `,
@@ -278,7 +277,7 @@ const specialists = ref([
         <li>2019 m. Baigė mokymus apie Chenaeu korsetų gamybą.</li>
       </ul>
       <h4 class="font-semibold text-lg text-gray-900 mb-2">Kontaktai:</h4>
-      <p>Idemus, UAB</p>
+      <p><strong>Idemus</strong>, UAB</p>
       <p>Viršuliškių g. 34 Vilnius</p>
       <p><a href="tel:+37060452036" class="text-sky-800 hover:underline">+370 604 52036</a></p>
     `,
@@ -302,9 +301,9 @@ const specialists = ref([
         <li>Privati dailės terapeutės praktika.</li>
       </ul>
       <h4 class="font-semibold text-lg text-gray-900 mb-2">Kontaktai:</h4>
-      <p>INNOVAMED</p>
-      <p><a href="https://www.facebook.com/innovamed" target="_blank" class="text-sky-800 hover:underline">Facebook</a></p>
-      <p><a href="https://www.instagram.com/innovamed" target="_blank" class="text-sky-800 hover:underline">Instagram</a></p>
+      <p><strong>INNOVAMED</strong></p>
+      <p><a href="https://www.facebook.com/giedre.mikelioniene.dailes.terapija" target="_blank" rel="nofollow" class="text-sky-800 hover:underline">Facebook</a></p>
+      <p><a href="https://www.instagram.com/giedre_mikelioniene" target="_blank" rel="nofollow" class="text-sky-800 hover:underline">Instagram</a></p>
       <p><a href="mailto:info@innovamed.lt" class="text-sky-800 hover:underline">info@innovamed.lt</a></p>
       <p><a href="tel:+37060644921" class="text-sky-800 hover:underline">+370 606 44921</a></p>
     `,
@@ -326,7 +325,7 @@ const specialists = ref([
         <li>Lektorius universitetuose, kolegijose ir seminaruose.</li>
       </ul>
       <h4 class="font-semibold text-lg text-gray-900 mb-2">Kontaktai:</h4>
-      <p>INNOVAMED</p>
+      <p><strong>INNOVAMED</strong></p>
       <p><a href="https://www.facebook.com/innovamed" target="_blank" class="text-sky-800 hover:underline">Facebook</a></p>
       <p><a href="mailto:mikelionis.tadas@gmail.com" class="text-sky-800 hover:underline">mikelionis.tadas@gmail.com</a></p>
       <p><a href="tel:+37069993921" class="text-sky-800 hover:underline">+370 699 93921</a></p>

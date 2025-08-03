@@ -1,10 +1,8 @@
 <template>
   <LayoutPage>
-    <h1 class="text-3xl font-semibold text-sky-800 mb-6 mx-auto text-center">
-      Susisiekime
-    </h1>
+    <h1 class="text-3xl font-semibold text-sky-600">Susisiekime</h1>
 
-    <p class="text-sky-900 leading-relaxed mb-6">
+    <p class="text-sky-900 max-w-3xl leading-relaxed">
       Turite klausimų ar norite užsiregistruoti konsultacijai? Susisiekite su
       mumis! Mūsų komanda pasiruošusi atsakyti į visus jūsų klausimus ir padėti
       rasti geriausią sprendimą jūsų stuburo sveikatai.
@@ -16,29 +14,70 @@
           Mūsų kontaktai
         </h3>
 
-        <p class="text-sky-900 mb-2">
-          <strong class="font-medium">El. paštas:</strong>
-          info@innovamed.lt
-        </p>
+        <div class="flex flex-col gap-4">
+          <p class="text-sky-900 mb-2 flex justify-center items-center gap-1">
+            <IconPhone />
 
-        <p class="text-sky-900 mb-2">
-          <strong class="font-medium">Telefonas:</strong> +370 630 38885
-        </p>
+            <strong class="font-semibold">Telefonas:</strong>
 
-        <p class="text-sky-900 mb-2">
-          <strong class="font-medium">Adresas Kaune:</strong> Aušros g. 42,
-          LT-44158 Kaunas
-        </p>
+            <a
+              href="tel:+370 630 38885"
+              class="hover:text-blue-800 transition-colors duration-200"
+            >
+              <span>+370 630 38885</span>
+            </a>
+          </p>
 
-        <p class="text-sky-900 mb-2">
-          <strong class="font-medium">Adresas Vilniuje:</strong> Konstitucijos
-          pr. 23, LT-08105 Vilnius
-        </p>
+          <div class="text-sky-900 mb-2 flex justify-center items-center gap-1">
+            <IconEmail />
 
-        <p class="text-sky-900 mb-2">
-          <strong class="font-medium">Darbo laikas:</strong>
-          Pirmadienis-Penktadienis: 9:00 - 18:00
-        </p>
+            <strong class="font-semibold">El. paštas:</strong>
+
+            <a
+              href="mailto:info@innovamed.lt"
+              class="hover:text-blue-800 transition-colors duration-200"
+            >
+              info@innovamed.lt
+            </a>
+          </div>
+
+          <p class="text-sky-900 mb-2 flex justify-center items-center gap-1">
+            <IconMapPin />
+
+            <strong class="font-semibold">Kaune:</strong>
+
+            <a
+              href="https://maps.app.goo.gl/Q4osjx4RerfZewbe9"
+              target="_blank"
+              rel="nofollow"
+              class="hover:text-blue-800 transition-colors duration-200"
+              title="INNOVAMED klinikų adresas Kaune"
+            >
+              Aušros g. 42, LT-44158 Kaunas
+            </a>
+          </p>
+
+          <p class="text-sky-900 mb-2 flex justify-center items-center gap-1">
+            <IconMapPin />
+
+            <strong class="font-semibold">Vilniuje:</strong>
+
+            <a
+              href="https://maps.app.goo.gl/t46MKX63vi8N84vL6"
+              target="_blank"
+              rel="nofollow"
+              class="hover:text-blue-800 transition-colors duration-200"
+              title="INNOVAMED klinikų adresas Vilniuje"
+            >
+              Konstitucijos pr. 23, LT-08105 Vilnius
+            </a>
+          </p>
+
+          <p class="text-sky-900 mb-2">
+            <strong class="font-semibold">Darbo laikas:</strong>
+            Pirmadienis-Penktadienis: 9:00 - 18:00
+          </p>
+        </div>
       </div>
 
       <div>
@@ -63,7 +102,7 @@
               id="name"
               v-model="name"
               required
-              class="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500 rounded-md"
+              class="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:borderlue-500 rounded-md"
             />
           </div>
 
@@ -80,7 +119,7 @@
               id="email"
               v-model="email"
               required
-              class="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500 rounded-md"
+              class="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:borderlue-500 rounded-md"
             />
           </div>
 
@@ -97,7 +136,7 @@
               v-model="message"
               rows="5"
               required
-              class="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500 rounded-md"
+              class="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:borderlue-500 rounded-md"
             >
             </textarea>
           </div>
@@ -129,6 +168,9 @@
 import { ref } from 'vue'
 
 import LayoutPage from '../layouts/LayoutPage.vue'
+import IconPhone from '../components/icons/IconPhone.vue'
+import IconEmail from '../components/icons/IconEmail.vue'
+import IconMapPin from '../components/icons/IconMapPin.vue'
 
 const WEB3FORMS_ACCESS_KEY = 'b8e04a4d-999a-4123-bca2-2778f213fd22'
 const name = ref('')

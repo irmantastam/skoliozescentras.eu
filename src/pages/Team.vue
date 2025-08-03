@@ -1,6 +1,6 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-900 mb-6 mx-auto text-center">
+    <h2 class="text-3xl font-semibold text-sky-600 mb-6 mx-auto text-center">
       Mūsų Komanda
     </h2>
 
@@ -11,7 +11,7 @@
         <img
           src="https://innovamed.lt/wp-content/uploads/2025/07/IMG_3249-300x300.jpg.webp"
           alt="Giedrė Mikelionienė"
-          class="w-32 h-32 rounded-full object-cover mb-4 border-2 border-blue-400"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
         />
         <h3 class="text-xl font-semibold text-gray-900 mb-2">
           Giedrė Mikelionienė
@@ -39,7 +39,7 @@
         <img
           src="https://innovamed.lt/wp-content/uploads/2023/12/DSC08158-300x300.jpg.webp"
           alt="Tadas Mikelionis"
-          class="w-32 h-32 rounded-full object-cover mb-4 border-2 border-blue-400"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
         />
         <h3 class="text-xl font-semibold text-gray-900 mb-2">
           Tadas Mikelionis
@@ -67,7 +67,7 @@
         <img
           src="https://innovamed.lt/wp-content/uploads/2025/02/Vaida-Grabauske-300x300.jpg.webp"
           alt="Vaida Grabauskė"
-          class="w-32 h-32 rounded-full object-cover mb-4 border-2 border-blue-400"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
         />
         <h3 class="text-xl font-semibold text-gray-900 mb-2">
           Vaida Grabauskė
@@ -91,7 +91,7 @@
         <img
           src="https://innovamed.lt/wp-content/uploads/2025/07/2-300x300.jpg.webp"
           alt="Emilija Masevičienė"
-          class="w-32 h-32 rounded-full object-cover mb-4 border-2 border-blue-400"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
         />
         <h3 class="text-xl font-semibold text-gray-900 mb-2">
           Emilija Masevičienė
@@ -111,7 +111,7 @@
         <img
           src="https://placehold.co/128x128/e5e7eb/6b7280?text=Ž.S."
           alt="Žygimantas Skinderis"
-          class="w-32 h-32 rounded-full object-cover mb-4 border-2 border-blue-400"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
         />
         <h3 class="text-xl font-semibold text-gray-900 mb-2">
           Žygimantas Skinderis

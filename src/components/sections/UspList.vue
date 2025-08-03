@@ -1,17 +1,15 @@
 <template>
   <div>
-    <h2 class="text-3xl font-semibold text-sky-900 mb-4 text-center">
-      Mūsų paslaugos
-    </h2>
+    <h2 class="text-3xl font-semibold text-sky-600">Mūsų paslaugos</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
-      <!-- Card 1: Nemokamas skoliozės testavimas -->
+      <!-- Card 1: Skoliozės testavimas -->
       <div
         class="bg-white p-6 rounded-lg shadow-md border border-gray-100 transition-transform duration-300 hover:scale-105 hover:shadow-xl"
       >
-        <div class="flex items-start mb-4">
+        <div class="flex flex-col gap-4 items-center mb-4">
           <!-- Icon: Stethoscope -->
-          <div class="bg-blue-100 p-3 rounded-full mr-4 flex-shrink-0">
+          <div class="bg-blue-100 p-3 rounded-full flex-shrink-0">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -38,7 +36,7 @@
           </div>
           <div>
             <h3 class="text-xl font-semibold text-gray-700">
-              Nemokamas skoliozės testavimas
+              Skoliozės testavimas
             </h3>
             <p class="text-sky-900 leading-relaxed mt-2">
               Kviečiame pasinaudoti unikalia galimybe atlikti nemokamą skoliozės
@@ -59,9 +57,9 @@
       <div
         class="bg-white p-6 rounded-lg shadow-md border border-gray-100 transition-transform duration-300 hover:scale-105 hover:shadow-xl"
       >
-        <div class="flex items-start mb-4">
+        <div class="flex flex-col gap-4 items-center mb-4">
           <!-- Icon: Scan -->
-          <div class="bg-blue-100 p-3 rounded-full mr-4 flex-shrink-0">
+          <div class="bg-blue-100 p-3 rounded-full flex-shrink-0">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -105,9 +103,9 @@
       <div
         class="bg-white p-6 rounded-lg shadow-md border border-gray-100 transition-transform duration-300 hover:scale-105 hover:shadow-xl"
       >
-        <div class="flex items-start mb-4">
+        <div class="flex flex-col gap-4 items-center mb-4">
           <!-- Icon: Heart Pulse -->
-          <div class="bg-blue-100 p-3 rounded-full mr-4 flex-shrink-0">
+          <div class="bg-blue-100 p-3 rounded-full flex-shrink-0">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
