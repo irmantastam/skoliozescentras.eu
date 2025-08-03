@@ -20,11 +20,13 @@ export const createApp = ViteSSG(
   },
   // function to have custom setups
   ({ app, router, routes, isClient, initialState }) => {
-    router.beforeEach((to, from, next) => {
-      document.title = to.meta.title
-        ? `${to.meta.title} - Skoliozės Centras`
-        : 'Skoliozės Centras'
-      next()
-    })
+    if (isClient) {
+      router.beforeEach((to, from, next) => {
+        document.title = to.meta.title
+          ? `${to.meta.title} - Skoliozės Centras`
+          : 'Skoliozės Centras'
+        next()
+      })
+    }
   }
 )
