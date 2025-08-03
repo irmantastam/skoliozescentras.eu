@@ -3,15 +3,23 @@
     class="relative w-full md:min-h-[calc(100vh-144px)] flex items-center justify-center overflow-hidden"
   >
     <img
-      src="/images/hero/hero.jpg"
+      v-for="(img, index) in imgSources"
+      :key="img"
+      :src="img"
       title="Skoliozės centras INNOVAMED"
-      class="absolute w-[100vw] min-w-[calc(100vh*16/9)] h-[calc(100vw*9/16)] min-h-[100vh] max-w-none pointer-events-none object-cover brightness-75"
+      class="absolute w-[100vw] min-w-[calc(100vh*16/9)] h-[calc(100vw*9/16)] min-h-[100vh] max-w-none pointer-events-none object-cover transition-opacity duration-1000"
+      :class="{
+        'opacity-100': index === currentImageIndex,
+        'opacity-0': index !== currentImageIndex,
+      }"
     />
 
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+
     <div
-      class="relative flex flex-col gap-2 z-10 text-center items-center p-4 w-full max-w-3xl bg-white bg-opacity-70 rounded-2xl shadow-2xl md:p-10 m-4 md:m-16"
+      class="relative flex flex-col gap-2 z-10 text-center items-center p-4 w-full max-w-3xl bg-white bg-opacity-70 rounded-2xl shadow-xl md:p-10 m-4 my-16 md:m-16"
     >
-      <h1 class="text-2xl md:text-4xl uppercase font-semibold text-sky-800">
+      <h1 class="text-2xl md:text-4xl uppercase font-semibold text-sky-900">
         Skoliozės gydymo centras
       </h1>
 
@@ -40,5 +48,33 @@
 </template>
 
 <script setup>
+import { ref, onMounted, onUnmounted } from 'vue'
 import ContactsLink from '../elements/ContactsLink.vue'
+
+const imgSources = ref([
+  '/images/hero/hero.jpg',
+  '/images/hero/hero2.jpg',
+  '/images/hero/hero3.jpg',
+])
+
+const currentImageIndex = ref(0)
+
+let intervalId = null
+
+const startSlider = () => {
+  intervalId = setInterval(() => {
+    currentImageIndex.value =
+      (currentImageIndex.value + 1) % imgSources.value.length
+  }, 4000) // Change image every 4 seconds.
+}
+
+onMounted(() => {
+  startSlider()
+})
+
+onUnmounted(() => {
+  if (intervalId) {
+    clearInterval(intervalId)
+  }
+})
 </script>

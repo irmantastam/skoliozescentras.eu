@@ -1,39 +1,129 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-bold text-blue-600 mb-4">
-      Mokymai kineziterapeutams
+    <h2 class="text-3xl font-semibold text-sky-800 mb-6 mx-auto text-center">
+      Skoliozės gydymo kursai Lietuvoje
     </h2>
 
-    <p class="text-gray-800 leading-relaxed">
-      Skoliozės Centras siūlo išsamius ir praktinius mokymus kineziterapeutams,
-      norintiems įgyti gilių žinių ir įgūdžių taikant ISST Schroth metodą
-      skoliozės ir kifozės gydymui. Mūsų mokymai yra sertifikuoti ir atitinka
-      tarptautinius ISST organizacijos standartus.
-    </p>
+    <!-- Introduction Section -->
+    <div class="p-6 bg-white rounded-lg shadow-sm">
+      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+        Schroth skoliozės gydymo kursai
+      </h3>
+      <p class="text-sky-900 leading-relaxed mb-4">
+        ISST įgaliotas Schroth kursų kineziterapeutams ir gydytojams
+        organizatorius yra INNOVAMED.
+      </p>
+      <p class="text-sky-900 leading-relaxed">
+        Kursai skirti kineziterapeutams, siekiantiems įgyti pagrindines žinias
+        apie idiopatinės skoliozės ir kifozės konservatyvų gydymą. Sužinosite,
+        kaip vertinti stuburo asimetriją, suvokti biomechaniką ir taikyti
+        veiksmingus terapinius sprendimus. Metodo tikslas – padėti išvengti
+        operacijos, stabdyti progresavimą, sumažinti asimetriškumą ir pagerinti
+        paciento gyvenimo kokybę. Jūsų laukia daug praktikos, klinikinio mąstymo
+        ugdymas ir į pacientą orientuotas požiūris.
+      </p>
+    </div>
 
-    <p class="text-gray-800 leading-relaxed">
-      Mokymų programa apima teorines žinias apie skoliozės patofiziologiją,
-      diagnostikos principus, ISST Schroth metodo istoriją ir filosofiją, bei
-      intensyvius praktinius užsiėmimus, kurių metu mokoma atlikti
-      individualizuotus pratimus, koreguoti laikyseną ir naudoti specializuotą
-      įrangą.
-    </p>
+    <!-- ISST Schroth bazinio lygio kursas Section -->
+    <section class="p-6 bg-white rounded-lg shadow-sm border-b border-gray-200">
+      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+        ISST Schroth bazinio lygio kursas (Part I + Part II)
+      </h3>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>Kursas susideda iš 2 dalių po 5 dienas.</li>
+        <li>Bendras trukmės laikotarpis 10 d., vyksta anglų kalba.</li>
+        <li>Skirta tik kineziterapeutams, dalyvių skaičius ribotas (12–14).</li>
+        <li>
+          Egzaminai: testas po I dalies, praktinis egzaminas po II dalies.
+        </li>
+        <li>
+          Kaina: 1500 € – įeina medžiagos, priemonės, užkandžiai, pažymėjimas.
+        </li>
+        <li>Dalyvavimas abiejose dalyse privalomas.</li>
+      </ul>
+    </section>
 
-    <p class="text-gray-800 leading-relaxed">
-      Mokymus veda patyrę ir sertifikuoti ISST Schroth instruktoriai, turintys
-      ilgametę darbo patirtį su skoliozės pacientais. Po mokymų sėkmingai
-      išlaikius egzaminus, kineziterapeutai gauna tarptautinį ISST Schroth
-      terapeuto sertifikatą, leidžiantį jiems taikyti šią metodiką savo
-      praktikoje.
-    </p>
+    <!-- ISST Schroth Refresher kursas Section -->
+    <section class="p-6 bg-white rounded-lg shadow-sm border-b border-gray-200">
+      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+        ISST Schroth Refresher kursas (žinių atnaujinimui)
+      </h3>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>
+          Skirta jau baigusiems bazinį kursą ir norintiems prasitęsti Schroth
+          diplomą.
+        </li>
+        <li>
+          Kaina: 300 € – įeina medžiagos, priemonės, užkandžiai, pažymėjimas.
+        </li>
+        <li>Trukmė: dvi dienos.</li>
+      </ul>
+      <p class="text-sky-900 leading-relaxed mt-4">
+        <strong>Lektorė:</strong> Zane Rožkalne – ISST regioninė instruktorė
+        Baltijos regionui, su kineziterapijos patirtimi nuo 2013 m., o nuo 2023m
+        su daktaro laipsniu.
+      </p>
+    </section>
 
-    <ContactsLink class="mt-5">Sužinoti daugiau apie mokymus</ContactsLink>
+    <!-- Papildomi mokymai: Individualūs skoliozės masažo mokymai Section -->
+    <section class="p-6 bg-white rounded-lg shadow-sm border-b border-gray-200">
+      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+        Papildomi mokymai: Individualūs skoliozės masažo mokymai
+      </h3>
+      <p class="text-sky-900 leading-relaxed mb-4">
+        Kviečiame registruotis į individualius skoliozės masažo mokymus, skirtus
+        specialistams, norintiems gilinti žinias apie darbo su pacientais,
+        turinčiais stuburo iškrypimų, ypatumus. Mokymų metu dalyviai dirba su
+        dviem skoliozę turinčiais modeliais. Praktinė sesija orientuota į tai,
+        kaip efektyviai integruoti Schroth metodo elementus masažo technikose ir
+        minkštųjų audinių mobilizacijoje esant skoliozei. Mokoma atpažinti ir
+        taikyti kryptingą bei saugią intervenciją pagal individualų paciento
+        laikysenos tipą.
+      </p>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>Trukmė – 3 valandos, kaina – 150 €.</li>
+      </ul>
+      <p class="text-sky-900 leading-relaxed mt-4">
+        <strong>Lektorė:</strong> Giedrė Mikelionienė, Schroth specialistė,
+        Schroth klinikinės praktikos vadovė, ISST Schroth atstovė Lietuvoje.
+      </p>
+    </section>
+
+    <!-- Schroth metodo terapeutų susitikimai Section -->
+    <section class="p-6 bg-white rounded-lg shadow-sm border-b border-gray-200">
+      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+        Schroth metodo terapeutų susitikimai
+      </h3>
+      <p class="text-sky-900 leading-relaxed mb-4">
+        Kviečiame Schroth skoliozės gydymo kursus Lietuvoje baigusius
+        specialistus į neprivalomą praktinių įgūdžių pasitikrinimo susitikimą.
+        Šio susitikimo tikslas – sudaryti galimybę atnaujinti teorines žinias,
+        įtvirtinti praktinius įgūdžius, savo klinikinius atvejus aptarti su
+        kolegomis. Bus gilinamasi į korekcinės padėties parinkimą, kvėpavimo
+        techniką, paciento vertinimo principus bei individualizuoto pratimų
+        plano sudarymą pagal Schroth metodiką. Dalyvavimas savanoriškas, aplinka
+        neformali, tačiau rekomenduojama visiems, siekiantiems išlaikyti
+        metodikos taikymo nuoseklumą ir tikslumą kasdienėje praktikoje.
+      </p>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>Kaina: nemokamai.</li>
+        <li>
+          Susitikimuose gali dalyvauti tik galiojantį Schroth diplomą turintys
+          terapeutai.
+        </li>
+      </ul>
+    </section>
+
+    <ContactTeaser
+      heading="Registracija mokymams"
+      sub-heading="Turite klausimų apie mokymus ar norite užsiregistruoti? Susisiekite su mumis ir mes Jums padėsime."
+    />
   </LayoutPage>
 </template>
 
 <script setup>
 import LayoutPage from '../layouts/LayoutPage.vue'
-import ContactsLink from '../components/elements/ContactsLink.vue'
+import ContactTeaser from '../components/sections/ContactTeaser.vue'
 </script>
 
 <style scoped></style>

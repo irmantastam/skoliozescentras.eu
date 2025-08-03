@@ -1,35 +1,112 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-bold text-blue-600">Schroth skoliozės stovykla</h2>
+    <h2 class="text-3xl font-semibold text-sky-800 mb-6 mx-auto text-center">
+      Schroth skoliozės stovykla
+    </h2>
 
-    <p class="text-gray-800 leading-relaxed">
-      Kasmet organizuojame specializuotas Schroth skoliozės stovyklas vaikams ir
-      paaugliams, sergantiems skolioze. Šios stovyklos yra puiki galimybė
-      intensyviai dirbti su Schroth pratimais, pagerinti laikyseną, sustiprinti
-      raumenis ir įgyti naujų žinių apie savo būklę.
-    </p>
+    <div class="p-6 bg-white rounded-lg shadow-sm">
+      <h3 class="text-2xl font-semibold text-sky-900 mb-4">Apie stovyklą</h3>
+      <p class="text-sky-900 leading-relaxed mb-4">
+        Skoliozės stovykla – tai intensyvus grupinis skoliozės gydymas, taikant
+        Katharinos Schroth metodikos principus. Ši stovykla skirta pacientams,
+        ne tik su idiopatine skolioze, bet ir su padidėjusia kifoze
+        (hiperkifoze) ar esant Scheuermanno ligai.
+      </p>
 
-    <p class="text-gray-800 leading-relaxed">
-      Stovyklos metu dalyviai ne tik atlieka individualius ir grupinius
-      kineziterapijos užsiėmimus su sertifikuotais Schroth terapeutais, but ir
-      dalyvauja edukacinėse paskaitose, kūrybinėse veiklose ir sporto
-      žaidimuose, pritaikytuose jų poreikiams. Tai padeda jiems jaustis labiau
-      pasitikintiems savimi ir suprasti, kad jie nėra vieni.
-    </p>
+      <h4 class="text-xl font-medium text-sky-700 mb-2">
+        Skoliozės stovyklos uždaviniai
+      </h4>
+      <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+        <li>Supažindinti pacientus su jų konkretaus skoliozės tipo.</li>
+        <li>
+          Išmokyti kasdienių padėčių, pritaikytų paciento skoliozės tipą,
+          siekiant aktyvios korekcijos visą dieną.
+        </li>
+        <li>Išmokyti namų pratimų programos.</li>
+        <li>
+          Stabilizuoti koreguotą laikyseną, pabrėžiant nuolatinį sąmoningos
+          laikysenos ir kasdienių padėčių laikymąsi.
+        </li>
+      </ul>
+    </div>
 
-    <p class="text-gray-800 leading-relaxed">
-      Stovykla vyksta draugiškame ir palaikančioje aplinkoje, kurioje vaikai
-      gali bendrauti su bendraamžiais, dalintis patirtimi ir jaustis suprasti.
-      Tai ne tik gydymo, but ir socializacijos bei savęs pažinimo patirtis.
-    </p>
+    <section class="p-6 bg-white rounded-lg shadow-sm border-b border-gray-200">
+      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+        Stovyklos struktūra
+      </h3>
+      <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+        <li>Stovykla trunka 5 dienas.</li>
+        <li>Stovykla dieninė. Nuo 9:00 iki 17:00.</li>
+        <li>
+          Kiekvieną dieną vyksta 3 valandas trunkantis gydymas, padalintas į dvi
+          1,5 val. sesijas.
+        </li>
+        <li>Tarp sesijų numatytas 1–1,5 val. pertraukos.</li>
+        <li>
+          Pirmą dieną yra įvertinama paciento laikysena ir yra individualiai
+          apmokinami pratimų, remiantis jų skoliozės tipu ir gebėjimais.
+        </li>
+        <li>
+          Stovyklos metu vyks įvairios edukacijos: dailės terapija, zoologijos
+          sodas, muziejus ir pan. Bus patikslinta artėjant stovyklos datai.
+        </li>
+        <li>Stovyklos metu vyks sveikatingumo, fizinio rengimo treniruotės.</li>
+        <li>Maitinimas į kainą įskaičiuotas (pietūs ir užkandžiai).</li>
+        <li>
+          Stovyklos pabaigoje pacientai gauna savo individualią pratimų knygelę
+          bei pažymėjimą apie sėkmingą dalyvavimą.
+        </li>
+        <li>Stovyklos vyks Vilniuje ir Kaune.</li>
+      </ul>
+    </section>
 
-    <ContactsLink class="mt-5"> Sužinoti daugiau apie mokymus </ContactsLink>
+    <section class="p-6 bg-white rounded-lg shadow-sm border-b border-gray-200">
+      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+        Informacija dalyviams
+      </h3>
+      <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+        <li>Stovykloje gali dalyvauti nuo 10 metų ir vyresni.</li>
+        <li>Būtina turėti iki 6 mėnesių senumo stuburo rentgeno nuotrauką.</li>
+        <li>Dalyvavimas būtinas visos stovyklos laikotarpiu.</li>
+        <li>
+          Apranga: mergaitėms/moterims rekomenduojama sportinė liemenėlė su
+          įprastomis petnešomis, kad gerai matytųsi nugara, berniukams/vyrams –
+          be marškinėlių. Plaukai turi būti surišti, kad matytųsi pečiai ir
+          nugara.
+        </li>
+        <li>Korsetuoti pacientai turi korsetą dėvėti kiekvieną treniruotę.</li>
+      </ul>
+    </section>
+
+    <section class="p-6 bg-white rounded-lg shadow-sm">
+      <h3 class="text-2xl font-semibold text-sky-900 mb-4">Registracija</h3>
+      <p class="text-sky-900 leading-relaxed mb-2">
+        <span class="font-semibold">El. paštas:</span>
+        <a
+          href="mailto:info@innovamed.lt"
+          class="text-sky-800 hover:underline ml-2"
+          >info@innovamed.lt</a
+        >
+      </p>
+      <p class="text-sky-900 leading-relaxed">
+        <span class="font-semibold">Telefonas:</span>
+        <a
+          href="tel:+37063038885"
+          class="text-sky-800 hover:underline ml-2"
+          >+370 630 38885</a
+        >
+      </p>
+    </section>
+
+    <ContactTeaser />
   </LayoutPage>
 </template>
 
 <script setup>
 import LayoutPage from '../layouts/LayoutPage.vue'
-import ContactsLink from '../components/elements/ContactsLink.vue'
+import ContactTeaser from '../components/sections/ContactTeaser.vue'
 </script>
 
-<style scoped></style>
+<style scoped>
+/* No specific custom styles needed, Tailwind handles it well. */
+</style>

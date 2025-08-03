@@ -1,53 +1,82 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-bold text-blue-600 mb-4">
+    <h2 class="text-3xl font-semibold text-sky-800 mb-6 mx-auto text-center">
       ISST Schroth metodas ir organizacija
     </h2>
 
-    <p class="text-gray-800 leading-relaxed">
-      ISST (International Schroth Three-Dimensional Scoliosis Therapy) Schroth
-      metodas yra pasaulyje pripažinta, konservatyvi skoliozės ir kifozės gydymo
-      metodika, sukurta Vokietijoje. Šis metodas pagrįstas individualizuotais,
-      trimatės korekcijos pratimais, kurie padeda atkurti stuburo simetriją,
-      stiprinti raumenis ir pagerinti kvėpavimą.
-    </p>
+    <div class="p-6 bg-white rounded-lg shadow-sm">
+      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+        Kas yra ISST Schroth?
+      </h3>
+      <p class="text-sky-900 leading-relaxed mb-4">
+        ISST Schroth (International Schroth 3D Scoliosis Therapy) organizacija
+        yra tarptautinė ne pelno siekianti institucija, vienijanti specialistus,
+        taikančius Schroth metodą skoliozei gydyti. Organizacija buvo įkurta
+        siekiant suvienodinti gydymo standartus, remtis moksliniais tyrimais ir
+        užtikrinti aukščiausią gydymo kokybę visame pasaulyje. ISST aktyviai
+        plėtoja globalų tinklą sertifikuotų terapeutų, organizuoja mokymus
+        įvairiose šalyse bei akredituoja gydymo centrus. Jos nariai – tai
+        kineziterapeutai, gydytojai ir kiti sveikatos priežiūros specialistai,
+        kurie įsipareigoja laikytis organizacijos nustatytų kokybės standartų.
+        Organizacija taip pat bendradarbiauja su universitetais ir moksliniais
+        institutais, siekdama nuolat tobulinti savo veiklos kryptis.
+      </p>
+    </div>
 
-    <p class="text-gray-800 leading-relaxed">
-      Pagrindiniai ISST Schroth metodo principai apima:
-    </p>
+    <section class="p-6 bg-white rounded-lg shadow-sm border-b border-gray-200">
+      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+        Švietimas ir kvalifikacijos kėlimas
+      </h3>
+      <p class="text-sky-900 leading-relaxed mb-4">
+        ISST Schroth svarbi veiklos kryptis – švietimas ir specialistų
+        kvalifikacijos kėlimas. Organizacija rengia intensyvius tarptautinius
+        kursus, skirtus sveikatos priežiūros specialistams, norintiems įgyti
+        ISST sertifikatą. Šiuose kursuose dėstomi teoriniai ir praktiniai
+        aspektai, o sėkmingai baigę mokymus specialistai įtraukiami į oficialų
+        ISST sąrašą. Organizacija taip pat reguliariai atnaujina mokymo
+        programas, atsižvelgdama į naujausius mokslinius tyrimus ir klinikinę
+        praktiką. Tokiu būdu užtikrinama, kad ISST nariai galėtų taikyti
+        veiksmingus ir saugius gydymo metodus įvairiose pasaulio vietose.
+      </p>
+    </section>
 
-    <ul class="list-disc pl-5 space-y-1">
-      <li>
-        **Axial Elongation (ašinė elongacija):** Stuburo pailginimas, siekiant
-        sumažinti spaudimą slanksteliams.
-      </li>
-      <li>
-        **Derotational Breathing (derotacinis kvėpavimas):** Specialūs kvėpavimo
-        pratimai, skirti koreguoti stuburo sukimąsi ir pagerinti plaučių
-        funkciją.
-      </li>
-      <li>
-        **Rotational Angular Breathing (rotacinis kampinis kvėpavimas):**
-        Specifinis kvėpavimas, skirtas paveikti konkrečias stuburo sritis.
-      </li>
-      <li>
-        **Stabilization (stabilizacija):** Raumenų stiprinimas, siekiant
-        išlaikyti pasiektą korekciją.
-      </li>
-    </ul>
+    <section class="p-6 bg-white rounded-lg shadow-sm border-b border-gray-200">
+      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+        Tarptautinis bendradarbiavimas
+      </h3>
+      <p class="text-sky-900 leading-relaxed mb-4">
+        Be švietimo ir klinikinės veiklos, ISST Schroth didelį dėmesį skiria
+        bendruomenės kūrimui ir tarptautiniam bendradarbiavimui. Organizacija
+        skatina narių tarpusavio ryšius, dalijimąsi patirtimi bei dalyvavimą
+        metinėse konferencijose, kuriose aptariamos naujovės ir iššūkiai gydant
+        skoliozę. ISST taip pat siekia informuoti visuomenę apie skoliozės
+        gydymo galimybes bei skatinti ankstyvą diagnozę ir intervenciją. Dėl
+        šios visapusiškos veiklos, ISST Schroth tapo viena žinomiausių ir
+        labiausiai gerbiamų skoliozės gydymo organizacijų pasaulyje.
+      </p>
+    </section>
 
-    <p class="text-gray-800 leading-relaxed">
-      ISST Schroth metodas yra taikomas visame pasaulyje ir yra nuolat
-      tobulinamas, remiantis naujausiais moksliniais tyrimais. Mūsų centre dirba
-      sertifikuoti ISST Schroth terapeutai, kurie nuolat kelia savo
-      kvalifikaciją ir yra ISST organizacijos dalis, užtikrinant aukščiausią
-      gydymo kokybę.
-    </p>
+    <section class="p-6 bg-white rounded-lg shadow-sm">
+      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+        ISST Schroth Lietuvoje
+      </h3>
+      <p class="text-sky-900 leading-relaxed mb-4">
+        Lietuvoje oficialus ISST atstovas yra INNOVAMED. INNOVAMED koordinuoja
+        mokymo programas, atstovauja organizacijai Lietuvoje ir užtikrina, kad
+        kineziterapeutai ir gydytojai galėtų įgyti ISST sertifikatus bei
+        naudotųsi šalies ir tarptautiniu lygiu patvirtintais gydymo metodais.
+      </p>
+    </section>
+
+    <ContactTeaser />
   </LayoutPage>
 </template>
 
 <script setup>
 import LayoutPage from '../layouts/LayoutPage.vue'
+import ContactTeaser from '../components/sections/ContactTeaser.vue'
 </script>
 
-<style scoped></style>
+<style scoped>
+/* No specific custom styles needed, Tailwind handles it well. */
+</style>

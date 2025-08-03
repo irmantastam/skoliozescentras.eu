@@ -1,7 +1,10 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-bold text-blue-600 mb-4">Susisiekime</h2>
-    <p class="text-gray-800 leading-relaxed mb-6">
+    <h1 class="text-3xl font-semibold text-sky-800 mb-6 mx-auto text-center">
+      Susisiekime
+    </h1>
+
+    <p class="text-sky-900 leading-relaxed mb-6">
       Turite klausimų ar norite užsiregistruoti konsultacijai? Susisiekite su
       mumis! Mūsų komanda pasiruošusi atsakyti į visus jūsų klausimus ir padėti
       rasti geriausią sprendimą jūsų stuburo sveikatai.
@@ -13,26 +16,26 @@
           Mūsų kontaktai
         </h3>
 
-        <p class="text-gray-800 mb-2">
+        <p class="text-sky-900 mb-2">
           <strong class="font-medium">El. paštas:</strong>
           info@innovamed.lt
         </p>
 
-        <p class="text-gray-800 mb-2">
+        <p class="text-sky-900 mb-2">
           <strong class="font-medium">Telefonas:</strong> +370 630 38885
         </p>
 
-        <p class="text-gray-800 mb-2">
+        <p class="text-sky-900 mb-2">
           <strong class="font-medium">Adresas Kaune:</strong> Aušros g. 42,
           LT-44158 Kaunas
         </p>
 
-        <p class="text-gray-800 mb-2">
+        <p class="text-sky-900 mb-2">
           <strong class="font-medium">Adresas Vilniuje:</strong> Konstitucijos
           pr. 23, LT-08105 Vilnius
         </p>
 
-        <p class="text-gray-800 mb-2">
+        <p class="text-sky-900 mb-2">
           <strong class="font-medium">Darbo laikas:</strong>
           Pirmadienis-Penktadienis: 9:00 - 18:00
         </p>
@@ -50,7 +53,7 @@
           <div>
             <label
               for="name"
-              class="block text-gray-700 text-sm font-bold mb-2"
+              class="block text-gray-700 text-sm font-semibold mb-2"
             >
               Vardas:
             </label>
@@ -67,7 +70,7 @@
           <div>
             <label
               for="email"
-              class="block text-gray-700 text-sm font-bold mb-2"
+              class="block text-gray-700 text-sm font-semibold mb-2"
             >
               El. paštas:
             </label>
@@ -84,7 +87,7 @@
           <div>
             <label
               for="message"
-              class="block text-gray-700 text-sm font-bold mb-2"
+              class="block text-gray-700 text-sm font-semibold mb-2"
             >
               Žinutė:
             </label>

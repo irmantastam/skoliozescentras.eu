@@ -42,7 +42,7 @@
           <RouterLink
             :to="{ name: item.name }"
             @click="closeMobileMenu"
-            class="block text-gray-800 text-xl font-semibold py-3 hover:text-blue-600 transition-colors duration-300"
+            class="block text-sky-900 text-xl font-semibold py-3 hover:text-sky-800 transition-colors duration-300"
           >
             {{ item.title }}
           </RouterLink>
@@ -61,17 +61,21 @@ import CtaLink from '../elements/CtaLink.vue'
 import Contacts from './Contacts.vue'
 
 const menuItems = ref([
-  { title: 'Nemokamas skoliozės testavimas', name: 'testing' },
+  { title: 'Komanda', name: 'team' },
   { title: 'Diagnostika', name: 'diagnostics' },
-  { title: 'Gydymas', name: 'treatment' },
+  { title: 'Nemokamas skoliozės testavimas', name: 'testing' },
+  { title: 'Gydymas Schroth', name: 'treatment' },
   {
-    title: 'ISST Schroth metodas ir organizacija',
+    title: 'Sėkmės istorijos',
+    name: 'success-stories',
+  },
+  {
+    title: 'ISST Schroth organizacija',
     name: 'schroth',
   },
   { title: 'Mokymai kineziterapeutams', name: 'training' },
+  { title: 'Klinikės praktikos supervizija', name: 'supervision' },
   { title: 'Scoliteam', name: 'scoliteam' },
-  { title: 'Sėkmės istorijos', name: 'success-stories' },
-  { title: 'Klientų istorijos', name: 'client-stories' },
   { title: 'Edukacija', name: 'education' },
   { title: 'Schroth skoliozės stovykla', name: 'camp' },
   { title: 'Susisiekime', name: 'contact' },

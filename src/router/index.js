@@ -8,6 +8,12 @@ const routes = [
     meta: { title: 'INNOVAMED klinika' },
   },
   {
+    path: '/komanda',
+    name: 'team',
+    component: () => import('../pages/Team.vue'),
+    meta: { title: 'Komanda' },
+  },
+  {
     path: '/nemokamas-skoliozes-testavimas',
     name: 'testing',
     component: () => import('../pages/Testing.vue'),
@@ -50,10 +56,10 @@ const routes = [
     meta: { title: 'Sėkmės istorijos' },
   },
   {
-    path: '/klientu-istorijos',
-    name: 'client-stories',
-    component: () => import('../pages/ClientStories.vue'),
-    meta: { title: 'Klientų istorijos' },
+    path: '/klinikes-praktikos-supervizija',
+    name: 'supervision',
+    component: () => import('../pages/Supervision.vue'),
+    meta: { title: 'Klinikės praktikos supervizija' },
   },
   {
     path: '/edukacija',

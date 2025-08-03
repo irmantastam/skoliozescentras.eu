@@ -68,17 +68,21 @@ import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
 const menuItems = ref([
-  { title: 'Nemokamas skoliozės testavimas', name: 'testing' },
+  { title: 'Komanda', name: 'team' },
   { title: 'Diagnostika', name: 'diagnostics' },
-  { title: 'Gydymas', name: 'treatment' },
+  { title: 'Nemokamas skoliozės testavimas', name: 'testing' },
+  { title: 'Gydymas Schroth', name: 'treatment' },
   {
-    title: 'ISST Schroth metodas ir organizacija',
+    title: 'Sėkmės istorijos',
+    name: 'success-stories',
+  },
+  {
+    title: 'ISST Schroth organizacija',
     name: 'schroth',
   },
   { title: 'Mokymai kineziterapeutams', name: 'training' },
+  { title: 'Klinikės praktikos supervizija', name: 'supervision' },
   { title: 'Scoliteam', name: 'scoliteam' },
-  { title: 'Sėkmės istorijos', name: 'success-stories' },
-  { title: 'Klientų istorijos', name: 'client-stories' },
   { title: 'Edukacija', name: 'education' },
   { title: 'Schroth skoliozės stovykla', name: 'camp' },
   { title: 'Susisiekime', name: 'contact' },

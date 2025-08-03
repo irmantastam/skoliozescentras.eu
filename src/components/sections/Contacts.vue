@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-sky-700 text-white text-sm">
+  <div class="bg-sky-800 text-white text-sm">
     <div
       class="max-w-6xl mx-auto flex flex-col md:flex-row justify-center md:justify-between items-center gap-3 px-5 py-2"
     >
@@ -20,15 +20,27 @@
         <span>info@innovamed.lt</span>
       </a>
 
-      <span class="flex items-center gap-1">
-        <IconMapPin />
-        <span>Aušros g. 42, LT-44158 Kaunas</span>
-      </span>
+      <a
+        href="https://maps.app.goo.gl/Q4osjx4RerfZewbe9"
+        target="_blank"
+        rel="nofollow"
+      >
+        <span class="flex items-center gap-1">
+          <IconMapPin />
+          <span>Aušros g. 42, LT-44158 Kaunas</span>
+        </span>
+      </a>
 
-      <span class="flex items-center gap-1">
-        <IconMapPin />
-        <span>Konstitucijos pr. 23, LT-08105 Vilnius</span>
-      </span>
+      <a
+        href="https://maps.app.goo.gl/t46MKX63vi8N84vL6"
+        target="_blank"
+        rel="nofollow"
+      >
+        <span class="flex items-center gap-1">
+          <IconMapPin />
+          <span>Konstitucijos pr. 23, LT-08105 Vilnius</span>
+        </span>
+      </a>
     </div>
   </div>
 </template>
