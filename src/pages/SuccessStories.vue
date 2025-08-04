@@ -53,7 +53,7 @@
       <div class="swiper-pagination-photo text-center"></div>
     </div>
 
-    <!-- Atsiliepimų slankiklis -->
+    <!-- Atsiliepimų slankiklis
     <div class="relative w-full max-w-4xl">
       <h2 class="text-2xl font-semibold mb-4">
         Klientų atsiliepimai apie sėkmingą skoliozės gydymą
@@ -93,13 +93,12 @@
         </swiper-slide>
       </swiper>
 
-      <!-- Custom navigation buttons for testimonials -->
       <div class="swiper-button-prev after:text-sky-800 after:text-2xl"></div>
       <div class="swiper-button-next after:text-sky-800 after:text-2xl"></div>
 
-      <!-- Custom pagination for testimonials -->
       <div class="swiper-pagination-testimonials text-center"></div>
     </div>
+    -->
 
     <ContactTeaser />
   </LayoutPage>
