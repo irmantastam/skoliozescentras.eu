@@ -1,6 +1,6 @@
 <template>
-  <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-600">ScoliTeam</h2>
+  <LayoutPage class="px-6">
+    <h2 class="text-3xl font-semibold text-sky-600 mx-6">ScoliTeam</h2>
 
     <!-- Introduction -->
     <div class="text-lg flex flex-col gap-4 max-w-4xl">

@@ -1,12 +1,10 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-600 mb-6 mx-auto text-center">
-      Mūsų Komanda
-    </h2>
+    <h2 class="text-3xl font-semibold text-sky-600">Mūsų Komanda</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <div
-        class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center"
+        class="bg-white p-6 sm:rounded-lg shadow-md flex flex-col items-center text-center"
       >
         <img
           src="https://innovamed.lt/wp-content/uploads/2025/07/IMG_3249-300x300.jpg.webp"
@@ -34,7 +32,7 @@
       </div>
 
       <div
-        class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center"
+        class="bg-white p-6 sm:rounded-lg shadow-md flex flex-col items-center text-center"
       >
         <img
           src="https://innovamed.lt/wp-content/uploads/2023/12/DSC08158-300x300.jpg.webp"
@@ -62,7 +60,7 @@
       </div>
 
       <div
-        class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center"
+        class="bg-white p-6 sm:rounded-lg shadow-md flex flex-col items-center text-center"
       >
         <img
           src="https://innovamed.lt/wp-content/uploads/2025/02/Vaida-Grabauske-300x300.jpg.webp"
@@ -86,7 +84,7 @@
       </div>
 
       <div
-        class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center"
+        class="bg-white p-6 sm:rounded-lg shadow-md flex flex-col items-center text-center"
       >
         <img
           src="https://innovamed.lt/wp-content/uploads/2025/07/2-300x300.jpg.webp"
@@ -106,7 +104,7 @@
       </div>
 
       <div
-        class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center"
+        class="bg-white p-6 sm:rounded-lg shadow-md flex flex-col items-center text-center"
       >
         <img
           src="https://placehold.co/128x128/e5e7eb/6b7280?text=Ž.S."

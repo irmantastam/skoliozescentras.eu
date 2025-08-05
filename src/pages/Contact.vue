@@ -1,5 +1,5 @@
 <template>
-  <LayoutPage>
+  <LayoutPage class="px-6">
     <h1 class="text-3xl font-semibold text-sky-600">Susisiekime</h1>
 
     <p class="text-sky-900 max-w-3xl leading-relaxed">

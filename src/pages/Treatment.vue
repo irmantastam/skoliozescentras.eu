@@ -1,8 +1,10 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-600">Gydymas Schroth metodu</h2>
+    <h2 class="text-3xl font-semibold text-sky-600 mx-6">
+      Gydymas Schroth metodu
+    </h2>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm">
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">Apie skoliozę</h3>
       <p class="text-sky-900 leading-relaxed">
         Skoliozė – tai sudėtingas ir trimatėmis plokštumomis pasireiškiantis
@@ -15,7 +17,7 @@
       </p>
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm">
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Kas yra Schroth metodas?
       </h3>
@@ -34,7 +36,7 @@
       </p>
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm">
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Gydymas skoliozės Schroth metodu
       </h3>
@@ -51,7 +53,7 @@
       </p>
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm">
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Pagrindiniai Schroth pratimų elementai
       </h3>
@@ -78,7 +80,7 @@
       </ul>
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm">
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Kam skirta Schroth terapija?
       </h3>
@@ -90,13 +92,13 @@
       </p>
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm mb-6 mt-8">
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm mb-6 mt-8">
       <h2 class="text-3xl font-semibold text-sky-800 mb-6 text-center">
         Schroth metodo teikiama nauda
       </h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div
-          class="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center"
+          class="bg-gray-50 p-6 sm:rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center"
         >
           <div class="bg-blue-100 p-3 rounded-full mb-4">
             <svg
@@ -126,7 +128,7 @@
         </div>
 
         <div
-          class="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center"
+          class="bg-gray-50 p-6 sm:rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center"
         >
           <div class="bg-blue-100 p-3 rounded-full mb-4">
             <svg
@@ -161,7 +163,7 @@
         </div>
 
         <div
-          class="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center"
+          class="bg-gray-50 p-6 sm:rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center"
         >
           <div class="bg-blue-100 p-3 rounded-full mb-4">
             <svg
@@ -196,7 +198,7 @@
         </div>
 
         <div
-          class="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center"
+          class="bg-gray-50 p-6 sm:rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center"
         >
           <div class="bg-blue-100 p-3 rounded-full mb-4">
             <svg
@@ -227,7 +229,7 @@
         </div>
 
         <div
-          class="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center"
+          class="bg-gray-50 p-6 sm:rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center"
         >
           <div class="bg-blue-100 p-3 rounded-full mb-4">
             <svg
@@ -263,7 +265,7 @@
         </div>
 
         <div
-          class="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center"
+          class="bg-gray-50 p-6 sm:rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center"
         >
           <div class="bg-blue-100 p-3 rounded-full mb-4">
             <svg

@@ -1,11 +1,11 @@
 <template>
   <LayoutPage>
-    <h1 class="text-3xl font-semibold text-sky-600">
+    <h1 class="text-3xl font-semibold text-sky-600 mx-6">
       Edukacija mokykloms, tėvams
     </h1>
 
-    <div class="p-6 bg-white rounded-lg shadow-sm">
-      <p class="text-sky-900 leading-relaxed mb-4">
+    <div class="p-6 bg-white sm:rounded-lg shadow-sm">
+      <p class="text-sky-900 leading-relaxed">
         Tvari skoliozės prevencija ir gydymas prasideda nuo žinojimo. Mūsų
         darbas – ne tik gydyti, bet ir šviesti. INNOVAMED komanda aktyviai
         prisideda prie visuomenės sveikatos raštingumo didinimo. Edukuojame
@@ -14,7 +14,9 @@
       </p>
     </div>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+    <section
+      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
+    >
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">Vaikams</h3>
       <p class="text-sky-900 leading-relaxed mb-4">
         Skatiname vaikų sveikos laikysenos ir aktyvumo įpročius nuo mažens. Tam
@@ -40,7 +42,9 @@
       </ul>
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+    <section
+      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
+    >
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">Tėvams</h3>
       <p class="text-sky-900 leading-relaxed mb-4">
         Tėvų žinios – esminė grandis vaiko sveikatos kelyje. Padedame tėvams:
@@ -74,7 +78,9 @@
       </ul>
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+    <section
+      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
+    >
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Kineziterapeutams ir specialistams
       </h3>
@@ -105,7 +111,7 @@
       </p>
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm">
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">Susisiekime</h3>
       <p class="text-sky-900 leading-relaxed mb-2">
         <span class="font-semibold">El. paštas:</span>

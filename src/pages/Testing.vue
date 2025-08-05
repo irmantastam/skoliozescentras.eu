@@ -1,10 +1,10 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-600">
+    <h2 class="text-3xl font-semibold text-sky-600 mx-6">
       Nemokamas skoliozės testavimas
     </h2>
 
-    <div class="p-6 bg-white rounded-lg shadow-sm">
+    <div class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Kas tai ir kodėl tai svarbu?
       </h3>
@@ -27,7 +27,9 @@
       </p>
     </div>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+    <section
+      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
+    >
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Registracija nemokamam testavimui
       </h3>

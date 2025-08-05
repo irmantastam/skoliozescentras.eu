@@ -6,7 +6,7 @@
     <UspList />
 
     <!-- Apie Skoliozę Section -->
-    <section class="p-6 bg-white rounded-lg shadow-sm w-full max-w-4xl">
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm w-full max-w-4xl">
       <h2 class="text-3xl font-semibold text-sky-900 mb-4 text-center">
         Apie skoliozę
       </h2>
@@ -31,7 +31,7 @@
     </section>
 
     <!-- Kas yra Schroth metodas? Section - Patobulintas vizualinis elementas -->
-    <section class="p-6 bg-white rounded-lg shadow-sm w-full max-w-4xl">
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm w-full max-w-4xl">
       <h2 class="text-3xl font-semibold text-sky-900 mb-6 text-center">
         Kas yra Schroth metodas?
       </h2>

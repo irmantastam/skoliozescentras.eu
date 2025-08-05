@@ -1,11 +1,11 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-600">
+    <h2 class="text-3xl font-semibold text-sky-600 mx-6">
       Skoliozės gydymo kursai Lietuvoje
     </h2>
 
     <!-- Introduction Section -->
-    <div class="p-6 bg-white rounded-lg shadow-sm">
+    <div class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Schroth skoliozės gydymo kursai
       </h3>
@@ -25,7 +25,9 @@
     </div>
 
     <!-- ISST Schroth bazinio lygio kursas Section -->
-    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+    <section
+      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
+    >
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         ISST Schroth bazinio lygio kursas (Part I + Part II)
       </h3>
@@ -44,7 +46,9 @@
     </section>
 
     <!-- ISST Schroth Refresher kursas Section -->
-    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+    <section
+      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
+    >
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         ISST Schroth Refresher kursas (žinių atnaujinimui)
       </h3>
@@ -66,7 +70,9 @@
     </section>
 
     <!-- Papildomi mokymai: Individualūs skoliozės masažo mokymai Section -->
-    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+    <section
+      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
+    >
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Papildomi mokymai: Individualūs skoliozės masažo mokymai
       </h3>
@@ -90,7 +96,9 @@
     </section>
 
     <!-- Schroth metodo terapeutų susitikimai Section -->
-    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+    <section
+      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
+    >
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Schroth metodo terapeutų susitikimai
       </h3>

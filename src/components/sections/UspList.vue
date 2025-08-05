@@ -5,7 +5,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
       <!-- Card 1: Skoliozės testavimas -->
       <div
-        class="bg-white p-6 rounded-lg shadow-md border border-gray-100 transition-transform duration-300 hover:scale-105 hover:shadow-xl"
+        class="bg-white p-6 sm:rounded-lg shadow-md border border-gray-100 transition-transform duration-300 hover:scale-105 hover:shadow-xl"
       >
         <div class="flex flex-col gap-4 items-center mb-4">
           <!-- Icon: Stethoscope -->
@@ -55,7 +55,7 @@
 
       <!-- Card 2: Diagnostika -->
       <div
-        class="bg-white p-6 rounded-lg shadow-md border border-gray-100 transition-transform duration-300 hover:scale-105 hover:shadow-xl"
+        class="bg-white p-6 sm:rounded-lg shadow-md border border-gray-100 transition-transform duration-300 hover:scale-105 hover:shadow-xl"
       >
         <div class="flex flex-col gap-4 items-center mb-4">
           <!-- Icon: Scan -->
@@ -101,7 +101,7 @@
 
       <!-- Card 3: Gydymas -->
       <div
-        class="bg-white p-6 rounded-lg shadow-md border border-gray-100 transition-transform duration-300 hover:scale-105 hover:shadow-xl"
+        class="bg-white p-6 sm:rounded-lg shadow-md border border-gray-100 transition-transform duration-300 hover:scale-105 hover:shadow-xl"
       >
         <div class="flex flex-col gap-4 items-center mb-4">
           <!-- Icon: Heart Pulse -->

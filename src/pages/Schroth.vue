@@ -1,10 +1,10 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-600">
+    <h2 class="text-3xl font-semibold text-sky-600 mx-6">
       ISST Schroth metodas ir organizacija
     </h2>
 
-    <div class="p-6 bg-white rounded-lg shadow-sm">
+    <div class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Kas yra ISST Schroth?
       </h3>
@@ -23,7 +23,9 @@
       </p>
     </div>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+    <section
+      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
+    >
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Švietimas ir kvalifikacijos kėlimas
       </h3>
@@ -40,7 +42,9 @@
       </p>
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+    <section
+      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
+    >
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Tarptautinis bendradarbiavimas
       </h3>
@@ -56,7 +60,7 @@
       </p>
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm">
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         ISST Schroth Lietuvoje
       </h3>

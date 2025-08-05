@@ -1,12 +1,14 @@
 <template>
   <LayoutPage>
-    <h1 class="text-3xl font-semibold text-sky-600">
+    <h1 class="text-3xl font-semibold text-sky-600 mx-6">
       Sėkmės istorijos ir klientų asmeninės patirtys
     </h1>
 
     <!-- Nuotraukų slankiklis -->
     <div class="relative w-full max-w-4xl">
-      <div class="text-center flex flex-col items-center gap-4 text-gray-700">
+      <div
+        class="text-center flex flex-col items-center gap-4 text-gray-700 mx-6"
+      >
         <h2 class="text-2xl font-semibold">
           Sėkmingi skoliozės gydymo pavyzdžiai
         </h2>
@@ -185,8 +187,8 @@ const skoliozePhotos = ref([
   align-items: center;
 }
 
-.swiper-button-next,
+/* .swiper-button-next,
 .swiper-button-prev {
   --swiper-navigation-sides-offset: calc(-1 * theme('spacing[5]'));
-}
+} */
 </style>

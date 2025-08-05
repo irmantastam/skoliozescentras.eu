@@ -35,7 +35,7 @@
 
       <ExternalCtaLink class="block md:hidden" />
 
-      <ul class="list-none m-0 p-0 flex flex-col gap-6">
+      <ul class="list-none m-0 p-0 flex flex-col gap-6 items-center px-6 mb-6">
         <li
           v-for="item in menuItems"
           :key="item.path"

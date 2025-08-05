@@ -1,10 +1,10 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-600">
+    <h2 class="text-3xl font-semibold text-sky-600 mx-6">
       Schroth skoliozės stovykla
     </h2>
 
-    <div class="p-6 bg-white rounded-lg shadow-sm">
+    <div class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">Apie stovyklą</h3>
       <p class="text-sky-900 leading-relaxed mb-4">
         Skoliozės stovykla – tai intensyvus grupinis skoliozės gydymas, taikant
@@ -30,7 +30,9 @@
       </ul>
     </div>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+    <section
+      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
+    >
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Stovyklos struktūra
       </h3>
@@ -60,7 +62,9 @@
       </ul>
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+    <section
+      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
+    >
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Informacija dalyviams
       </h3>
@@ -78,7 +82,7 @@
       </ul>
     </section>
 
-    <section class="p-6 bg-white rounded-lg shadow-sm">
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">Registracija</h3>
       <p class="text-sky-900 leading-relaxed mb-2">
         <span class="font-semibold">El. paštas:</span>
