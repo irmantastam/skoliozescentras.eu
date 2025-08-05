@@ -5,14 +5,14 @@
     <!-- Introduction -->
     <div class="text-lg flex flex-col gap-4 max-w-4xl">
       <p>
-        Vienam bendram tikslui suburti skirtingų sričių Lietuvos skoliozės
-        gydymo ekspertai, glaudžiai bendradarbiaujantys tarpusavyje.
+        Mūsų komandą sudaro įvairių sričių skoliozės gydymo specialistai,
+        vienijami bendro tikslo ir glaudžiai bendradarbiaujantys tarpusavyje.
       </p>
 
       <p>
-        Mūsų misija – užtikrinti geriausią skoliozės gydymą Lietuvoje, taikant
-        pažangiausias medicinos technologijas, mokslu pagrįstas metodikas ir
-        nuolat tobulėjant profesinėje srityje.
+        Mūsų misija – užtikrinti aukščiausios kokybės skoliozės gydymą
+        Lietuvoje, naudojant pažangiausias technologijas, taikant moksliškai
+        pagrįstas metodikas ir nuolat keliant savo profesinę kvalifikaciją.
       </p>
     </div>
 
@@ -174,7 +174,7 @@
         @click.self="closeModal"
       >
         <div
-          class="bg-white rounded-lg shadow-xl p-8 max-w-lg w-full mx-4 relative"
+          class="bg-white rounded-lg shadow-xl p-8 max-w-lg w-full max-h-full overflow-y-auto mx-4 relative"
         >
           <button
             @click="closeModal"
