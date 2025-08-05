@@ -265,12 +265,9 @@ const submitForm = async () => {
 
     if (result.success) {
       console.log(result)
+
       formStatus.value = 'success'
       formMessage.value = 'Jūsų žinutė sėkmingai išsiųsta!'
-
-      name.value = ''
-      email.value = ''
-      message.value = ''
     } else {
       throw new Error(result)
     }
@@ -304,6 +301,10 @@ const submitFormSecondary = async () => {
 
     if (result.success) {
       console.log(result)
+
+      name.value = ''
+      email.value = ''
+      message.value = ''
     } else {
       throw new Error(result)
     }
