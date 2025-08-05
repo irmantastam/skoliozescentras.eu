@@ -148,7 +148,7 @@
         </h3>
 
         <form
-          @submit.prevent="submitForm"
+          @submit.prevent="submit"
           class="space-y-4"
         >
           <div>
@@ -234,7 +234,9 @@ import IconPhone from '../components/icons/IconPhone.vue'
 import IconEmail from '../components/icons/IconEmail.vue'
 import IconMapPin from '../components/icons/IconMapPin.vue'
 
-const WEB3FORMS_ACCESS_KEY = 'b8e04a4d-999a-4123-bca2-2778f213fd22'
+const WEB3FORMS_ACCESS_KEY = '8d02b911-63bf-4960-bd46-83440386765f'
+const WEB3FORMS_ACCESS_KEY_SECONDARY = 'b8e04a4d-999a-4123-bca2-2778f213fd22'
+
 const name = ref('')
 const email = ref('')
 const message = ref('')
@@ -279,5 +281,40 @@ const submitForm = async () => {
     formMessage.value =
       'Įvyko klaida siunčiant žinutę. Pabandykite susisiekti su mumis tiesiogiai šalia nurodytais kontaktais.'
   }
+}
+
+const submitFormSecondary = async () => {
+  try {
+    const response = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+
+      body: JSON.stringify({
+        access_key: WEB3FORMS_ACCESS_KEY_SECONDARY,
+        name: name.value,
+        email: email.value,
+        message: message.value,
+      }),
+    })
+
+    const result = await response.json()
+
+    if (result.success) {
+      console.log(result)
+    } else {
+      throw new Error(result)
+    }
+  } catch (error) {
+    console.error('Form submission error:', error)
+  }
+}
+
+// Submit to both recipients.
+const submit = async () => {
+  await submitForm()
+  await submitFormSecondary()
 }
 </script>
