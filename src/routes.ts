@@ -77,4 +77,10 @@ export const routes = [
     component: () => import('./pages/Contact.vue'),
     meta: { title: 'Kontaktai' },
   },
+  {
+    path: '/:catchAll(.*)',
+    name: '404',
+    component: () => import('./pages/404.vue'),
+    meta: { title: 'Puslapis nerastas' },
+  },
 ]
