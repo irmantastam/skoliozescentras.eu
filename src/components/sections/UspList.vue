@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h2 class="text-3xl font-semibold text-sky-600">Mūsų paslaugos</h2>
+    <h2 class="text-3xl font-semibold text-sky-900 mb-6">Mūsų paslaugos</h2>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <!-- Card 1: Skoliozės testavimas -->
       <div
         class="bg-white p-6 sm:rounded-lg shadow-md border border-gray-100 transition-transform duration-300 hover:scale-105 hover:shadow-xl"
@@ -34,6 +34,7 @@
               <path d="M12 11a2 2 0 0 1 4 0v3a2 2 0 0 1-4 0z" />
             </svg>
           </div>
+
           <div>
             <h3 class="text-xl font-semibold text-gray-700">
               Skoliozės testavimas
@@ -45,6 +46,7 @@
             </p>
           </div>
         </div>
+
         <RouterLink
           :to="{ name: 'testing' }"
           class="text-sky-800 font-semibold text-sm hover:underline mt-4 inline-block"
@@ -82,6 +84,7 @@
               <path d="M12 12v3" />
             </svg>
           </div>
+
           <div>
             <h3 class="text-xl font-semibold text-gray-700">Diagnostika</h3>
             <p class="text-sky-900 leading-relaxed mt-2">
@@ -91,6 +94,7 @@
             </p>
           </div>
         </div>
+
         <RouterLink
           :to="{ name: 'diagnostics' }"
           class="text-sky-800 font-semibold text-sm hover:underline mt-4 inline-block"
@@ -124,6 +128,7 @@
               <path d="M14 10h2l-2 5h2" />
             </svg>
           </div>
+
           <div>
             <h3 class="text-xl font-semibold text-gray-700">Gydymas</h3>
             <p class="text-sky-900 leading-relaxed mt-2">
@@ -133,6 +138,7 @@
             </p>
           </div>
         </div>
+
         <RouterLink
           :to="{ name: 'treatment' }"
           class="text-sky-800 font-semibold text-sm hover:underline mt-4 inline-block"
@@ -147,7 +153,3 @@
 <script setup>
 import { RouterLink } from 'vue-router'
 </script>
-
-<style scoped>
-/* Jokių papildomų stilių, viskas valdoma per Tailwind CSS klases */
-</style>
