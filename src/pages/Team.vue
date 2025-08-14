@@ -107,7 +107,7 @@
         class="bg-white p-6 sm:rounded-lg shadow-md flex flex-col items-center text-center"
       >
         <img
-          src="https://placehold.co/128x128/e5e7eb/6b7280?text=Ž.S."
+          src="https://innovamed.lt/wp-content/uploads/2025/08/Dizainas-be-pavadinimo-2-300x300.jpg.webp"
           alt="Žygimantas Skinderis"
           class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
         />
