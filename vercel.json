@@ -38,5 +38,17 @@
       "source": "/(.*)",
       "destination": "/$1.html"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/index.html/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/",
+      "destination": "/$1",
+      "permanent": true
+    }
   ]
 }
