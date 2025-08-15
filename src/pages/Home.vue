@@ -2,10 +2,8 @@
   <Hero />
 
   <LayoutPage class="px-6">
-    <!-- Mūsų paslaugos Section with UspList -->
     <UspList />
 
-    <!-- Apie Skoliozę Section -->
     <section class="pb-10 border-b sm:p-6 sm:rounded-lg sm:shadow-sm w-full">
       <h2 class="text-3xl font-semibold text-sky-900 mb-4 text-center">
         Apie skoliozę
@@ -30,7 +28,6 @@
       </CtaLink>
     </section>
 
-    <!-- Kas yra Schroth metodas? -->
     <section class="pb-10 border-b sm:p-6 sm:rounded-lg sm:shadow-sm w-full">
       <h2 class="text-3xl font-semibold text-sky-900 mb-6 text-center">
         Kas yra Schroth metodas?
@@ -107,5 +104,3 @@ import UspList from '../components/sections/UspList.vue'
 import CtaLink from '../components/elements/CtaLink.vue'
 import ContactSection from '../components/sections/ContactSection.vue'
 </script>
-
-<style scoped></style>

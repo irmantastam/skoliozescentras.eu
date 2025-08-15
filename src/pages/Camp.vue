@@ -6,6 +6,7 @@
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">Apie stovyklą</h3>
+
       <p class="text-sky-900 leading-relaxed mb-4">
         Skoliozės stovykla – tai intensyvus grupinis skoliozės gydymas, taikant
         Katharinos Schroth metodikos principus. Ši stovykla skirta pacientams,
@@ -16,6 +17,7 @@
       <h4 class="text-xl font-medium text-sky-700 mb-2">
         Skoliozės stovyklos uždaviniai
       </h4>
+
       <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
         <li>Supažindinti pacientus su jų konkretaus skoliozės tipo.</li>
         <li>
@@ -30,12 +32,11 @@
       </ul>
     </div>
 
-    <section
-      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
-    >
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Stovyklos struktūra
       </h3>
+
       <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
         <li>Stovykla trunka 5 dienas.</li>
         <li>Stovykla dieninė. Nuo 9:00 iki 17:00.</li>
@@ -62,12 +63,11 @@
       </ul>
     </section>
 
-    <section
-      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
-    >
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Informacija dalyviams
       </h3>
+
       <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
         <li>Stovykloje gali dalyvauti nuo 10 metų ir vyresni.</li>
         <li>Būtina turėti iki 6 mėnesių senumo stuburo rentgeno nuotrauką.</li>
@@ -84,6 +84,7 @@
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">Registracija</h3>
+
       <p class="text-sky-900 leading-relaxed mb-2">
         <span class="font-semibold">El. paštas:</span>
         <a
@@ -92,6 +93,7 @@
           >info@innovamed.lt</a
         >
       </p>
+
       <p class="text-sky-900 leading-relaxed">
         <span class="font-semibold">Telefonas:</span>
         <a

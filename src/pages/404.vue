@@ -1,5 +1,5 @@
 <template>
-  <LayoutPage>
+  <LayoutPage class="px-6">
     <div class="max-w-2xl">
       <h1 class="text-7xl md:text-9xl font-extrabold text-sky-600 mb-4">404</h1>
 

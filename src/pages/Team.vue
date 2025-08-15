@@ -133,7 +133,3 @@
 <script setup>
 import LayoutPage from '../layouts/LayoutPage.vue'
 </script>
-
-<style scoped>
-/* You can add specific styles here if needed, but Tailwind CSS handles most of the styling. */
-</style>

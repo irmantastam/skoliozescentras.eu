@@ -4,7 +4,7 @@
       Sėkmės istorijos ir klientų asmeninės patirtys
     </h1>
 
-    <!-- Nuotraukų slankiklis -->
+    <!-- Photos slider -->
     <div class="relative w-full max-w-4xl">
       <div
         class="text-center flex flex-col items-center gap-4 text-gray-700 mx-6"
@@ -43,19 +43,21 @@
           </div>
         </swiper-slide>
       </swiper>
+
       <!-- Custom navigation buttons for photos -->
       <div
         class="swiper-button-prev swiper-button-prev-photo after:text-sky-800"
-      ></div>
+      />
+
       <div
         class="swiper-button-next swiper-button-next-photo after:text-sky-800"
-      ></div>
+      />
 
       <!-- Custom pagination for photos -->
-      <div class="swiper-pagination-photo text-center"></div>
+      <div class="swiper-pagination-photo text-center" />
     </div>
 
-    <!-- Atsiliepimų slankiklis
+    <!-- Testimonials slider
     <div class="relative w-full max-w-4xl">
       <h2 class="text-2xl font-semibold mb-4">
         Klientų atsiliepimai apie sėkmingą skoliozės gydymą
@@ -118,7 +120,7 @@ import 'swiper/css/pagination'
 import LayoutPage from '../layouts/LayoutPage.vue'
 import ContactTeaser from '../components/sections/ContactTeaser.vue'
 
-// Atsiliepimų duomenys
+// Testimonial data.
 const testimonials = ref([
   {
     text: 'Jog turiu skoliozę sužinojau 12-13 metų, kuomet šeimos gydytoja pastebėjo požymius ir ortopedas tai patvirtino. Jaučiausi kitokia, nei kiti mano bendraamžiai, norėjau tai slėpti, galvojau “kodėl būtent man taip nutiko?”. Būdama jaunesnė laikiau tai kompleksu, nešiojau laisvus drabužius, niekad nesidėdavau maudymuko. Tačiau dabar, būdama 17-os, priimu tai, kaip dalį savęs, “susidraugavau” su skolioze ir atradusi Schroth metodą supratau, jog įmanoma viską pakeisti. Išbandžiau daug būdų, kaip galėčiau sau padėti, lankydavau įvairias fizines mankštas, dirbau su skirtingais kineziterapeutais, tačiau niekas nepadėjo taip, kaip Schroth metodas! Manau disciplina yra kiekvieno asmeninis užsibrėžimas. Asmeniškai būna įvairių dienų, tačiau galų gale supranti, jog turi tai daryti dėl savęs. Labiausiai mane motyvuoja tėvai ir žinoma INNOVAMED klinikos specialistai. Tai be galo supratingi ir šilti žmonės, užtikrinantys ne tik paslaugų kokybę, bet ir puikų ryšį su pacientais.',
@@ -142,7 +144,7 @@ const testimonials = ref([
   },
 ])
 
-// Nuotraukų duomenys skoliozės istorijoms (naudojami pavyzdiniai paveikslėliai)
+// Photo slides.
 const skoliozePhotos = ref([
   {
     url: 'https://innovamed.lt/wp-content/uploads/2025/07/Giedrius-su-datom-768x717.jpg.webp',
@@ -181,14 +183,3 @@ const skoliozePhotos = ref([
   },
 ])
 </script>
-
-<style scoped lang="postcss">
-:deep(.swiper-wrapper) {
-  align-items: center;
-}
-
-/* .swiper-button-next,
-.swiper-button-prev {
-  --swiper-navigation-sides-offset: calc(-1 * theme('spacing[5]'));
-} */
-</style>

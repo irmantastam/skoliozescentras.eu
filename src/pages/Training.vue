@@ -4,7 +4,6 @@
       Skoliozės gydymo kursai Lietuvoje
     </h2>
 
-    <!-- Introduction Section -->
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Schroth skoliozės gydymo kursai
@@ -24,7 +23,6 @@
       </p>
     </div>
 
-    <!-- ISST Schroth bazinio lygio kursas Section -->
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
@@ -45,7 +43,6 @@
       </ul>
     </section>
 
-    <!-- ISST Schroth Refresher kursas Section -->
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
@@ -69,7 +66,6 @@
       </p>
     </section>
 
-    <!-- Papildomi mokymai: Individualūs skoliozės masažo mokymai Section -->
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
@@ -95,7 +91,6 @@
       </p>
     </section>
 
-    <!-- Schroth metodo terapeutų susitikimai Section -->
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
@@ -133,5 +128,3 @@
 import LayoutPage from '../layouts/LayoutPage.vue'
 import ContactTeaser from '../components/sections/ContactTeaser.vue'
 </script>
-
-<style scoped></style>

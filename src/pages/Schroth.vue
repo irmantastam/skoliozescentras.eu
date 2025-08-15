@@ -8,6 +8,7 @@
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Kas yra ISST Schroth?
       </h3>
+
       <p class="text-sky-900 leading-relaxed mb-4">
         ISST Schroth (International Schroth 3D Scoliosis Therapy) organizacija
         yra tarptautinė ne pelno siekianti institucija, vienijanti specialistus,
@@ -23,12 +24,11 @@
       </p>
     </div>
 
-    <section
-      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
-    >
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Švietimas ir kvalifikacijos kėlimas
       </h3>
+
       <p class="text-sky-900 leading-relaxed mb-4">
         ISST Schroth svarbi veiklos kryptis – švietimas ir specialistų
         kvalifikacijos kėlimas. Organizacija rengia intensyvius tarptautinius
@@ -42,12 +42,11 @@
       </p>
     </section>
 
-    <section
-      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
-    >
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Tarptautinis bendradarbiavimas
       </h3>
+
       <p class="text-sky-900 leading-relaxed mb-4">
         Be švietimo ir klinikinės veiklos, ISST Schroth didelį dėmesį skiria
         bendruomenės kūrimui ir tarptautiniam bendradarbiavimui. Organizacija
@@ -64,6 +63,7 @@
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         ISST Schroth Lietuvoje
       </h3>
+
       <p class="text-sky-900 leading-relaxed mb-4">
         Lietuvoje oficialus ISST atstovas yra INNOVAMED. INNOVAMED koordinuoja
         mokymo programas, atstovauja organizacijai Lietuvoje ir užtikrina, kad
@@ -80,7 +80,3 @@
 import LayoutPage from '../layouts/LayoutPage.vue'
 import ContactTeaser from '../components/sections/ContactTeaser.vue'
 </script>
-
-<style scoped>
-/* No specific custom styles needed, Tailwind handles it well. */
-</style>

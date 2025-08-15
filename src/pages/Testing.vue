@@ -68,7 +68,3 @@
 import LayoutPage from '../layouts/LayoutPage.vue'
 import ContactTeaser from '../components/sections/ContactTeaser.vue'
 </script>
-
-<style scoped>
-/* No specific custom styles needed, Tailwind handles it well. */
-</style>

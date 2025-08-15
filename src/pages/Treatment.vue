@@ -6,6 +6,7 @@
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">Apie skoliozę</h3>
+
       <p class="text-sky-900 leading-relaxed">
         Skoliozė – tai sudėtingas ir trimatėmis plokštumomis pasireiškiantis
         stuburo išlinkimas. Ši diagnozė nustatoma, kai iškrypimas viršija 10
@@ -21,6 +22,7 @@
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Kas yra Schroth metodas?
       </h3>
+
       <p class="text-sky-900 leading-relaxed mb-4">
         **Schroth** metodas yra nechirurginis, veiksmingas skoliozės gydymo
         būdas, kurį 1927 m. Vokietijoje sukūrė kineziterapeutė Katharina
@@ -28,6 +30,7 @@
         derinami su korekciniu kvėpavimu, kurie yra individualiai pritaikomi
         specifinėms stuburo išgaubtoms ir įdubusioms zonoms.
       </p>
+
       <p class="text-sky-900 leading-relaxed">
         Pagrindinis šios terapijos tikslas – išmokyti pacientą atlikti
         korekcinius pratimus ir palaikyti teisingą kūno padėtį kasdien. Gydymas
@@ -40,6 +43,7 @@
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Gydymas skoliozės Schroth metodu
       </h3>
+
       <p class="text-sky-900 leading-relaxed mb-4">
         **Schroth** pratimai yra pritaikomi kiekvienam pacientui atskirai,
         atsižvelgiant į jo unikalų stuburo išlinkimą ir rotaciją. Terapeutas
@@ -47,6 +51,7 @@
         būdu. Pratimai gali būti atliekami stovint, sėdint ar gulint, naudojant
         pagalbines priemones, tokias kaip terapiniai kamuoliai ar lazdos.
       </p>
+
       <p class="text-sky-900 leading-relaxed">
         Norint pasiekti geriausių rezultatų, pratimus rekomenduojama atlikti
         bent 5 kartus per savaitę po 30 minučių ar ilgiau.
@@ -57,21 +62,25 @@
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Pagrindiniai Schroth pratimų elementai
       </h3>
+
       <p class="text-sky-900 leading-relaxed mb-2">
         Nors pratimų specifika skiriasi kiekvienam asmeniui, jie visi apima tris
         svarbiausius komponentus:
       </p>
+
       <ul class="list-disc list-inside text-gray-700 space-y-2">
         <li>
           <strong>Raumenų korekcija:</strong> Dėl stuburo išlinkimo vienos pusės
           raumenys būna per daug įtempti ir silpni, o kitoje pusėje – suglebę.
           Asimetriniai pratimai padeda atkurti raumenų pusiausvyrą.
         </li>
+
         <li>
           <strong>Korekcinis kvėpavimas:</strong> Pratimų metu pacientas įkvepia
           į įgaubtas sritis, taip mobilizuodamas audinius ir gerindamas oro
           cirkuliaciją.
         </li>
+
         <li>
           <strong>Laikysenos suvokimas:</strong> Tai pagrindinis žingsnis link
           korekcijos. Gebėjimas tinkamai jausti ir kontroliuoti savo stuburo
@@ -84,6 +93,7 @@
       <h3 class="text-2xl font-semibold text-sky-900 mb-4">
         Kam skirta Schroth terapija?
       </h3>
+
       <p class="text-sky-900 leading-relaxed">
         Gydymą idealiu atveju reikėtų pradėti prieš brendimą (dažniausiai 10
         metų mergaitėms ir 12 metų berniukams), kai stuburo iškrypimas ir
@@ -96,6 +106,7 @@
       <h2 class="text-3xl font-semibold text-sky-800 mb-6 text-center">
         Schroth metodo teikiama nauda
       </h2>
+
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div
           class="bg-gray-50 p-6 sm:rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center"
@@ -118,9 +129,11 @@
               <path d="M12 8v8" />
             </svg>
           </div>
+
           <h3 class="text-xl font-semibold text-gray-700 mb-2">
             Sulėtina skoliozės progresavimą
           </h3>
+
           <p class="text-sky-900 leading-relaxed">
             Šis metodas efektyviai padeda pristabdyti stuburo iškrypimo
             progresavimą, ypač svarbiu augimo periodu paauglystėje.
@@ -153,9 +166,11 @@
               <path d="M22 2H2v20h20V2z" />
             </svg>
           </div>
+
           <h3 class="text-xl font-semibold text-gray-700 mb-2">
             Palengvina skausmą
           </h3>
+
           <p class="text-sky-900 leading-relaxed">
             Individualizuoti pratimai atpalaiduoja įsitempusius nugaros
             raumenis, sumažindami skausmą ir diskomfortą.
@@ -191,6 +206,7 @@
           <h3 class="text-xl font-semibold text-gray-700 mb-2">
             Gerina estetiką
           </h3>
+
           <p class="text-sky-900 leading-relaxed">
             Koreguojant kūno padėtį ir gerinant laikyseną, atstatoma kūno
             simetrija, kas teigiamai veikia estetinį vaizdą.
@@ -221,6 +237,7 @@
           <h3 class="text-xl font-semibold text-gray-700 mb-2">
             Alternatyva operaciniam gydymui
           </h3>
+
           <p class="text-sky-900 leading-relaxed">
             Ankstyva ir nuosekli **Schroth** terapija gali padėti išvengti
             chirurginės intervencijos, ypač jei taikoma kartu su specialiu
@@ -255,9 +272,11 @@
               <path d="m10 10-3-3" />
             </svg>
           </div>
+
           <h3 class="text-xl font-semibold text-gray-700 mb-2">
             Stiprina liemens raumenis
           </h3>
+
           <p class="text-sky-900 leading-relaxed">
             Metodas padeda sustiprinti giliuosius liemens raumenis, gerindamas
             stuburo stabilumą ir suteikdamas tvirtą atramą visam kūnui.
@@ -295,9 +314,11 @@
               />
             </svg>
           </div>
+
           <h3 class="text-xl font-semibold text-gray-700 mb-2">
             Geresnis kvėpavimas
           </h3>
+
           <p class="text-sky-900 leading-relaxed">
             Korekcinis kvėpavimas ir laikysenos gerinimas didina kvėpavimo
             raumenų ištvermę ir palengvina kvėpavimą.
@@ -317,5 +338,3 @@
 import LayoutPage from '../layouts/LayoutPage.vue'
 import ContactTeaser from '../components/sections/ContactTeaser.vue'
 </script>
-
-<style scoped></style>

@@ -2,7 +2,6 @@
   <LayoutPage class="px-6">
     <h2 class="text-3xl font-semibold text-sky-600 mx-6">ScoliTeam</h2>
 
-    <!-- Introduction -->
     <div class="text-lg flex flex-col gap-4 max-w-4xl">
       <p>
         Mūsų komandą sudaro įvairių sričių skoliozės gydymo specialistai,
@@ -16,7 +15,6 @@
       </p>
     </div>
 
-    <!-- Specialists List -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div
         v-for="specialist in specialists"
@@ -44,13 +42,10 @@
       </div>
     </div>
 
-    <!-- New Section with Icons and Blocks -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <!-- Comprehensive Plan Block -->
       <div
         class="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center"
       >
-        <!-- SVG Icon for Comprehensive Plan -->
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-16 w-16 text-sky-800 mb-4"
@@ -72,11 +67,9 @@
         </p>
       </div>
 
-      <!-- Patient Education Block -->
       <div
         class="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center"
       >
-        <!-- SVG Icon for Education -->
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-16 w-16 text-sky-800 mb-4"
@@ -99,13 +92,10 @@
         </p>
       </div>
 
-      <!-- Values Block -->
       <div
         class="bg-blue-50 p-6 rounded-lg shadow-md flex flex-col items-center text-center"
       >
-        <!-- SVG Icons for Values -->
         <div class="flex space-x-4 mb-4">
-          <!-- Professionalism -->
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-12 w-12 text-sky-800"
@@ -123,7 +113,7 @@
             <path d="M13 18V8" />
             <path d="M17 18V8" />
           </svg>
-          <!-- Innovation -->
+
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-12 w-12 text-sky-800"
@@ -139,7 +129,7 @@
             <path d="M12 12h8" />
             <path d="M12 17h8" />
           </svg>
-          <!-- Empathy -->
+
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-12 w-12 text-sky-800"
@@ -155,6 +145,7 @@
             />
           </svg>
         </div>
+
         <p class="text-sky-900 leading-relaxed">
           Mūsų pagrindinės vertybės – profesionalumas, inovacijos ir empatija.
           Tikime, kad kiekvienas pacientas yra unikalus, todėl jo gydymas turi
@@ -166,7 +157,6 @@
 
     <ContactTeaser />
 
-    <!-- Modal for Specialist Details -->
     <teleport to="body">
       <div
         v-if="isModalOpen"
@@ -219,7 +209,7 @@ import { ref } from 'vue'
 import LayoutPage from '../layouts/LayoutPage.vue'
 import ContactTeaser from '../components/sections/ContactTeaser.vue'
 
-// Define the detailed specialist data
+// Define the detailed specialist data.
 const specialists = ref([
   {
     id: 1,
@@ -334,7 +324,6 @@ const specialists = ref([
   },
 ])
 
-// Modal State Management
 const isModalOpen = ref(false)
 const selectedSpecialist = ref(null)
 
@@ -348,5 +337,3 @@ const closeModal = () => {
   selectedSpecialist.value = null
 }
 </script>
-
-<style scoped></style>
