@@ -50,9 +50,9 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import CtaLink from '../elements/CtaLink.vue'
 
 const imgSources = ref([
-  '/images/hero/hero.jpg',
-  '/images/hero/hero2.jpg',
-  '/images/hero/hero3.jpg',
+  '/images/hero/hero.webp',
+  '/images/hero/hero2.webp',
+  '/images/hero/hero3.webp',
 ])
 
 const currentImageIndex = ref(0)
