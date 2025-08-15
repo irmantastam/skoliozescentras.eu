@@ -5,6 +5,17 @@ export const routes = [
     component: () => import('./pages/Home.vue'),
   },
   {
+    path: '/apie-mus',
+    name: 'about',
+    component: () => import('./pages/AboutUs.vue'),
+    meta: {
+      title: 'Apie mus - Skoliozės centras',
+      menuTitle: 'Apie mus',
+      description:
+        'Innovamed Skoliozės centras - oficialūs Schroth metodo atstovai Lietuvoje. Mūsų sertifikuoti specialistai siūlo pažangiausią skoliozės gydymą Vilniuje ir Kaune.',
+    },
+  },
+  {
     path: '/komanda',
     name: 'team',
     component: () => import('./pages/Team.vue'),
@@ -127,7 +138,8 @@ export const routes = [
     name: 'contact',
     component: () => import('./pages/Contact.vue'),
     meta: {
-      title: 'Kontaktai',
+      title: 'Kontaktai - Skoliozės Centras',
+      menuTitle: 'Kontaktai',
       description:
         'Susisiekite su mumis! Mūsų komanda pasiruošusi atsakyti į visus jūsų klausimus ir padėti rasti geriausią sprendimą jūsų stuburo sveikatai.',
     },
@@ -136,6 +148,9 @@ export const routes = [
     path: '/:catchAll(.*)',
     name: '404',
     component: () => import('./pages/404.vue'),
-    meta: { title: 'Puslapis nerastas', excludeFromMenu: true },
+    meta: {
+      title: 'Puslapis nerastas - Skoliozės Centras',
+      excludeFromMenu: true,
+    },
   },
 ]

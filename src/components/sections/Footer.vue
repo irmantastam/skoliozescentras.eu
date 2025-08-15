@@ -90,18 +90,22 @@
         <p class="text-xl font-semibold text-blue-400 mb-4">Nuorodos</p>
 
         <ul class="list-none p-0 m-0 text-sm">
-          <li
-            v-for="item in menuItems"
-            :key="item.title"
-            class="mb-1"
+          <template
+            v-for="route in routes"
+            :key="route.path"
           >
-            <RouterLink
-              :to="{ name: item.name }"
-              class="text-gray-300 hover:text-blue-400 transition-colors duration-300"
+            <li
+              v-if="!route.meta?.excludeFromMenu"
+              class="mb-1"
             >
-              {{ item.title }}
-            </RouterLink>
-          </li>
+              <RouterLink
+                :to="{ name: route.name }"
+                class="text-gray-300 hover:text-blue-400 transition-colors duration-300"
+              >
+                {{ route.meta?.menuTitle || route.meta?.title }}
+              </RouterLink>
+            </li>
+          </template>
         </ul>
       </div>
 
@@ -174,27 +178,12 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
 import IconPhone from '../icons/IconPhone.vue'
 import IconEmail from '../icons/IconEmail.vue'
 import IconMapPin from '../icons/IconMapPin.vue'
-
-const menuItems = ref([
-  { title: 'Komanda', name: 'team' },
-  { title: 'Diagnostika', name: 'diagnostics' },
-  { title: 'Nemokamas skoliozės testavimas', name: 'testing' },
-  { title: 'Gydymas Schroth metodu', name: 'treatment' },
-  { title: 'Sėkmės istorijos', name: 'success-stories' },
-  { title: 'ISST Schroth organizacija', name: 'schroth' },
-  { title: 'Skoliozės gydymo kursai Lietuvoje', name: 'training' },
-  { title: 'Klinikės praktikos supervizija', name: 'supervision' },
-  { title: 'ScoliTeam', name: 'scoliteam' },
-  { title: 'Edukacija mokykloms, tėvams', name: 'education' },
-  { title: 'Schroth skoliozės stovykla', name: 'camp' },
-  { title: 'Susisiekime', name: 'contact' },
-])
+import { routes } from '../../routes'
 </script>
 
 <style scoped></style>
