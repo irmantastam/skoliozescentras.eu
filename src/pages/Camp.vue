@@ -1,11 +1,11 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-600 mx-6">
+    <h1 class="text-3xl font-semibold text-sky-600 mx-6">
       Schroth skoliozės stovykla
-    </h2>
+    </h1>
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">Apie stovyklą</h3>
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">Apie stovyklą</h2>
 
       <p class="text-sky-900 leading-relaxed mb-4">
         Skoliozės stovykla – tai intensyvus grupinis skoliozės gydymas, taikant
@@ -14,9 +14,9 @@
         (hiperkifoze) ar esant Scheuermanno ligai.
       </p>
 
-      <h4 class="text-xl font-medium text-sky-700 mb-2">
+      <h3 class="text-xl font-medium text-sky-700 mb-2">
         Skoliozės stovyklos uždaviniai
-      </h4>
+      </h3>
 
       <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
         <li>Supažindinti pacientus su jų konkretaus skoliozės tipo.</li>
@@ -33,9 +33,9 @@
     </div>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         Stovyklos struktūra
-      </h3>
+      </h2>
 
       <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
         <li>Stovykla trunka 5 dienas.</li>
@@ -64,9 +64,9 @@
     </section>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         Informacija dalyviams
-      </h3>
+      </h2>
 
       <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
         <li>Stovykloje gali dalyvauti nuo 10 metų ir vyresni.</li>
@@ -83,7 +83,7 @@
     </section>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">Registracija</h3>
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">Registracija</h2>
 
       <p class="text-sky-900 leading-relaxed mb-2">
         <span class="font-semibold">El. paštas:</span>

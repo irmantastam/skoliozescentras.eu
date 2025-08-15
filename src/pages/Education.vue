@@ -1,7 +1,7 @@
 <template>
   <LayoutPage>
     <h1 class="text-3xl font-semibold text-sky-600 mx-6">
-      Edukacija mokykloms, tėvams
+      Skoliozės edukacija mokykloms, tėvams
     </h1>
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
@@ -17,7 +17,9 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">Vaikams</h3>
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+        Edukacija vaikams
+      </h2>
 
       <p class="text-sky-900 leading-relaxed mb-4">
         Skatiname vaikų sveikos laikysenos ir aktyvumo įpročius nuo mažens. Tam
@@ -50,7 +52,7 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">Tėvams</h3>
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">Edukacija tėvams</h2>
 
       <p class="text-sky-900 leading-relaxed mb-4">
         Tėvų žinios – esminė grandis vaiko sveikatos kelyje. Padedame tėvams:
@@ -95,9 +97,9 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
-        Kineziterapeutams ir specialistams
-      </h3>
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+        Edukacija kineziterapeutams ir specialistams
+      </h2>
 
       <p class="text-sky-900 leading-relaxed mb-4">
         Savo sukaupta patirtimi dalijamės ir su kitais specialistais – siekiame,
@@ -132,7 +134,7 @@
     </section>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">Susisiekime</h3>
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">Susisiekime</h2>
 
       <p class="text-sky-900 leading-relaxed mb-2">
         <span class="font-semibold">El. paštas:</span>

@@ -1,13 +1,13 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-600 mx-6">
+    <h1 class="text-3xl font-semibold text-sky-600 mx-6">
       ISST Schroth metodas ir organizacija
-    </h2>
+    </h1>
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
-        Kas yra ISST Schroth?
-      </h3>
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+        Kas yra ISST Schroth organizacija?
+      </h2>
 
       <p class="text-sky-900 leading-relaxed mb-4">
         ISST Schroth (International Schroth 3D Scoliosis Therapy) organizacija
@@ -25,9 +25,9 @@
     </div>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         Švietimas ir kvalifikacijos kėlimas
-      </h3>
+      </h2>
 
       <p class="text-sky-900 leading-relaxed mb-4">
         ISST Schroth svarbi veiklos kryptis – švietimas ir specialistų
@@ -43,9 +43,9 @@
     </section>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         Tarptautinis bendradarbiavimas
-      </h3>
+      </h2>
 
       <p class="text-sky-900 leading-relaxed mb-4">
         Be švietimo ir klinikinės veiklos, ISST Schroth didelį dėmesį skiria
@@ -60,9 +60,9 @@
     </section>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         ISST Schroth Lietuvoje
-      </h3>
+      </h2>
 
       <p class="text-sky-900 leading-relaxed mb-4">
         Lietuvoje oficialus ISST atstovas yra INNOVAMED. INNOVAMED koordinuoja

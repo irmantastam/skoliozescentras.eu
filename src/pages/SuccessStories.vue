@@ -1,7 +1,7 @@
 <template>
   <LayoutPage>
     <h1 class="text-3xl font-semibold text-sky-600 mx-6">
-      Sėkmės istorijos ir klientų asmeninės patirtys
+      Skoliozės gydymo sėkmės istorijos ir klientų asmeninės patirtys
     </h1>
 
     <!-- Photos slider -->
@@ -9,10 +9,6 @@
       <div
         class="text-center flex flex-col items-center gap-4 text-gray-700 mx-6"
       >
-        <h2 class="text-2xl font-semibold">
-          Sėkmingi skoliozės gydymo pavyzdžiai
-        </h2>
-
         <p class="text-lg">
           Kairėje nuotrauka – atvykus pirmai konsultacijai, dešinėje nuotrauka –
           gydymo procese:

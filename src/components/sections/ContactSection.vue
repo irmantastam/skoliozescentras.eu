@@ -3,9 +3,9 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-6">
       <!-- Contacts -->
       <div class="flex flex-col gap-2 sm:p-6 sm:rounded-lg sm:shadow-md">
-        <h3 class="text-2xl font-semibold mb-2 text-gray-700">
+        <h2 class="text-2xl font-semibold mb-2 text-gray-700">
           Mūsų kontaktai
-        </h3>
+        </h2>
 
         <p class="text-sky-900">
           <IconPhone class="inline-block align-middle mr-1 -mt-1" />
@@ -71,7 +71,7 @@
         </p>
 
         <!-- Social -->
-        <h3 class="text-2xl font-semibold text-gray-700 mt-4">Sekite mus</h3>
+        <h2 class="text-2xl font-semibold text-gray-700 mt-4">Sekite mus</h2>
 
         <div class="flex gap-4 justify-center">
           <!-- Facebook -->
@@ -139,7 +139,7 @@
         </div>
 
         <!-- Company details -->
-        <h3 class="text-2xl font-semibold text-gray-700 mt-4">Rekvizitai</h3>
+        <h2 class="text-2xl font-semibold text-gray-700 mt-4">Rekvizitai</h2>
 
         <p class="text-sky-900"><strong>MB</strong> "Innovamedas"</p>
 

@@ -36,18 +36,20 @@
       <ExternalCtaLink class="block md:hidden" />
 
       <ul class="list-none m-0 p-0 flex flex-col gap-6 items-center px-6 mb-6">
-        <li
-          v-for="item in menuItems"
-          :key="item.path"
+        <template
+          v-for="route in routes"
+          :key="route.path"
         >
-          <RouterLink
-            :to="{ name: item.name }"
-            @click="closeMobileMenu"
-            class="block text-sky-900 text-xl font-semibold py-3 hover:text-sky-600 hover:underline transition-colors duration-300"
-          >
-            {{ item.title }}
-          </RouterLink>
-        </li>
+          <li v-if="!route.meta?.excludeFromMenu">
+            <RouterLink
+              :to="{ name: route.name }"
+              @click="closeMobileMenu"
+              class="block text-sky-900 text-xl font-semibold py-3 hover:text-sky-600 hover:underline transition-colors duration-300"
+            >
+              {{ route.meta?.menuTitle || route.meta?.title }}
+            </RouterLink>
+          </li>
+        </template>
       </ul>
     </nav>
   </div>
@@ -60,21 +62,7 @@ import { RouterLink } from 'vue-router'
 import Logo from '../elements/Logo.vue'
 import ExternalCtaLink from '../elements/ExternalCtaLink.vue'
 import Contacts from './Contacts.vue'
-
-const menuItems = ref([
-  { title: 'Komanda', name: 'team' },
-  { title: 'Diagnostika', name: 'diagnostics' },
-  { title: 'Nemokamas skoliozės testavimas', name: 'testing' },
-  { title: 'Gydymas Schroth metodu', name: 'treatment' },
-  { title: 'Sėkmės istorijos', name: 'success-stories' },
-  { title: 'ISST Schroth organizacija', name: 'schroth' },
-  { title: 'Skoliozės gydymo kursai Lietuvoje', name: 'training' },
-  { title: 'Klinikės praktikos supervizija', name: 'supervision' },
-  { title: 'ScoliTeam', name: 'scoliteam' },
-  { title: 'Edukacija mokykloms, tėvams', name: 'education' },
-  { title: 'Schroth skoliozės stovykla', name: 'camp' },
-  { title: 'Susisiekime', name: 'contact' },
-])
+import { routes } from '../../routes'
 
 const isMenuOpen = ref(false)
 

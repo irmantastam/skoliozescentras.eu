@@ -1,6 +1,6 @@
 <template>
   <LayoutPage class="px-6">
-    <h2 class="text-3xl font-semibold text-sky-600 mx-6">ScoliTeam</h2>
+    <h1 class="text-3xl font-semibold text-sky-600 mx-6">ScoliTeam</h1>
 
     <div class="text-lg flex flex-col gap-4">
       <p>
@@ -26,13 +26,16 @@
           :alt="specialist.name"
           class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
         />
-        <h3 class="text-xl font-semibold text-gray-900 mb-2">
+
+        <h2 class="text-xl font-semibold text-gray-900 mb-2">
           {{ specialist.name }}
-        </h3>
+        </h2>
+
         <p class="text-gray-700">
           <strong class="font-medium">Specializacija:</strong>
           {{ specialist.specialization }}
         </p>
+
         <button
           @click="openModal(specialist)"
           class="mt-4 px-6 py-2 bg-blue-600 text-white font-medium rounded-full shadow-lg hover:bg-blue-700 transition-colors duration-300 transform hover:scale-105"
@@ -60,6 +63,7 @@
           <path d="M2 17l10 5 10-5" />
           <path d="M2 12l10 5 10-5" />
         </svg>
+
         <p class="text-sky-900 leading-relaxed">
           Mūsų komandą sudaro patyrę vaikų ortopedai-traumatologai, technikai,
           kineziterapeutai, kurie, derindami savo žinias ir patirtį, kuria
@@ -85,6 +89,7 @@
             d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"
           />
         </svg>
+
         <p class="text-sky-900 leading-relaxed">
           Mes siekiame ne tik efektyvaus gydymo, bet ir pacientų bei jų šeimų
           švietimo, kad kiekvienas galėtų suprasti savo sveikatos būklę, priimti

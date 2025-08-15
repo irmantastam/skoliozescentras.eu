@@ -1,17 +1,19 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-600 mx-6">
+    <h1 class="text-3xl font-semibold text-sky-600 mx-6">
       Skoliozės gydymo kursai Lietuvoje
-    </h2>
+    </h1>
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         Schroth skoliozės gydymo kursai
-      </h3>
+      </h2>
+
       <p class="text-sky-900 leading-relaxed mb-4">
         ISST įgaliotas Schroth kursų kineziterapeutams ir gydytojams
         organizatorius yra INNOVAMED.
       </p>
+
       <p class="text-sky-900 leading-relaxed">
         Kursai skirti kineziterapeutams, siekiantiems įgyti pagrindines žinias
         apie idiopatinės skoliozės ir kifozės konservatyvų gydymą. Sužinosite,
@@ -26,9 +28,10 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         ISST Schroth bazinio lygio kursas (Part I + Part II)
-      </h3>
+      </h2>
+
       <ul class="list-disc list-inside text-gray-700 space-y-2">
         <li>Kursas susideda iš 2 dalių po 5 dienas.</li>
         <li>Bendras trukmės laikotarpis 10 d., vyksta anglų kalba.</li>
@@ -46,9 +49,9 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         ISST Schroth Refresher kursas (žinių atnaujinimui)
-      </h3>
+      </h2>
       <ul class="list-disc list-inside text-gray-700 space-y-2">
         <li>
           Skirta jau baigusiems bazinį kursą ir norintiems prasitęsti Schroth
@@ -69,9 +72,9 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         Papildomi mokymai: Individualūs skoliozės masažo mokymai
-      </h3>
+      </h2>
       <p class="text-sky-900 leading-relaxed mb-4">
         Kviečiame registruotis į individualius skoliozės masažo mokymus, skirtus
         specialistams, norintiems gilinti žinias apie darbo su pacientais,
@@ -94,9 +97,9 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         Schroth metodo terapeutų susitikimai
-      </h3>
+      </h2>
       <p class="text-sky-900 leading-relaxed mb-4">
         Kviečiame Schroth skoliozės gydymo kursus Lietuvoje baigusius
         specialistus į neprivalomą praktinių įgūdžių pasitikrinimo susitikimą.

@@ -1,13 +1,9 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-600 mx-6">
-      Klinikinės praktikos supervizija
-    </h2>
-
     <div class="p-6 bg-white rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h1 class="text-2xl font-semibold text-sky-900 mb-4">
         Schroth klinikinė supervizija
-      </h3>
+      </h1>
 
       <p class="text-sky-900 leading-relaxed mb-4">
         Giedrei Mikelionienei ir Tadui Mikelioniui ISST suteikti Schroth
@@ -17,9 +13,9 @@
         žinias, tobulinti įgūdžius bei augti profesiškai.
       </p>
 
-      <h4 class="text-xl font-medium text-sky-700 mb-2">
+      <h2 class="text-xl font-medium text-sky-700 mb-2">
         Vadovo vaidmuo apima:
-      </h4>
+      </h2>
 
       <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
         <li>
@@ -53,9 +49,9 @@
     <section
       class="p-6 bg-white rounded-lg shadow-sm border border-gray-200 w-full"
     >
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         Kviečiame kreiptis
-      </h3>
+      </h2>
 
       <p class="text-sky-900 leading-relaxed mb-4">
         Jei esate mokymus baigęs Schroth terapeutas ir:
@@ -70,7 +66,7 @@
 
       <p class="text-sky-900 leading-relaxed mb-4">kreipkitės į mus drąsiai.</p>
 
-      <h4 class="text-xl font-medium text-sky-700 mb-2">Kontaktai</h4>
+      <h3 class="text-xl font-medium text-sky-700 mb-2">Kontaktai</h3>
 
       <p class="text-sky-900 leading-relaxed mb-2">
         <span class="font-semibold">El. paštas:</span>

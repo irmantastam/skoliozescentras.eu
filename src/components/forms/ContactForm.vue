@@ -1,8 +1,8 @@
 <template>
   <div class="p-6 rounded-lg shadow-md">
-    <h3 class="text-2xl font-semibold text-sky-900 mb-4 text-center">
+    <h2 class="text-2xl font-semibold text-sky-900 mb-4 text-center">
       Siųskite mums žinutę
-    </h3>
+    </h2>
 
     <form
       @submit.prevent="submit"
