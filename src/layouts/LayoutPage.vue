@@ -5,3 +5,20 @@
     <slot />
   </section>
 </template>
+
+<script setup>
+import { useHead } from '@unhead/vue'
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
+
+useHead({
+  title: route.meta.title,
+  meta: [
+    {
+      name: 'description',
+      content: route.meta.description,
+    },
+  ],
+})
+</script>

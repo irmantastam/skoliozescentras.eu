@@ -1,11 +1,9 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-600">Diagnostika</h2>
-
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h1 class="text-3xl font-semibold text-sky-600 mb-4">
         Skoliozės Diagnozavimas
-      </h3>
+      </h1>
 
       <p class="text-sky-900 leading-relaxed">
         Ankstyvas skoliozės diagnozavimas yra labai svarbus. Anksti diagnozuota
@@ -19,7 +17,7 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">Adams Testas</h3>
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">Adams Testas</h2>
       <p class="text-sky-900 leading-relaxed mb-4">
         Vienas iš pagrindinių, paprastų ir lengvai atliekamų būdų įtarti
         skoliozę – tai Adams testas, dar vadinamas pasilenkimo į priekį testu.
@@ -29,9 +27,9 @@
 
       <div class="grid md:grid-cols-2 gap-6 mb-4">
         <div>
-          <h4 class="text-xl font-medium text-sky-700 mb-2">
+          <h3 class="text-xl font-medium text-sky-700 mb-2">
             Kaip atliekamas testas?
-          </h4>
+          </h3>
           <ul class="list-disc list-inside text-gray-700 space-y-2">
             <li>Asmuo turi stovėti tiesiai, kojos išskėstos klubų plotyje.</li>
             <li>Delnai sujungiami arba suneriami prieš save.</li>
@@ -47,9 +45,9 @@
           </ul>
         </div>
         <div>
-          <h4 class="text-xl font-medium text-sky-700 mb-2">
+          <h3 class="text-xl font-medium text-sky-700 mb-2">
             Į ką atkreipti dėmesį?
-          </h4>
+          </h3>
           <p class="text-sky-900 leading-relaxed mb-2">
             Pasilenkus, nugaros forma turėtų būti simetriška. Tačiau jei:
           </p>
@@ -70,9 +68,9 @@
         </div>
       </div>
 
-      <h4 class="text-xl font-medium text-sky-700 mb-2">
+      <h3 class="text-xl font-medium text-sky-700 mb-2">
         Kodėl šis testas svarbus?
-      </h4>
+      </h3>
       <p class="text-sky-900 leading-relaxed mb-4">
         Adams testas leidžia pastebėti stuburo iškrypimus ankstyvoje stadijoje,
         kol jie dar nėra sukėlę stiprios kūno deformacijos, didelio stuburo
@@ -98,7 +96,7 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">Rentgeno Tyrimas</h3>
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">Rentgeno Tyrimas</h2>
       <p class="text-sky-900 leading-relaxed mb-4">
         Rentgeno tyrimas – tai pagrindinis diagnostinis metodas, leidžiantis
         išsamiai įvertinti stuburo būklę, ypač įtariant ar stebint skoliozę. Šis
@@ -107,9 +105,9 @@
         progresavimo rizika yra didžiausia.
       </p>
 
-      <h4 class="text-xl font-medium text-sky-700 mb-2">
+      <h3 class="text-xl font-medium text-sky-700 mb-2">
         Kodėl svarbu atlikti rentgeno tyrimą augančiam vaikui?
-      </h4>
+      </h3>
       <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
         <li>
           <strong>Įvertinti kaulėjimo stadiją</strong> – stebimas kaulų brandos
@@ -131,9 +129,9 @@
         </li>
       </ul>
 
-      <h4 class="text-xl font-medium text-sky-700 mb-2">
+      <h3 class="text-xl font-medium text-sky-700 mb-2">
         Kaip turi būti atliekamas tyrimas?
-      </h4>
+      </h3>
       <p class="text-sky-900 leading-relaxed mb-2">
         Atliekant rentgeno tyrimą dėl skoliozės, būtina užtikrinti, kad tyrimo
         kokybė būtų pakankama tinkamai diagnostikai. Todėl labai svarbu
@@ -158,9 +156,9 @@
         esamą būklę, bet ir sekti skoliozės eigą laikui bėgant.
       </p>
 
-      <h4 class="text-xl font-medium text-sky-700 mb-2">
+      <h3 class="text-xl font-medium text-sky-700 mb-2">
         Svarbūs saugumo aspektai
-      </h4>
+      </h3>
       <p class="text-sky-900 leading-relaxed mb-2">
         Nors rentgeno tyrimas yra neinvazinis ir greitas, jis susijęs su
         elektromagnetine radiacija, todėl:
@@ -186,9 +184,9 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         SPINE 3D – pažangus stuburo ir laikysenos tyrimas be radiacijos
-      </h3>
+      </h2>
       <p class="text-sky-900 leading-relaxed mb-4">
         SPINE 3D – tai naujos kartos medicininė diagnostikos sistema, skirta
         išsamiai įvertinti stuburo padėtį, laikyseną ir kūno simetriją be jokios
@@ -198,9 +196,9 @@
         spindulių šaltinių.
       </p>
 
-      <h4 class="text-xl font-medium text-sky-700 mb-2">
+      <h3 class="text-xl font-medium text-sky-700 mb-2">
         Kaip veikia SPINE 3D tyrimas?
-      </h4>
+      </h3>
       <p class="text-sky-900 leading-relaxed mb-4">
         Tyrimas atliekamas naudojant optinį skenavimą – speciali sistema
         projektuoja šviesos linijas ant paciento nugaros, o kamera fiksuoja
@@ -211,9 +209,9 @@
         nereikalaujant jokios specialios paciento paruošimo procedūros.
       </p>
 
-      <h4 class="text-xl font-medium text-sky-700 mb-2">
+      <h3 class="text-xl font-medium text-sky-700 mb-2">
         Kuo SPINE 3D išskirtinis?
-      </h4>
+      </h3>
       <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
         <li>
           ✅ <strong>Nėra jokios radiacijos</strong> – tinka dažnam ar
@@ -238,9 +236,9 @@
         </li>
       </ul>
 
-      <h4 class="text-xl font-medium text-sky-700 mb-2">
+      <h3 class="text-xl font-medium text-sky-700 mb-2">
         Ką galima nustatyti SPINE 3D pagalba?
-      </h4>
+      </h3>
       <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
         <li>
           Skoliozę, kifozę ar lordozę (šis tyrimas ypač tinkamas jau diagnozavus
@@ -253,9 +251,9 @@
         <li>Raumenų kompensacijas ir kūno svorio pasiskirstymą.</li>
       </ul>
 
-      <h4 class="text-xl font-medium text-sky-700 mb-2">
+      <h3 class="text-xl font-medium text-sky-700 mb-2">
         Kada rekomenduojamas SPINE 3D tyrimas?
-      </h4>
+      </h3>
       <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
         <li>Vaikams ir paaugliams profilaktiniam stuburo vertinimui.</li>
         <li>Sportininkams – biomechaninei analizei ir traumų prevencijai.</li>
@@ -270,9 +268,9 @@
         </li>
       </ul>
 
-      <h4 class="text-xl font-medium text-sky-700 mb-2">
+      <h3 class="text-xl font-medium text-sky-700 mb-2">
         Inovatyvus sprendimas šiuolaikinei medicinai
-      </h4>
+      </h3>
       <p class="text-sky-900 leading-relaxed">
         SPINE 3D sistema leidžia ne tik greitai aptikti stuburo deformacijas,
         bet ir stebėti jų dinamiką ilgalaikėje perspektyvoje. Tai ypač naudinga
@@ -285,9 +283,9 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         DIERS Formetric 4D
-      </h3>
+      </h2>
       <p class="text-sky-900 leading-relaxed mb-4">
         DIERS formetric 4D – tai modernus, visiškai saugus laikysenos vertinimo
         metodas, pasižymintis tuo, kad atliekamas be jokios jonizuojančiosios
@@ -321,9 +319,9 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         Magnetinis Rezonansas (MRT)
-      </h3>
+      </h2>
       <p class="text-sky-900 leading-relaxed mb-4">
         Magnetinio rezonanso tomografija (MRT) – tai pažangus, neinvazinis ir
         saugus radiologinis tyrimas, leidžiantis gauti itin detalius minkštųjų
@@ -364,9 +362,9 @@
         <li>kitus įgimtus arba įgytus struktūrinius pokyčius.</li>
       </ul>
 
-      <h4 class="text-xl font-medium text-sky-700 mb-2">
+      <h3 class="text-xl font-medium text-sky-700 mb-2">
         Kaip vyksta tyrimas?
-      </h4>
+      </h3>
       <p class="text-sky-900 leading-relaxed mb-4">
         Procedūros metu pacientas paguldomas ant stalo, kuris įvažiuoja į MRT
         aparatą – tunelio formos įrenginį. Tyrimas trunka apie 20–45 minutes,
@@ -376,7 +374,7 @@
         – naudojamos ausinės arba ausų kištukai.
       </p>
 
-      <h4 class="text-xl font-medium text-sky-700 mb-2">Privalumai:</h4>
+      <h3 class="text-xl font-medium text-sky-700 mb-2">Privalumai:</h3>
       <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
         <li>labai tikslūs minkštųjų audinių ir nugaros smegenų vaizdai,</li>
         <li>saugus – nėra jonizuojančiosios spinduliuotės,</li>
@@ -384,7 +382,7 @@
         <li>padeda planuoti tolimesnį gydymą ar stebėjimą.</li>
       </ul>
 
-      <h4 class="text-xl font-medium text-sky-700 mb-2">Svarbu žinoti:</h4>
+      <h3 class="text-xl font-medium text-sky-700 mb-2">Svarbu žinoti:</h3>
       <ul class="list-disc list-inside text-gray-700 space-y-2">
         <li>
           Tyrimas netinka pacientams, turintiems tam tikrus metalinius implantus
@@ -409,7 +407,3 @@
 import LayoutPage from '../layouts/LayoutPage.vue'
 import ContactTeaser from '../components/sections/ContactTeaser.vue'
 </script>
-
-<style scoped>
-/* No specific custom styles needed, Tailwind handles it well. */
-</style>

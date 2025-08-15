@@ -25,7 +25,7 @@
 
       <hr class="w-4/5 border-gray-200" />
 
-      <h2 class="text-2xl md:text-4xl font-semibold text-sky-600">INNOVAMED</h2>
+      <p class="text-2xl md:text-4xl font-semibold text-sky-600">INNOVAMED</p>
 
       <div class="mt-2 mb-4 flex flex-col gap-2">
         <p>

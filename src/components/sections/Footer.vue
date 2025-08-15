@@ -2,9 +2,9 @@
   <footer class="bg-gray-800 text-gray-300 py-10 px-5 mt-auto">
     <div class="max-w-6xl mx-auto flex flex-wrap justify-between gap-8">
       <div class="footer-section flex-1 min-w-[250px]">
-        <h3 class="text-xl font-semibold text-blue-400 mb-4">
+        <p class="text-xl font-semibold text-blue-400 mb-4">
           Skoliozės Centras
-        </h3>
+        </p>
 
         <RouterLink
           :to="{ name: 'home' }"
@@ -15,7 +15,7 @@
 
         <!-- Socialinių tinklų skyrius -->
         <div class="footer-section flex-1 min-w-[250px] mb-4">
-          <h3 class="text-xl font-semibold text-blue-400 mb-4">Sekite mus</h3>
+          <p class="text-xl font-semibold text-blue-400 mb-4">Sekite mus</p>
 
           <div class="flex space-x-4">
             <!-- Facebook -->
@@ -87,7 +87,7 @@
       </div>
 
       <div class="footer-section flex-1 min-w-[250px]">
-        <h3 class="text-xl font-semibold text-blue-400 mb-4">Nuorodos</h3>
+        <p class="text-xl font-semibold text-blue-400 mb-4">Nuorodos</p>
 
         <ul class="list-none p-0 m-0 text-sm">
           <li
@@ -106,7 +106,7 @@
       </div>
 
       <div class="footer-section flex-1 min-w-[250px] flex flex-col gap-4">
-        <h3 class="text-xl font-semibold text-blue-400">Kontaktai</h3>
+        <p class="text-xl font-semibold text-blue-400">Kontaktai</p>
 
         <p class="text-sm">
           <IconPhone class="inline-block align-middle mr-1 -mt-1" />

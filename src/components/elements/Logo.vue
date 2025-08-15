@@ -10,9 +10,7 @@
         class="h-8 md:h-10 shadow-sm"
       />
 
-      <h1 class="text-xs md:text-sm uppercase text-sky-900">
-        Skoliozės Centras
-      </h1>
+      <p class="text-xs md:text-sm uppercase text-sky-900">Skoliozės Centras</p>
     </RouterLink>
   </div>
 </template>

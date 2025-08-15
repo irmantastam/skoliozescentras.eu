@@ -3,31 +3,46 @@ export const routes = [
     path: '/',
     name: 'home',
     component: () => import('./pages/Home.vue'),
-    meta: { title: 'INNOVAMED klinika' },
   },
   {
     path: '/komanda',
     name: 'team',
     component: () => import('./pages/Team.vue'),
-    meta: { title: 'Komanda' },
-  },
-  {
-    path: '/nemokamas-skoliozes-testavimas',
-    name: 'testing',
-    component: () => import('./pages/Testing.vue'),
-    meta: { title: 'Nemokamas skoliozės testavimas' },
+    meta: {
+      title: 'Mūsų komanda - Skoliozės centras',
+      description:
+        'Mūsų Schroth specialistai padeda diagnozuoti ir gydyti skoliozę Vilniuje ir Kaune, naudojant pažangiausius metodus.',
+    },
   },
   {
     path: '/diagnostika',
     name: 'diagnostics',
     component: () => import('./pages/Diagnostics.vue'),
-    meta: { title: 'Diagnostika' },
+    meta: {
+      title: 'Skoliozės diagnostika - Skoliozės Centras',
+      description:
+        'Mūsų klinikoje taikomi pažangūs skoliozės diagnostikos metodai tokie kaip SPINE 3D, Adams Testas ir DIERS Formetric 4D.',
+    },
+  },
+  {
+    path: '/nemokamas-skoliozes-testavimas',
+    name: 'testing',
+    component: () => import('./pages/Testing.vue'),
+    meta: {
+      title: 'Nemokamas skoliozės testavimas - Skoliozės Centras',
+      description:
+        'Užsiregistruokite nemokamam skoliozės testui. Testavimas atliekamas INNOVAMED Kineziterapijos Klinikose Vilniuje ir Kaune',
+    },
   },
   {
     path: '/gydymas-schroth-metodu',
     name: 'treatment',
     component: () => import('./pages/Treatment.vue'),
-    meta: { title: 'Gydymas Schroth metodu' },
+    meta: {
+      title: 'Skoliozės gydymas Schroth metodu - Skoliozės Centras',
+      description:
+        'Schroth metodas tai nechirurginis, veiksmingas skoliozės gydymo būdas kai atliekami specialūs asimetriniai pratimai, derinami su kartu kvėpavimu. ',
+    },
   },
   {
     path: '/isst-schroth-metodas-ir-organizacija',

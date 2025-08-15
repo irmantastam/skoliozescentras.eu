@@ -1,6 +1,6 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-600">Mūsų Komanda</h2>
+    <h1 class="text-3xl font-semibold text-sky-600">Mūsų Komanda</h1>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <div
@@ -11,9 +11,9 @@
           alt="Giedrė Mikelionienė"
           class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
         />
-        <h3 class="text-xl font-semibold text-gray-900 mb-2">
+        <h2 class="text-xl font-semibold text-gray-900 mb-2">
           Giedrė Mikelionienė
-        </h3>
+        </h2>
         <p class="text-gray-700 mb-1">
           <strong class="font-medium">Miestai:</strong> Vilnius ir Kaunas
         </p>
@@ -39,9 +39,9 @@
           alt="Tadas Mikelionis"
           class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
         />
-        <h3 class="text-xl font-semibold text-gray-900 mb-2">
+        <h2 class="text-xl font-semibold text-gray-900 mb-2">
           Tadas Mikelionis
-        </h3>
+        </h2>
         <p class="text-gray-700 mb-1">
           <strong class="font-medium">Miestai:</strong> Vilnius ir Kaunas
         </p>
@@ -67,9 +67,9 @@
           alt="Vaida Grabauskė"
           class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
         />
-        <h3 class="text-xl font-semibold text-gray-900 mb-2">
+        <h2 class="text-xl font-semibold text-gray-900 mb-2">
           Vaida Grabauskė
-        </h3>
+        </h2>
         <p class="text-gray-700 mb-1">
           <strong class="font-medium">Miestas:</strong> Kaunas
         </p>
@@ -91,9 +91,9 @@
           alt="Emilija Masevičienė"
           class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
         />
-        <h3 class="text-xl font-semibold text-gray-900 mb-2">
+        <h2 class="text-xl font-semibold text-gray-900 mb-2">
           Emilija Masevičienė
-        </h3>
+        </h2>
         <p class="text-gray-700 mb-1">
           <strong class="font-medium">Miestas:</strong> Vilnius
         </p>
@@ -111,9 +111,9 @@
           alt="Žygimantas Skinderis"
           class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
         />
-        <h3 class="text-xl font-semibold text-gray-900 mb-2">
+        <h2 class="text-xl font-semibold text-gray-900 mb-2">
           Žygimantas Skinderis
-        </h3>
+        </h2>
         <p class="text-gray-700 mb-1">
           <strong class="font-medium">Miestas:</strong> Vilnius
         </p>

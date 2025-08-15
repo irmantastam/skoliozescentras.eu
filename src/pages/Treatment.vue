@@ -1,34 +1,20 @@
 <template>
   <LayoutPage>
-    <h2 class="text-3xl font-semibold text-sky-600 mx-6">
-      Gydymas Schroth metodu
-    </h2>
+    <h1 class="text-3xl font-semibold text-sky-600 mx-6">
+      Skoliozės gydymas Schroth metodu
+    </h1>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">Apie skoliozę</h3>
-
-      <p class="text-sky-900 leading-relaxed">
-        Skoliozė – tai sudėtingas ir trimatėmis plokštumomis pasireiškiantis
-        stuburo išlinkimas. Ši diagnozė nustatoma, kai iškrypimas viršija 10
-        laipsnių, matuojant Kobbo kampu. Dėl to stuburas įgauna C arba S formą,
-        o slanksteliai ne tik pasislenka į šoną, bet ir pasisuka, deformuodami
-        krūtinės ląstą. Ši būklė sukelia ne tik funkcinių sutrikimų, tokių kaip
-        plaučių ar širdies veiklos problemos, bet ir nepageidaujamų estetinių
-        bei psichologinių padarinių.
-      </p>
-    </section>
-
-    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         Kas yra Schroth metodas?
-      </h3>
+      </h2>
 
       <p class="text-sky-900 leading-relaxed mb-4">
-        **Schroth** metodas yra nechirurginis, veiksmingas skoliozės gydymo
-        būdas, kurį 1927 m. Vokietijoje sukūrė kineziterapeutė Katharina
-        Schroth. Metodo esminis principas – specialūs asimetriniai pratimai,
-        derinami su korekciniu kvėpavimu, kurie yra individualiai pritaikomi
-        specifinėms stuburo išgaubtoms ir įdubusioms zonoms.
+        Schroth metodas yra nechirurginis, veiksmingas skoliozės gydymo būdas,
+        kurį 1927 m. Vokietijoje sukūrė kineziterapeutė Katharina Schroth.
+        Metodo esminis principas – specialūs asimetriniai pratimai, derinami su
+        korekciniu kvėpavimu, kurie yra individualiai pritaikomi specifinėms
+        stuburo išgaubtoms ir įdubusioms zonoms.
       </p>
 
       <p class="text-sky-900 leading-relaxed">
@@ -40,12 +26,12 @@
     </section>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
-        Gydymas skoliozės Schroth metodu
-      </h3>
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+        Kaip vyksta skoliozės gydymas naudojant Schroth metodą?
+      </h2>
 
       <p class="text-sky-900 leading-relaxed mb-4">
-        **Schroth** pratimai yra pritaikomi kiekvienam pacientui atskirai,
+        Schroth pratimai yra pritaikomi kiekvienam pacientui atskirai,
         atsižvelgiant į jo unikalų stuburo išlinkimą ir rotaciją. Terapeutas
         instruktuoja, kaip įtempti tam tikrus raumenis ir kvėpuoti specifiniu
         būdu. Pratimai gali būti atliekami stovint, sėdint ar gulint, naudojant
@@ -59,9 +45,9 @@
     </section>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         Pagrindiniai Schroth pratimų elementai
-      </h3>
+      </h2>
 
       <p class="text-sky-900 leading-relaxed mb-2">
         Nors pratimų specifika skiriasi kiekvienam asmeniui, jie visi apima tris
@@ -90,15 +76,15 @@
     </section>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h3 class="text-2xl font-semibold text-sky-900 mb-4">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         Kam skirta Schroth terapija?
-      </h3>
+      </h2>
 
       <p class="text-sky-900 leading-relaxed">
         Gydymą idealiu atveju reikėtų pradėti prieš brendimą (dažniausiai 10
         metų mergaitėms ir 12 metų berniukams), kai stuburo iškrypimas ir
-        rotacija dar nėra dideli. Tačiau **Schroth** pratimai gali būti naudingi
-        ir suaugusiems, nepaisant skoliozės laipsnio.
+        rotacija dar nėra dideli. Tačiau Schroth pratimai gali būti naudingi ir
+        suaugusiems, nepaisant skoliozės laipsnio.
       </p>
     </section>
 
@@ -239,7 +225,7 @@
           </h3>
 
           <p class="text-sky-900 leading-relaxed">
-            Ankstyva ir nuosekli **Schroth** terapija gali padėti išvengti
+            Ankstyva ir nuosekli Schroth terapija gali padėti išvengti
             chirurginės intervencijos, ypač jei taikoma kartu su specialiu
             korsetu.
           </p>
