@@ -44,8 +44,8 @@ export const routes = [
   {
     path: '/scoliteam',
     name: 'scoliteam',
-    component: () => import('./pages/ScoliTeam.vue'),
-    meta: { title: 'Scoliteam' },
+    component: () => import('./pages/Scoliteam.vue'),
+    meta: { title: 'ScoliTeam' },
   },
   {
     path: '/sekmes-istorijos',
