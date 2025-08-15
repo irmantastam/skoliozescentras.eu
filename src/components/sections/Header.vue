@@ -1,7 +1,7 @@
 <template>
-  <header class="bg-white bg-opacity-95 shadow-sm sticky top-0 xl:static z-50">
-    <Contacts class="hidden xl:block" />
+  <ContactTop class="hidden xl:block sticky top-0 z-50 shadow-md" />
 
+  <header class="bg-white bg-opacity-95 shadow-sm sticky top-0 xl:static z-40">
     <div
       class="max-w-6xl mx-auto flex justify-between items-center py-2 md:py-5 px-5 gap-4"
     >
@@ -19,9 +19,9 @@
 </template>
 
 <script setup>
+import ContactTop from './ContactTop.vue'
 import Logo from '../elements/Logo.vue'
 import ExternalCtaLink from '../elements/ExternalCtaLink.vue'
-import Contacts from './Contacts.vue'
 import DesktopMenu from './DesktopMenu.vue'
 import MobileMenu from './MobileMenu.vue'
 </script>
