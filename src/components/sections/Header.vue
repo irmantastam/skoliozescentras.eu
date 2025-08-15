@@ -3,14 +3,16 @@
     <Contacts class="hidden md:block" />
 
     <div
-      class="max-w-6xl mx-auto flex justify-between items-center py-2 md:py-5 px-5"
+      class="max-w-6xl mx-auto flex justify-between items-center py-2 md:py-5 px-5 gap-4"
     >
       <Logo />
 
-      <div class="flex items-center gap-5">
+      <DesktopMenu />
+
+      <div class="flex items-center gap-5 flex-shrink-0">
         <ExternalCtaLink class="hidden md:block" />
 
-        <Menu />
+        <MobileMenu />
       </div>
     </div>
   </header>
@@ -20,5 +22,6 @@
 import Logo from '../elements/Logo.vue'
 import ExternalCtaLink from '../elements/ExternalCtaLink.vue'
 import Contacts from './Contacts.vue'
-import Menu from './Menu.vue'
+import DesktopMenu from './DesktopMenu.vue'
+import MobileMenu from './MobileMenu.vue'
 </script>

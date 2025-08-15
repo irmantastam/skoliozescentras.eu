@@ -1,5 +1,5 @@
 <template>
-  <div class="logo flex items-center gap-5">
+  <div class="logo flex flex-shrink-0 items-center gap-5">
     <RouterLink
       to="/"
       class="flex flex-col gap-2 items-center no-underline text-inherit"

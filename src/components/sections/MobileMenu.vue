@@ -1,6 +1,6 @@
 <template>
   <button
-    class="menu-toggle bg-transparent border-none cursor-pointer p-2.5 z-50 relative w-10 h-10 flex flex-col justify-around items-center"
+    class="menu-toggle bg-transparent border-none cursor-pointer p-2.5 z-50 relative w-10 h-10 flex flex-col justify-around items-center xl:hidden"
     aria-label="Toggle navigation menu"
     @click="toggleMobileMenu"
   >
