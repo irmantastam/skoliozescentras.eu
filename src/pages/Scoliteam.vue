@@ -2,16 +2,16 @@
   <LayoutPage class="px-6">
     <h2 class="text-3xl font-semibold text-sky-600 mx-6">ScoliTeam</h2>
 
-    <div class="text-lg flex flex-col gap-4 max-w-4xl">
+    <div class="text-lg flex flex-col gap-4">
       <p>
-        Mūsų komandą sudaro įvairių sričių skoliozės gydymo specialistai,
-        vienijami bendro tikslo ir glaudžiai bendradarbiaujantys tarpusavyje.
+        ScoliTeam - tai bendram tikslui suburti ir aktyviai tarpusavyje
+        bendradarbiaujantys įvairių sričių skoliozės gydymo specialistai:
+        stuburo chirurgai, ortopedai, įtvarų gamintojai ir Schroth terapeutai.
       </p>
 
       <p>
-        Mūsų misija – užtikrinti aukščiausios kokybės skoliozės gydymą
-        Lietuvoje, naudojant pažangiausias technologijas, taikant moksliškai
-        pagrįstas metodikas ir nuolat keliant savo profesinę kvalifikaciją.
+        Mus vienija siekis užtikrinti kiekvienam pacientui geriausią įmanomą
+        gydymą, pritaikytą individualiems poreikiams.
       </p>
     </div>
 
