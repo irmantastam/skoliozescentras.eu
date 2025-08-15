@@ -1,7 +1,7 @@
 <template>
   <div class="bg-sky-800 text-white text-sm">
     <div
-      class="max-w-6xl mx-auto flex flex-col md:flex-row justify-center md:justify-between items-center gap-3 px-5 py-2"
+      class="max-w-6xl mx-auto flex flex-col xl:flex-row justify-center xl:justify-between items-center gap-3 px-5 py-2"
     >
       <a
         href="tel:+370 630 38885"

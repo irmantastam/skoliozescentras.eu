@@ -27,13 +27,13 @@
   >
     <nav class="w-full text-center flex flex-col items-center gap-6">
       <Logo
-        class="hidden md:block mt-6"
+        class="hidden xl:block mt-6"
         @click="closeMobileMenu"
       />
 
-      <Contacts class="block w-full md:hidden py-4" />
+      <Contacts class="block w-full xl:hidden py-4" />
 
-      <ExternalCtaLink class="block md:hidden" />
+      <ExternalCtaLink class="block xl:hidden" />
 
       <ul class="list-none m-0 p-0 flex flex-col gap-6 items-center px-6 mb-6">
         <template
