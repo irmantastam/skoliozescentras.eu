@@ -20,7 +20,7 @@
           </a>
         </p>
 
-        <div class="text-sky-900">
+        <p class="text-sky-900">
           <IconEmail class="inline-block align-middle mr-1 -mt-1" />
 
           <strong class="font-semibold">El. paštas:</strong>
@@ -31,7 +31,7 @@
           >
             info@innovamed.lt
           </a>
-        </div>
+        </p>
 
         <p class="text-sky-900">
           <IconMapPin class="inline-block align-middle mr-1 -mt-1" />
@@ -150,7 +150,7 @@
 
       <!-- Maps -->
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2304.595648831626!2d23.90566331587661!3d54.90159497914848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e72251a3d3c8c7%3A0xc07474747b0a7c41!2sAu%C5%A1ros%20g.%2042%2C%20Kaunas%2044158!5e0!3m2!1sen!2slt!4v1628178144577!5m2!1sen!2slt"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2304.595648831626!2d23.90566331587661!3d54.90159497914848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e72251a3d3c8c7%3A0xc07474747b0a7c41!2sAu%C5%A1ros%20g.%2042%2C%20Kaunas%2044158!5e0!3m2!1slt!2slt!4v1628178144577!5m2!1slt!2slt"
         width="100%"
         height="300"
         style="border: 0"
@@ -161,7 +161,7 @@
       ></iframe>
 
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2305.811818274719!2d25.267323315875955!3d54.6896263791244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd941d63615457%3A0x6b1109b8b323c2a6!2sKonstitucijos%20pr.%2023%2C%20Vilnius%2008105!5e0!3m2!1sen!2slt!4v1628178229986!5m2!1sen!2slt"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2305.811818274719!2d25.267323315875955!3d54.6896263791244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd941d63615457%3A0x6b1109b8b323c2a6!2sKonstitucijos%20pr.%2023%2C%20Vilnius%2008105!5e0!3m2!1slt!2slt!4v1628178229986!5m2!1slt!2slt"
         width="100%"
         height="300"
         style="border: 0"
