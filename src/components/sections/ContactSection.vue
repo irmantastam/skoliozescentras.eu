@@ -150,9 +150,9 @@
 
       <!-- Maps -->
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2304.595648831626!2d23.90566331587661!3d54.90159497914848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e72251a3d3c8c7%3A0xc07474747b0a7c41!2sAu%C5%A1ros%20g.%2042%2C%20Kaunas%2044158!5e0!3m2!1slt!2slt!4v1628178144577!5m2!1slt!2slt"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2293.913207764119!2d23.925418877923104!3d54.90444557278198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e723263d0bf09f%3A0x768af91c88606184!2sINNOVAMED%20kineziterapijos%20klinikos!5e0!3m2!1sen!2slt!4v1755375762928!5m2!1slt!2slt"
         width="100%"
-        height="300"
+        height="350"
         style="border: 0"
         allowfullscreen=""
         loading="lazy"
@@ -161,9 +161,9 @@
       ></iframe>
 
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2305.811818274719!2d25.267323315875955!3d54.6896263791244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd941d63615457%3A0x6b1109b8b323c2a6!2sKonstitucijos%20pr.%2023%2C%20Vilnius%2008105!5e0!3m2!1slt!2slt!4v1628178229986!5m2!1slt!2slt"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2305.6243482473988!2d25.266694777915852!3d54.69863787271233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93001f0aed41%3A0x125e8a177d9b4c57!2sINNOVAMED%20kineziterapijos%20klinikos!5e0!3m2!1sen!2slt!4v1755376021570!5m2!1slt!2slt"
         width="100%"
-        height="300"
+        height="350"
         style="border: 0"
         allowfullscreen=""
         loading="lazy"
