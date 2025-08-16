@@ -34,7 +34,7 @@
       </a>
 
       <a
-        href="https://maps.app.goo.gl/t46MKX63vi8N84vL6"
+        href="https://maps.app.goo.gl/nrEmjtXuuYZdvCbk6"
         target="_blank"
         rel="nofollow"
       >

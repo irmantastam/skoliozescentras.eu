@@ -159,7 +159,7 @@
           <strong>Vilniuje: </strong>
 
           <a
-            href="https://maps.app.goo.gl/t46MKX63vi8N84vL6"
+            href="https://maps.app.goo.gl/nrEmjtXuuYZdvCbk6"
             target="_blank"
             rel="nofollow"
             class="text-gray-300 hover:text-blue-400 transition-colors duration-200"
