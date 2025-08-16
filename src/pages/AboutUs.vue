@@ -19,10 +19,10 @@
       <h2 class="text-2xl font-semibold text-sky-900 mb-4">Mūsų misija</h2>
 
       <p class="text-sky-900 leading-relaxed mb-4">
-        Padėti vaikams, paaugliams ir suaugusiems, turintiems stuburo iškyvimus,
-        pasitelkiant moderniausią diagnostiką ir pasaulinio lygio Schroth
-        metodą. Siekiame ne tik ištiesinti stuburą, bet ir pagerinti laikyseną,
-        estetinį vaizdą, gyvenimo kokybę ir pasitikėjimą savimi.
+        Padėti vaikams, paaugliams ir suaugusiems, turintiems stuburo
+        iškrypimus, pasitelkiant moderniausią diagnostiką ir pasaulinio lygio
+        Schroth metodą. Siekiame ne tik ištiesinti stuburą, bet ir pagerinti
+        laikyseną, estetinį vaizdą, gyvenimo kokybę ir pasitikėjimą savimi.
       </p>
     </div>
 

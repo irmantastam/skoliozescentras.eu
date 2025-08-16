@@ -6,6 +6,61 @@
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+        Kas yra ISST Schroth?
+      </h2>
+
+      <p class="text-sky-900 leading-relaxed mb-4">
+        ISST Schroth terapija – tai specializuota kineziterapijos metodika,
+        taikoma skoliozės gydymui, kuri buvo sukurta vokietės Katharina Schroth
+        XX a. pradžioje ir vėliau išplėtota jos dukros Christa Lehnert-Schroth.
+      </p>
+
+      <ul
+        class="list-disc list-inside text-sky-900 leading-relaxed space-y-2 mb-4"
+      >
+        <li>
+          Terapija remiasi <strong>3D korekcijos principu</strong> – stuburo,
+          krūtinės ląstos ir dubens padėties koregavimu trimatėje erdvėje.
+        </li>
+
+        <li>
+          Pagrindas yra specialūs pratimai ir kvėpavimo technikos, kurie padeda
+          atkurti simetriškesnę laikyseną, pagerinti stuburo stabilumą ir
+          sumažinti deformacijos progresavimą.
+        </li>
+
+        <li>
+          Schroth metodika dažniausiai taikoma vaikams ir paaugliams su
+          idiopatine skolioze, bet naudinga ir suaugusiesiems, sergantiems
+          skolioze.
+        </li>
+      </ul>
+
+      <h3 class="text-sky-700 text-xl font-medium leading-relaxed mb-2">
+        Terapijos tikslai:
+      </h3>
+
+      <ul
+        class="list-disc list-inside text-sky-900 leading-relaxed space-y-1 mb-4"
+      >
+        <li>sumažinti stuburo krypimo progresavimą,</li>
+
+        <li>pagerinti laikyseną ir judesių kontrolę,</li>
+
+        <li>sustiprinti liemens raumenis,</li>
+
+        <li>pagerinti kvėpavimą bei gyvenimo kokybę.</li>
+      </ul>
+
+      <p class="text-sky-900 leading-relaxed">
+        ISST Schroth terapija taikoma specialiai apmokytų kineziterapeutų,
+        dažnai derinama su korsetu (jeigu jis paskirtas) ir bendru fiziniu
+        aktyvumu.
+      </p>
+    </div>
+
+    <div class="p-6 bg-white sm:rounded-lg shadow-sm">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
         Kas yra ISST Schroth organizacija?
       </h2>
 
