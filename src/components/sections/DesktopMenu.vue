@@ -4,16 +4,21 @@
     <ul class="flex items-end justify-center flex-wrap space-y-1.5">
       <!-- Apie mus menu -->
       <li
-        class="relative group"
-        @mouseenter="toggleDropdown('apie-mus')"
-        @mouseleave="closeDropdowns()"
+        ref="apieMusRef"
+        class="relative py-4 group"
+        @mouseenter="openDropdown('apie-mus')"
+        @mouseleave="closeDropdownsDirectly()"
+        @focusin="openDropdown('apie-mus')"
+        @focusout="closeDropdownsOnBlur('apie-mus', $event)"
       >
-        <div
-          class="text-sky-900 text-sm px-4 py-4 font-medium cursor-pointer hover:text-sky-600 transition-colors duration-300 hover:underline"
+        <button
+          type="button"
+          tabindex="0"
+          class="text-sky-900 text-sm px-4 py-4 font-medium cursor-pointer hover:text-sky-600 transition-colors duration-300 hover:underline focus:outline-none focus:text-sky-600 focus:underline"
           @click="toggleDropdown('apie-mus')"
         >
           Apie mus
-        </div>
+        </button>
 
         <ul
           v-if="activeDropdown === 'apie-mus'"
@@ -23,7 +28,7 @@
             <RouterLink
               :to="{ name: 'about' }"
               class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
-              @click="closeDropdowns"
+              @click="closeDropdownsDirectly"
             >
               Apie skoliozės centrą
             </RouterLink>
@@ -32,7 +37,7 @@
             <RouterLink
               :to="{ name: 'success-stories' }"
               class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
-              @click="closeDropdowns"
+              @click="closeDropdownsDirectly"
             >
               Sėkmės istorijos
             </RouterLink>
@@ -41,7 +46,7 @@
             <RouterLink
               :to="{ name: 'team' }"
               class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
-              @click="closeDropdowns"
+              @click="closeDropdownsDirectly"
             >
               Komanda
             </RouterLink>
@@ -50,7 +55,7 @@
             <RouterLink
               :to="{ name: 'scoliteam' }"
               class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
-              @click="closeDropdowns"
+              @click="closeDropdownsDirectly"
             >
               ScoliTeam
             </RouterLink>
@@ -59,7 +64,7 @@
             <RouterLink
               :to="{ name: 'contact' }"
               class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
-              @click="closeDropdowns"
+              @click="closeDropdownsDirectly"
             >
               Kontaktai
             </RouterLink>
@@ -68,7 +73,7 @@
       </li>
 
       <!-- Single-item menu links -->
-      <li>
+      <li class="py-4">
         <RouterLink
           :to="{ name: 'treatment' }"
           class="block text-sky-900 text-sm px-4 py-4 font-medium hover:text-sky-600 transition-colors duration-300 hover:underline"
@@ -77,7 +82,7 @@
         </RouterLink>
       </li>
 
-      <li>
+      <li class="py-4">
         <RouterLink
           :to="{ name: 'diagnostics' }"
           class="block text-sky-900 text-sm px-4 py-4 font-medium hover:text-sky-600 transition-colors duration-300 hover:underline"
@@ -86,7 +91,7 @@
         </RouterLink>
       </li>
 
-      <li>
+      <li class="py-4">
         <RouterLink
           :to="{ name: 'testing' }"
           class="block text-sky-900 text-sm px-4 py-4 font-medium hover:text-sky-600 transition-colors duration-300 hover:underline"
@@ -97,16 +102,21 @@
 
       <!-- Edukacijos menu -->
       <li
-        class="relative group"
-        @mouseenter="toggleDropdown('edukacijos')"
-        @mouseleave="closeDropdowns()"
+        ref="edukacijosRef"
+        class="relative py-4 group"
+        @mouseenter="openDropdown('edukacijos')"
+        @mouseleave="closeDropdownsDirectly()"
+        @focusin="openDropdown('edukacijos')"
+        @focusout="closeDropdownsOnBlur('edukacijos', $event)"
       >
-        <div
-          class="text-sky-900 text-sm px-4 py-4 font-medium cursor-pointer hover:text-sky-600 transition-colors duration-300 hover:underline"
+        <button
+          type="button"
+          tabindex="0"
+          class="text-sky-900 text-sm px-4 py-4 font-medium cursor-pointer hover:text-sky-600 transition-colors duration-300 hover:underline focus:outline-none focus:text-sky-600 focus:underline"
           @click="toggleDropdown('edukacijos')"
         >
           Edukacijos
-        </div>
+        </button>
 
         <ul
           v-if="activeDropdown === 'edukacijos'"
@@ -116,7 +126,7 @@
             <RouterLink
               :to="{ name: 'education' }"
               class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
-              @click="closeDropdowns"
+              @click="closeDropdownsDirectly"
             >
               Skoliozės edukacija mokykloms ir tėvams
             </RouterLink>
@@ -125,7 +135,7 @@
             <RouterLink
               :to="{ name: 'camp' }"
               class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
-              @click="closeDropdowns"
+              @click="closeDropdownsDirectly"
             >
               Schroth skoliozės stovykla
             </RouterLink>
@@ -134,7 +144,7 @@
             <RouterLink
               :to="{ name: 'supervision' }"
               class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
-              @click="closeDropdowns"
+              @click="closeDropdownsDirectly"
             >
               Schroth klinikinė supervizija
             </RouterLink>
@@ -143,7 +153,7 @@
             <RouterLink
               :to="{ name: 'training' }"
               class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
-              @click="closeDropdowns"
+              @click="closeDropdownsDirectly"
             >
               Skoliozės gydymo kursai Lietuvoje
             </RouterLink>
@@ -152,7 +162,7 @@
             <RouterLink
               :to="{ name: 'schroth' }"
               class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
-              @click="closeDropdowns"
+              @click="closeDropdownsDirectly"
             >
               ISST Schroth metodas ir organizacija
             </RouterLink>
@@ -168,14 +178,37 @@ import { RouterLink } from 'vue-router'
 import { ref } from 'vue'
 
 const activeDropdown = ref(null)
+const apieMusRef = ref(null)
+const edukacijosRef = ref(null)
+
+let blurTimeout = null
+
+function openDropdown(dropdownName) {
+  clearTimeout(blurTimeout)
+  activeDropdown.value = dropdownName
+}
 
 function toggleDropdown(dropdownName) {
   activeDropdown.value =
     activeDropdown.value === dropdownName ? null : dropdownName
 }
 
-function closeDropdowns() {
+// Funkcija, skirta tiesiogiai uždaryti meniu.
+function closeDropdownsDirectly() {
   activeDropdown.value = null
+}
+
+// Funkcija, skirta uždaryti meniu, kai prarandamas klaviatūros fokusas.
+function closeDropdownsOnBlur(dropdownName, event) {
+  // Naudojame timeout, kad patikrintume, ar fokusas persikėlė į kitą dropdown elementą.
+  blurTimeout = setTimeout(() => {
+    const parentRef = dropdownName === 'apie-mus' ? apieMusRef : edukacijosRef
+
+    // Patikriname, ar fokusas (event.relatedTarget) liko meniu ribose.
+    if (parentRef.value && !parentRef.value.contains(event.relatedTarget)) {
+      activeDropdown.value = null
+    }
+  }, 10)
 }
 </script>
 
