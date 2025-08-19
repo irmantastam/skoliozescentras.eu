@@ -78,7 +78,7 @@ export const routes = [
     name: 'schroth',
     component: () => import('./pages/Schroth.vue'),
     meta: {
-      title: 'ISST Schroth metodas ir organizacija',
+      title: 'ISST Schroth metodas ir organizacija - Skoliozės Centras',
       description:
         'ISST Schroth organizacija yra tarptautinė ne pelno siekianti institucija, vienijanti specialistus, taikančius Schroth metodą skoliozei gydyti.',
     },
@@ -88,7 +88,7 @@ export const routes = [
     name: 'training',
     component: () => import('./pages/Training.vue'),
     meta: {
-      title: 'Skoliozės gydymo kursai Lietuvoje',
+      title: 'Skoliozės gydymo kursai Lietuvoje - Skoliozės Centras',
       description:
         'Schroth skoliozės gydymo kursai Lietuvoje. Įgykite pagrindines žinias apie idiopatinės skoliozės ir kifozės konservatyvų gydymą.',
     },
@@ -131,9 +131,9 @@ export const routes = [
     name: 'camp',
     component: () => import('./pages/Camp.vue'),
     meta: {
-      title: 'Schroth skoliozės stovykla',
+      title: 'Schroth skoliozės stovykla - Skoliozės Centras',
       description:
-        'Skoliozės stovykla – tai intensyvus grupinis skoliozės gydymas, taikant Katharinos Schroth metodikos principus. Stovyklos vyks Vilniuje ir Kaune.',
+        'Skoliozės stovykla - tai intensyvus grupinis skoliozės gydymas, taikant Katharinos Schroth metodikos principus. Stovyklos vyks Vilniuje ir Kaune.',
     },
   },
   {

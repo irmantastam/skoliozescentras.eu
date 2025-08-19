@@ -6,7 +6,7 @@
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-        Kas tai ir kodėl tai svarbu?
+        Kas yra skoliozės testavimas?
       </h2>
 
       <p class="text-sky-900 leading-relaxed mb-4">
@@ -16,7 +16,10 @@
         paaugliams augimo šuolio metu.
       </p>
 
-      <h3 class="text-xl font-medium text-sky-700 mb-2">Testavimo eiga</h3>
+      <h3 class="text-xl font-medium text-sky-700 mb-2">
+        Kaip vyksta skoliozės testavimas?
+      </h3>
+
       <p class="text-sky-900 leading-relaxed mb-4">
         Testavimo metu specialistas įvertina laikyseną, stuburo liniją ir pečių
         simetriją. Naudojamas specialus skoliozės matuoklis – skoliometras,

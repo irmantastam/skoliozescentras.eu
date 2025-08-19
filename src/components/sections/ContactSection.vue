@@ -71,7 +71,7 @@
         </p>
 
         <!-- Social -->
-        <h2 class="text-2xl font-semibold text-gray-700 mt-4">Sekite mus</h2>
+        <p class="text-2xl font-semibold text-gray-700 mt-4">Sekite mus</p>
 
         <div class="flex gap-4 justify-center">
           <!-- Facebook -->
@@ -139,7 +139,7 @@
         </div>
 
         <!-- Company details -->
-        <h2 class="text-2xl font-semibold text-gray-700 mt-4">Rekvizitai</h2>
+        <p class="text-2xl font-semibold text-gray-700 mt-4">Rekvizitai</p>
 
         <p class="text-sky-900"><strong>MB</strong> "Innovamedas"</p>
 
