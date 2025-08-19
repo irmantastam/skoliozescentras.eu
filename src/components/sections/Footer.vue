@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-gray-800 text-gray-300 py-10 px-5 mt-auto">
-    <div class="max-w-6xl mx-auto flex flex-wrap justify-between gap-8">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-between gap-8">
       <div class="footer-section flex-1 min-w-[250px]">
         <p class="text-xl font-semibold text-blue-400 mb-4">
           Skoliozės Centras

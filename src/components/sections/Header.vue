@@ -1,9 +1,9 @@
 <template>
-  <ContactTop class="hidden xl:block sticky top-0 z-50 shadow-md" />
+  <header class="bg-white bg-opacity-95 sticky top-0 shadow-md z-40">
+    <ContactTop class="hidden xl:block" />
 
-  <header class="bg-white bg-opacity-95 shadow-sm sticky top-0 xl:static z-40">
     <div
-      class="max-w-6xl mx-auto flex justify-between items-center py-2 md:py-5 px-5 gap-4"
+      class="max-w-7xl mx-auto flex justify-between items-center py-2 md:py-4 px-5 gap-4"
     >
       <Logo />
 
