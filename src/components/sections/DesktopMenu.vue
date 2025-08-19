@@ -4,12 +4,10 @@
     <ul class="flex items-end justify-center flex-wrap space-y-1.5">
       <!-- Apie mus menu -->
       <li
-        ref="apieMusRef"
-        class="relative py-4 group"
+        class="relative group"
         @mouseenter="openDropdown('apie-mus')"
         @mouseleave="closeDropdownsDirectly()"
         @focusin="openDropdown('apie-mus')"
-        @focusout="closeDropdownsOnBlur('apie-mus', $event)"
       >
         <button
           type="button"
@@ -73,7 +71,7 @@
       </li>
 
       <!-- Single-item menu links -->
-      <li class="py-4">
+      <li>
         <RouterLink
           :to="{ name: 'treatment' }"
           class="block text-sky-900 text-sm px-4 py-4 font-medium hover:text-sky-600 transition-colors duration-300 hover:underline"
@@ -82,7 +80,7 @@
         </RouterLink>
       </li>
 
-      <li class="py-4">
+      <li>
         <RouterLink
           :to="{ name: 'diagnostics' }"
           class="block text-sky-900 text-sm px-4 py-4 font-medium hover:text-sky-600 transition-colors duration-300 hover:underline"
@@ -91,7 +89,7 @@
         </RouterLink>
       </li>
 
-      <li class="py-4">
+      <li>
         <RouterLink
           :to="{ name: 'testing' }"
           class="block text-sky-900 text-sm px-4 py-4 font-medium hover:text-sky-600 transition-colors duration-300 hover:underline"
@@ -102,12 +100,10 @@
 
       <!-- Edukacijos menu -->
       <li
-        ref="edukacijosRef"
-        class="relative py-4 group"
+        class="relative group"
         @mouseenter="openDropdown('edukacijos')"
         @mouseleave="closeDropdownsDirectly()"
         @focusin="openDropdown('edukacijos')"
-        @focusout="closeDropdownsOnBlur('edukacijos', $event)"
       >
         <button
           type="button"
@@ -178,8 +174,6 @@ import { RouterLink } from 'vue-router'
 import { ref } from 'vue'
 
 const activeDropdown = ref(null)
-const apieMusRef = ref(null)
-const edukacijosRef = ref(null)
 
 let blurTimeout = null
 
@@ -193,22 +187,8 @@ function toggleDropdown(dropdownName) {
     activeDropdown.value === dropdownName ? null : dropdownName
 }
 
-// Funkcija, skirta tiesiogiai uždaryti meniu.
 function closeDropdownsDirectly() {
   activeDropdown.value = null
-}
-
-// Funkcija, skirta uždaryti meniu, kai prarandamas klaviatūros fokusas.
-function closeDropdownsOnBlur(dropdownName, event) {
-  // Naudojame timeout, kad patikrintume, ar fokusas persikėlė į kitą dropdown elementą.
-  blurTimeout = setTimeout(() => {
-    const parentRef = dropdownName === 'apie-mus' ? apieMusRef : edukacijosRef
-
-    // Patikriname, ar fokusas (event.relatedTarget) liko meniu ribose.
-    if (parentRef.value && !parentRef.value.contains(event.relatedTarget)) {
-      activeDropdown.value = null
-    }
-  }, 10)
 }
 </script>
 
