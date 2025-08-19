@@ -15,6 +15,8 @@ export default defineConfig({
     onFinished() {
       generateSitemap({
         hostname: 'https://www.skoliozescentras.eu',
+        exclude: ['/404'],
+        changefreq: 'monthly',
       })
     },
   },
