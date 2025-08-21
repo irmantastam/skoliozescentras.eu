@@ -20,5 +20,11 @@ useHead({
       content: route.meta.description,
     },
   ],
+  link: [
+    {
+      rel: 'canonical',
+      href: `https://www.skoliozescentras.eu${route.path}`,
+    },
+  ],
 })
 </script>
