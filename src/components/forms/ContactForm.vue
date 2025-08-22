@@ -21,6 +21,8 @@
           v-model="name"
           required
           class="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500 rounded-md"
+          oninvalid="this.setCustomValidity('Prašome nurodyti savo vardą')"
+          onchange="this.setCustomValidity('')"
         />
       </div>
 
@@ -37,6 +39,26 @@
           v-model="email"
           required
           class="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500 rounded-md"
+          oninvalid="this.setCustomValidity('Neįvestas arba neteisingas el. paštas')"
+          onchange="this.setCustomValidity('')"
+        />
+      </div>
+
+      <div>
+        <label
+          for="tel"
+          class="block text-gray-700 text-sm font-semibold mb-2"
+        >
+          Telefonas:
+        </label>
+        <input
+          type="tel"
+          id="tel"
+          v-model="tel"
+          required
+          class="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500 rounded-md"
+          oninvalid="this.setCustomValidity('Neįvestas arba neteisingas tel. numeris')"
+          onchange="this.setCustomValidity('')"
         />
       </div>
 
@@ -53,6 +75,8 @@
           rows="5"
           required
           class="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500 rounded-md"
+          oninvalid="this.setCustomValidity('Žinutės laukas tuščias')"
+          onchange="this.setCustomValidity('')"
         >
         </textarea>
       </div>
@@ -86,6 +110,7 @@ const WEB3FORMS_ACCESS_KEY_SECONDARY = 'b8e04a4d-999a-4123-bca2-2778f213fd22'
 
 const name = ref('')
 const email = ref('')
+const tel = ref('')
 const message = ref('')
 
 const formStatus = ref(null)
@@ -103,13 +128,16 @@ const submitForm = async () => {
         access_key: WEB3FORMS_ACCESS_KEY,
         name: name.value,
         email: email.value,
+        tel: tel.value,
         message: message.value,
       }),
     })
 
     const result = await response.json()
+
     if (result.success) {
       console.log(result)
+
       formStatus.value = 'success'
       formMessage.value = 'Jūsų žinutė sėkmingai išsiųsta!'
     } else {
@@ -117,12 +145,14 @@ const submitForm = async () => {
     }
   } catch (error) {
     console.error('Form submission error:', error)
+
     formStatus.value = 'error'
     formMessage.value =
       'Įvyko klaida siunčiant žinutę. Pabandykite susisiekti su mumis tiesiogiai šalia nurodytais kontaktais.'
   }
 }
 
+// TODO remove - this is temporary for testing.
 const submitFormSecondary = async () => {
   try {
     const response = await fetch('https://api.web3forms.com/submit', {
@@ -135,13 +165,16 @@ const submitFormSecondary = async () => {
         access_key: WEB3FORMS_ACCESS_KEY_SECONDARY,
         name: name.value,
         email: email.value,
+        tel: tel.value,
         message: message.value,
       }),
     })
 
     const result = await response.json()
+
     if (result.success) {
       console.log(result)
+
       name.value = ''
       email.value = ''
       message.value = ''
@@ -149,7 +182,7 @@ const submitFormSecondary = async () => {
       throw new Error(result)
     }
   } catch (error) {
-    console.error('Form submission error:', error)
+    console.error('Form secondary submission error:', error)
   }
 }
 
