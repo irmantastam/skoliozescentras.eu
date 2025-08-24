@@ -105,7 +105,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const WEB3FORMS_ACCESS_KEY = '8d02b911-63bf-4960-bd46-83440386765f'
+const WEB3FORMS_ACCESS_KEY = '5fd17898-9da1-496e-9f38-f6089228aef9'
 const WEB3FORMS_ACCESS_KEY_SECONDARY = 'b8e04a4d-999a-4123-bca2-2778f213fd22'
 
 const name = ref('')
