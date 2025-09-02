@@ -21,7 +21,7 @@
       </a>
 
       <a
-        href="https://maps.app.goo.gl/Q4osjx4RerfZewbe9"
+        href="https://maps.app.goo.gl/y2XZ2wYMxuMAAzj89"
         target="_blank"
         rel="nofollow"
       >
@@ -29,7 +29,7 @@
           class="flex items-center gap-1 hover:text-blue-200 transition-colors duration-200"
         >
           <IconMapPin />
-          <span>Aušros g. 42, LT-44158 Kaunas</span>
+          <span>Maironio g. 36-1, LT-44248 Kaunas</span>
         </span>
       </a>
 

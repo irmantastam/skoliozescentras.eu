@@ -1,10 +1,10 @@
 <template>
   <LayoutPage>
-    <div class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h1 class="text-3xl font-semibold text-sky-600 mb-4">
-        Skoliozės Diagnozavimas
-      </h1>
+    <h1 class="text-3xl font-semibold text-sky-600 mx-6">
+      Skoliozės Diagnozavimas
+    </h1>
 
+    <div class="p-6 bg-white sm:rounded-lg shadow-sm">
       <p class="text-sky-900 leading-relaxed">
         Ankstyvas skoliozės diagnozavimas yra labai svarbus. Anksti diagnozuota
         skoliozė leidžia įvertinti progresavimo riziką bei leidžia parinkti

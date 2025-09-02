@@ -143,13 +143,13 @@
           <strong>Kaune: </strong>
 
           <a
-            href="https://maps.app.goo.gl/Q4osjx4RerfZewbe9"
+            href="https://maps.app.goo.gl/y2XZ2wYMxuMAAzj89"
             target="_blank"
             rel="nofollow"
             class="text-gray-300 hover:text-blue-400 transition-colors duration-200"
             title="INNOVAMED klinikų adresas Kaune"
           >
-            Aušros g. 42, LT-44158 Kaunas
+            Maironio g. 36-1, LT-44248 Kaunas
           </a>
         </p>
 

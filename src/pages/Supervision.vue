@@ -1,10 +1,10 @@
 <template>
   <LayoutPage>
-    <div class="p-6 bg-white rounded-lg shadow-sm">
-      <h1 class="text-2xl font-semibold text-sky-900 mb-4">
-        Schroth klinikinė supervizija
-      </h1>
+    <h1 class="text-3xl font-semibold text-sky-600 mx-6">
+      Schroth klinikinė supervizija
+    </h1>
 
+    <div class="p-6 bg-white rounded-lg shadow-sm">
       <p class="text-sky-900 leading-relaxed mb-4">
         Giedrei Mikelionienei ir Tadui Mikelioniui ISST suteikti Schroth
         klinikinės praktikos vadovo laipsniai. Šis statusas reiškia, kad šie
