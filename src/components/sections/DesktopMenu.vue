@@ -1,5 +1,5 @@
 <template>
-  <nav class="hidden xl:block">
+  <nav class="hidden lg:block">
     <!-- Top-level menu -->
     <ul class="flex items-end justify-center flex-wrap space-y-1.5">
       <!-- Apie mus menu -->
