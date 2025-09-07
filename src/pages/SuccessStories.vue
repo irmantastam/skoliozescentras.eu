@@ -1,11 +1,11 @@
 <template>
   <LayoutPage>
-    <h1 class="text-3xl font-semibold text-sky-600 mx-6">
+    <h1 class="text-3xl font-semibold text-sky-600 mx-6 text-center">
       Skoliozės gydymo sėkmės istorijos ir klientų asmeninės patirtys
     </h1>
 
     <!-- Photos slider -->
-    <div class="relative w-full max-w-4xl">
+    <div class="relative w-full max-w-4xl self-center">
       <div
         class="text-center flex flex-col items-center gap-4 text-gray-700 mx-6"
       >

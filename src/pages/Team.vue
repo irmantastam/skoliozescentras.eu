@@ -1,6 +1,8 @@
 <template>
   <LayoutPage>
-    <h1 class="text-3xl font-semibold text-sky-600">Mūsų Komanda</h1>
+    <h1 class="text-3xl font-semibold text-sky-600 text-center">
+      Mūsų Komanda
+    </h1>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <div
@@ -15,18 +17,18 @@
           Giedrė Mikelionienė
         </h2>
         <p class="text-gray-700 mb-1">
-          <strong class="font-medium">Miestai:</strong> Vilnius ir Kaunas
+          <strong class="font-semibold">Miestai:</strong> Vilnius ir Kaunas
         </p>
         <p class="text-gray-700 mb-1">
-          <strong class="font-medium">Specializacija:</strong> Sertifikuota ISST
-          Schroth specialistė
+          <strong class="font-semibold">Specializacija:</strong> Sertifikuota
+          ISST Schroth specialistė
         </p>
         <p class="text-gray-700 mb-1">
-          <strong class="font-medium">ISST laipsnis:</strong> Klinikinės
+          <strong class="font-semibold">ISST laipsnis:</strong> Klinikinės
           praktikos vadovė
         </p>
         <p class="text-gray-700">
-          <strong class="font-medium">Papildomos metodikos:</strong> DNS
+          <strong class="font-semibold">Papildomos metodikos:</strong> DNS
           Pediatric, DNS Scoliosis
         </p>
       </div>
@@ -43,18 +45,18 @@
           Tadas Mikelionis
         </h2>
         <p class="text-gray-700 mb-1">
-          <strong class="font-medium">Miestai:</strong> Vilnius ir Kaunas
+          <strong class="font-semibold">Miestai:</strong> Vilnius ir Kaunas
         </p>
         <p class="text-gray-700 mb-1">
-          <strong class="font-medium">Specializacija:</strong> Sertifikuotas
+          <strong class="font-semibold">Specializacija:</strong> Sertifikuotas
           ISST Schroth specialistas
         </p>
         <p class="text-gray-700 mb-1">
-          <strong class="font-medium">ISST laipsnis:</strong> Klinikinės
+          <strong class="font-semibold">ISST laipsnis:</strong> Klinikinės
           praktikos vadovas
         </p>
         <p class="text-gray-700">
-          <strong class="font-medium">Papildomos metodikos:</strong> DNS
+          <strong class="font-semibold">Papildomos metodikos:</strong> DNS
           medical, Maitland, Mulligan
         </p>
       </div>
@@ -71,14 +73,14 @@
           Vaida Grabauskė
         </h2>
         <p class="text-gray-700 mb-1">
-          <strong class="font-medium">Miestas:</strong> Kaunas
+          <strong class="font-semibold">Miestas:</strong> Kaunas
         </p>
         <p class="text-gray-700 mb-1">
-          <strong class="font-medium">Specializacija:</strong> Sertifikuota ISST
-          Schroth specialistė
+          <strong class="font-semibold">Specializacija:</strong> Sertifikuota
+          ISST Schroth specialistė
         </p>
         <p class="text-gray-700">
-          <strong class="font-medium">Papildomos metodikos:</strong> DNS
+          <strong class="font-semibold">Papildomos metodikos:</strong> DNS
           Pediatric, DNS Scoliosis
         </p>
       </div>
@@ -95,11 +97,11 @@
           Emilija Masevičienė
         </h2>
         <p class="text-gray-700 mb-1">
-          <strong class="font-medium">Miestas:</strong> Vilnius
+          <strong class="font-semibold">Miestas:</strong> Vilnius
         </p>
         <p class="text-gray-700">
-          <strong class="font-medium">Specializacija:</strong> Sertifikuota ISST
-          Schroth specialistė
+          <strong class="font-semibold">Specializacija:</strong> Sertifikuota
+          ISST Schroth specialistė
         </p>
       </div>
 
@@ -115,14 +117,14 @@
           Žygimantas Skinderis
         </h2>
         <p class="text-gray-700 mb-1">
-          <strong class="font-medium">Miestas:</strong> Vilnius
+          <strong class="font-semibold">Miestas:</strong> Vilnius
         </p>
         <p class="text-gray-700 mb-1">
-          <strong class="font-medium">Specializacija:</strong> Sertifikuotas
+          <strong class="font-semibold">Specializacija:</strong> Sertifikuotas
           ISST Schroth specialistas
         </p>
         <p class="text-gray-700">
-          <strong class="font-medium">Papildomos metodikos:</strong> DNS
+          <strong class="font-semibold">Papildomos metodikos:</strong> DNS
           Pediatric, DNS Scoliosis, Maitland
         </p>
       </div>

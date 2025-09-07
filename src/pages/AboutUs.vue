@@ -1,6 +1,8 @@
 <template>
   <LayoutPage>
-    <h1 class="text-3xl font-semibold text-sky-600 mx-6">Apie mus</h1>
+    <h1 class="text-3xl font-semibold text-sky-600 mx-6 text-center">
+      Apie mus
+    </h1>
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
       <h2 class="text-2xl font-semibold text-sky-900 mb-4">

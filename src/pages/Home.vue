@@ -4,7 +4,9 @@
   <LayoutPage class="px-6">
     <UspList />
 
-    <section class="pb-10 border-b sm:p-6 sm:rounded-lg sm:shadow-sm w-full">
+    <section
+      class="pb-10 border-b sm:p-6 sm:rounded-lg sm:shadow-sm w-full flex flex-col"
+    >
       <h2 class="text-3xl font-semibold text-sky-900 mb-4 text-center">
         Apie skoliozę
       </h2>
@@ -23,12 +25,15 @@
       <CtaLink
         route="diagnostics"
         variant="big"
+        class="self-center"
       >
         Skoliozės diagnostika
       </CtaLink>
     </section>
 
-    <section class="pb-10 border-b sm:p-6 sm:rounded-lg sm:shadow-sm w-full">
+    <section
+      class="pb-10 border-b sm:p-6 sm:rounded-lg sm:shadow-sm w-full flex flex-col"
+    >
       <h2 class="text-3xl font-semibold text-sky-900 mb-6 text-center">
         Kas yra Schroth metodas?
       </h2>
@@ -73,6 +78,7 @@
             asimetriniai pratimai, derinami su korekciniu kvėpavimu, kurie yra
             pritaikomi specifinėms stuburo išgaubtoms ir įdubusioms sritims.
           </p>
+
           <p class="text-sky-900 leading-relaxed">
             Šios metodikos tikslas – išmokyti pacientą teisingų korekcinių
             pratimų ir padėčių. Gydymas remiasi blokų principu, apimančiu pečių
@@ -84,6 +90,7 @@
       <CtaLink
         route="treatment"
         variant="big"
+        class="self-center"
       >
         Gydymas Schroth metodu
       </CtaLink>

@@ -1,6 +1,6 @@
 <template>
   <LayoutPage>
-    <h1 class="text-3xl font-semibold text-sky-600 mx-6">
+    <h1 class="text-3xl font-semibold text-sky-600 mx-6 text-center">
       Skoliozės gydymo kursai Lietuvoje
     </h1>
 
