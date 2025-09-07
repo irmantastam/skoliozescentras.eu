@@ -17,13 +17,25 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">Adams Testas</h2>
-      <p class="text-sky-900 leading-relaxed mb-4">
-        Vienas iš pagrindinių, paprastų ir lengvai atliekamų būdų įtarti
-        skoliozę – tai Adams testas, dar vadinamas pasilenkimo į priekį testu.
-        Šį testą gali atlikti tiek sveikatos priežiūros specialistas, tiek tėvai
-        ar mokytojai, stebintys vaikų laikyseną.
-      </p>
+      <div class="flex flex-col md:flex-row gap-6 mb-4">
+        <div>
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">Adams Testas</h2>
+
+          <p class="text-sky-900 leading-relaxed">
+            Vienas iš pagrindinių, paprastų ir lengvai atliekamų būdų įtarti
+            skoliozę – tai Adams testas, dar vadinamas pasilenkimo į priekį
+            testu. Šį testą gali atlikti tiek sveikatos priežiūros specialistas,
+            tiek tėvai ar mokytojai, stebintys vaikų laikyseną.
+          </p>
+        </div>
+
+        <img
+          src="/images/diagnostics/ADAMS testas.png"
+          title="ADAMS testas INNOVAMED"
+          alt="ADAMS testas INNOVAMED"
+          class="md:max-h-[240px]"
+        />
+      </div>
 
       <div class="grid md:grid-cols-2 gap-6 mb-4">
         <div>
@@ -96,14 +108,27 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">Rentgeno Tyrimas</h2>
-      <p class="text-sky-900 leading-relaxed mb-4">
-        Rentgeno tyrimas – tai pagrindinis diagnostinis metodas, leidžiantis
-        išsamiai įvertinti stuburo būklę, ypač įtariant ar stebint skoliozę. Šis
-        tyrimas yra ypač svarbus vaikystėje ir paauglystėje – augimo bei
-        brendimo laikotarpiu, kai stuburas greitai vystosi ir skoliozės
-        progresavimo rizika yra didžiausia.
-      </p>
+      <div class="flex flex-col md:flex-row gap-6 mb-4">
+        <div>
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+            Rentgeno Tyrimas
+          </h2>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            Rentgeno tyrimas – tai pagrindinis diagnostinis metodas, leidžiantis
+            išsamiai įvertinti stuburo būklę, ypač įtariant ar stebint skoliozę.
+            Šis tyrimas yra ypač svarbus vaikystėje ir paauglystėje – augimo bei
+            brendimo laikotarpiu, kai stuburas greitai vystosi ir skoliozės
+            progresavimo rizika yra didžiausia.
+          </p>
+        </div>
+
+        <img
+          src="/images/diagnostics/rentgeno tyrimas.png"
+          title="Rentgeno tyrimas INNOVAMED"
+          alt="Rentgeno tyrimas INNOVAMED"
+          class="md:max-h-[240px]"
+        />
+      </div>
 
       <h3 class="text-xl font-medium text-sky-700 mb-2">
         Kodėl svarbu atlikti rentgeno tyrimą augančiam vaikui?
@@ -184,17 +209,28 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-        SPINE 3D – pažangus stuburo ir laikysenos tyrimas be radiacijos
-      </h2>
-      <p class="text-sky-900 leading-relaxed mb-4">
-        SPINE 3D – tai naujos kartos medicininė diagnostikos sistema, skirta
-        išsamiai įvertinti stuburo padėtį, laikyseną ir kūno simetriją be jokios
-        radiacinės apšvitos. Tai visiškai bekontaktė ir neskausminga procedūra,
-        kuri leidžia saugiai tirti tiek vaikus, tiek suaugusiuosius, net ir
-        pakartotinai, nes nereikia naudoti rentgeno ar kitų jonizuojančių
-        spindulių šaltinių.
-      </p>
+      <div class="flex flex-col md:flex-row gap-6 mb-4">
+        <div>
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+            SPINE 3D – pažangus stuburo ir laikysenos tyrimas be radiacijos
+          </h2>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            SPINE 3D – tai naujos kartos medicininė diagnostikos sistema, skirta
+            išsamiai įvertinti stuburo padėtį, laikyseną ir kūno simetriją be
+            jokios radiacinės apšvitos. Tai visiškai bekontaktė ir neskausminga
+            procedūra, kuri leidžia saugiai tirti tiek vaikus, tiek
+            suaugusiuosius, net ir pakartotinai, nes nereikia naudoti rentgeno
+            ar kitų jonizuojančių spindulių šaltinių.
+          </p>
+        </div>
+
+        <img
+          src="/images/diagnostics/spine3d.png"
+          title="SPINE 3D INNOVAMED"
+          alt="SPINE 3D INNOVAMED"
+          class="md:max-h-[240px]"
+        />
+      </div>
 
       <h3 class="text-xl font-medium text-sky-700 mb-2">
         Kaip veikia SPINE 3D tyrimas?
