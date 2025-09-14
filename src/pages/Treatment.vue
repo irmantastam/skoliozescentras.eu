@@ -5,24 +5,44 @@
     </h1>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-        Kas yra Schroth metodas?
-      </h2>
+      <div class="flex flex-col md:flex-row gap-6">
+        <div class="md:w-2/3">
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+            Kas yra Schroth metodas?
+          </h2>
 
-      <p class="text-sky-900 leading-relaxed mb-4">
-        Schroth metodas yra nechirurginis, veiksmingas skoliozės gydymo būdas,
-        kurį 1927 m. Vokietijoje sukūrė kineziterapeutė Katharina Schroth.
-        Metodo esminis principas – specialūs asimetriniai pratimai, derinami su
-        korekciniu kvėpavimu, kurie yra individualiai pritaikomi specifinėms
-        stuburo išgaubtoms ir įdubusioms zonoms.
-      </p>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            Schroth metodas yra nechirurginis, veiksmingas skoliozės gydymo
+            būdas, kurį 1927 m. Vokietijoje sukūrė kineziterapeutė Katharina
+            Schroth. Metodo esminis principas – specialūs asimetriniai pratimai,
+            derinami su korekciniu kvėpavimu, kurie yra individualiai pritaikomi
+            specifinėms stuburo išgaubtoms ir įdubusioms zonoms.
+          </p>
 
-      <p class="text-sky-900 leading-relaxed">
-        Pagrindinis šios terapijos tikslas – išmokyti pacientą atlikti
-        korekcinius pratimus ir palaikyti teisingą kūno padėtį kasdien. Gydymas
-        remiasi blokų koncepcija, apimančia pečių juostos, krūtininės dalies,
-        juosmens bei dubens-klubų sritis.
-      </p>
+          <p class="text-sky-900 leading-relaxed">
+            Pagrindinis šios terapijos tikslas – išmokyti pacientą atlikti
+            korekcinius pratimus ir palaikyti teisingą kūno padėtį kasdien.
+            Gydymas remiasi blokų koncepcija, apimančia pečių juostos,
+            krūtininės dalies, juosmens bei dubens-klubų sritis.
+          </p>
+        </div>
+
+        <div class="flex gap-6 md:w-1/3">
+          <img
+            src="/images/schroth/Skoliozės gydymas Schroth 1.jpg"
+            title="Skoliozės gydymas Schroth INNOVAMED"
+            alt="Skoliozės gydymas Schroth INNOVAMED"
+            class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
+          />
+
+          <img
+            src="/images/schroth/Skoliozės gydymas Schroth 2.jpg"
+            title="Skoliozės gydymas Schroth INNOVAMED"
+            alt="Skoliozės gydymas Schroth INNOVAMED"
+            class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
+          />
+        </div>
+      </div>
     </section>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
@@ -30,49 +50,90 @@
         Kaip vyksta skoliozės gydymas naudojant Schroth metodą?
       </h2>
 
-      <p class="text-sky-900 leading-relaxed mb-4">
-        Schroth pratimai yra pritaikomi kiekvienam pacientui atskirai,
-        atsižvelgiant į jo unikalų stuburo išlinkimą ir rotaciją. Terapeutas
-        instruktuoja, kaip įtempti tam tikrus raumenis ir kvėpuoti specifiniu
-        būdu. Pratimai gali būti atliekami stovint, sėdint ar gulint, naudojant
-        pagalbines priemones, tokias kaip terapiniai kamuoliai ar lazdos.
-      </p>
+      <div class="flex flex-col md:flex-row gap-6">
+        <div class="flex gap-6 md:w-1/3">
+          <img
+            src="/images/schroth/Skoliozės gydymas Schroth 3.jpg"
+            title="Skoliozės gydymas Schroth INNOVAMED"
+            alt="Skoliozės gydymas Schroth INNOVAMED"
+            class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
+          />
 
-      <p class="text-sky-900 leading-relaxed">
-        Norint pasiekti geriausių rezultatų, pratimus rekomenduojama atlikti
-        bent 5 kartus per savaitę po 30 minučių ar ilgiau.
-      </p>
+          <img
+            src="/images/schroth/Skoliozės gydymas Schroth 4.jpg"
+            title="Skoliozės gydymas Schroth INNOVAMED"
+            alt="Skoliozės gydymas Schroth INNOVAMED"
+            class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
+          />
+        </div>
+
+        <div class="md:w-2/3">
+          <p class="text-sky-900 leading-relaxed mb-4">
+            Schroth pratimai yra pritaikomi kiekvienam pacientui atskirai,
+            atsižvelgiant į jo unikalų stuburo išlinkimą ir rotaciją. Terapeutas
+            instruktuoja, kaip įtempti tam tikrus raumenis ir kvėpuoti
+            specifiniu būdu. Pratimai gali būti atliekami stovint, sėdint ar
+            gulint, naudojant pagalbines priemones, tokias kaip terapiniai
+            kamuoliai ar lazdos.
+          </p>
+
+          <p class="text-sky-900 leading-relaxed">
+            Norint pasiekti geriausių rezultatų, pratimus rekomenduojama atlikti
+            bent 5 kartus per savaitę po 30 minučių ar ilgiau.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-        Pagrindiniai Schroth pratimų elementai
-      </h2>
+      <div class="flex flex-col md:flex-row gap-6">
+        <div class="md:w-2/3">
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+            Pagrindiniai Schroth pratimų elementai
+          </h2>
 
-      <p class="text-sky-900 leading-relaxed mb-2">
-        Nors pratimų specifika skiriasi kiekvienam asmeniui, jie visi apima tris
-        svarbiausius komponentus:
-      </p>
+          <p class="text-sky-900 leading-relaxed mb-2">
+            Nors pratimų specifika skiriasi kiekvienam asmeniui, jie visi apima
+            tris svarbiausius komponentus:
+          </p>
 
-      <ul class="list-disc list-inside text-gray-700 space-y-2">
-        <li>
-          <strong>Raumenų korekcija:</strong> Dėl stuburo išlinkimo vienos pusės
-          raumenys būna per daug įtempti ir silpni, o kitoje pusėje – suglebę.
-          Asimetriniai pratimai padeda atkurti raumenų pusiausvyrą.
-        </li>
+          <ul class="list-disc list-inside text-gray-700 space-y-2">
+            <li>
+              <strong>Raumenų korekcija:</strong> Dėl stuburo išlinkimo vienos
+              pusės raumenys būna per daug įtempti ir silpni, o kitoje pusėje –
+              suglebę. Asimetriniai pratimai padeda atkurti raumenų pusiausvyrą.
+            </li>
 
-        <li>
-          <strong>Korekcinis kvėpavimas:</strong> Pratimų metu pacientas įkvepia
-          į įgaubtas sritis, taip mobilizuodamas audinius ir gerindamas oro
-          cirkuliaciją.
-        </li>
+            <li>
+              <strong>Korekcinis kvėpavimas:</strong> Pratimų metu pacientas
+              įkvepia į įgaubtas sritis, taip mobilizuodamas audinius ir
+              gerindamas oro cirkuliaciją.
+            </li>
 
-        <li>
-          <strong>Laikysenos suvokimas:</strong> Tai pagrindinis žingsnis link
-          korekcijos. Gebėjimas tinkamai jausti ir kontroliuoti savo stuburo
-          padėtį yra itin svarbus kasdienėje veikloje.
-        </li>
-      </ul>
+            <li>
+              <strong>Laikysenos suvokimas:</strong> Tai pagrindinis žingsnis
+              link korekcijos. Gebėjimas tinkamai jausti ir kontroliuoti savo
+              stuburo padėtį yra itin svarbus kasdienėje veikloje.
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex gap-6 md:w-1/3">
+          <img
+            src="/images/schroth/Skoliozės gydymas Schroth 5.jpg"
+            title="Skoliozės gydymas Schroth INNOVAMED"
+            alt="Skoliozės gydymas Schroth INNOVAMED"
+            class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
+          />
+
+          <img
+            src="/images/schroth/Skoliozės gydymas Schroth 6.jpg"
+            title="Skoliozės gydymas Schroth INNOVAMED"
+            alt="Skoliozės gydymas Schroth INNOVAMED"
+            class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
+          />
+        </div>
+      </div>
     </section>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
@@ -80,12 +141,32 @@
         Kam skirta Schroth terapija?
       </h2>
 
-      <p class="text-sky-900 leading-relaxed">
-        Gydymą idealiu atveju reikėtų pradėti prieš brendimą (dažniausiai 10
-        metų mergaitėms ir 12 metų berniukams), kai stuburo iškrypimas ir
-        rotacija dar nėra dideli. Tačiau Schroth pratimai gali būti naudingi ir
-        suaugusiems, nepaisant skoliozės laipsnio.
-      </p>
+      <div class="flex flex-col md:flex-row gap-6">
+        <div class="flex gap-6 md:w-1/3">
+          <img
+            src="/images/schroth/Skoliozės gydymas Schroth 7.jpg"
+            title="Skoliozės gydymas Schroth INNOVAMED"
+            alt="Skoliozės gydymas Schroth INNOVAMED"
+            class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
+          />
+
+          <img
+            src="/images/schroth/Skoliozės gydymas Schroth 8.jpg"
+            title="Skoliozės gydymas Schroth INNOVAMED"
+            alt="Skoliozės gydymas Schroth INNOVAMED"
+            class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
+          />
+        </div>
+
+        <div class="md:w-2/3">
+          <p class="text-sky-900 leading-relaxed">
+            Gydymą idealiu atveju reikėtų pradėti prieš brendimą (dažniausiai 10
+            metų mergaitėms ir 12 metų berniukams), kai stuburo iškrypimas ir
+            rotacija dar nėra dideli. Tačiau Schroth pratimai gali būti naudingi
+            ir suaugusiems, nepaisant skoliozės laipsnio.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm mb-6 mt-8">
