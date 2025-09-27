@@ -5,13 +5,34 @@
     </h1>
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <p class="text-sky-900 leading-relaxed">
-        Tvari skoliozės prevencija ir gydymas prasideda nuo žinojimo. Mūsų
-        darbas – ne tik gydyti, bet ir šviesti. INNOVAMED komanda aktyviai
-        prisideda prie visuomenės sveikatos raštingumo didinimo. Edukuojame
-        vaikus, jų tėvus ir kitus kineziterapeutus, kad žinios apie laikyseną,
-        fizinį aktyvumą ir skoliozės prevenciją taptų kasdienybės dalimi.
-      </p>
+      <div class="flex flex-col md:flex-row gap-6">
+        <div class="md:w-2/3">
+          <p class="text-sky-900 leading-relaxed">
+            Tvari skoliozės prevencija ir gydymas prasideda nuo žinojimo. Mūsų
+            darbas – ne tik gydyti, bet ir šviesti. INNOVAMED komanda aktyviai
+            prisideda prie visuomenės sveikatos raštingumo didinimo. Edukuojame
+            vaikus, jų tėvus ir kitus kineziterapeutus, kad žinios apie
+            laikyseną, fizinį aktyvumą ir skoliozės prevenciją taptų kasdienybės
+            dalimi.
+          </p>
+        </div>
+
+        <div class="flex gap-6 md:w-1/3">
+          <img
+            src="/images/education/school/Skoliozės edukacija mokykloms 1.webp"
+            title="Skoliozės edukacija mokykloms INNOVAMED"
+            alt="Skoliozės edukacija mokykloms INNOVAMED"
+            class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
+          />
+
+          <img
+            src="/images/education/school/Skoliozės edukacija mokykloms 2.webp"
+            title="Skoliozės edukacija mokykloms INNOVAMED"
+            alt="Skoliozės edukacija mokykloms INNOVAMED"
+            class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
+          />
+        </div>
+      </div>
     </div>
 
     <section

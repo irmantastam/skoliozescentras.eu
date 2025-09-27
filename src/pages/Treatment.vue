@@ -29,14 +29,14 @@
 
         <div class="flex gap-6 md:w-1/3">
           <img
-            src="/images/schroth/Skoliozės gydymas Schroth 1.jpg"
+            src="/images/treatment/Skoliozės gydymas Schroth 1.jpg"
             title="Skoliozės gydymas Schroth INNOVAMED"
             alt="Skoliozės gydymas Schroth INNOVAMED"
             class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
           />
 
           <img
-            src="/images/schroth/Skoliozės gydymas Schroth 2.jpg"
+            src="/images/treatment/Skoliozės gydymas Schroth 2.jpg"
             title="Skoliozės gydymas Schroth INNOVAMED"
             alt="Skoliozės gydymas Schroth INNOVAMED"
             class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
@@ -53,14 +53,14 @@
       <div class="flex flex-col md:flex-row gap-6">
         <div class="flex gap-6 md:w-1/3">
           <img
-            src="/images/schroth/Skoliozės gydymas Schroth 3.jpg"
+            src="/images/treatment/Skoliozės gydymas Schroth 3.jpg"
             title="Skoliozės gydymas Schroth INNOVAMED"
             alt="Skoliozės gydymas Schroth INNOVAMED"
             class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
           />
 
           <img
-            src="/images/schroth/Skoliozės gydymas Schroth 4.jpg"
+            src="/images/treatment/Skoliozės gydymas Schroth 4.jpg"
             title="Skoliozės gydymas Schroth INNOVAMED"
             alt="Skoliozės gydymas Schroth INNOVAMED"
             class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
@@ -120,14 +120,14 @@
 
         <div class="flex gap-6 md:w-1/3">
           <img
-            src="/images/schroth/Skoliozės gydymas Schroth 5.jpg"
+            src="/images/treatment/Skoliozės gydymas Schroth 5.jpg"
             title="Skoliozės gydymas Schroth INNOVAMED"
             alt="Skoliozės gydymas Schroth INNOVAMED"
             class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
           />
 
           <img
-            src="/images/schroth/Skoliozės gydymas Schroth 6.jpg"
+            src="/images/treatment/Skoliozės gydymas Schroth 6.jpg"
             title="Skoliozės gydymas Schroth INNOVAMED"
             alt="Skoliozės gydymas Schroth INNOVAMED"
             class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
@@ -144,14 +144,14 @@
       <div class="flex flex-col md:flex-row gap-6">
         <div class="flex gap-6 md:w-1/3">
           <img
-            src="/images/schroth/Skoliozės gydymas Schroth 7.jpg"
+            src="/images/treatment/Skoliozės gydymas Schroth 7.jpg"
             title="Skoliozės gydymas Schroth INNOVAMED"
             alt="Skoliozės gydymas Schroth INNOVAMED"
             class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
           />
 
           <img
-            src="/images/schroth/Skoliozės gydymas Schroth 8.jpg"
+            src="/images/treatment/Skoliozės gydymas Schroth 8.jpg"
             title="Skoliozės gydymas Schroth INNOVAMED"
             alt="Skoliozės gydymas Schroth INNOVAMED"
             class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"

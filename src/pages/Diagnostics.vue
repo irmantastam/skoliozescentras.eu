@@ -212,10 +212,10 @@
       <div class="flex flex-col md:flex-row gap-6 mb-4">
         <div>
           <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-            SPINE 3D – pažangus stuburo ir laikysenos tyrimas be radiacijos
+            SPINE 3D - pažangus stuburo ir laikysenos tyrimas be radiacijos
           </h2>
           <p class="text-sky-900 leading-relaxed mb-4">
-            SPINE 3D – tai naujos kartos medicininė diagnostikos sistema, skirta
+            SPINE 3D - tai naujos kartos medicininė diagnostikos sistema, skirta
             išsamiai įvertinti stuburo padėtį, laikyseną ir kūno simetriją be
             jokios radiacinės apšvitos. Tai visiškai bekontaktė ir neskausminga
             procedūra, kuri leidžia saugiai tirti tiek vaikus, tiek
@@ -319,37 +319,50 @@
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-        DIERS Formetric 4D
-      </h2>
-      <p class="text-sky-900 leading-relaxed mb-4">
-        DIERS formetric 4D – tai modernus, visiškai saugus laikysenos vertinimo
-        metodas, pasižymintis tuo, kad atliekamas be jokios jonizuojančiosios
-        spinduliuotės. Dėl šios priežasties jis ypač tinkamas tiek vaikams, tiek
-        suaugusiems pacientams. Procedūra vyksta greitai, tiksliai, nesukeldama
-        diskomforto – tyrimo metu nereikia fizinio kontakto su prietaisu ar
-        specialių žymeklių tvirtinimo prie kūno.
-      </p>
-      <p class="text-sky-900 leading-relaxed mb-4">
-        Tyrimas atliekamas naudojant pažangią šviesos-optinio skenavimo
-        technologiją, pagrįstą video rasterizacijos stereografija (VRS). Ši
-        technologija leidžia automatiškai sukurti tikslią trimačio nugaros
-        paviršiaus rekonstrukciją. Sistema veikia projektuodama šviesos linijas
-        ant paciento nugaros, fiksuoja jų netolygumus, o speciali programinė
-        įranga analizuoja šiuos duomenis ir suformuoja trimatį stuburo vaizdą.
-      </p>
-      <p class="text-sky-900 leading-relaxed mb-4">
-        Gautos informacijos pagrindu galima tiksliai įvertinti laikysenos
-        simetriją, stuburo iškrypimus, rotacinius pakitimus bei kitus svarbius
-        biomechaninius parametrus. Tai leidžia atlikti objektyvią laikysenos
-        analizę be jokios rizikos sveikatai.
-      </p>
-      <p class="text-sky-900 leading-relaxed">
-        DIERS 4D Motion Lab sistema pritaikyta įvairaus sudėjimo pacientams –
-        net iki 220 cm ūgio. Dėl didelės analizės zonos sistemos nereikia
-        reguliuoti rankiniu būdu, todėl tyrimo procesas tampa greitesnis ir
-        patogesnis tiek pacientui, tiek jį atliekančiam specialistui.
-      </p>
+      <div class="flex flex-col md:flex-row gap-6 mb-4">
+        <div>
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+            DIERS Formetric 4D
+          </h2>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            DIERS formetric 4D – tai modernus, visiškai saugus laikysenos
+            vertinimo metodas, pasižymintis tuo, kad atliekamas be jokios
+            jonizuojančiosios spinduliuotės. Dėl šios priežasties jis ypač
+            tinkamas tiek vaikams, tiek suaugusiems pacientams. Procedūra vyksta
+            greitai, tiksliai, nesukeldama diskomforto – tyrimo metu nereikia
+            fizinio kontakto su prietaisu ar specialių žymeklių tvirtinimo prie
+            kūno.
+          </p>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            Tyrimas atliekamas naudojant pažangią šviesos-optinio skenavimo
+            technologiją, pagrįstą video rasterizacijos stereografija (VRS). Ši
+            technologija leidžia automatiškai sukurti tikslią trimačio nugaros
+            paviršiaus rekonstrukciją. Sistema veikia projektuodama šviesos
+            linijas ant paciento nugaros, fiksuoja jų netolygumus, o speciali
+            programinė įranga analizuoja šiuos duomenis ir suformuoja trimatį
+            stuburo vaizdą.
+          </p>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            Gautos informacijos pagrindu galima tiksliai įvertinti laikysenos
+            simetriją, stuburo iškrypimus, rotacinius pakitimus bei kitus
+            svarbius biomechaninius parametrus. Tai leidžia atlikti objektyvią
+            laikysenos analizę be jokios rizikos sveikatai.
+          </p>
+          <p class="text-sky-900 leading-relaxed">
+            DIERS 4D Motion Lab sistema pritaikyta įvairaus sudėjimo pacientams
+            – net iki 220 cm ūgio. Dėl didelės analizės zonos sistemos nereikia
+            reguliuoti rankiniu būdu, todėl tyrimo procesas tampa greitesnis ir
+            patogesnis tiek pacientui, tiek jį atliekančiam specialistui.
+          </p>
+        </div>
+
+        <img
+          src="/images/diagnostics/DIERS.webp"
+          title="SPINE 3D INNOVAMED"
+          alt="SPINE 3D INNOVAMED"
+          class="md:max-h-[340px]"
+        />
+      </div>
     </section>
 
     <section

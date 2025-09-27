@@ -5,68 +5,106 @@
     </h1>
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-        Schroth skoliozės gydymo kursai
-      </h2>
+      <div class="flex flex-col md:flex-row gap-6">
+        <div>
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+            Schroth skoliozės gydymo kursai
+          </h2>
 
-      <p class="text-sky-900 leading-relaxed mb-4">
-        ISST įgaliotas Schroth kursų kineziterapeutams ir gydytojams
-        organizatorius yra INNOVAMED.
-      </p>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            ISST įgaliotas Schroth kursų kineziterapeutams ir gydytojams
+            organizatorius yra INNOVAMED.
+          </p>
 
-      <p class="text-sky-900 leading-relaxed">
-        Kursai skirti kineziterapeutams, siekiantiems įgyti pagrindines žinias
-        apie idiopatinės skoliozės ir kifozės konservatyvų gydymą. Sužinosite,
-        kaip vertinti stuburo asimetriją, suvokti biomechaniką ir taikyti
-        veiksmingus terapinius sprendimus. Metodo tikslas – padėti išvengti
-        operacijos, stabdyti progresavimą, sumažinti asimetriškumą ir pagerinti
-        paciento gyvenimo kokybę. Jūsų laukia daug praktikos, klinikinio mąstymo
-        ugdymas ir į pacientą orientuotas požiūris.
-      </p>
+          <p class="text-sky-900 leading-relaxed">
+            Kursai skirti kineziterapeutams, siekiantiems įgyti pagrindines
+            žinias apie idiopatinės skoliozės ir kifozės konservatyvų gydymą.
+            Sužinosite, kaip vertinti stuburo asimetriją, suvokti biomechaniką
+            ir taikyti veiksmingus terapinius sprendimus. Metodo tikslas –
+            padėti išvengti operacijos, stabdyti progresavimą, sumažinti
+            asimetriškumą ir pagerinti paciento gyvenimo kokybę. Jūsų laukia
+            daug praktikos, klinikinio mąstymo ugdymas ir į pacientą orientuotas
+            požiūris.
+          </p>
+        </div>
+
+        <img
+          src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 1.webp"
+          title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+          alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+          class="md:max-h-[340px] object-cover rounded-md shadow-lg"
+        />
+      </div>
     </div>
 
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-        ISST Schroth bazinio lygio kursas (Part I + Part II)
-      </h2>
+      <div class="flex flex-col md:flex-row gap-6">
+        <img
+          src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 3.webp"
+          title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+          alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+          class="md:max-h-[340px] object-cover rounded-md shadow-lg"
+        />
 
-      <ul class="list-disc list-inside text-gray-700 space-y-2">
-        <li>Kursas susideda iš 2 dalių po 5 dienas.</li>
-        <li>Bendras trukmės laikotarpis 10 d., vyksta anglų kalba.</li>
-        <li>Skirta tik kineziterapeutams, dalyvių skaičius ribotas (12–14).</li>
-        <li>
-          Egzaminai: testas po I dalies, praktinis egzaminas po II dalies.
-        </li>
-        <li>
-          Kaina: 1500 € – įeina medžiagos, priemonės, užkandžiai, pažymėjimas.
-        </li>
-        <li>Dalyvavimas abiejose dalyse privalomas.</li>
-      </ul>
+        <div>
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+            ISST Schroth bazinio lygio kursas (Part I + Part II)
+          </h2>
+
+          <ul class="list-disc list-inside text-gray-700 space-y-2">
+            <li>Kursas susideda iš 2 dalių po 5 dienas.</li>
+            <li>Bendras trukmės laikotarpis 10 d., vyksta anglų kalba.</li>
+            <li>
+              Skirta tik kineziterapeutams, dalyvių skaičius ribotas (12–14).
+            </li>
+            <li>
+              Egzaminai: testas po I dalies, praktinis egzaminas po II dalies.
+            </li>
+            <li>
+              Kaina: 1500 € – įeina medžiagos, priemonės, užkandžiai,
+              pažymėjimas.
+            </li>
+            <li>Dalyvavimas abiejose dalyse privalomas.</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-        ISST Schroth Refresher kursas (žinių atnaujinimui)
-      </h2>
-      <ul class="list-disc list-inside text-gray-700 space-y-2">
-        <li>
-          Skirta jau baigusiems bazinį kursą ir norintiems prasitęsti Schroth
-          diplomą.
-        </li>
-        <li>
-          Kaina: 300 € – įeina medžiagos, priemonės, užkandžiai, pažymėjimas.
-        </li>
-        <li>Trukmė: dvi dienos.</li>
-      </ul>
-      <p class="text-sky-900 leading-relaxed mt-4">
-        <strong>Lektorė:</strong> Zane Rožkalne – ISST regioninė instruktorė
-        Baltijos regionui, su kineziterapijos patirtimi nuo 2013 m., o nuo 2023m
-        su daktaro laipsniu.
-      </p>
+      <div class="flex flex-col md:flex-row gap-6">
+        <div>
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+            ISST Schroth Refresher kursas (žinių atnaujinimui)
+          </h2>
+          <ul class="list-disc list-inside text-gray-700 space-y-2">
+            <li>
+              Skirta jau baigusiems bazinį kursą ir norintiems prasitęsti
+              Schroth diplomą.
+            </li>
+            <li>
+              Kaina: 300 € – įeina medžiagos, priemonės, užkandžiai,
+              pažymėjimas.
+            </li>
+            <li>Trukmė: dvi dienos.</li>
+          </ul>
+          <p class="text-sky-900 leading-relaxed mt-4">
+            <strong>Lektorė:</strong> Zane Rožkalne – ISST regioninė instruktorė
+            Baltijos regionui, su kineziterapijos patirtimi nuo 2013 m., o nuo
+            2023m su daktaro laipsniu.
+          </p>
+        </div>
+
+        <img
+          src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 2.webp"
+          title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+          alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+          class="md:max-h-[340px] object-cover rounded-md shadow-lg"
+        />
+      </div>
     </section>
 
     <section

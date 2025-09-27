@@ -5,27 +5,48 @@
     </h1>
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-        Skoliozės centras
-      </h2>
+      <div class="flex flex-col md:flex-row gap-6">
+        <div class="md:w-2/3">
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+            Skoliozės centras
+          </h2>
 
-      <p class="text-sky-900 leading-relaxed mb-4">
-        Skoliozės centras – tai specializuota INNOVAMED klinikų struktūra
-        Vilniuje ir Kaune, kurioje dirba ISST (International Schroth
-        3-dimensional Scoliosis Therapy) sertifikuoti specialistai. Esame
-        oficialūs šio metodo atstovai Lietuvoje, todėl pacientams galime
-        pasiūlyti tarptautiniu mastu pripažintą, moksliniais tyrimais pagrįstą,
-        aukščiausio lygio skoliozės gydymo sistemą.
-      </p>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            Skoliozės centras – tai specializuota INNOVAMED klinikų struktūra
+            Vilniuje ir Kaune, kurioje dirba ISST (International Schroth
+            3-dimensional Scoliosis Therapy) sertifikuoti specialistai. Esame
+            oficialūs šio metodo atstovai Lietuvoje, todėl pacientams galime
+            pasiūlyti tarptautiniu mastu pripažintą, moksliniais tyrimais
+            pagrįstą, aukščiausio lygio skoliozės gydymo sistemą.
+          </p>
 
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">Mūsų misija</h2>
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">Mūsų misija</h2>
 
-      <p class="text-sky-900 leading-relaxed mb-4">
-        Padėti vaikams, paaugliams ir suaugusiems, turintiems stuburo
-        iškrypimus, pasitelkiant moderniausią diagnostiką ir pasaulinio lygio
-        Schroth metodą. Siekiame ne tik ištiesinti stuburą, bet ir pagerinti
-        laikyseną, estetinį vaizdą, gyvenimo kokybę ir pasitikėjimą savimi.
-      </p>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            Padėti vaikams, paaugliams ir suaugusiems, turintiems stuburo
+            iškrypimus, pasitelkiant moderniausią diagnostiką ir pasaulinio
+            lygio Schroth metodą. Siekiame ne tik ištiesinti stuburą, bet ir
+            pagerinti laikyseną, estetinį vaizdą, gyvenimo kokybę ir
+            pasitikėjimą savimi.
+          </p>
+        </div>
+
+        <div class="flex gap-6 md:w-1/3">
+          <img
+            src="/images/aboutUs/Apie mus 1.webp"
+            title="Apie skoliozės centrą INNOVAMED"
+            alt="Apie skoliozės centrą INNOVAMED"
+            class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
+          />
+
+          <img
+            src="/images/aboutUs/Apie mus 2.webp"
+            title="Apie skoliozės centrą INNOVAMED"
+            alt="Apie skoliozės centrą INNOVAMED"
+            class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
+          />
+        </div>
+      </div>
     </div>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">

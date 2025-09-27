@@ -5,62 +5,89 @@
     </h1>
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">Apie stovyklą</h2>
+      <div class="flex flex-col md:flex-row gap-6">
+        <div>
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+            Apie stovyklą
+          </h2>
 
-      <p class="text-sky-900 leading-relaxed mb-4">
-        Skoliozės stovykla – tai intensyvus grupinis skoliozės gydymas, taikant
-        Katharinos Schroth metodikos principus. Ši stovykla skirta pacientams,
-        ne tik su idiopatine skolioze, bet ir su padidėjusia kifoze
-        (hiperkifoze) ar esant Scheuermanno ligai.
-      </p>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            Skoliozės stovykla – tai intensyvus grupinis skoliozės gydymas,
+            taikant Katharinos Schroth metodikos principus. Ši stovykla skirta
+            pacientams, ne tik su idiopatine skolioze, bet ir su padidėjusia
+            kifoze (hiperkifoze) ar esant Scheuermanno ligai.
+          </p>
 
-      <h3 class="text-xl font-medium text-sky-700 mb-2">
-        Skoliozės stovyklos uždaviniai
-      </h3>
+          <h3 class="text-xl font-medium text-sky-700 mb-2">
+            Skoliozės stovyklos uždaviniai
+          </h3>
 
-      <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
-        <li>Supažindinti pacientus su jų konkretaus skoliozės tipo.</li>
-        <li>
-          Išmokyti kasdienių padėčių, pritaikytų paciento skoliozės tipą,
-          siekiant aktyvios korekcijos visą dieną.
-        </li>
-        <li>Išmokyti namų pratimų programos.</li>
-        <li>
-          Stabilizuoti koreguotą laikyseną, pabrėžiant nuolatinį sąmoningos
-          laikysenos ir kasdienių padėčių laikymąsi.
-        </li>
-      </ul>
+          <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+            <li>Supažindinti pacientus su jų konkretaus skoliozės tipo.</li>
+            <li>
+              Išmokyti kasdienių padėčių, pritaikytų paciento skoliozės tipą,
+              siekiant aktyvios korekcijos visą dieną.
+            </li>
+            <li>Išmokyti namų pratimų programos.</li>
+            <li>
+              Stabilizuoti koreguotą laikyseną, pabrėžiant nuolatinį sąmoningos
+              laikysenos ir kasdienių padėčių laikymąsi.
+            </li>
+          </ul>
+        </div>
+
+        <img
+          src="/images/education/camp/Schroth skoliozės stovykla 2.webp"
+          title="Schroth skoliozės stovykla INNOVAMED"
+          alt="Schroth skoliozės stovykla INNOVAMED"
+          class="md:max-h-[340px] object-cover rounded-md shadow-lg"
+        />
+      </div>
     </div>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-        Stovyklos struktūra
-      </h2>
+      <div class="flex flex-col md:flex-row gap-6">
+        <img
+          src="/images/education/camp/Schroth skoliozės stovykla 1.webp"
+          title="Schroth skoliozės stovykla INNOVAMED"
+          alt="Schroth skoliozės stovykla INNOVAMED"
+          class="md:max-h-[400px] object-cover rounded-md shadow-lg"
+        />
 
-      <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
-        <li>Stovykla trunka 5 dienas.</li>
-        <li>Stovykla dieninė. Nuo 9:00 iki 17:00.</li>
-        <li>
-          Kiekvieną dieną vyksta 3 valandas trunkantis gydymas, padalintas į dvi
-          1,5 val. sesijas.
-        </li>
-        <li>Tarp sesijų numatytas 1–1,5 val. pertraukos.</li>
-        <li>
-          Pirmą dieną yra įvertinama paciento laikysena ir yra individualiai
-          apmokinami pratimų, remiantis jų skoliozės tipu ir gebėjimais.
-        </li>
-        <li>
-          Stovyklos metu vyks įvairios edukacijos: dailės terapija, zoologijos
-          sodas, muziejus ir pan. Bus patikslinta artėjant stovyklos datai.
-        </li>
-        <li>Stovyklos metu vyks sveikatingumo, fizinio rengimo treniruotės.</li>
-        <li>Maitinimas į kainą įskaičiuotas (pietūs ir užkandžiai).</li>
-        <li>
-          Stovyklos pabaigoje pacientai gauna savo individualią pratimų knygelę
-          bei pažymėjimą apie sėkmingą dalyvavimą.
-        </li>
-        <li>Stovyklos vyks Vilniuje ir Kaune.</li>
-      </ul>
+        <div>
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+            Stovyklos struktūra
+          </h2>
+
+          <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+            <li>Stovykla trunka 5 dienas.</li>
+            <li>Stovykla dieninė. Nuo 9:00 iki 17:00.</li>
+            <li>
+              Kiekvieną dieną vyksta 3 valandas trunkantis gydymas, padalintas į
+              dvi 1,5 val. sesijas.
+            </li>
+            <li>Tarp sesijų numatytas 1–1,5 val. pertraukos.</li>
+            <li>
+              Pirmą dieną yra įvertinama paciento laikysena ir yra individualiai
+              apmokinami pratimų, remiantis jų skoliozės tipu ir gebėjimais.
+            </li>
+            <li>
+              Stovyklos metu vyks įvairios edukacijos: dailės terapija,
+              zoologijos sodas, muziejus ir pan. Bus patikslinta artėjant
+              stovyklos datai.
+            </li>
+            <li>
+              Stovyklos metu vyks sveikatingumo, fizinio rengimo treniruotės.
+            </li>
+            <li>Maitinimas į kainą įskaičiuotas (pietūs ir užkandžiai).</li>
+            <li>
+              Stovyklos pabaigoje pacientai gauna savo individualią pratimų
+              knygelę bei pažymėjimą apie sėkmingą dalyvavimą.
+            </li>
+            <li>Stovyklos vyks Vilniuje ir Kaune.</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">

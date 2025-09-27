@@ -5,45 +5,58 @@
     </h1>
 
     <div class="p-6 bg-white rounded-lg shadow-sm">
-      <p class="text-sky-900 leading-relaxed mb-4">
-        Giedrei Mikelionienei ir Tadui Mikelioniui ISST suteikti Schroth
-        klinikinės praktikos vadovo laipsniai. Šis statusas reiškia, kad šie
-        specialistai yra įgalioti ne tik prižiūrėti Schroth metodikos lygį
-        šalyje, bet ir aktyviai padėti kitiems Schroth terapeutams gilinti savo
-        žinias, tobulinti įgūdžius bei augti profesiškai.
-      </p>
+      <div class="flex flex-col md:flex-row gap-6">
+        <div>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            Giedrei Mikelionienei ir Tadui Mikelioniui ISST suteikti Schroth
+            klinikinės praktikos vadovo laipsniai. Šis statusas reiškia, kad šie
+            specialistai yra įgalioti ne tik prižiūrėti Schroth metodikos lygį
+            šalyje, bet ir aktyviai padėti kitiems Schroth terapeutams gilinti
+            savo žinias, tobulinti įgūdžius bei augti profesiškai.
+          </p>
 
-      <h2 class="text-xl font-medium text-sky-700 mb-2">
-        Vadovo vaidmuo apima:
-      </h2>
+          <h2 class="text-xl font-medium text-sky-700 mb-2">
+            Vadovo vaidmuo apima:
+          </h2>
 
-      <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
-        <li>
-          Asmeninę klinikinę superviziją – pagalbą sprendžiant sudėtingus
-          klinikinius atvejus, individualias konsultacijas dėl gydymo
-          strategijos.
-        </li>
+          <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+            <li>
+              Asmeninę klinikinę superviziją – pagalbą sprendžiant sudėtingus
+              klinikinius atvejus, individualias konsultacijas dėl gydymo
+              strategijos.
+            </li>
 
-        <li>Praktinių įgūdžių vertinimą ir struktūruotą grįžtamąjį ryšį.</li>
+            <li>
+              Praktinių įgūdžių vertinimą ir struktūruotą grįžtamąjį ryšį.
+            </li>
 
-        <li>
-          Mokymų organizavimą, kvalifikacijos kėlimo seminarus, teminius
-          praktikumus.
-        </li>
+            <li>
+              Mokymų organizavimą, kvalifikacijos kėlimo seminarus, teminius
+              praktikumus.
+            </li>
 
-        <li>
-          Nuolatinį palaikymą naujiems ir jau dirbantiems terapeutams – lydėjimą
-          nuo pirmųjų žingsnių iki pažengusio lygio.
-        </li>
-      </ul>
+            <li>
+              Nuolatinį palaikymą naujiems ir jau dirbantiems terapeutams –
+              lydėjimą nuo pirmųjų žingsnių iki pažengusio lygio.
+            </li>
+          </ul>
 
-      <p class="text-sky-900 leading-relaxed mb-4">
-        Schroth klinikinės praktikos vadovo statusas žymi ypatingai aukštą ISST
-        pasitikėjimą terapeuto kompetencija, profesine etika ir gebėjimu
-        dalintis žiniomis, taip pat atstovauti ISST vertybes tarptautinėje
-        bendruomenėje. Tai reikšmingas profesinis įvertinimas Schroth 3D
-        skoliozės terapijos srityje.
-      </p>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            Schroth klinikinės praktikos vadovo statusas žymi ypatingai aukštą
+            ISST pasitikėjimą terapeuto kompetencija, profesine etika ir
+            gebėjimu dalintis žiniomis, taip pat atstovauti ISST vertybes
+            tarptautinėje bendruomenėje. Tai reikšmingas profesinis įvertinimas
+            Schroth 3D skoliozės terapijos srityje.
+          </p>
+        </div>
+
+        <img
+          src="/images/education/supervision/Schroth klinikinė supervizija.webp"
+          title="Schroth klinikinė supervizija INNOVAMED"
+          alt="Schroth klinikinė supervizija INNOVAMED"
+          class="md:max-h-[500px] object-cover rounded-md shadow-lg"
+        />
+      </div>
     </div>
 
     <section

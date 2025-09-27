@@ -5,30 +5,41 @@
     </h1>
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-        Kas yra skoliozės testavimas?
-      </h2>
+      <div class="flex flex-col md:flex-row gap-6">
+        <div>
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+            Kas yra skoliozės testavimas?
+          </h2>
 
-      <p class="text-sky-900 leading-relaxed mb-4">
-        Skoliozės testavimas leidžia laiku pastebėti pakitimus ir imtis reikiamų
-        priemonių. Testas trunka vos kelias minutes ir yra visiškai
-        neskausmingas. Jį rekomenduojama atlikti visiems vaikams nuo 7 metų ir
-        paaugliams augimo šuolio metu.
-      </p>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            Skoliozės testavimas leidžia laiku pastebėti pakitimus ir imtis
+            reikiamų priemonių. Testas trunka vos kelias minutes ir yra visiškai
+            neskausmingas. Jį rekomenduojama atlikti visiems vaikams nuo 7 metų
+            ir paaugliams augimo šuolio metu.
+          </p>
 
-      <h3 class="text-xl font-medium text-sky-700 mb-2">
-        Kaip vyksta skoliozės testavimas?
-      </h3>
+          <h3 class="text-xl font-medium text-sky-700 mb-2">
+            Kaip vyksta skoliozės testavimas?
+          </h3>
 
-      <p class="text-sky-900 leading-relaxed mb-4">
-        Testavimo metu specialistas įvertina laikyseną, stuburo liniją ir pečių
-        simetriją. Naudojamas specialus skoliozės matuoklis – skoliometras,
-        kuris padeda nustatyti stuburo pasvirimo kampą. Jei pastebimi įtarimai
-        dėl skoliozės, pacientas siunčiamas išsamesniam ištyrimui. Ankstyvas
-        gydymas padeda išvengti operacijos ir ilgalaikių stuburo problemų.
-        Dažniausiai taikomos korekcinės mankštos, laikysenos gerinimo pratimai
-        ar individualūs korsetai.
-      </p>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            Testavimo metu specialistas įvertina laikyseną, stuburo liniją ir
+            pečių simetriją. Naudojamas specialus skoliozės matuoklis –
+            skoliometras, kuris padeda nustatyti stuburo pasvirimo kampą. Jei
+            pastebimi įtarimai dėl skoliozės, pacientas siunčiamas išsamesniam
+            ištyrimui. Ankstyvas gydymas padeda išvengti operacijos ir
+            ilgalaikių stuburo problemų. Dažniausiai taikomos korekcinės
+            mankštos, laikysenos gerinimo pratimai ar individualūs korsetai.
+          </p>
+        </div>
+
+        <img
+          src="/images/testing/Nemokamas skoliozės testavimas.webp"
+          title="Nemokamas skoliozės testavimas INNOVAMED"
+          alt="Nemokamas skoliozės testavimas INNOVAMED"
+          class="md:max-h-[400px] object-cover rounded-md shadow-lg"
+        />
+      </div>
     </div>
 
     <section
