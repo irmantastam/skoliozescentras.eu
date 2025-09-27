@@ -148,6 +148,17 @@ export const routes = [
     },
   },
   {
+    path: '/straipsniai/skolioze',
+    name: 'straipsniai-skolioze',
+    component: () => import('./pages/blog/Scoliosis.vue'),
+    meta: {
+      title: 'Skoliozė - simptomai ir gydymas - Skoliozės centras',
+      menuTitle: 'Skoliozė',
+      description:
+        'Skoliozė - stuburo išlinkimas į šoną, dažnai primenantis S arba C formą. Sužinokite, kaip ją atpažinti ir kokie yra skoliozės gydymo metodai.',
+    },
+  },
+  {
     path: '/:catchAll(.*)',
     name: '404',
     component: () => import('./pages/404.vue'),
