@@ -394,6 +394,61 @@
       </div>
     </section>
 
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+        Schroth terapijos kaina
+      </h2>
+
+      <div
+        class="overflow-x-auto mb-8 shadow-md rounded-lg border border-sky-100"
+      >
+        <table class="min-w-full divide-y divide-sky-200">
+          <thead class="bg-sky-50">
+            <tr>
+              <th
+                scope="col"
+                class="px-6 py-3 text-left text-xs font-medium text-sky-600 uppercase tracking-wider"
+              >
+                Pavadinimas
+              </th>
+              <th
+                scope="col"
+                class="px-6 py-3 text-left text-xs font-medium text-sky-600 uppercase tracking-wider"
+              >
+                Kaina
+              </th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-gray-200">
+            <tr>
+              <td class="p-4 text-sm font-medium text-gray-900">
+                Pirminė kineziterapeuto konsultacija dėl skoliozės
+              </td>
+              <td class="p-4 whitespace-nowrap text-sm text-gray-500">100 €</td>
+            </tr>
+            <tr>
+              <td class="p-4 text-sm font-medium text-gray-900">
+                Gydymas Schroth metodu (45 - 50 min.)
+              </td>
+              <td class="p-4 whitespace-nowrap text-sm text-gray-500">
+                40 - 50 €
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="flex flex-col gap-2">
+        <p class="text-sm">* Taikomas atšaukimo mokestis. (?)</p>
+        <p class="text-xs lg:text-sm">
+          Atšaukus vizitą daugiau negu 24 val. iki vizito – mokestis netaikomas.
+          Atšaukus vizitą trumpiau nei 24 val. iki suplanuoto laiko – taikomas
+          50% procedūros kainos atšaukimo mokestis. Atšaukus trumpiau negu 4
+          val. iki suplanuoto vizito – mokama pilna procedūros kaina.
+        </p>
+      </div>
+    </section>
+
     <ContactTeaser
       heading="Pasitarkite su specialistu"
       sub-heading="Turite klausimų apie Schroth terapiją ar norite užsiregistruoti konsultacijai? Susisiekite su mumis."
