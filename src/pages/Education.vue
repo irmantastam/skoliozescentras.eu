@@ -8,12 +8,18 @@
       <div class="flex flex-col md:flex-row gap-6">
         <div class="md:w-2/3">
           <p class="text-sky-900 leading-relaxed">
-            Tvari skoliozės prevencija ir gydymas prasideda nuo žinojimo. Mūsų
-            darbas – ne tik gydyti, bet ir šviesti. INNOVAMED komanda aktyviai
-            prisideda prie visuomenės sveikatos raštingumo didinimo. Edukuojame
-            vaikus, jų tėvus ir kitus kineziterapeutus, kad žinios apie
-            laikyseną, fizinį aktyvumą ir skoliozės prevenciją taptų kasdienybės
-            dalimi.
+            Tvari
+            <RouterLink
+              :to="{ name: 'straipsniai-skolioze' }"
+              class="text-sky-600 hover:text-sky-500 transition-colors duration-300 hover:underline"
+            >
+              skoliozės prevencija ir gydymas</RouterLink
+            >
+            prasideda nuo žinojimo. Mūsų darbas – ne tik gydyti, bet ir šviesti.
+            INNOVAMED komanda aktyviai prisideda prie visuomenės sveikatos
+            raštingumo didinimo. Edukuojame vaikus, jų tėvus ir kitus
+            kineziterapeutus, kad žinios apie laikyseną, fizinį aktyvumą ir
+            skoliozės prevenciją taptų kasdienybės dalimi.
           </p>
         </div>
 

@@ -50,11 +50,17 @@
       </h2>
 
       <p class="text-sky-900 leading-relaxed mb-4">
-        Tėvai ir globėjai raginami nedelsti – kuo anksčiau nustatoma skoliozė,
-        tuo geresni gydymo rezultatai. Nemokamas testavimas atliekamas INNOVAMED
-        Kineziterapijos Klinikose Vilniuje ir Kaune iš anksto susitarus. Tai
-        puiki proga rūpintis vaikų sveikata be papildomų išlaidų. Svarbiausia –
-        prevencija ir nuolatinė stuburo būklės stebėsena augimo metu.
+        Tėvai ir globėjai raginami nedelsti – kuo anksčiau nustatoma
+        <RouterLink
+          :to="{ name: 'straipsniai-skolioze' }"
+          class="text-sky-600 hover:text-sky-500 transition-colors duration-300 hover:underline"
+        >
+          skoliozė</RouterLink
+        >, tuo geresni gydymo rezultatai. Nemokamas testavimas atliekamas
+        INNOVAMED Kineziterapijos Klinikose Vilniuje ir Kaune iš anksto
+        susitarus. Tai puiki proga rūpintis vaikų sveikata be papildomų išlaidų.
+        Svarbiausia - prevencija ir nuolatinė stuburo būklės stebėsena augimo
+        metu.
       </p>
 
       <h3 class="text-xl font-medium text-sky-700 mb-2">Kontaktai</h3>

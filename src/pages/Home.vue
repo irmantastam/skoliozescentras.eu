@@ -12,8 +12,13 @@
       </h2>
 
       <p class="text-sky-900 leading-relaxed mb-6">
-        <span class="font-semibold text-blue-800">Skoliozė</span> – tai
-        sudėtingas stuburo išlinkimas į šoną, apimantis tris plokštumas.
+        <RouterLink
+          :to="{ name: 'straipsniai-skolioze' }"
+          class="text-sky-600 hover:text-sky-500 transition-colors duration-300 hover:underline"
+        >
+          Skoliozė</RouterLink
+        >
+        - tai sudėtingas stuburo išlinkimas į šoną, apimantis tris plokštumas.
         Diagnozė nustatoma, kai stuburo iškrypimas viršija 10˚ pagal Kobbo
         kampą. Dėl šio iškrypimo stuburas gali įgauti C arba S formą, o
         slanksteliai ne tik krypsta į šoną, bet ir sukasi, deformuodami krūtinės

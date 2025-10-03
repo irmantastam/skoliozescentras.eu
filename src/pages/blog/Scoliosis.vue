@@ -66,8 +66,8 @@
               :to="{ name: 'diagnostics' }"
               class="text-sky-600 hover:text-sky-500 transition-colors duration-300 hover:underline"
             >
-              skoliozės diagnozavimas
-            </RouterLink>
+              skoliozės diagnozavimas</RouterLink
+            >
             yra ypač svarbus norint sustabdyti ligos progresavimą bei leidžia
             parinkti geriausius gydymo metodus ir planą. Skoliozei diagnozuoti
             yra paprastas testas, kuri galima atlikti ir namuose, tai
@@ -110,15 +110,14 @@
               :to="{ name: 'home' }"
               class="text-sky-600 hover:text-sky-500 transition-colors duration-300 hover:underline"
             >
-              skoliozės gydymo centrą.
-            </RouterLink>
-            Čia teikiama profesionali pagalba, o taip pat siūlomas
+              skoliozės gydymo centrą</RouterLink
+            >. Čia teikiama profesionali pagalba, o taip pat siūlomas
             <RouterLink
               :to="{ name: 'testing' }"
               class="text-sky-600 hover:text-sky-500 transition-colors duration-300 hover:underline"
             >
-              nemokamas skoliozės testavimas.
-            </RouterLink>
+              nemokamas skoliozės testavimas</RouterLink
+            >.
           </p>
         </div>
       </div>
@@ -312,7 +311,7 @@
           </h3>
           <p class="text-sky-900 text-sm">
             Kai skoliozės laipsnis siekia daugiau nei 25°, skiriamas specialus
-            **korekcinis įtvaras** kartu su Schroth terapija. Korsetas padeda
+            korekcinis įtvaras kartu su Schroth terapija. Korsetas padeda
             stabilizuoti stuburą ir sumažinti progresavimą.
           </p>
         </div>
@@ -342,8 +341,9 @@
           <p class="text-sky-900 leading-relaxed mb-4">
             Skoliozė gydoma pasitelkiant specialiai pritaikytus pratimus, kurie
             koreguoja laikyseną ir stiprina raumenis. Viena efektyviausių
-            metodikų yra **Schroth metodas**. Šios metodikos metu yra derinami
-            asimetriniai pratimai, kvėpavimas ir kūno laikysenos kontrolė.
+            metodikų yra <b>Schroth metodas</b>. Šios metodikos metu yra
+            derinami asimetriniai pratimai, kvėpavimas ir kūno laikysenos
+            kontrolė.
           </p>
 
           <p class="text-sky-900 leading-relaxed mb-4 font-semibold">
