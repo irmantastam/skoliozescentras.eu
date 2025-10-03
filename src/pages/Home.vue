@@ -14,7 +14,7 @@
       <p class="text-sky-900 leading-relaxed mb-6">
         <RouterLink
           :to="{ name: 'straipsniai-skolioze' }"
-          class="text-sky-600 hover:text-sky-500 transition-colors duration-300 hover:underline"
+          class="text-sky-600 hover:text-sky-500 transition-colors duration-300 hover:underline font-semibold"
         >
           Skoliozė</RouterLink
         >
@@ -77,8 +77,13 @@
 
         <div class="md:w-2/3 text-left">
           <p class="text-sky-900 leading-relaxed mb-4">
-            <span class="font-semibold text-blue-800">Schroth metodas</span> yra
-            efektyvus nechirurginis skoliozės gydymo būdas, kurį 1927 m.
+            <RouterLink
+              :to="{ name: 'schroth' }"
+              class="text-sky-600 hover:text-sky-500 transition-colors duration-300 hover:underline font-semibold"
+            >
+              Schroth metodas</RouterLink
+            >
+            yra efektyvus nechirurginis skoliozės gydymo būdas, kurį 1927 m.
             Vokietijoje sukūrė kineziterapeutė Katherina Schroth. Metodo esmė –
             asimetriniai pratimai, derinami su korekciniu kvėpavimu, kurie yra
             pritaikomi specifinėms stuburo išgaubtoms ir įdubusioms sritims.
