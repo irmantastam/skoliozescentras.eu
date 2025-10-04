@@ -128,6 +128,26 @@
           Pediatric, DNS Scoliosis, Maitland
         </p>
       </div>
+
+      <div
+        class="bg-white p-6 sm:rounded-lg shadow-md flex flex-col items-center text-center"
+      >
+        <img
+          src="https://innovamed.lt/wp-content/uploads/2025/07/1-1-300x300.jpg.webp"
+          alt="Evita Budnikienė"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
+        />
+        <h2 class="text-xl font-semibold text-gray-900 mb-2">
+          Evita Budnikienė
+        </h2>
+        <p class="text-gray-700 mb-1">
+          <strong class="font-semibold">Miestas:</strong> Vilnius
+        </p>
+        <p class="text-gray-700 mb-1">
+          <strong class="font-semibold">Specializacija:</strong> ISST Schroth
+          basic part I
+        </p>
+      </div>
     </div>
   </LayoutPage>
 </template>
