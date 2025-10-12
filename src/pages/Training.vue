@@ -6,7 +6,7 @@
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
       <div class="flex flex-col md:flex-row gap-6">
-        <div>
+        <div class="min-w-0 w-full">
           <h2 class="text-2xl font-semibold text-sky-900 mb-4">
             Schroth skoliozės gydymo kursai
           </h2>
@@ -28,12 +28,21 @@
           </p>
         </div>
 
-        <img
-          src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 1.webp"
-          title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
-          alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
-          class="md:max-h-[340px] object-cover rounded-md shadow-lg"
-        />
+        <div class="flex flex-col lg:flex-row gap-6 w-full min-w-0">
+          <img
+            src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 3.webp"
+            title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            class="md:max-h-[340px] w-full object-cover rounded-md shadow-lg min-w-0"
+          />
+
+          <img
+            src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 6.webp"
+            title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            class="md:max-h-[340px] w-full object-cover rounded-md shadow-lg min-w-0"
+          />
+        </div>
       </div>
     </div>
 
@@ -41,14 +50,23 @@
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
       <div class="flex flex-col md:flex-row gap-6">
-        <img
-          src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 3.webp"
-          title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
-          alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
-          class="md:max-h-[340px] object-cover rounded-md shadow-lg"
-        />
+        <div class="flex flex-col lg:flex-row gap-6 w-full min-w-0">
+          <img
+            src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 8.webp"
+            title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            class="md:max-h-[340px] w-full object-cover rounded-md shadow-lg min-w-0"
+          />
 
-        <div>
+          <img
+            src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 2.webp"
+            title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            class="md:max-h-[340px] w-full object-cover rounded-md shadow-lg min-w-0"
+          />
+        </div>
+
+        <div class="min-w-0 w-full">
           <h2 class="text-2xl font-semibold text-sky-900 mb-4">
             ISST Schroth bazinio lygio kursas (Part I + Part II)
           </h2>
@@ -76,7 +94,7 @@
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
       <div class="flex flex-col md:flex-row gap-6">
-        <div>
+        <div class="min-w-0 w-full">
           <h2 class="text-2xl font-semibold text-sky-900 mb-4">
             ISST Schroth Refresher kursas (žinių atnaujinimui)
           </h2>
@@ -98,64 +116,134 @@
           </p>
         </div>
 
-        <img
-          src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 2.webp"
-          title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
-          alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
-          class="md:max-h-[340px] object-cover rounded-md shadow-lg"
-        />
+        <div class="flex flex-col lg:flex-row gap-6 w-full min-w-0">
+          <img
+            src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 9.webp"
+            title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            class="md:max-h-[340px] w-full object-cover rounded-md shadow-lg min-w-0"
+          />
+
+          <img
+            src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 11.webp"
+            title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            class="md:max-h-[340px] w-full object-cover rounded-md shadow-lg min-w-0"
+          />
+        </div>
       </div>
     </section>
 
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-        Papildomi mokymai: Individualūs skoliozės masažo mokymai
-      </h2>
-      <p class="text-sky-900 leading-relaxed mb-4">
-        Kviečiame registruotis į individualius skoliozės masažo mokymus, skirtus
-        specialistams, norintiems gilinti žinias apie darbo su pacientais,
-        turinčiais stuburo iškrypimų, ypatumus. Mokymų metu dalyviai dirba su
-        dviem skoliozę turinčiais modeliais. Praktinė sesija orientuota į tai,
-        kaip efektyviai integruoti Schroth metodo elementus masažo technikose ir
-        minkštųjų audinių mobilizacijoje esant skoliozei. Mokoma atpažinti ir
-        taikyti kryptingą bei saugią intervenciją pagal individualų paciento
-        laikysenos tipą.
-      </p>
-      <ul class="list-disc list-inside text-gray-700 space-y-2">
-        <li>Trukmė – 3 valandos, kaina – 150 €.</li>
-      </ul>
-      <p class="text-sky-900 leading-relaxed mt-4">
-        <strong>Lektorė:</strong> Giedrė Mikelionienė, Schroth specialistė,
-        Schroth klinikinės praktikos vadovė, ISST Schroth atstovė Lietuvoje.
-      </p>
+      <div class="flex flex-col md:flex-row gap-6">
+        <div class="flex flex-col lg:flex-row gap-6 w-full min-w-0">
+          <img
+            src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 7.webp"
+            title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            class="md:max-h-[340px] w-full object-cover rounded-md shadow-lg min-w-0"
+          />
+        </div>
+
+        <div class="min-w-0 w-full">
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+            Papildomi mokymai: Individualūs skoliozės masažo mokymai
+          </h2>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            Kviečiame registruotis į individualius skoliozės masažo mokymus,
+            skirtus specialistams, norintiems gilinti žinias apie darbo su
+            pacientais, turinčiais stuburo iškrypimų, ypatumus. Mokymų metu
+            dalyviai dirba su dviem skoliozę turinčiais modeliais. Praktinė
+            sesija orientuota į tai, kaip efektyviai integruoti Schroth metodo
+            elementus masažo technikose ir minkštųjų audinių mobilizacijoje
+            esant skoliozei. Mokoma atpažinti ir taikyti kryptingą bei saugią
+            intervenciją pagal individualų paciento laikysenos tipą.
+          </p>
+          <ul class="list-disc list-inside text-gray-700 space-y-2">
+            <li>Trukmė – 3 valandos, kaina – 150 €.</li>
+          </ul>
+          <p class="text-sky-900 leading-relaxed mt-4">
+            <strong>Lektorė:</strong> Giedrė Mikelionienė, Schroth specialistė,
+            Schroth klinikinės praktikos vadovė, ISST Schroth atstovė Lietuvoje.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section
       class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
     >
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-        Schroth metodo terapeutų susitikimai
-      </h2>
-      <p class="text-sky-900 leading-relaxed mb-4">
-        Kviečiame Schroth skoliozės gydymo kursus Lietuvoje baigusius
-        specialistus į neprivalomą praktinių įgūdžių pasitikrinimo susitikimą.
-        Šio susitikimo tikslas – sudaryti galimybę atnaujinti teorines žinias,
-        įtvirtinti praktinius įgūdžius, savo klinikinius atvejus aptarti su
-        kolegomis. Bus gilinamasi į korekcinės padėties parinkimą, kvėpavimo
-        techniką, paciento vertinimo principus bei individualizuoto pratimų
-        plano sudarymą pagal Schroth metodiką. Dalyvavimas savanoriškas, aplinka
-        neformali, tačiau rekomenduojama visiems, siekiantiems išlaikyti
-        metodikos taikymo nuoseklumą ir tikslumą kasdienėje praktikoje.
-      </p>
-      <ul class="list-disc list-inside text-gray-700 space-y-2">
-        <li>Kaina: nemokamai.</li>
-        <li>
-          Susitikimuose gali dalyvauti tik galiojantį Schroth diplomą turintys
-          terapeutai.
-        </li>
-      </ul>
+      <div class="flex flex-col md:flex-row gap-6">
+        <div class="min-w-0 w-full">
+          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+            Schroth metodo terapeutų susitikimai
+          </h2>
+          <p class="text-sky-900 leading-relaxed mb-4">
+            Kviečiame Schroth skoliozės gydymo kursus Lietuvoje baigusius
+            specialistus į neprivalomą praktinių įgūdžių pasitikrinimo
+            susitikimą. Šio susitikimo tikslas – sudaryti galimybę atnaujinti
+            teorines žinias, įtvirtinti praktinius įgūdžius, savo klinikinius
+            atvejus aptarti su kolegomis. Bus gilinamasi į korekcinės padėties
+            parinkimą, kvėpavimo techniką, paciento vertinimo principus bei
+            individualizuoto pratimų plano sudarymą pagal Schroth metodiką.
+            Dalyvavimas savanoriškas, aplinka neformali, tačiau rekomenduojama
+            visiems, siekiantiems išlaikyti metodikos taikymo nuoseklumą ir
+            tikslumą kasdienėje praktikoje.
+          </p>
+          <ul class="list-disc list-inside text-gray-700 space-y-2">
+            <li>Kaina: nemokamai.</li>
+            <li>
+              Susitikimuose gali dalyvauti tik galiojantį Schroth diplomą
+              turintys terapeutai.
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col lg:flex-row gap-6 w-full min-w-0">
+          <img
+            src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 5.webp"
+            title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+            class="md:max-h-[340px] w-full object-cover rounded-md shadow-lg min-w-0"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="p-6 bg-white sm:rounded-lg shadow-sm border border-gray-200"
+    >
+      <div class="flex flex-col md:flex-row gap-6">
+        <img
+          src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 12.webp"
+          title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+          alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+          class="md:max-h-[340px] w-full object-cover rounded-md shadow-lg min-w-0"
+        />
+
+        <img
+          src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 10.webp"
+          title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+          alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+          class="md:max-h-[340px] w-full object-cover rounded-md shadow-lg min-w-0"
+        />
+
+        <img
+          src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 4.webp"
+          title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+          alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+          class="md:max-h-[340px] w-full object-cover rounded-md shadow-lg min-w-0"
+        />
+
+        <img
+          src="/images/education/training/Skoliozės gydymo kursai Lietuvoje 1.webp"
+          title="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+          alt="Skoliozės gydymo kursai Lietuvoje INNOVAMED"
+          class="md:max-h-[340px] w-full object-cover rounded-md shadow-lg min-w-0"
+        />
+      </div>
     </section>
 
     <ContactTeaser
