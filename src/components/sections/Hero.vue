@@ -40,7 +40,7 @@
         </p>
       </div>
 
-      <CtaLink variant="big">Registruokis 5 min. nemokamai apžiūrai</CtaLink>
+      <CtaLink variant="big">Registruokis 10 min. nemokamai apžiūrai</CtaLink>
     </div>
   </div>
 </template>
