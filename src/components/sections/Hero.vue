@@ -53,15 +53,6 @@ const imgSources = ref([
   '/images/hero/hero.webp',
   '/images/hero/hero2.webp',
   '/images/hero/hero3.webp',
-  '/images/hero/hero4.webp',
-  '/images/hero/hero5.webp',
-  '/images/hero/hero6.webp',
-  '/images/hero/hero7.webp',
-  '/images/hero/hero8.webp',
-  '/images/hero/hero9.webp',
-  '/images/hero/hero10.webp',
-  '/images/hero/hero11.webp',
-  '/images/hero/hero12.webp',
 ])
 
 const currentImageIndex = ref(0)
