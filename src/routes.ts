@@ -159,6 +159,30 @@ export const routes = [
     },
   },
   {
+    path: '/tadas-mikelionis',
+    name: 'tadas-mikelionis',
+    component: () => import('./pages/TadasMikelionis.vue'),
+    meta: {
+      title: 'Tadas Mikelionis - Skoliozės centras',
+      menuTitle: 'Tadas Mikelionis',
+      excludeFromMenu: true,
+      description:
+        'KineziterapeutasTadas Mikelionis Nuo 2014 privati kineziterapeuto praktika2020 INNOVAMED kineziterapijos klinikų įkūrėjas ir direktoriusNuo 2023 ISST atstovas Lietuvoje Sertifikuotas Schroth metodikos skoliozės gydymui specialistas.ISST suteiktas Schroth klinikinės praktikos vadovo laipsnis. Nuolat tobulinu žinias pasaulinio lygio lektorių seminaruose, tokių kaip: Michael Shacklock - klinikinė neurodinamika Annina Schmid - kompresinės periferinės neuropatijos Alison Grimaldi - klubo sąnario gydymas Mark Jones - klinikinis mąstymas',
+    },
+  },
+  {
+    path: '/giedre-mikelioniene',
+    name: 'giedre-mikelioniene',
+    component: () => import('./pages/GiedreMikelioniene.vue'),
+    meta: {
+      title: 'Giedrė Mikelionienė - Skoliozės centras',
+      menuTitle: 'Giedrė Mikelionienė',
+      excludeFromMenu: true,
+      description:
+        'Giedrė Mikelionienė - sertifikuota ISST Schroth specialistė, Tarptautinės Schroth 3D skoliozės terapijos atstovė ir klinikinės praktikos vadovė Lietuvoje.',
+    },
+  },
+  {
     path: '/:catchAll(.*)',
     name: '404',
     component: () => import('./pages/404.vue'),

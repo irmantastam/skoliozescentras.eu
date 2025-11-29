@@ -31,20 +31,34 @@
           </p>
         </div>
 
-        <div class="flex gap-6 md:w-1/3">
-          <img
-            src="/images/aboutUs/Apie mus 1.webp"
-            title="Apie skoliozės centrą INNOVAMED"
-            alt="Apie skoliozės centrą INNOVAMED"
-            class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
-          />
+        <div class="flex gap-6 md:w-1/2">
+          <figure class="w-[calc(50%-theme(spacing[3]))] flex flex-col">
+            <img
+              src="/images/aboutUs/Apie mus 1.webp"
+              title="Apie skoliozės centrą INNOVAMED"
+              alt="Apie skoliozės centrą INNOVAMED"
+              class="object-cover rounded-md shadow-lg flex-1"
+            />
+            <figcaption
+              class="text-xs italic font-light text-center mt-1 text-slate-400"
+            >
+              Nuotraukos autorė - Agnė Gliaudytė
+            </figcaption>
+          </figure>
 
-          <img
-            src="/images/aboutUs/Apie mus 2.webp"
-            title="Apie skoliozės centrą INNOVAMED"
-            alt="Apie skoliozės centrą INNOVAMED"
-            class="w-[calc(50%-theme(spacing[3]))] object-cover rounded-md shadow-lg"
-          />
+          <figure class="w-[calc(50%-theme(spacing[3]))] flex flex-col">
+            <img
+              src="/images/aboutUs/Apie mus 2.webp"
+              title="Apie skoliozės centrą INNOVAMED"
+              alt="Apie skoliozės centrą INNOVAMED"
+              class="object-cover rounded-md shadow-lg flex-1"
+            />
+            <figcaption
+              class="text-xs italic font-light text-center mt-1 text-slate-400"
+            >
+              Nuotraukos autorė - Agnė Gliaudytė
+            </figcaption>
+          </figure>
         </div>
       </div>
     </div>

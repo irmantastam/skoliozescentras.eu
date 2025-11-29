@@ -6,7 +6,7 @@
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
       <div class="flex flex-col md:flex-row gap-6">
-        <div>
+        <div class="flex-1">
           <h2 class="text-2xl font-semibold text-sky-900 mb-4">
             Kas yra ISST Schroth?
           </h2>
@@ -63,12 +63,19 @@
           </p>
         </div>
 
-        <img
-          src="/images/education/schroth/ISST Schroth metodas ir organizacija 1.webp"
-          title="ISST Schroth metodas ir organizacija INNOVAMED"
-          alt="ISST Schroth metodas ir organizacija INNOVAMED"
-          class="md:max-h-[500px] object-cover rounded-md shadow-lg"
-        />
+        <figure class="flex flex-col">
+          <img
+            src="/images/education/schroth/ISST Schroth metodas ir organizacija 1.webp"
+            title="ISST Schroth metodas ir organizacija INNOVAMED"
+            alt="ISST Schroth metodas ir organizacija INNOVAMED"
+            class="md:max-h-[500px] object-cover rounded-md shadow-lg flex-1"
+          />
+          <figcaption
+            class="text-xs italic font-light text-center mt-1 text-slate-400"
+          >
+            Nuotraukos autorė - Agnė Gliaudytė
+          </figcaption>
+        </figure>
       </div>
     </div>
 
@@ -78,7 +85,7 @@
           src="/images/education/schroth/ISST Schroth metodas ir organizacija 2.webp"
           title="ISST Schroth metodas ir organizacija INNOVAMED"
           alt="ISST Schroth metodas ir organizacija INNOVAMED"
-          class="md:max-h-[340px] object-cover rounded-md shadow-lg"
+          class="md:max-h-[340px] object-cover rounded-md shadow-lg flex-1"
         />
 
         <div>
@@ -106,7 +113,7 @@
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <div class="flex flex-col md:flex-row gap-6">
-        <div>
+        <div class="flex-1">
           <h2 class="text-2xl font-semibold text-sky-900 mb-4">
             Švietimas ir kvalifikacijos kėlimas
           </h2>
@@ -125,25 +132,39 @@
           </p>
         </div>
 
-        <img
-          src="/images/education/schroth/ISST Schroth metodas ir organizacija 3.webp"
-          title="ISST Schroth metodas ir organizacija INNOVAMED"
-          alt="ISST Schroth metodas ir organizacija INNOVAMED"
-          class="md:max-h-[340px] object-cover rounded-md shadow-lg"
-        />
+        <figure class="flex flex-col">
+          <img
+            src="/images/education/schroth/ISST Schroth metodas ir organizacija 3.webp"
+            title="ISST Schroth metodas ir organizacija INNOVAMED"
+            alt="ISST Schroth metodas ir organizacija INNOVAMED"
+            class="md:max-h-[340px] object-cover rounded-md shadow-lg flex-1"
+          />
+          <figcaption
+            class="text-xs italic font-light text-center mt-1 text-slate-400"
+          >
+            Nuotraukos autorė - Agnė Gliaudytė
+          </figcaption>
+        </figure>
       </div>
     </section>
 
     <section class="p-6 bg-white sm:rounded-lg shadow-sm">
       <div class="flex flex-col md:flex-row gap-6">
-        <img
-          src="/images/education/schroth/ISST Schroth metodas ir organizacija 4.webp"
-          title="ISST Schroth metodas ir organizacija INNOVAMED"
-          alt="ISST Schroth metodas ir organizacija INNOVAMED"
-          class="md:max-h-[340px] object-cover rounded-md shadow-lg"
-        />
+        <figure class="flex flex-col">
+          <img
+            src="/images/education/schroth/ISST Schroth metodas ir organizacija 4.webp"
+            title="ISST Schroth metodas ir organizacija INNOVAMED"
+            alt="ISST Schroth metodas ir organizacija INNOVAMED"
+            class="md:max-h-[340px] object-cover rounded-md shadow-lg flex-1"
+          />
+          <figcaption
+            class="text-xs italic font-light text-center mt-1 text-slate-400"
+          >
+            Nuotraukos autorė - Agnė Gliaudytė
+          </figcaption>
+        </figure>
 
-        <div>
+        <div class="flex-1">
           <h2 class="text-2xl font-semibold text-sky-900 mb-4">
             Tarptautinis bendradarbiavimas
           </h2>

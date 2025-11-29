@@ -29,9 +29,9 @@
           ></path>
         </svg>
         <a
-          href="mailto:info@innovamed.lt"
+          :href="`mailto:${email}`"
           class="text-lg text-sky-700 hover:underline"
-          >info@innovamed.lt</a
+          >{{ email }}</a
         >
       </div>
 
@@ -54,7 +54,7 @@
         <a
           href="tel:+37063038885"
           class="text-lg text-sky-700 hover:underline"
-          >+370 630 38885</a
+          >{{ phone }}</a
         >
       </div>
     </div>
@@ -75,6 +75,14 @@ defineProps({
     type: String,
     default:
       'Susisiekite su mumis ir mūsų specialistai atsakys į visus Jūsų klausimus.',
+  },
+  email: {
+    type: String,
+    default: 'info@innovamed.lt',
+  },
+  phone: {
+    type: String,
+    default: '+370 630 38885',
   },
 })
 </script>

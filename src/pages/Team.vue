@@ -5,7 +5,9 @@
     </h1>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div
+      <a
+        href="https://innovamed.lt/giedre-mikelioniene/"
+        target="_blank"
         class="bg-white p-6 sm:rounded-lg shadow-md flex flex-col items-center text-center"
       >
         <img
@@ -31,9 +33,10 @@
           <strong class="font-semibold">Papildomos metodikos:</strong> DNS
           Pediatric, DNS Scoliosis
         </p>
-      </div>
+      </a>
 
-      <div
+      <RouterLink
+        :to="{ name: 'tadas-mikelionis' }"
         class="bg-white p-6 sm:rounded-lg shadow-md flex flex-col items-center text-center"
       >
         <img
@@ -59,7 +62,7 @@
           <strong class="font-semibold">Papildomos metodikos:</strong> DNS
           medical, Maitland, Mulligan
         </p>
-      </div>
+      </RouterLink>
 
       <div
         class="bg-white p-6 sm:rounded-lg shadow-md flex flex-col items-center text-center"

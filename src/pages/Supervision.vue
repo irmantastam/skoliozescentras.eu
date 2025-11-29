@@ -6,7 +6,7 @@
 
     <div class="p-6 bg-white rounded-lg shadow-sm">
       <div class="flex flex-col md:flex-row gap-6">
-        <div>
+        <div class="flex-1">
           <p class="text-sky-900 leading-relaxed mb-4">
             Giedrei Mikelionienei ir Tadui Mikelioniui ISST suteikti Schroth
             klinikinės praktikos vadovo laipsniai. Šis statusas reiškia, kad šie
@@ -50,12 +50,19 @@
           </p>
         </div>
 
-        <img
-          src="/images/education/supervision/Schroth klinikinė supervizija.webp"
-          title="Schroth klinikinė supervizija INNOVAMED"
-          alt="Schroth klinikinė supervizija INNOVAMED"
-          class="md:max-h-[500px] object-cover rounded-md shadow-lg"
-        />
+        <figure class="flex flex-col">
+          <img
+            src="/images/education/supervision/Schroth klinikinė supervizija.webp"
+            title="Schroth klinikinė supervizija INNOVAMED"
+            alt="Schroth klinikinė supervizija INNOVAMED"
+            class="md:max-h-[500px] object-cover rounded-md shadow-lg flex-1"
+          />
+          <figcaption
+            class="text-xs italic font-light text-center mt-1 text-slate-400"
+          >
+            Nuotraukos autorė - Agnė Gliaudytė
+          </figcaption>
+        </figure>
       </div>
     </div>
 

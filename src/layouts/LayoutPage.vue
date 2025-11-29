@@ -1,6 +1,6 @@
 <template>
   <section
-    class="max-w-7xl mx-auto my-5 w-full sm:w-[calc(100%-theme(spacing[12]))] box-border bg-white sm:rounded-lg sm:shadow-md pt-6 sm:p-6 mb-6 flex flex-col gap-10 sm:gap-16"
+    class="max-w-7xl mx-auto my-5 w-full sm:w-[calc(100%-theme(spacing[12]))] box-border bg-white sm:rounded-lg sm:shadow-md pt-6 sm:p-6 mb-6 flex flex-col gap-4 sm:gap-8"
   >
     <slot />
   </section>
