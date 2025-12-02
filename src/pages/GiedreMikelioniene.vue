@@ -432,6 +432,38 @@
       </div>
     </section>
 
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm mt-6 mb-6">
+      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
+        Skoliozė: kaip atpažinti ir gydyti - Giedrė Mikelioninė LNK „Labas
+        vakaras, Lietuva“
+      </h2>
+
+      <div
+        class="relative overflow-hidden w-full"
+        style="padding-top: 56.25%"
+      >
+        <iframe
+          class="absolute top-0 left-0 w-full h-full rounded-lg shadow-xl"
+          src="https://www.youtube.com/embed/uODSJheHeRw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <p class="text-sm text-center text-gray-500 mt-2">
+        Video nuoroda:
+        <a
+          href="https://www.youtube.com/watch?v=uODSJheHeRw"
+          target="_blank"
+          class="text-sky-800 hover:underline"
+        >
+          https://www.youtube.com/watch?v=uODSJheHeRw
+        </a>
+      </p>
+    </section>
+
     <ContactTeaser
       subHeading="Giedrė Mikelionienė"
       email="info@innovamed.lt"
