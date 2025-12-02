@@ -79,6 +79,7 @@ export const routes = [
     component: () => import('./pages/Schroth.vue'),
     meta: {
       title: 'ISST Schroth metodas ir organizacija - Skoliozės Centras',
+      menuTitle: 'ISST Schroth metodas ir organizacija',
       description:
         'ISST Schroth organizacija yra tarptautinė ne pelno siekianti institucija, vienijanti specialistus, taikančius Schroth metodą skoliozei gydyti.',
     },
@@ -89,6 +90,7 @@ export const routes = [
     component: () => import('./pages/Training.vue'),
     meta: {
       title: 'Skoliozės gydymo kursai Lietuvoje - Skoliozės Centras',
+      menuTitle: 'Skoliozės gydymo kursai Lietuvoje',
       description:
         'Schroth skoliozės gydymo kursai Lietuvoje. Įgykite pagrindines žinias apie idiopatinės skoliozės ir kifozės konservatyvų gydymą.',
     },
@@ -132,6 +134,7 @@ export const routes = [
     component: () => import('./pages/Camp.vue'),
     meta: {
       title: 'Schroth skoliozės stovykla - Skoliozės Centras',
+      menuTitle: 'Schroth skoliozės stovykla',
       description:
         'Skoliozės stovykla - tai intensyvus grupinis skoliozės gydymas, taikant Katharinos Schroth metodikos principus. Stovyklos vyks Vilniuje ir Kaune.',
     },
@@ -156,6 +159,17 @@ export const routes = [
       menuTitle: 'Skoliozė',
       description:
         'Skoliozė - stuburo išlinkimas į šoną, dažnai primenantis S arba C formą. Sužinokite, kaip ją atpažinti ir kokie yra skoliozės gydymo metodai.',
+    },
+  },
+  {
+    path: '/straipsniai/kaklo-skolioze',
+    name: 'straipsniai-kaklo-skolioze',
+    component: () => import('./pages/blog/NeckScoliosis.vue'),
+    meta: {
+      title: 'Kaklo skoliozė - simptomai ir gydymas - Skoliozės centras',
+      menuTitle: 'Kaklo skoliozė',
+      description:
+        'Kaklo skoliozė - tai problema, apie kurią išgirstame tik tada, kai susiduriame su kaklo skausmais ar kitais diskomfortą keliančiais jausmais',
     },
   },
   {

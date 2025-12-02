@@ -477,18 +477,22 @@
       <div class="flex flex-wrap gap-6 justify-center">
         <img
           src="https://innovamed.lt/wp-content/uploads/2024/03/unnamed-300x290.jpg.webp"
-          title="Maitland Concept Tadas Mikelionis INNOVAMED"
-          alt="Maitland Concept Tadas Mikelionis INNOVAMED"
+          title="Maitland koncepcijos sertifikatas: Manualinės terapijos metodika"
+          alt="Maitland koncepcijos logotipas"
           class="md:max-h-[100px] object-cover rounded-md shadow-lg"
         />
 
         <img
           src="https://innovamed.lt/wp-content/uploads/2023/11/2-300x116.png.webp"
+          title="Mulligan manualinės terapijos sertifikatas"
+          alt="Mulligan manualinės terapijos koncepcijos logotipas"
           class="md:max-h-[100px] object-cover rounded-md shadow-lg"
         />
 
         <img
           src="https://innovamed.lt/wp-content/uploads/2025/10/aa-300x120.jpg.webp"
+          title="Klinikinės neurodinamikos edukacijos sertifikatas"
+          alt="Neurodynamic Solutions logotipas"
           class="md:max-h-[100px] object-cover rounded-md shadow-lg"
         />
 
@@ -499,71 +503,92 @@
 
         <img
           src="https://innovamed.lt/wp-content/uploads/2023/11/277671689_405777061547829_7854699963204679336_n-300x300.jpg.webp"
+          title="ISST Schroth (Tarptautinė Schroth 3D skoliozės terapija) sertifikatas"
+          alt="Tarptautinio Schroth 3D skoliozės terapijos logotipas"
           class="md:max-h-[100px] object-cover rounded-md shadow-lg"
         />
 
         <img
           src="https://innovamed.lt/wp-content/uploads/2023/11/6-1-231x300.jpg.webp"
+          title="DNS (Dinaminė neuromuskulinė stabilizacija) sertifikatas"
+          alt="DNS (Dynamic Neuromuscular Stabilization) logotipas"
           class="md:max-h-[100px] object-cover rounded-md shadow-lg"
         />
 
         <img
           src="https://innovamed.lt/wp-content/uploads/2023/11/3-300x108.png.webp"
+          title="INDIBA terapijos specialisto kvalifikacija"
+          alt="INDIBA revitalizing lives logotipas"
           class="md:max-h-[100px] object-cover rounded-md shadow-lg"
         />
 
         <img
           src="https://innovamed.lt/wp-content/uploads/2023/11/5-1-300x90.jpg.webp"
+          title="Redcord terapijos metodikos sertifikatas"
+          alt="Redcord mankštos sistemos logotipas"
           class="md:max-h-[100px] object-contain rounded-md shadow-lg"
         />
 
         <img
           src="https://innovamed.lt/wp-content/uploads/2023/11/4-2.png.webp"
+          title="TMG (Tensiomyography): Raumenų biomechanikos vertinimo sertifikatas"
+          alt="TMG (Tensiomyography) logotipas"
           class="md:max-h-[100px] object-cover rounded-md shadow-lg"
         />
 
         <img
           src="https://innovamed.lt/wp-content/uploads/2025/07/SFMA_CERTIFIED_complete_L2_2020-1-300x113.jpg.webp"
+          title="SFMA (Selective Functional Movement Assessment) 2 lygio sertifikatas"
+          alt="SFMA Certified 2 lygio logotipas"
           class="md:max-h-[100px] object-contain rounded-md shadow-lg"
         />
 
         <img
           src="https://innovamed.lt/wp-content/uploads/2023/11/FMS-certified-level-2-300x141.jpg.webp"
+          title="FMS (Functional Movement Screen) 2 lygio sertifikatas"
+          alt="FMS Certified 2 lygio logotipas"
           class="md:max-h-[100px] object-contain rounded-md shadow-lg"
         />
 
         <img
           src="https://innovamed.lt/wp-content/uploads/2023/11/y-balance-test-certified-1.png.webp"
+          title="YBT (Y Balance Test) pusiausvyros ir asimetrijos vertinimo sertifikatas"
+          alt="Y Balance Test logotipas"
           class="md:max-h-[100px] object-contain rounded-md shadow-lg"
         />
 
         <img
           src="https://innovamed.lt/wp-content/uploads/2023/11/FCS_CERTIFIED_complete_L1-01-1-300x146.jpg.webp"
+          title="FCS (Fundamental Capacity Screen) sertifikatas fundamentinių gebėjimų patikrai"
+          alt="FCS Fundamental Capacity Screen logotipas"
           class="md:max-h-[100px] object-contain rounded-md shadow-lg"
         />
 
         <img
           src="https://innovamed.lt/wp-content/uploads/2025/05/FWS_LOGO_4C_sm-1-300x150.png.webp"
+          title="FWS (Functional Wellness Screen) sertifikatas funkciniam gerovės patikrinimui"
+          alt="FWS Functional Wellness Screen logotipas"
           class="md:max-h-[100px] object-contain rounded-md shadow-lg"
         />
 
         <img
           src="https://innovamed.lt/wp-content/uploads/2023/11/unnamed-300x154.jpg.webp"
+          title="Complete Training pagal Darco Cotic programa"
+          alt="Complete Training by Darco Cotic logotipas"
           class="md:max-h-[100px] object-contain rounded-md shadow-lg"
         />
 
         <img
           src="https://innovamed.lt/wp-content/uploads/2024/12/IASTM__17189.1583261159.1280.1280-241x300.jpg.webp"
+          title="FMT Blades: Fascijų ir minkštųjų audinių mobilizacijos technikos (Blades) sertifikatas"
+          alt="FMT Blades Iškilios peiliukų formos logotipas"
           class="md:max-h-[100px] object-contain rounded-md shadow-lg"
         />
 
         <img
           src="https://innovamed.lt/wp-content/uploads/2024/12/FMT-Performance-600x346.jpg.webp"
-          class="md:max-h-[100px] object-contain rounded-md shadow-lg"
-        />
-
-        <img
-          src="https://innovamed.lt/wp-content/uploads/2024/12/FMT-Performance-600x346.jpg.webp"
+          title="FMT: Kineziologinio teipavimo technikos pagrindų sertifikatas"
+          alt="FMT Kineziologinio teipavimo logotipas"
           class="md:max-h-[100px] object-contain rounded-md shadow-lg"
         />
       </div>

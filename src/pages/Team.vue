@@ -5,9 +5,8 @@
     </h1>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <a
-        href="https://innovamed.lt/giedre-mikelioniene/"
-        target="_blank"
+      <RouterLink
+        :to="{ name: 'giedre-mikelioniene' }"
         class="bg-white p-6 sm:rounded-lg shadow-md flex flex-col items-center text-center"
       >
         <img
@@ -33,7 +32,7 @@
           <strong class="font-semibold">Papildomos metodikos:</strong> DNS
           Pediatric, DNS Scoliosis
         </p>
-      </a>
+      </RouterLink>
 
       <RouterLink
         :to="{ name: 'tadas-mikelionis' }"
