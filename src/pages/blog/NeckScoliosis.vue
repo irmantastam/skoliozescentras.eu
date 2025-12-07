@@ -42,6 +42,7 @@
         nepastebima, o kitiems gali sukelti papildomą diskomfortą ir skausmus.
         Svarbu žinoti, kad kuo anksčiau pastebimi kaklo skoliozės simptomai, tuo
         lengviau yra parinkti tinkamą gydymą ir sustabdyti ligos progresavimą.
+        Pagrindiniai kaklo skoliozės požymiai yra šie:
       </p>
 
       <div class="space-y-4 mb-6">
@@ -281,7 +282,7 @@
         Kaklo skoliozės gydymas yra individualus, priklauso nuo jos priežasties,
         laipsnio ir simptomų stiprumo. Anksti pastebėti simptomai ir laiku
         pradėtas gydymas gali sustabdyti ligos progresavimą ir palengvinti
-        gyvenimo kokybę.
+        gyvenimo kokybę. Kaklo skoliozė yra gydoma šiais būdais:
       </p>
 
       <div class="space-y-6">
@@ -294,11 +295,15 @@
           <p class="text-sky-900 text-sm">
             Kineziterapeutas parenka specialius pratimus, skirtus stuburo
             iškrypimo kreivei mažinti bei raumenų balansui atkurti. Taip pat
-            skoliozei gydyti yra taikoma <b>Schroth terapija</b>. Schroth -
-            metodas, turintis didžiausią mokslinį pagrindimą ir patvirtintą
-            efektyvumą. Terapijos metu taikomi asimetriniai pratimai, pritaikyti
-            įdubusioms ir išgaubtoms stuburo pusėms kartu su korekciniu
-            kvėpavimu.
+            skoliozei gydyti yra taikoma
+            <RouterLink
+              :to="{ name: 'treatment' }"
+              class="text-sky-600 hover:text-sky-500 transition-colors duration-300 hover:underline"
+              >Schroth terapija</RouterLink
+            >. Schroth - metodas, turintis didžiausią mokslinį pagrindimą ir
+            patvirtintą efektyvumą. Terapijos metu taikomi asimetriniai
+            pratimai, pritaikyti įdubusioms ir išgaubtoms stuburo pusėms kartu
+            su korekciniu kvėpavimu.
           </p>
         </div>
 

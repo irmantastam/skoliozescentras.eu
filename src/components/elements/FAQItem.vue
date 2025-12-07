@@ -4,7 +4,7 @@
       @click="isOpen = !isOpen"
       class="w-full text-left p-4 flex justify-between items-center bg-sky-50 hover:bg-sky-100 transition duration-150"
     >
-      <span class="text-base font-semibold text-sky-900">{{ question }}</span>
+      <h3 class="text-base font-semibold text-sky-900">{{ question }}</h3>
 
       <svg
         :class="{ 'rotate-180': isOpen }"

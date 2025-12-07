@@ -166,10 +166,10 @@ export const routes = [
     name: 'straipsniai-kaklo-skolioze',
     component: () => import('./pages/blog/NeckScoliosis.vue'),
     meta: {
-      title: 'Kaklo skoliozė - simptomai ir gydymas - Skoliozės centras',
+      title: 'Kaklo skoliozė: kaip atpažinti ir gydyti - Skoliozės centras',
       menuTitle: 'Kaklo skoliozė',
       description:
-        'Kaklo skoliozė - tai problema, apie kurią išgirstame tik tada, kai susiduriame su kaklo skausmais ar kitais diskomfortą keliančiais jausmais',
+        'Kaklo skoliozė yra stuburo kaklinės dalies iškrypimas į šoną. Jos metu stuburas nebūna tiesus, o įgauna S arba C formą. Sužinokite, kaip gydoma kaklo skoliozė.',
     },
   },
   {
