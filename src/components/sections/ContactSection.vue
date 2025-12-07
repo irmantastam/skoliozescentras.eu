@@ -66,8 +66,13 @@
         </p>
 
         <p class="text-sky-900">
+          <IconWorkingHours class="inline-block align-middle mr-1 -mt-1" />
+
           <strong class="font-semibold">Darbo laikas:</strong>
-          Pirmadienis-Penktadienis: 9:00 - 18:00
+
+          <p class="mt-2">Pirmadienis - Penktadienis: <strong>08:00 - 20:00</strong></p>
+          <p class="mt-1">Šeštadienis: <strong>08:00 - 17:00</strong></p>
+          <p class="mt-1">Sekmadienis: <strong>Nedirbame</strong></p>
         </p>
 
         <!-- Social -->
@@ -179,6 +184,7 @@ import IconPhone from '../icons/IconPhone.vue'
 import IconEmail from '../icons/IconEmail.vue'
 import IconMapPin from '../icons/IconMapPin.vue'
 import ContactForm from '../forms/ContactForm.vue'
+import IconWorkingHours from '../icons/IconWorkingHours.vue'
 </script>
 
 <style scoped></style>

@@ -170,7 +170,11 @@
         </p>
 
         <p class="text-sm">
-          <strong>Darbo laikas: </strong> Pirmadienis-Penktadienis: 9:00 - 18:00
+          <IconWorkingHours class="inline-block align-middle mr-1 -mt-1" />
+          <strong>Darbo laikas: </strong>
+          <p class="mt-2">Pirmadienis - Penktadienis: <strong>08:00 - 20:00</strong></p>
+          <p class="mt-1">Šeštadienis: <strong>08:00 - 17:00</strong></p>
+          <p class="mt-1">Sekmadienis: <strong>Nedirbame</strong></p>
         </p>
       </div>
     </div>
@@ -183,6 +187,7 @@ import { RouterLink } from 'vue-router'
 import IconPhone from '../icons/IconPhone.vue'
 import IconEmail from '../icons/IconEmail.vue'
 import IconMapPin from '../icons/IconMapPin.vue'
+import IconWorkingHours from '../icons/IconWorkingHours.vue'
 import { routes } from '../../routes'
 </script>
 
