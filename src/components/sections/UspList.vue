@@ -3,7 +3,7 @@
     <h2 class="text-3xl font-semibold text-sky-900 mb-6">Mūsų paslaugos</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <!-- Card 1: Skoliozės testavimas -->
+      <!-- Card 1: Laikysenos testavimas -->
       <div
         class="bg-white p-6 sm:rounded-lg shadow-md border border-gray-100 transition-transform duration-300 hover:scale-105 hover:shadow-xl"
       >
@@ -37,12 +37,12 @@
 
           <div>
             <h3 class="text-xl font-semibold text-gray-700">
-              Skoliozės testavimas
+              Laikysenos testavimas
             </h3>
             <p class="text-sky-900 leading-relaxed mt-2">
-              Kviečiame pasinaudoti unikalia galimybe atlikti nemokamą skoliozės
-              testavimą mūsų centre. Ankstyva diagnostika yra itin svarbi
-              sėkmingam gydymui.
+              Kviečiame pasinaudoti unikalia galimybe atlikti nemokamą
+              laikysenos testavimą mūsų centre. Ankstyva diagnostika yra itin
+              svarbi sėkmingam gydymui.
             </p>
           </div>
         </div>

@@ -25,9 +25,9 @@
           <p class="text-sky-900 leading-relaxed mb-4">
             Padėti vaikams, paaugliams ir suaugusiems, turintiems stuburo
             iškrypimus, pasitelkiant moderniausią diagnostiką ir pasaulinio
-            lygio Schroth metodą. Siekiame ne tik ištiesinti stuburą, bet ir
-            pagerinti laikyseną, estetinį vaizdą, gyvenimo kokybę ir
-            pasitikėjimą savimi.
+            lygio Schroth metodą. Siekiame ne tik pagerinti ar išlaikyti esamą
+            stuburo būklę, bet ir pagerinti laikyseną, estetinį vaizdą, gyvenimo
+            kokybę ir pasitikėjimą savimi.
           </p>
         </div>
 
@@ -104,7 +104,7 @@
           stuburo analizė suteikia kiekybinį skoliozės vertinimą.
         </li>
         <li>
-          <strong>Nemokamas skoliozės testavimas</strong> - ankstyvas stuburo
+          <strong>Nemokamas laikysenos testavimas</strong> - ankstyvas stuburo
           problemų atpažinimas ir laiku suteikta pagalba.
         </li>
       </ul>

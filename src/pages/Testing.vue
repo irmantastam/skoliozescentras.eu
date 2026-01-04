@@ -1,43 +1,45 @@
 <template>
   <LayoutPage>
     <h1 class="text-3xl font-semibold text-sky-600 mx-6 text-center">
-      Nemokamas skoliozės testavimas
+      Nemokamas laikysenos testavimas
     </h1>
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
       <div class="flex flex-col md:flex-row gap-6">
         <div class="flex-1">
           <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-            Kas yra skoliozės testavimas?
+            Kas yra laikysenos testavimas?
           </h2>
 
           <p class="text-sky-900 leading-relaxed mb-4">
-            Skoliozės testavimas leidžia laiku pastebėti pakitimus ir imtis
-            reikiamų priemonių. Testas trunka vos kelias minutes ir yra visiškai
-            neskausmingas. Jį rekomenduojama atlikti visiems vaikams nuo 7 metų
-            ir paaugliams augimo šuolio metu.
+            Testavimas leidžia laiku pastebėti stuburo ar galūnių pakitimus ir
+            imtis reikiamų priemonių. Testas trunka vos kelias minutes ir yra
+            visiškai neskausmingas. Jį rekomenduojama atlikti visiems vaikams
+            nuo 7 metų ir paaugliams augimo šuolio metu.
           </p>
 
           <h3 class="text-xl font-medium text-sky-700 mb-2">
-            Kaip vyksta skoliozės testavimas?
+            Kaip vyksta testavimas?
           </h3>
 
           <p class="text-sky-900 leading-relaxed mb-4">
             Testavimo metu specialistas įvertina laikyseną, stuburo liniją ir
             pečių simetriją. Naudojamas specialus skoliozės matuoklis –
             skoliometras, kuris padeda nustatyti stuburo pasvirimo kampą. Jei
-            pastebimi įtarimai dėl skoliozės, pacientas siunčiamas išsamesniam
-            ištyrimui. Ankstyvas gydymas padeda išvengti operacijos ir
-            ilgalaikių stuburo problemų. Dažniausiai taikomos korekcinės
-            mankštos, laikysenos gerinimo pratimai ar individualūs korsetai.
+            kyla įtarimų dėl skoliozės, pacientui rekomenduojama kreiptis pas
+            šeimos gydytoją išsamesniam ištyrimui. Ankstyvas gydymas padeda
+            išvengti operacijos ir ilgalaikių stuburo problemų. Gydytojui
+            diagnozavus skoliozę ar kitas laikysenos problemas, dažniausiai
+            taikomos korekcinės mankštos, laikysenos gerinimo pratimai ar
+            individualūs korsetai.
           </p>
         </div>
 
         <figure class="flex flex-col">
           <img
-            src="/images/testing/Nemokamas skoliozės testavimas.webp"
-            title="Nemokamas skoliozės testavimas INNOVAMED"
-            alt="Nemokamas skoliozės testavimas INNOVAMED"
+            src="/images/testing/Nemokamas laikysenos testavimas.webp"
+            title="Nemokamas laikysenos testavimas INNOVAMED"
+            alt="Nemokamas laikysenos testavimas INNOVAMED"
             class="md:max-h-[400px] object-cover rounded-md shadow-lg flex-1"
           />
           <figcaption
@@ -63,11 +65,11 @@
           class="text-sky-600 hover:text-sky-500 transition-colors duration-300 hover:underline"
         >
           skoliozė</RouterLink
-        >, tuo geresni gydymo rezultatai. Nemokamas testavimas atliekamas
-        INNOVAMED Kineziterapijos Klinikose Vilniuje ir Kaune iš anksto
-        susitarus. Tai puiki proga rūpintis vaikų sveikata be papildomų išlaidų.
-        Svarbiausia - prevencija ir nuolatinė stuburo būklės stebėsena augimo
-        metu.
+        >, tuo geresni gydymo rezultatai. Nemokamas laikysenos testavimas
+        atliekamas INNOVAMED Kineziterapijos Klinikose Vilniuje ir Kaune iš
+        anksto susitarus. Tai puiki proga rūpintis vaikų sveikata be papildomų
+        išlaidų. Svarbiausia - prevencija ir nuolatinė stuburo būklės stebėsena
+        augimo metu.
       </p>
 
       <h3 class="text-xl font-medium text-sky-700 mb-2">Kontaktai</h3>

@@ -114,7 +114,7 @@
           :to="{ name: 'testing' }"
           class="text-sky-600 hover:text-sky-500 transition-colors duration-300 hover:underline"
         >
-          nemokamas skoliozės testavimas</RouterLink
+          nemokamas laikysenos testavimas</RouterLink
         >.
       </p>
     </section>

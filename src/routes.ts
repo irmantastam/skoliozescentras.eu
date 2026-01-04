@@ -41,14 +41,14 @@ export const routes = [
     },
   },
   {
-    path: '/nemokamas-skoliozes-testavimas',
+    path: '/nemokamas-laikysenos-testavimas',
     name: 'testing',
     component: () => import('./pages/Testing.vue'),
     meta: {
-      title: 'Nemokamas skoliozės testavimas - Skoliozės Centras',
-      menuTitle: 'Nemokamas skoliozės testavimas',
+      title: 'Nemokamas laikysenos testavimas - Skoliozės Centras',
+      menuTitle: 'Nemokamas laikysenos testavimas',
       description:
-        'Užsiregistruokite nemokamam skoliozės testui. Testavimas atliekamas INNOVAMED Kineziterapijos Klinikose Vilniuje ir Kaune',
+        'Užsiregistruokite nemokamam laikysenos testui. Testavimas atliekamas INNOVAMED Kineziterapijos Klinikose Vilniuje ir Kaune',
     },
   },
   {

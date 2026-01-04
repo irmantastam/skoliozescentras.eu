@@ -29,14 +29,15 @@
 
       <div class="mt-2 mb-4 flex flex-col gap-2 font-medium">
         <p>
-          Kviečiame pasinaudoti unikalia galimybe atlikti nemokamą skoliozės
-          testavimą mūsų centre. Ankstyva diagnostika yra itin svarbi sėkmingam
-          gydymui.
+          Kviečiame pasinaudoti unikalia galimybe atlikti nemokamą laikysenos
+          testavimą mūsų centre. Anksti pastebėti pokyčiai leidžia laiku imtis
+          prevencinių priemonių ir išvengti rimtesnių stuburo problemų ateityje.
         </p>
 
         <p>
-          Mūsų specialistai atidžiai įvertins jūsų laikyseną ir stuburo būklę,
-          suteiks pirminę konsultaciją ir atsakys į visus rūpimus klausimus.
+          Mūsų specialistai įvertins laikyseną, stuburo būklę ir pateiks
+          individualias rekomendacijas. Rūpinkitės savo ir vaikų sveikata
+          šiandien – taisyklinga laikysena yra geros savijautos pagrindas.
         </p>
       </div>
 
