@@ -145,9 +145,29 @@
         <p class="text-gray-700 mb-1">
           <strong class="font-semibold">Miestas:</strong> Vilnius
         </p>
+        <p class="text-gray-700">
+          <strong class="font-semibold">Specializacija:</strong> Sertifikuota
+          ISST Schroth praktikė.
+        </p>
+      </div>
+
+      <div
+        class="bg-white p-6 sm:rounded-lg shadow-md flex flex-col items-center text-center"
+      >
+        <img
+          src="https://innovamed.lt/wp-content/uploads/2025/07/5cf28952-2eab-41ed-878d-0b907ff3fbea-300x300.jpeg.webp"
+          alt="Martynas Žilinskas"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
+        />
+        <h2 class="text-xl font-semibold text-gray-900 mb-2">
+          Martynas Žilinskas
+        </h2>
         <p class="text-gray-700 mb-1">
-          <strong class="font-semibold">Specializacija:</strong> ISST Schroth
-          basic part I
+          <strong class="font-semibold">Miestas:</strong> Kaunas
+        </p>
+        <p class="text-gray-700">
+          <strong class="font-semibold">Specializacija:</strong> Sertifikuotas
+          ISST Schroth metodikos skoliozės gydymui praktikas.
         </p>
       </div>
     </div>
