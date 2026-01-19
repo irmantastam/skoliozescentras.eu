@@ -18,19 +18,19 @@
           Giedrė Mikelionienė
         </h2>
         <p class="text-gray-700 mb-1">
-          <strong class="font-semibold">Miestai:</strong> Vilnius ir Kaunas
+          <strong class="font-semibold">Miestai:</strong> Vilnius ir Kaunas.
         </p>
         <p class="text-gray-700 mb-1">
           <strong class="font-semibold">Specializacija:</strong> Sertifikuota
-          ISST Schroth specialistė
+          ISST Schroth specialistė.
         </p>
         <p class="text-gray-700 mb-1">
           <strong class="font-semibold">ISST laipsnis:</strong> Klinikinės
-          praktikos vadovė
+          praktikos vadovė.
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Papildomos metodikos:</strong> DNS
-          Pediatric, DNS Scoliosis
+          Pediatric.
         </p>
       </RouterLink>
 
@@ -47,19 +47,19 @@
           Tadas Mikelionis
         </h2>
         <p class="text-gray-700 mb-1">
-          <strong class="font-semibold">Miestai:</strong> Vilnius ir Kaunas
+          <strong class="font-semibold">Miestai:</strong> Vilnius ir Kaunas.
         </p>
         <p class="text-gray-700 mb-1">
           <strong class="font-semibold">Specializacija:</strong> Sertifikuotas
-          ISST Schroth specialistas
+          ISST Schroth specialistas.
         </p>
         <p class="text-gray-700 mb-1">
           <strong class="font-semibold">ISST laipsnis:</strong> Klinikinės
-          praktikos vadovas
+          praktikos vadovas.
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Papildomos metodikos:</strong> DNS
-          medical, Maitland, Mulligan
+          medical, Maitland, Mulligan.
         </p>
       </RouterLink>
 
@@ -75,15 +75,15 @@
           Vaida Grabauskė
         </h2>
         <p class="text-gray-700 mb-1">
-          <strong class="font-semibold">Miestas:</strong> Kaunas
+          <strong class="font-semibold">Miestas:</strong> Kaunas.
         </p>
         <p class="text-gray-700 mb-1">
           <strong class="font-semibold">Specializacija:</strong> Sertifikuota
-          ISST Schroth specialistė
+          ISST Schroth specialistė.
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Papildomos metodikos:</strong> DNS
-          Pediatric, DNS Scoliosis
+          Pediatric.
         </p>
       </div>
 
@@ -99,11 +99,11 @@
           Emilija Masevičienė
         </h2>
         <p class="text-gray-700 mb-1">
-          <strong class="font-semibold">Miestas:</strong> Vilnius
+          <strong class="font-semibold">Miestas:</strong> Vilnius.
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Specializacija:</strong> Sertifikuota
-          ISST Schroth specialistė
+          ISST Schroth specialistė.
         </p>
       </div>
 
@@ -119,15 +119,15 @@
           Žygimantas Skinderis
         </h2>
         <p class="text-gray-700 mb-1">
-          <strong class="font-semibold">Miestas:</strong> Vilnius
+          <strong class="font-semibold">Miestas:</strong> Vilnius.
         </p>
         <p class="text-gray-700 mb-1">
           <strong class="font-semibold">Specializacija:</strong> Sertifikuotas
-          ISST Schroth specialistas
+          ISST Schroth specialistas.
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Papildomos metodikos:</strong> DNS
-          Pediatric, DNS Scoliosis, Maitland
+          Pediatric, Maitland.
         </p>
       </div>
 
@@ -143,7 +143,7 @@
           Evita Budnikienė
         </h2>
         <p class="text-gray-700 mb-1">
-          <strong class="font-semibold">Miestas:</strong> Vilnius
+          <strong class="font-semibold">Miestas:</strong> Vilnius.
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Specializacija:</strong> Sertifikuota
@@ -155,7 +155,7 @@
         class="bg-white p-6 sm:rounded-lg shadow-md flex flex-col items-center text-center"
       >
         <img
-          src="https://innovamed.lt/wp-content/uploads/2025/07/5cf28952-2eab-41ed-878d-0b907ff3fbea-300x300.jpeg.webp"
+          src="https://innovamed.lt/wp-content/uploads/2026/01/unnamed-1-300x300.jpg.webp"
           alt="Martynas Žilinskas"
           class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
         />
@@ -163,11 +163,11 @@
           Martynas Žilinskas
         </h2>
         <p class="text-gray-700 mb-1">
-          <strong class="font-semibold">Miestas:</strong> Kaunas
+          <strong class="font-semibold">Miestas:</strong> Kaunas.
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Specializacija:</strong> Sertifikuotas
-          ISST Schroth metodikos skoliozės gydymui praktikas.
+          ISST Schroth praktikas.
         </p>
       </div>
     </div>
