@@ -178,7 +178,7 @@
               class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
               @click="closeDropdownsDirectly"
             >
-              SOSORT gydymo draugija
+              Tarptautinė SOSORT organizacija
             </RouterLink>
           </li>
           <li>

@@ -4,134 +4,147 @@
       Tarptautinė PSSE asociacija
     </h1>
 
-    <div class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <div class="flex flex-col md:flex-row gap-6">
+    <div
+      class="p-6 bg-white sm:rounded-lg shadow-sm text-sky-900 leading-relaxed"
+    >
+      <div class="flex flex-col md:flex-row gap-6 mb-6">
         <div class="flex-1">
-          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-            Kas yra PSSE asociacija?
-          </h2>
-
-          <p class="text-sky-900 leading-relaxed mb-4">
-            PSSE asociacija – tai tarptautinė organizacija, kurios veikla
-            remiasi šešių skoliozės gydymo mokyklų sukaupta patirtimi ir
-            tradicijomis. Kiekviena iš šių mokyklų svariai prisidėjo prie
-            skoliozei specifinių kineziterapinių pratimų plėtros bei metodinių
-            principų gryninimo.
+          <p class="mb-4">
+            <b>Tarptautinės PSSE asociacijos</b> veikla remiasi šešių skoliozės
+            gydymo mokyklų sukaupta patirtimi ir tradicijomis. Kiekvienas iš šių
+            metodų svariai prisidėjo prie skoliozei specifinių kineziterapinių
+            pratimų plėtros, išgrynindama savitus metodinius principus,
+            klinikinio sprendimo svarbą ir gydymo strategijas. Bendros vertybės
+            ir mokslinis bendradarbiavimas jungia šias mokyklas ir sudaro
+            asociacijos vizijos pagrindą – įrodymais grįstą ir į pacientą
+            orientuotą skoliozės gydymą.
           </p>
-
-          <p class="text-sky-900 leading-relaxed mb-4">
-            Asociacijos vizija – tapti pirmaujančia pasauline organizacija,
-            įgalinančia kineziterapeutus padėti skoliozę turintiems asmenims
-            visais amžiaus tarpsniais, užtikrinant įrodymais grįstą ir į
-            pacientą orientuotą gydymą.
+          <p class="mb-4">
+            PSSE siekia skatinti aukščiausios kokybės kineziterapinį skoliozės
+            valdymą, taikant moksliniais įrodymais grįstus, specializuotus
+            pratimų metodus. Asociacijos vizija – tapti pirmaujančia pasauline
+            organizacija, įgalinančia kineziterapeutus padėti skoliozę
+            turintiems asmenims visais amžiaus tarpsniais, gerinant jų sveikatos
+            rodiklius ir gyvenimo kokybę.
           </p>
-
-          <h3 class="text-sky-700 text-xl font-medium leading-relaxed mb-2">
-            Pagrindiniai tikslai:
-          </h3>
-
-          <ul
-            class="list-disc list-inside text-sky-900 leading-relaxed space-y-1 mb-4"
-          >
-            <li>
-              Tarptautinis bendradarbiavimas ir žinių mainai tarp specialistų.
-            </li>
-            <li>
-              Gydymo rezultatų gerinimas, teikiant apčiuopiamą naudą pacientams.
-            </li>
-            <li>Klinikinis meistriškumas ir teorinio pagrindimo gilinimas.</li>
-            <li>Aukštų profesinio rengimo standartų puoselėjimas.</li>
-          </ul>
         </div>
-
-        <figure class="flex flex-col">
+        <figure class="flex-shrink-0">
           <img
             src="/images/education/psse/logo-psse.webp"
-            title="PSSE asociacija INNOVAMED"
-            alt="PSSE asociacija INNOVAMED"
-            class="rounded-md shadow-lg bg-sky-100 p-4"
+            alt="PSSE asociacija"
+            class="rounded-md shadow-lg bg-sky-50 p-6"
           />
         </figure>
       </div>
-    </div>
 
-    <div class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-        Asociacijos vienijamos mokyklos
-      </h2>
-
-      <p class="text-sky-900 leading-relaxed mb-6">
-        PSSE įsipareigoja puoselėti pamatines vertybes ir išsaugoti originalių
-        metodų principus. Asociacija vienija šešias pripažintas skoliozės gydymo
-        mokyklas:
+      <p class="mb-4">
+        Asociacija įsipareigoja puoselėti bendradarbiavimą, tarpusavio pagarbą
+        ir žinių mainus tarp skoliozei skirtų specifinės kineziterapijos mokyklų
+        ir metodikų. Šis įtraukus požiūris skatina bendradarbiavimą ir padeda
+        kurti stiprią, tarptautinę profesinę bendruomenę.
+      </p>
+      <p class="mb-6">
+        Vienas pagrindinių PSSE veiklos ramsčių – standartizuotų, validių,
+        patikimų ir į pacientą orientuotų rezultatų vertinimo priemonių,
+        specialiai pritaikytų skoliozei skirtų specifinių pratimų, kūrimas. Šios
+        priemonės skirtos gerinti klinikinių sprendimų priėmimą, prasmingai
+        stebėti pacientų pažangą ir didinti kineziterapinio gydymo poveikį
+        pasauliniu mastu.
       </p>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sky-900 mb-6">
-        <ul class="list-disc list-inside space-y-1">
-          <li><strong>Schroth metodas</strong> (Vokietija)</li>
-          <li><strong>SEAS</strong> (Italija)</li>
-          <li><strong>Rigo Concept BSPTS</strong> (Ispanija)</li>
-        </ul>
-        <ul class="list-disc list-inside space-y-1">
-          <li><strong>Best Practice Schroth Academy</strong> (Vokietija)</li>
-          <li><strong>FITS metodas</strong> (Lenkija)</li>
-          <li><strong>Side Shift metodas</strong> (Anglija)</li>
-        </ul>
-      </div>
-
-      [Image showing the global reach and different schools of the PSSE
-      association]
+      <h3 class="text-xl font-semibold mb-3 text-sky-700">Tikslai:</h3>
+      <ul class="list-disc list-inside space-y-2 mb-8">
+        <li>
+          <strong>Tarptautinis atstovavimas.</strong> Pagrindinių PSSE
+          steigiamųjų mokyklų narių subūrimas (Hagit ir kt., 2016), siekiant
+          sukurti tarptautinę bendradarbiaujančią organizaciją;
+        </li>
+        <li>
+          <strong>Pacientų gydymo rezultatų gerinimas.</strong> Bendromis
+          pastangomis kuriami gydymo metodai, suteikiantys apčiuopiamą ir
+          prasmingą naudą skoliozę turintiems pacientams;
+        </li>
+        <li>
+          <strong>Pamatinių vertybių išsaugojimas.</strong> Originalių PSSE
+          metodų principų puoselėjimas ir jų kūrėjų istorinės reikšmės
+          pripažinimas;
+        </li>
+        <li>
+          <strong>Terapinis tobulėjimas.</strong> Skoliozės gydymo veiksmingumo
+          gerinimas, išsaugant skoliozei specifinių pratimų pagrindinį pobūdį;
+        </li>
+        <li>
+          <strong>Klinikinis meistriškumas.</strong> Skoliozės gydymo praktinio
+          taikymo (kaip) ir teorinio pagrindimo (kodėl) gilinimas ir
+          tobulinimas;
+        </li>
+        <li>
+          <strong>Švietimas ir profesinis rengimas</strong> - aukštų profesinio
+          rengimo standartų puoselėjimas, siekiant įgalinti kineziterapeutus
+          teikti specializuotą skoliozės priežiūrą.
+        </li>
+      </ul>
     </div>
 
-    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <div class="flex flex-col md:flex-row gap-6">
-        <div class="flex-1">
-          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-            Mokslinis pagrindas ir vertinimas
-          </h2>
-
-          <p class="text-sky-900 leading-relaxed mb-4">
-            Vienas pagrindinių PSSE veiklos ramsčių – standartizuotų, patikimų
-            ir į pacientą orientuotų rezultatų vertinimo priemonių kūrimas. Tai
-            leidžia kineziterapeutams priimti geresnius klinikinius sprendimus
-            ir prasmingai stebėti pacientų pažangą.
-          </p>
-
-          <div class="bg-sky-50 p-4 rounded-md border-l-4 border-sky-600">
-            <p class="text-sky-900 font-medium italic">
-              Nors PSSE vienija šešias mokyklas, tik ISST Schroth ir SEAS
-              metodikos turi daugiausiai aukštos kokybės mokslinių tyrimų bei
-              yra dažniausiai cituojamos tarptautinėse gairėse dėl savo
-              efektyvumo ir griežtos standartizacijos.
-            </p>
-          </div>
-        </div>
+    <div class="p-6 bg-white sm:rounded-lg shadow-sm text-sky-900">
+      <h3 class="text-xl font-semibold mb-4 text-sky-700">
+        Asociacija vienija šešias skoliozės gydymo mokyklas:
+      </h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-2 mb-8">
+        <ul class="list-disc list-inside space-y-1">
+          <li>Schroth metodas (Vokietija);</li>
+          <li>SEAS (Italija);</li>
+          <li>Rigo Concept BSPTS (Ispanija);</li>
+        </ul>
+        <ul class="list-disc list-inside space-y-1">
+          <li>Best Practice Schroth Academy (Vokietija);</li>
+          <li>FITS metodas (Lenkija);</li>
+          <li>Side Shift metodas (Anglija).</li>
+        </ul>
       </div>
-    </section>
 
-    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
-      <div class="flex flex-col md:flex-row gap-6">
-        <div class="flex-1">
-          <h2 class="text-2xl font-semibold text-sky-900 mb-4">
-            INNOVAMED pasirinkimas
-          </h2>
-
-          <p class="text-sky-900 leading-relaxed mb-4">
-            Mūsų kineziterapijos klinikų skoliozės gydymo centrai dirba
-            vadovaudamiesi aukščiausiais PSSE ir SOSORT standartais. Mes
-            renkamės taikyti būtent <strong>ISST Schroth</strong> bei
-            <strong>SEAS</strong> metodikas, nes jos turi stipriausią mokslo
-            įrodymų bazę.
-          </p>
-
-          <p class="text-sky-900 leading-relaxed">
-            Metodikos, neturinčios pakankamo mokslinio pagrindimo, mūsų
-            specialistų nėra rekomenduojamos, nes siekiame užtikrinti tik saugų
-            ir moksliškai patvirtintą gydymą savo pacientams.
-          </p>
-        </div>
+      <div class="bg-sky-50 p-6 rounded-md border-l-4 border-sky-600 mb-8">
+        <p class="font-semibold mb-3 text-lg">
+          Tačiau tik ISST Schroth ir SEAS:
+        </p>
+        <ul class="list-disc list-inside space-y-2">
+          <li>
+            Turi daugiausiai aukštos kokybės mokslinių tyrimų (įskaitant
+            sistemines apžvalgas, prospektyvinius tyrimus),
+          </li>
+          <li>
+            Jos dažniausiai cituojamos SOSORT gairėse kaip metodikos, turinčios
+            stipriausią įrodymų bazę ir efektyvumą,
+          </li>
+          <li>
+            Jos yra aiškiai standartizuotos, su aprašytais protokolais, mokymu
+            ir rezultatų vertinimu.
+          </li>
+        </ul>
       </div>
-    </section>
+
+      <div class="space-y-4 leading-relaxed">
+        <p class="font-bold text-lg">
+          INNOVAMED Kineziterapijos Klinikų Skoliozės gydymo centrai dirba
+          būtent pagal šias dvi metodikas.
+        </p>
+        <p class="italic">
+          Visos kitos metodikos neesančios šiame sąraše arba neatitinka
+          reikalavimų arba neturi pakankamo mokslinio pagrindimo, todėl tiek
+          SOSORT organizacijos, tiek PSSE asociacijos, tiek mūsų yra
+          nerekomenduojamos taikyti.
+        </p>
+        <p class="mt-6">
+          <a
+            href="https://www.psseassociation.org/"
+            target="_blank"
+            class="text-sky-600 hover:text-sky-800 underline transition-colors"
+          >
+            https://www.psseassociation.org/
+          </a>
+        </p>
+      </div>
+    </div>
 
     <ContactTeaser />
   </LayoutPage>

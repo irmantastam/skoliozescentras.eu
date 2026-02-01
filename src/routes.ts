@@ -95,12 +95,12 @@ export const routes = [
     },
   },
   {
-    path: '/sosort-gydymo-draugija',
+    path: '/tarptautine-sosort-organizacija',
     name: 'sosort',
     component: () => import('./pages/Sosort.vue'),
     meta: {
-      title: 'SOSORT gydymo draugija - Skoliozės Centras',
-      menuTitle: 'SOSORT gydymo draugija',
+      title: 'Tarptautinė SOSORT organizacija - Skoliozės Centras',
+      menuTitle: 'Tarptautinė SOSORT organizacija',
       description:
         'SOSORT – Tarptautinė skoliozės ortopedinio ir reabilitacinio gydymo draugija.',
     },

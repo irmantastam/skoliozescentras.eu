@@ -166,7 +166,7 @@ const educationLinks = [
   { name: 'training', title: 'Skoliozės gydymo kursai Lietuvoje' },
   { name: 'schroth', title: 'ISST Schroth metodas ir organizacija' },
   { name: 'seas', title: 'SEAS metodas ir ISICO organizacija' },
-  { name: 'sosort', title: 'SOSORT gydymo draugija' },
+  { name: 'sosort', title: 'Tarptautinė SOSORT organizacija' },
   { name: 'psse', title: 'Tarptautinė PSSE asociacija' },
 ]
 
