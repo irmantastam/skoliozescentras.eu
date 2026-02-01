@@ -1,12 +1,16 @@
 <template>
   <LayoutPage>
     <h1 class="text-3xl font-semibold text-sky-600 mx-6 text-center">
-      Kas yra SOSORT?
+      Tarptautinė SOSORT organizacija
     </h1>
 
     <div class="p-6 bg-white sm:rounded-lg shadow-sm">
       <div class="flex flex-col md:flex-row gap-6">
         <div class="flex-1 text-sky-900 leading-relaxed">
+          <h2 class="text-2xl font-semibold mb-4 text-sky-900">
+            Kas yra SOSORT?
+          </h2>
+
           <p class="mb-4">
             <b>SOSORT</b> – tai Tarptautinė skoliozės ortopedinio ir
             reabilitacinio gydymo draugija (angl. International Society On
