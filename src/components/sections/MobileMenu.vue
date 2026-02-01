@@ -1,6 +1,7 @@
 <template>
   <button
-    class="menu-toggle bg-transparent border-none cursor-pointer p-2.5 z-50 relative w-10 h-10 flex flex-col justify-around items-center lg:hidden"
+    class="menu-toggle bg-transparent border-none cursor-pointer p-2.5 z-50 relative w-10 h-10 flex flex-col justify-around items-center"
+    :class="!isMenuOpen && 'lg:hidden'"
     aria-label="Toggle navigation menu"
     @click="toggleMobileMenu"
   >
@@ -22,34 +23,118 @@
 
   <div
     v-if="isMenuOpen"
-    class="fixed inset-0 bg-white bg-opacity-95 flex flex-col items-center overflow-y-auto"
-    @click="closeMobileMenu"
+    class="fixed inset-0 bg-white z-40 flex flex-col overflow-y-auto"
   >
-    <nav class="w-full text-center flex flex-col items-center gap-6">
-      <Logo
-        class="hidden xl:block mt-6"
-        @click="closeMobileMenu"
-      />
+    <ContactTop class="block w-full py-4" />
 
-      <ContactTop class="block w-full xl:hidden py-4" />
+    <Logo
+      class="hidden xl:block my-6"
+      @click="closeMobileMenu"
+    />
 
-      <ExternalCtaLink class="block xl:hidden" />
+    <nav class="flex flex-col items-center p-6">
+      <ExternalCtaLink class="block mb-6 xl:hidden" />
 
-      <ul class="list-none m-0 p-0 flex flex-col gap-6 items-center px-6 mb-6">
-        <template
-          v-for="route in routes"
-          :key="route.path"
-        >
-          <li v-if="!route.meta?.excludeFromMenu">
-            <RouterLink
-              :to="{ name: route.name }"
-              @click="closeMobileMenu"
-              class="block text-sky-900 text-xl font-semibold py-3 hover:text-sky-600 hover:underline transition-colors duration-300"
+      <ul class="w-full list-none m-0 p-0 flex flex-col gap-2">
+        <li class="border-b border-gray-100">
+          <button
+            @click="toggleSubmenu('about')"
+            class="w-full flex justify-between items-center py-4 text-xl font-semibold text-sky-900 focus:outline-none"
+          >
+            Apie mus
+            <span
+              class="transition-transform duration-300"
+              :class="{ 'rotate-180': activeSubmenu === 'about' }"
             >
-              {{ route.meta?.menuTitle || route.meta?.title }}
-            </RouterLink>
-          </li>
-        </template>
+              ▼
+            </span>
+          </button>
+
+          <transition name="expand">
+            <ul
+              v-if="activeSubmenu === 'about'"
+              class="bg-sky-50 rounded-lg mb-2 overflow-hidden"
+            >
+              <li
+                v-for="link in aboutLinks"
+                :key="link.name"
+              >
+                <RouterLink
+                  :to="{ name: link.name }"
+                  @click="closeMobileMenu"
+                  class="block px-6 py-3 text-lg text-gray-700 hover:text-sky-600"
+                >
+                  {{ link.title }}
+                </RouterLink>
+              </li>
+            </ul>
+          </transition>
+        </li>
+
+        <li class="border-b border-gray-100">
+          <RouterLink
+            :to="{ name: 'treatment' }"
+            @click="closeMobileMenu"
+            class="block py-4 text-xl font-semibold text-sky-900"
+          >
+            Gydymas Schroth metodu
+          </RouterLink>
+        </li>
+
+        <li class="border-b border-gray-100">
+          <RouterLink
+            :to="{ name: 'diagnostics' }"
+            @click="closeMobileMenu"
+            class="block py-4 text-xl font-semibold text-sky-900"
+          >
+            Diagnostika
+          </RouterLink>
+        </li>
+
+        <li class="border-b border-gray-100">
+          <RouterLink
+            :to="{ name: 'testing' }"
+            @click="closeMobileMenu"
+            class="block py-4 text-xl font-semibold text-sky-900"
+          >
+            Nemokamas laikysenos testavimas
+          </RouterLink>
+        </li>
+
+        <li class="border-b border-gray-100">
+          <button
+            @click="toggleSubmenu('education')"
+            class="w-full flex justify-between items-center py-4 text-xl font-semibold text-sky-900 focus:outline-none"
+          >
+            Edukacijos
+            <span
+              class="transition-transform duration-300"
+              :class="{ 'rotate-180': activeSubmenu === 'education' }"
+            >
+              ▼
+            </span>
+          </button>
+
+          <transition name="expand">
+            <ul
+              v-if="activeSubmenu === 'education'"
+              class="bg-sky-50 rounded-lg mb-2 overflow-hidden"
+            >
+              <li
+                v-for="link in educationLinks"
+                :key="link.name"
+              >
+                <RouterLink
+                  :to="{ name: link.name }"
+                  @click="closeMobileMenu"
+                  class="block px-6 py-3 text-md text-gray-700 border-b border-white last:border-none"
+                >
+                  {{ link.title }}
+                </RouterLink>
+              </li>
+            </ul>
+          </transition>
+        </li>
       </ul>
     </nav>
   </div>
@@ -62,12 +147,35 @@ import { RouterLink } from 'vue-router'
 import ContactTop from './ContactTop.vue'
 import Logo from '../elements/Logo.vue'
 import ExternalCtaLink from '../elements/ExternalCtaLink.vue'
-import { routes } from '../../routes'
 
 const isMenuOpen = ref(false)
+const activeSubmenu = ref(null)
+
+const aboutLinks = [
+  { name: 'about', title: 'Apie skoliozės centrą' },
+  { name: 'success-stories', title: 'Sėkmės istorijos' },
+  { name: 'team', title: 'Komanda' },
+  { name: 'scoliteam', title: 'ScoliTeam' },
+  { name: 'contact', title: 'Kontaktai' },
+]
+
+const educationLinks = [
+  { name: 'education', title: 'Skoliozės edukacija mokykloms ir tėvams' },
+  { name: 'camp', title: 'Schroth skoliozės stovykla' },
+  { name: 'supervision', title: 'Schroth klinikinė supervizija' },
+  { name: 'training', title: 'Skoliozės gydymo kursai Lietuvoje' },
+  { name: 'schroth', title: 'ISST Schroth metodas ir organizacija' },
+  { name: 'seas', title: 'SEAS metodas ir ISICO organizacija' },
+  { name: 'sosort', title: 'SOSORT gydymo draugija' },
+  { name: 'psse', title: 'Tarptautinė PSSE asociacija' },
+]
 
 const toggleMobileMenu = () => {
   isMenuOpen.value = !isMenuOpen.value
+}
+
+const toggleSubmenu = (name) => {
+  activeSubmenu.value = activeSubmenu.value === name ? null : name
 }
 
 const closeMobileMenu = () => {

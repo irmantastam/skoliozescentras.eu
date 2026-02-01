@@ -163,6 +163,33 @@
               ISST Schroth metodas ir organizacija
             </RouterLink>
           </li>
+          <li>
+            <RouterLink
+              :to="{ name: 'seas' }"
+              class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
+              @click="closeDropdownsDirectly"
+            >
+              SEAS metodas ir ISICO organizacija
+            </RouterLink>
+          </li>
+          <li>
+            <RouterLink
+              :to="{ name: 'sosort' }"
+              class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
+              @click="closeDropdownsDirectly"
+            >
+              SOSORT gydymo draugija
+            </RouterLink>
+          </li>
+          <li>
+            <RouterLink
+              :to="{ name: 'psse' }"
+              class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
+              @click="closeDropdownsDirectly"
+            >
+              Tarptautinė PSSE asociacija
+            </RouterLink>
+          </li>
         </ul>
       </li>
     </ul>

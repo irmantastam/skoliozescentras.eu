@@ -85,6 +85,38 @@ export const routes = [
     },
   },
   {
+    path: '/seas-metodas-ir-isico-organizacija',
+    name: 'seas',
+    component: () => import('./pages/Seas.vue'),
+    meta: {
+      title: 'SEAS metodas ir ISICO organizacija - Skoliozės Centras',
+      menuTitle: 'SEAS metodas ir ISICO organizacija',
+      description: 'SEAS metodas ir ISICO organizacija.',
+    },
+  },
+  {
+    path: '/sosort-gydymo-draugija',
+    name: 'sosort',
+    component: () => import('./pages/Sosort.vue'),
+    meta: {
+      title: 'SOSORT gydymo draugija - Skoliozės Centras',
+      menuTitle: 'SOSORT gydymo draugija',
+      description:
+        'SOSORT – Tarptautinė skoliozės ortopedinio ir reabilitacinio gydymo draugija.',
+    },
+  },
+  {
+    path: '/tarptautine-psse-asociacija',
+    name: 'psse',
+    component: () => import('./pages/Psse.vue'),
+    meta: {
+      title: 'Tarptautinė PSSE asociacija - Skoliozės Centras',
+      menuTitle: 'Tarptautinė PSSE asociacija',
+      description:
+        'PSSE asociacija – tai tarptautinė organizacija, kurios veikla remiasi šešių skoliozės gydymo mokyklų sukaupta patirtimi ir tradicijomis.',
+    },
+  },
+  {
     path: '/skoliozes-gydymo-kursai-lietuvoje',
     name: 'training',
     component: () => import('./pages/Training.vue'),
