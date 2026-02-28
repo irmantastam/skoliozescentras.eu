@@ -1,6 +1,6 @@
 <template>
   <LayoutPage>
-    <h1 class="text-3xl font-semibold text-sky-600 text-center">
+    <h1 class="text-3xl font-semibold text-sky-600 text-center mb-10">
       Mūsų Komanda
     </h1>
 
@@ -12,7 +12,7 @@
         <img
           src="https://innovamed.lt/wp-content/uploads/2025/07/IMG_3249-300x300.jpg.webp"
           alt="Giedrė Mikelionienė"
-          class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 border-blue-400"
         />
         <h2 class="text-xl font-semibold text-gray-900 mb-2">
           Giedrė Mikelionienė
@@ -22,7 +22,8 @@
         </p>
         <p class="text-gray-700 mb-1">
           <strong class="font-semibold">Specializacija:</strong> Sertifikuota
-          ISST Schroth specialistė.
+          ISST Schroth specialistė + ISST Schroth Refresher + ISICO SEAS Level
+          I.
         </p>
         <p class="text-gray-700 mb-1">
           <strong class="font-semibold">ISST laipsnis:</strong> Klinikinės
@@ -41,7 +42,7 @@
         <img
           src="https://innovamed.lt/wp-content/uploads/2023/12/DSC08158-300x300.jpg.webp"
           alt="Tadas Mikelionis"
-          class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 border-blue-400"
         />
         <h2 class="text-xl font-semibold text-gray-900 mb-2">
           Tadas Mikelionis
@@ -51,11 +52,7 @@
         </p>
         <p class="text-gray-700 mb-1">
           <strong class="font-semibold">Specializacija:</strong> Sertifikuotas
-          ISST Schroth specialistas.
-        </p>
-        <p class="text-gray-700 mb-1">
-          <strong class="font-semibold">ISST laipsnis:</strong> Klinikinės
-          praktikos vadovas.
+          ISST Schroth specialistas + ISICO SEAS Level I.
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Papildomos metodikos:</strong> DNS
@@ -69,7 +66,7 @@
         <img
           src="https://innovamed.lt/wp-content/uploads/2025/02/Vaida-Grabauske-300x300.jpg.webp"
           alt="Vaida Grabauskė"
-          class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 border-blue-400"
         />
         <h2 class="text-xl font-semibold text-gray-900 mb-2">
           Vaida Grabauskė
@@ -79,7 +76,7 @@
         </p>
         <p class="text-gray-700 mb-1">
           <strong class="font-semibold">Specializacija:</strong> Sertifikuota
-          ISST Schroth specialistė.
+          ISST Schroth specialistė + ISICO SEAS Level I.
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Papildomos metodikos:</strong> DNS
@@ -93,7 +90,7 @@
         <img
           src="https://innovamed.lt/wp-content/uploads/2025/07/2-300x300.jpg.webp"
           alt="Emilija Masevičienė"
-          class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 border-blue-400"
         />
         <h2 class="text-xl font-semibold text-gray-900 mb-2">
           Emilija Masevičienė
@@ -103,7 +100,8 @@
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Specializacija:</strong> Sertifikuota
-          ISST Schroth specialistė.
+          ISST Schroth specialistė + ISST Schroth Refresher + ISICO SEAS Level
+          I.
         </p>
       </div>
 
@@ -113,7 +111,7 @@
         <img
           src="https://innovamed.lt/wp-content/uploads/2025/08/Dizainas-be-pavadinimo-2-300x300.jpg.webp"
           alt="Žygimantas Skinderis"
-          class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 border-blue-400"
         />
         <h2 class="text-xl font-semibold text-gray-900 mb-2">
           Žygimantas Skinderis
@@ -123,7 +121,7 @@
         </p>
         <p class="text-gray-700 mb-1">
           <strong class="font-semibold">Specializacija:</strong> Sertifikuotas
-          ISST Schroth specialistas.
+          ISST Schroth specialistas + ISICO SEAS Level I.
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Papildomos metodikos:</strong> DNS
@@ -137,7 +135,7 @@
         <img
           src="https://innovamed.lt/wp-content/uploads/2025/07/1-1-300x300.jpg.webp"
           alt="Evita Budnikienė"
-          class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 border-blue-400"
         />
         <h2 class="text-xl font-semibold text-gray-900 mb-2">
           Evita Budnikienė
@@ -157,7 +155,7 @@
         <img
           src="https://innovamed.lt/wp-content/uploads/2026/01/unnamed-1-300x300.jpg.webp"
           alt="Martynas Žilinskas"
-          class="w-32 h-32 rounded-full object-cover mb-4 border-2 borderlue-400"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 border-blue-400"
         />
         <h2 class="text-xl font-semibold text-gray-900 mb-2">
           Martynas Žilinskas
@@ -167,7 +165,31 @@
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Specializacija:</strong> Sertifikuotas
-          ISST Schroth praktikas.
+          ISST Schroth praktikas + ISICO SEAS Level I.
+        </p>
+      </div>
+
+      <div
+        class="bg-white p-6 sm:rounded-lg shadow-md flex flex-col items-center text-center"
+      >
+        <img
+          src="https://innovamed.lt/wp-content/uploads/2025/09/Daina-Petroniene-e1757952803649-600x600.jpg.webp"
+          alt="Daina Petronienė"
+          class="w-32 h-32 rounded-full object-cover mb-4 border-2 border-blue-400"
+        />
+        <h2 class="text-xl font-semibold text-gray-900 mb-2">
+          Daina Petronienė
+        </h2>
+        <p class="text-gray-700 mb-1">
+          <strong class="font-semibold">Miestas:</strong> Kaunas.
+        </p>
+        <p class="text-gray-700 mb-1">
+          <strong class="font-semibold">Specializacija:</strong> ISICO SEAS
+          Level I.
+        </p>
+        <p class="text-gray-700">
+          <strong class="font-semibold">Papildomos metodikos:</strong> DNS
+          pediatric, DNS pilates ir DNS pelvic floor.
         </p>
       </div>
     </div>
