@@ -205,6 +205,17 @@ export const routes = [
     },
   },
   {
+    path: '/straipsniai/idiopatine-skolioze',
+    name: 'straipsniai-idiopatine-skolioze',
+    component: () => import('./pages/blog/IdiopaticScoliosis.vue'),
+    meta: {
+      title: 'Idiopatinė skoliozė: simptomai ir gydymas - Skoliozės centras',
+      menuTitle: 'Idiopatinė skoliozė',
+      description:
+        'Sužinokite, kas yra idiopatinė skoliozė, kaip atpažinti jos simptomus ir kokie gydymo metodai, kaip Schroth kineziterapija, yra efektyviausi. Registruokitės nemokamam testavimui!',
+    },
+  },
+  {
     path: '/tadas-mikelionis',
     name: 'tadas-mikelionis',
     component: () => import('./pages/TadasMikelionis.vue'),
