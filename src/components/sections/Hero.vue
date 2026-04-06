@@ -27,10 +27,17 @@
 
       <p class="text-2xl md:text-4xl font-extrabold text-sky-600">INNOVAMED</p>
 
-      <div class="mt-2 mb-4 flex flex-col gap-2 font-medium md:text-xl">
-        <p>Stipriausi skoliozės gydymo specialistai Schroth metodu.</p>
+      <div class="mt-2 mb-4 flex flex-col gap-2 font-medium md:text-lg">
+        <p>
+          Aukščiausios kvalifikacijos skoliozės gydymo specialistai, taikantys
+          Schroth ir SEAS metodus, ISST Schroth atstovai Lietuvoje, kurių
+          komandoje dirba vieninteliai klinikinės praktikos vadovai šalyje.
+        </p>
 
-        <p>Vieninteliai klinikinės praktikos vadovai Lietuvoje.</p>
+        <p>
+          Dirbame Kaune ir Vilniuje, kur veikia dvi stiprios specialistų
+          komandos, o visi mūsų specialistai turi galiojančius Schroth diplomus.
+        </p>
       </div>
 
       <CtaLink variant="big">Registruokis 10 min. nemokamai apžiūrai</CtaLink>
