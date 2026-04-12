@@ -53,25 +53,18 @@
       <div class="swiper-pagination-photo text-center" />
     </div>
 
-    <!-- Testimonials slider
-    <div class="relative w-full max-w-4xl">
-      <h2 class="text-2xl font-semibold mb-4">
+    <!-- Testimonials slider -->
+    <div class="relative w-full max-w-4xl self-center">
+      <h2 class="text-2xl font-semibold mb-4 text-center">
         Klientų atsiliepimai apie sėkmingą skoliozės gydymą
       </h2>
 
       <swiper
         :modules="[Navigation, Pagination, A11y]"
         :slides-per-view="1"
-        :space-between="30"
-        :breakpoints="{
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-        }"
         :navigation="{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
+          nextEl: '.swiper-button-next-testimonials',
+          prevEl: '.swiper-button-prev-testimonials',
         }"
         :pagination="{ el: '.swiper-pagination-testimonials', clickable: true }"
         class="pb-12"
@@ -80,11 +73,11 @@
           v-for="(testimonial, index) in testimonials"
           :key="index"
         >
-          <div class="p-6 bg-white rounded-lg shadow-md flex flex-col my-2">
-            <blockquote class="text-gray-700 italic mb-4 flex-grow">
+          <div class="p-6 bg-white rounded-lg shadow-sm flex flex-col my-2">
+            <blockquote class="text-gray-700 italic mb-4 flex-grow text-center">
               "{{ testimonial.text }}"
             </blockquote>
-            <footer class="text-right mt-4">
+            <footer class="text-center mt-4">
               <cite class="font-semibold text-sky-900"
                 >- {{ testimonial.author }}</cite
               >
@@ -93,12 +86,15 @@
         </swiper-slide>
       </swiper>
 
-      <div class="swiper-button-prev after:text-sky-800 after:text-2xl"></div>
-      <div class="swiper-button-next after:text-sky-800 after:text-2xl"></div>
+      <div
+        class="swiper-button-prev swiper-button-prev-testimonials after:text-sky-800 after:text-2xl"
+      ></div>
+      <div
+        class="swiper-button-next swiper-button-next-testimonials after:text-sky-800 after:text-2xl"
+      ></div>
 
       <div class="swiper-pagination-testimonials text-center"></div>
     </div>
-    -->
 
     <ContactTeaser />
   </LayoutPage>
@@ -120,15 +116,15 @@ import ContactTeaser from '../components/sections/ContactTeaser.vue'
 const testimonials = ref([
   {
     text: 'Jog turiu skoliozę sužinojau 12-13 metų, kuomet šeimos gydytoja pastebėjo požymius ir ortopedas tai patvirtino. Jaučiausi kitokia, nei kiti mano bendraamžiai, norėjau tai slėpti, galvojau “kodėl būtent man taip nutiko?”. Būdama jaunesnė laikiau tai kompleksu, nešiojau laisvus drabužius, niekad nesidėdavau maudymuko. Tačiau dabar, būdama 17-os, priimu tai, kaip dalį savęs, “susidraugavau” su skolioze ir atradusi Schroth metodą supratau, jog įmanoma viską pakeisti. Išbandžiau daug būdų, kaip galėčiau sau padėti, lankydavau įvairias fizines mankštas, dirbau su skirtingais kineziterapeutais, tačiau niekas nepadėjo taip, kaip Schroth metodas! Manau disciplina yra kiekvieno asmeninis užsibrėžimas. Asmeniškai būna įvairių dienų, tačiau galų gale supranti, jog turi tai daryti dėl savęs. Labiausiai mane motyvuoja tėvai ir žinoma INNOVAMED klinikos specialistai. Tai be galo supratingi ir šilti žmonės, užtikrinantys ne tik paslaugų kokybę, bet ir puikų ryšį su pacientais.',
-    author: 'I. G',
+    author: 'I. G.',
   },
   {
     text: 'Apie savo skoliozę sužinojau maždaug prieš trejus metus, kai ėjau pasitikrinti sveikatos pas šeimos gydytoją. Tiksliai neprisimenu, kaip jaučiausi apie tai sužinojus, bet tiesiog supratau, kad reikės kažką daryti, sportuoti, stengtis. Labai stipriai gyvenimo nepakeitė, bet būna, kad pagalvoju, ką kiti galvoja apie mane? Ar labai matosi, kad skoliozė? Aš daugiau nei pusę paros nešioju skoliozei skirtą korsetą, kelias dienas per savaitę darau skoliozės gydymui pritaikytus pratimus su Schroth metodu. Asmeniškai man nėra labai lengva laikytis disciplinos, nes mėgstu veikti daug skirtingų dalykų, bet bandau pritaikyti tą ką būtina padaryti. Man motyvaciją teikia šalia esantys artimi žmonės, mane visada džiugina geras oras, nuostabūs gydytojai.',
-    author: 'L. L',
+    author: 'L. L.',
   },
   {
     text: 'Kad turiu skoliozę, sužinojau būdama maždaug 9-10 metų, vizito pas šeimos gydytoją metu. Žinoma, gydytoja dar tik įtarė, tačiau įtarimus greitai patvirtino ortopedas. Kadangi nelabai žinojau kas tai per liga, nelabai domėjausi - kažkokio streso ar panikos nebuvo. Priėmiau kaip eilinį medicininį faktą, kurį privalau toleruoti. Bėgant laikui teko suvokti skoliozės rimtumą ir, deja, išmokti gyventi su ja. Prasidėjusios reguliarios mankštos tiek negąsdino kiek korsetas, kurį nešiojau apie 4 metus. Praėjus 7 metams po gydymo pradžios, jau korseto nebenešioju, tačiau vis dar sportuoju pagal Schroth metodą ir, be abejo, planuoju tai daryti visą gyvenimą. Aišku, laikytis disciplinos ir atlikti tai, kas būtina nėra lengva, reikia nuolat planuoti laiką, dienotvarkę, kad viską suspėčiau. Tačiau motyvacija greitai atsiranda, pagalvojus apie gydymo režimo nesilaikymo pasekmes:))',
-    author: 'R. N',
+    author: 'R. N.',
   },
   {
     text: 'Kai man buvo 12 nuėjau į masažą. Masažistė parekomendavo nueiti išsitirti ar neturiu skoliozės. Pasirodo turėjau. Gydytoja, nustačius skoliozę parekomendavo naudoti Schroth metodą ir dirbti su INNOVAMED. Iš pradžių buvo sunku susirinkt visas emocijas, man nepatiko kaip atrodė mano šonai, kad vienas labiau įdubęs negu kitas, tėvai išsigando, ką reikės daryti ir mus labai šokiravo, kokia iš tiesų kreiva mano nugara. Sužinojus, kad turiu skoliozę tikrai reikėjo pakeist savo gyvenimo įpročius: reikėjo miegoti kitaip, nei aš buvau įpratus, sėdėti ant maišiukų, namuose tai buvo lengva padaryti, bet mokykloj sunkiau - reikėjo ieškot išeičių: pasidėt sąsiuvinius ar kažką kito. Visas šitas problemas man padėjo išspręsti Giedrė, kineziterapeutė, pas kurią pradėjau lankytis. Bet buvo sunku: pratimus reikia daryti kiekvieną dieną, kartais nėra laiko ar noro, bet žinant, kad situacija gali pagerėti (aišku pilnai mano nugara neišsities), bet vis tiek dirbu toliau.',
@@ -137,6 +133,10 @@ const testimonials = ref([
   {
     text: 'Apie savo skoliozę sužinojau prieš 2 metus. Ėjau darytis pažymos mokyklai ir tuomet mano šeimos gydytoja pasakė, jog mano stuburas krypsta ir, kad kuo greičiau reiktų susiimti. Emocijos ir jausmai buvo labai skirtingi ir keisti galvojau, jog esu tokia vienintelė pradėjau žiūrėti kitaip į savo kūną. Mano gyvenimą skoliozė pakeitė tai, kad visada nepamirščiau koreguoti savęs sėdint, gulint. Pakeitė šiek tiek ir emocinę būseną. Kadangi man buvo paskirtas nešioti įtvaras ir jį turiu nešioti beveik visada net ir miegant, kad stuburas nekryptų į kitą pusę, aš labai sunkiai taikiausi ir taikausi su šia mintimi galvodavau, kaip nepatogu, kaip atrodysiu ir panašiai. Savo skoliozės problema pradėjau spręsti pratimais INNOVAMED kineziterapijos studijoje ir rezultatai tikrai matėsi geresni. Tai manau, kad būtina atlikti ir daryti tai kas rekomenduojama, kad situacija neblogėtų. Motyvacijos galbūt padeda jog darai pratimus matai, kad situacija gerėja ir žinai, kad tu ją gali padaryti dar geresnę. Dar padeda šeima, pastūmėja į priekį su palaikymu.',
     author: 'K. P',
+  },
+  {
+    text: 'Sužinojau, kad skoliozę turiu maždaug prieš 2 metus, kai reikėjo tikrintis sveikatą prieš mokslo metus. Sužinojusi, buvau labai išsigandusi, galvojau, ką pagalvos apie mane kiti, ar labai matysis, kad turiu skoliozę. Labai daug mano gyvenimo skoliozė nepakeitė, tik atsirado mažiau laisvo laiko savo pomėgiams. Namie ir Innovamed klinikoje užsiimu mankštomis pagal Schroth metodą. Iš pradžių buvo labai sunku priprasti, bet dabar tai yra man kaip kasdienybė. Po to pradėjau nešioti skoliozei skirtą įtvarą. Nors ir kaip su juo nepatogu, bet jis man labai padeda. Mankštą stengiuosi daryti kiekvieną dieną. Motyvacijos man padeda rasti mano palaikymo komanda, o tai yra mano mylimi tėvai, broliai, bei nuoširdžiausi Innovamed kineziterapeutai. Atėjus į Innovamed kliniką, seniau jausdavausi nedrąsiai, nes niekada man neteko lankytis panašioje vietoje. Bet kadangi jau lankausi pakankamai ilgai, ši klinika, man yra kaip antri namai, nes visada maloniai pasitinka rūpestingi kineziterapeutai.',
+    author: 'S. G.',
   },
 ])
 

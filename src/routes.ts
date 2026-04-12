@@ -71,6 +71,8 @@ export const routes = [
       menuTitle: 'Sėkmės istorijos',
       description:
         'Innovamed Skoliozės Centre džiaugiamės matydami teigiamus skoliozės gydymo rezultatus. Susipažinkite su mūsų pacientų sėkmės istorijomis.',
+      canonicalOverride:
+        'https://innovamed.lt/paslaugos-ir-kainos/kineziterapija/skoliozes-gydymas-schroth-metodu/',
     },
   },
   {

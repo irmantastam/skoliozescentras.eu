@@ -23,7 +23,9 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: `https://www.skoliozescentras.eu${route.path}`,
+      href:
+        route.meta.canonicalOverride ||
+        `https://www.skoliozescentras.eu${route.path}`,
     },
   ],
 })
