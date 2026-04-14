@@ -218,6 +218,17 @@ export const routes = [
     },
   },
   {
+    path: '/straipsniai/reabilitacija-po-skoliozes-operacijos',
+    name: 'straipsniai-reabilitacija-po-skoliozes-operacijos',
+    component: () => import('./pages/blog/RehabilitationAfterTreatment.vue'),
+    meta: {
+      title: 'Reabilitacija po skoliozės operacijos - Skoliozės centras',
+      menuTitle: 'Reabilitacija po skoliozės operacijos',
+      description:
+        'Reabilitacija po skoliozės operacijos: atsistatymo etapai, rekomenduojami pratimai, gijimo trukmė ir patarimai greitesniam stuburo funkcijos atkūrimui.',
+    },
+  },
+  {
     path: '/tadas-mikelionis',
     name: 'tadas-mikelionis',
     component: () => import('./pages/TadasMikelionis.vue'),

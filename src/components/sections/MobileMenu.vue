@@ -46,7 +46,7 @@
               class="transition-transform duration-300"
               :class="{ 'rotate-180': activeSubmenu === 'about' }"
             >
-              ▼
+              <IconChevron />
             </span>
           </button>
 
@@ -111,7 +111,7 @@
               class="transition-transform duration-300"
               :class="{ 'rotate-180': activeSubmenu === 'education' }"
             >
-              ▼
+              <IconChevron />
             </span>
           </button>
 
@@ -146,6 +146,7 @@ import { RouterLink } from 'vue-router'
 
 import ContactTop from './ContactTop.vue'
 import Logo from '../elements/Logo.vue'
+import IconChevron from '../icons/IconChevron.vue'
 import ExternalCtaLink from '../elements/ExternalCtaLink.vue'
 
 const isMenuOpen = ref(false)

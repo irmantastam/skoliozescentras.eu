@@ -42,7 +42,7 @@
       </h2>
 
       <p class="text-sky-900 leading-relaxed mb-4">
-        Idiopatinės skoliozės simptomai gali pasireikšti skirtingai – nuo vos
+        Idiopatinės skoliozės simptomai gali pasireikšti skirtingai - nuo vos
         pastebimų iki aiškiai matomų kūno pokyčių. Skoliozės požymiai vystosi
         lėtai, todėl ne visada galime pastebėti, kad stuburas ima krypti. Laiku
         atpažinti simptomai leidžia greičiau pritaikyti tinkamą gydymo būdą ir
@@ -121,19 +121,19 @@
 
         <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
           <li>
-            <b>Genetiniai veiksniai</b> – tikimybė susirgti yra didesnė šeimose,
+            <b>Genetiniai veiksniai</b> - tikimybė susirgti yra didesnė šeimose,
             kuriose jau yra buvę šios ligos atvejų.
           </li>
           <li>
-            <b>Augimo tempas</b> – dauguma atvejų diagnozuojami greito augimo
+            <b>Augimo tempas</b> - dauguma atvejų diagnozuojami greito augimo
             laikotarpiu, ypač paauglystėje.
           </li>
           <li>
-            <b>Hormonų disbalansas</b> – gali turėti įtakos, nes veikia kaulų
+            <b>Hormonų disbalansas</b> - gali turėti įtakos, nes veikia kaulų
             augimą bei organizmo vystymąsi.
           </li>
           <li>
-            <b>Biomechaniniai veiksniai</b> – netolygus raumenų tonusas,
+            <b>Biomechaniniai veiksniai</b> - netolygus raumenų tonusas,
             vienpusis fizinis krūvis ar netinkama laikysena gali paveikti
             stuburą.
           </li>
@@ -147,7 +147,7 @@
       </h2>
 
       <p class="text-sky-900 leading-relaxed mb-6">
-        Idiopatinės skoliozės palikti be priežiūros nereikėtų – tai rimta
+        Idiopatinės skoliozės palikti be priežiūros nereikėtų - tai rimta
         stuburo būklė, kuri negydoma gali progresuoti. Anksti parinktas
         individualus gydymo planas gali užkirsti kelią stuburo iškrypimo
         progresavimui.
