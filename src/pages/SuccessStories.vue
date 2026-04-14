@@ -56,7 +56,7 @@
     <!-- Testimonials slider -->
     <div class="relative w-full max-w-4xl self-center">
       <h2 class="text-2xl font-semibold mb-4 text-center">
-        Klientų atsiliepimai apie sėkmingą skoliozės gydymą
+        Tikros pacientų patirtys turint skoliozę
       </h2>
 
       <swiper
