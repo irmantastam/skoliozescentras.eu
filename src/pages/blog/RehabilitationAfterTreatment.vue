@@ -61,86 +61,113 @@
       <div
         class="overflow-x-auto border border-sky-100 rounded-lg shadow-inner"
       >
-        <table class="w-full text-left border-collapse">
+        <table
+          class="w-full min-w-[900px] text-left border-collapse table-fixed"
+        >
           <thead class="bg-sky-50 text-sky-900 uppercase text-xs">
             <tr>
-              <th class="p-4 border-b">Etapas</th>
-              <th class="p-4 border-b">Kas vyksta kūne / Pojūčiai</th>
-              <th class="p-4 border-b">Galima daryti</th>
-              <th class="p-4 border-b">Negalima daryti</th>
+              <th class="p-4 border-b w-[13%]">Etapas</th>
+              <th class="p-4 border-b w-[17%]">Kas vyksta kūne</th>
+              <th class="p-4 border-b w-[20%]">Pojūčiai</th>
+              <th class="p-4 border-b w-[27%]">Galima daryti</th>
+              <th class="p-4 border-b w-[23%]">Negalima daryti</th>
             </tr>
           </thead>
           <tbody class="text-sm text-sky-900 divide-y divide-sky-50">
             <tr class="hover:bg-sky-50/30 transition-colors">
               <td class="p-4 font-semibold align-top">
                 Pooperacinis laikotarpis
-                <p class="font-light mt-1">(0-2 sav.)</p>
+                <p class="font-light mt-1 text-xs">(0-2 savaitės)</p>
               </td>
-              <td class="p-4 align-top">
-                Gijimo pradžia, kūnas silpnas. Jaučiamas skausmas, nuovargis,
-                sunku judėti ir miegoti.
+              <td class="p-4 align-top leading-relaxed">
+                Prasideda gijimo procesai. Kūnas yra labai silpnas, reikia daug
+                poilsio.
               </td>
-              <td class="p-4 align-top italic">
-                Lengvi pratimai pėdoms, keturgalvio aktyvacija, diafragminis
-                kvėpavimas, izometriniai pilvo pratimai.
+              <td class="p-4 align-top leading-relaxed">
+                Jaučiamas skausmas, silpnumas, galimas nuovargis. Sunku judėti
+                ir miegoti.
               </td>
-              <td class="p-4 align-top text-red-700">
-                Kelti sunkių daiktų, daryti staigių judesių, sukti ar lenkti
-                stuburą.
+              <td class="p-4 align-top italic text-sky-800 leading-relaxed">
+                Galimi lengvi pratimai galūnėms (pėdų judesiai, keturgalvio
+                aktyvacija), diafragminis kvėpavimas, izometriniai pilvo raumenų
+                pratimai.
+              </td>
+              <td class="p-4 align-top text-red-700 leading-relaxed">
+                Negalima kelti sunkių daiktų, daryti staigių judesių. Reikia
+                vengti stuburo sukimo, lenkimo ir apkrovimo.
               </td>
             </tr>
             <tr class="hover:bg-sky-50/30 transition-colors">
               <td class="p-4 font-semibold align-top">
                 Judėjimo atkūrimas
-                <p class="font-light mt-1">(2-6 sav.)</p>
+                <p class="font-light mt-1 text-xs">(2-6 savaitės)</p>
               </td>
-              <td class="p-4 align-top">
-                Kūnas atsistatinėja, bet raumenys dar labai silpni. Skausmas
-                mažėja, jaučiamas sustingimas.
+              <td class="p-4 align-top leading-relaxed">
+                Kūnas atsistatinėja, bet raumenys ir stuburas yra dar labai
+                silpni.
               </td>
-              <td class="p-4 align-top italic">
-                Vaikščiojimas (iki 15-30 min.), galūnių stiprinimas, kvėpavimas
-                išlaikant neutralią stuburo padėtį.
+              <td class="p-4 align-top leading-relaxed">
+                Skausmas mažėja. Diskomfortas gali jaustis dėl raumenų ar
+                sąnarių sustingimo.
               </td>
-              <td class="p-4 align-top text-red-700">
-                Atlikti staigius judesius, per daug apkrauti kūną, tęsti
-                pratimus, jei skauda.
+              <td class="p-4 align-top italic text-sky-800 leading-relaxed">
+                Lengvi pratimai, vaikščiojimas, didinamas ėjimo toleravimas (iki
+                ~15-30 min.), tęsiami galūnių stiprinimo pratimai, kvėpavimo
+                pratimai, išlaikant neutralią stuburo padėtį.
+              </td>
+              <td class="p-4 align-top text-red-700 leading-relaxed">
+                Negalima atlikti staigių judesių, kelti sunkių daiktų, per daug
+                apkrauti kūno. Reikia vengti bet kokių pratimų, kurie sukelia
+                skausmą.
               </td>
             </tr>
             <tr class="hover:bg-sky-50/30 transition-colors">
               <td class="p-4 font-semibold align-top">
-                Stiprinimas
-                <p class="font-light mt-1">(6-12 sav.)</p>
+                Stiprinimo ir grįžimo į kasdienį gyvenimą etapas
+                <p class="font-light mt-1 text-xs">(6-12 savaičių)</p>
               </td>
-              <td class="p-4 align-top">
-                Kūnas stiprėja, raiščiai atsigauna. Judrumas gerėja, jaučiamas
-                nuovargis po fizinio krūvio.
+              <td class="p-4 align-top leading-relaxed">
+                Kūnas stiprėja, raumenys ir raiščiai pradeda atsigauti.
               </td>
-              <td class="p-4 align-top italic">
-                Stabilizaciniai liemens pratimai, neuromuskulinė kontrolė,
+              <td class="p-4 align-top leading-relaxed">
+                Judrumas gerėja, bet gali jaustis nedidelis skausmas arba
+                nuovargis, ypač po fizinio krūvio.
+              </td>
+              <td class="p-4 align-top italic text-sky-800 leading-relaxed">
+                Galima pradėti aktyviau sportuoti, atlikinėti nesudėtingus
+                pratimus. Įtraukiami stabilizaciniai pratimai (ypač liemens),
+                neuromuskulinės kontrolės lavinimas, pratimai su galūnėmis,
                 lengvas pasipriešinimas, laikysenos mokymas.
               </td>
-              <td class="p-4 align-top text-red-700">
-                Intensyvūs krūviai, bėgimas, šokinėjimas, didelė ašinė apkrova
-                stuburui.
+              <td class="p-4 align-top text-red-700 leading-relaxed">
+                Negalima atlikti sunkių fizinių krūvių, bėgti, šokinėti, kelti
+                sunkių daiktų. Reikia vengti didelės ašinės apkrovos stuburui ir
+                sukimo judesių.
               </td>
             </tr>
             <tr class="hover:bg-sky-50/30 transition-colors">
               <td class="p-4 font-semibold align-top">
-                Atsigavimas
-                <p class="font-light mt-1">(3-6 mėn.)</p>
+                Atsigavimo ir palaikymo laikotarpis
+                <p class="font-light mt-1 text-xs">(3-6 mėnesiai)</p>
               </td>
-              <td class="p-4 align-top">
-                Funkciniai judesiai beveik atstatyti. Gali jaustis lengvas
-                diskomfortas didelio krūvio metu.
+              <td class="p-4 align-top leading-relaxed">
+                Kūnas visiškai atsigauna, tačiau reikia nuolat rūpintis kūno
+                laikysena ir stiprinti raumenis.
               </td>
-              <td class="p-4 align-top italic">
-                Koordinacijos, pusiausvyros pratimai, pritūpimai, ėjimas
-                laiptais, tempimo pratimai.
+              <td class="p-4 align-top leading-relaxed">
+                Funkciniai judesiai yra beveik visiškai atstatyti, tačiau gali
+                būti lengvas diskomfortas didesnių fizinių krūvių metu.
               </td>
-              <td class="p-4 align-top text-red-700">
-                Pernešama per didelė apkrova be specialisto priežiūros,
-                nekontroliuojami judesiai.
+              <td class="p-4 align-top italic text-sky-800 leading-relaxed">
+                Reikia palaikyti reguliarius tempimo ir stiprinimo pratimus.
+                Atliekami liemens stabilumo, koordinacijos, pusiausvyros
+                pratimai, funkciniai judesiai, tokie kaip: pritūpimai, ėjimas
+                laiptais.
+              </td>
+              <td class="p-4 align-top text-red-700 leading-relaxed">
+                Negalima pernelyg apkrauti kūno, atlikti intensyvių fizinių
+                pratimų be specialisto priežiūros. Reikia vengti
+                nekontroliuojamų ir staigių apkrovų.
               </td>
             </tr>
           </tbody>
@@ -378,7 +405,7 @@
           </p>
 
           <p
-            class="text-gray-700 italic leading-relaxed mb-4 text-justify text-sm sm:text-base font-medium text-sky-900"
+            class="italic leading-relaxed mb-4 text-justify text-sm sm:text-base font-medium text-sky-900"
           >
             Taigi, chirurginio gydymo baimintis tikrai nereikia, aš, asmeniškai,
             esu labai dėkinga, kad toks išvis egzistuoja. Na, o net ir laukiant
