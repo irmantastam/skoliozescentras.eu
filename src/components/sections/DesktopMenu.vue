@@ -12,15 +12,14 @@
         <button
           type="button"
           tabindex="0"
-          class="text-sky-900 text-sm px-4 py-4 font-medium cursor-pointer hover:text-sky-600 transition-colors duration-300 hover:underline focus:outline-none focus:text-sky-600 focus:underline"
-          @click="toggleDropdown('apie-mus')"
+          class="text-sky-900 px-6 py-4 font-medium cursor-default hover:text-sky-600 transition-colors duration-300 focus:outline-none focus:text-sky-600"
         >
           Apie mus
         </button>
 
         <ul
           v-if="activeDropdown === 'apie-mus'"
-          class="absolute left-1/2 top-full p-3 w-max rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50 -translate-x-1/2 text-center"
+          class="absolute left-1/2 top-full p-2 w-max rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50 -translate-x-1/2 text-center"
         >
           <li>
             <RouterLink
@@ -70,32 +69,53 @@
         </ul>
       </li>
 
-      <!-- Single-item menu links -->
-      <li>
-        <RouterLink
-          :to="{ name: 'treatment' }"
-          class="block text-sky-900 text-sm px-4 py-4 font-medium hover:text-sky-600 transition-colors duration-300 hover:underline"
+      <!-- Gydymas menu -->
+      <li
+        class="relative group"
+        @mouseenter="openDropdown('treatment')"
+        @mouseleave="closeDropdownsDirectly()"
+        @focusin="openDropdown('treatment')"
+      >
+        <button
+          type="button"
+          tabindex="0"
+          class="text-sky-900 px-6 py-4 font-medium cursor-default hover:text-sky-600 transition-colors duration-300 focus:outline-none focus:text-sky-600"
         >
-          Gydymas Schroth metodu
-        </RouterLink>
-      </li>
+          Skoliozės gydymas
+        </button>
 
-      <li>
-        <RouterLink
-          :to="{ name: 'diagnostics' }"
-          class="block text-sky-900 text-sm px-4 py-4 font-medium hover:text-sky-600 transition-colors duration-300 hover:underline"
+        <ul
+          v-if="activeDropdown === 'treatment'"
+          class="absolute left-1/2 top-full p-2 w-max rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50 -translate-x-1/2 text-center"
         >
-          Diagnostika
-        </RouterLink>
-      </li>
-
-      <li>
-        <RouterLink
-          :to="{ name: 'testing' }"
-          class="block text-sky-900 text-sm px-4 py-4 font-medium hover:text-sky-600 transition-colors duration-300 hover:underline"
-        >
-          Nemokamas laikysenos testavimas
-        </RouterLink>
+          <li>
+            <RouterLink
+              :to="{ name: 'diagnostics' }"
+              class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
+              @click="closeDropdownsDirectly"
+            >
+              Diagnostika
+            </RouterLink>
+          </li>
+          <li>
+            <RouterLink
+              :to="{ name: 'treatment' }"
+              class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
+              @click="closeDropdownsDirectly"
+            >
+              Gydymas Schroth metodu
+            </RouterLink>
+          </li>
+          <li>
+            <RouterLink
+              :to="{ name: 'testing' }"
+              class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
+              @click="closeDropdownsDirectly"
+            >
+              Nemokamas laikysenos testavimas
+            </RouterLink>
+          </li>
+        </ul>
       </li>
 
       <!-- Edukacijos menu -->
@@ -108,15 +128,14 @@
         <button
           type="button"
           tabindex="0"
-          class="text-sky-900 text-sm px-4 py-4 font-medium cursor-pointer hover:text-sky-600 transition-colors duration-300 hover:underline focus:outline-none focus:text-sky-600 focus:underline"
-          @click="toggleDropdown('edukacijos')"
+          class="text-sky-900 px-6 py-4 font-medium cursor-default hover:text-sky-600 transition-colors duration-300 focus:outline-none focus:text-sky-600"
         >
           Edukacijos
         </button>
 
         <ul
           v-if="activeDropdown === 'edukacijos'"
-          class="absolute left-1/2 top-full p-3 w-max rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50 -translate-x-1/2 text-center"
+          class="absolute left-1/2 top-full p-2 w-max rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50 -translate-x-1/2 text-center"
         >
           <li>
             <RouterLink
@@ -192,6 +211,66 @@
           </li>
         </ul>
       </li>
+
+      <!-- Straipsniai menu -->
+      <li
+        class="relative group"
+        @mouseenter="openDropdown('blog')"
+        @mouseleave="closeDropdownsDirectly()"
+        @focusin="openDropdown('blog')"
+      >
+        <button
+          type="button"
+          tabindex="0"
+          class="text-sky-900 px-6 py-4 font-medium cursor-default hover:text-sky-600 transition-colors duration-300 focus:outline-none focus:text-sky-600"
+        >
+          Straipsniai
+        </button>
+
+        <ul
+          v-if="activeDropdown === 'blog'"
+          class="absolute left-1/2 top-full p-2 w-max rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50 -translate-x-1/2 text-center"
+        >
+          <li>
+            <RouterLink
+              :to="{ name: 'straipsniai-skolioze' }"
+              class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
+              @click="closeDropdownsDirectly"
+            >
+              Skoliozė
+            </RouterLink>
+          </li>
+          <li>
+            <RouterLink
+              :to="{ name: 'straipsniai-kaklo-skolioze' }"
+              class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
+              @click="closeDropdownsDirectly"
+            >
+              Kaklo skoliozė
+            </RouterLink>
+          </li>
+          <li>
+            <RouterLink
+              :to="{ name: 'straipsniai-idiopatine-skolioze' }"
+              class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
+              @click="closeDropdownsDirectly"
+            >
+              Idiopatinė skoliozė
+            </RouterLink>
+          </li>
+          <li>
+            <RouterLink
+              :to="{
+                name: 'straipsniai-reabilitacija-po-skoliozes-operacijos',
+              }"
+              class="block px-4 py-4 text-sm rounded-md font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300"
+              @click="closeDropdownsDirectly"
+            >
+              Reabilitacija po skoliozės operacijos
+            </RouterLink>
+          </li>
+        </ul>
+      </li>
     </ul>
   </nav>
 </template>
@@ -207,11 +286,6 @@ let blurTimeout = null
 function openDropdown(dropdownName) {
   clearTimeout(blurTimeout)
   activeDropdown.value = dropdownName
-}
-
-function toggleDropdown(dropdownName) {
-  activeDropdown.value =
-    activeDropdown.value === dropdownName ? null : dropdownName
 }
 
 function closeDropdownsDirectly() {

@@ -19,6 +19,19 @@ export const routes = [
     },
   },
   {
+    path: '/sekmes-istorijos',
+    name: 'success-stories',
+    component: () => import('./pages/SuccessStories.vue'),
+    meta: {
+      title: 'Skoliozės gydymo sėkmės istorijos - Skoliozės Centras',
+      menuTitle: 'Sėkmės istorijos',
+      description:
+        'Innovamed Skoliozės Centre džiaugiamės matydami teigiamus skoliozės gydymo rezultatus. Susipažinkite su mūsų pacientų sėkmės istorijomis.',
+      canonicalOverride:
+        'https://innovamed.lt/paslaugos-ir-kainos/kineziterapija/skoliozes-gydymas-schroth-metodu/',
+    },
+  },
+  {
     path: '/komanda',
     name: 'team',
     component: () => import('./pages/Team.vue'),
@@ -27,6 +40,28 @@ export const routes = [
       menuTitle: 'Komanda',
       description:
         'Mūsų Schroth specialistai padeda diagnozuoti ir gydyti skoliozę Vilniuje ir Kaune, naudojant pažangiausius metodus.',
+    },
+  },
+  {
+    path: '/scoliteam',
+    name: 'scoliteam',
+    component: () => import('./pages/Scoliteam.vue'),
+    meta: {
+      title: 'ScoliTeam - skoliozės gydymo specialistai - Skoliozės Centras',
+      menuTitle: 'ScoliTeam',
+      description:
+        'ScoliTeam komandą sudaro įvairių sričių specialistai siekiantys užtikrinti aukščiausios kokybės skoliozės gydymą Lietuvoje.',
+    },
+  },
+  {
+    path: '/kontaktai',
+    name: 'contact',
+    component: () => import('./pages/Contact.vue'),
+    meta: {
+      title: 'Kontaktai - Skoliozės Centras',
+      menuTitle: 'Kontaktai',
+      description:
+        'Susisiekite su mumis! Mūsų komanda pasiruošusi atsakyti į visus jūsų klausimus ir padėti rasti geriausią sprendimą jūsų stuburo sveikatai.',
     },
   },
   {
@@ -41,17 +76,6 @@ export const routes = [
     },
   },
   {
-    path: '/nemokamas-laikysenos-testavimas',
-    name: 'testing',
-    component: () => import('./pages/Testing.vue'),
-    meta: {
-      title: 'Nemokamas laikysenos testavimas - Skoliozės Centras',
-      menuTitle: 'Nemokamas laikysenos testavimas',
-      description:
-        'Užsiregistruokite nemokamam laikysenos testui. Testavimas atliekamas INNOVAMED Kineziterapijos Klinikose Vilniuje ir Kaune',
-    },
-  },
-  {
     path: '/gydymas-schroth-metodu',
     name: 'treatment',
     component: () => import('./pages/Treatment.vue'),
@@ -63,16 +87,58 @@ export const routes = [
     },
   },
   {
-    path: '/sekmes-istorijos',
-    name: 'success-stories',
-    component: () => import('./pages/SuccessStories.vue'),
+    path: '/nemokamas-laikysenos-testavimas',
+    name: 'testing',
+    component: () => import('./pages/Testing.vue'),
     meta: {
-      title: 'Skoliozės gydymo sėkmės istorijos - Skoliozės Centras',
-      menuTitle: 'Sėkmės istorijos',
+      title: 'Nemokamas laikysenos testavimas - Skoliozės Centras',
+      menuTitle: 'Nemokamas laikysenos testavimas',
       description:
-        'Innovamed Skoliozės Centre džiaugiamės matydami teigiamus skoliozės gydymo rezultatus. Susipažinkite su mūsų pacientų sėkmės istorijomis.',
-      canonicalOverride:
-        'https://innovamed.lt/paslaugos-ir-kainos/kineziterapija/skoliozes-gydymas-schroth-metodu/',
+        'Užsiregistruokite nemokamam laikysenos testui. Testavimas atliekamas INNOVAMED Kineziterapijos Klinikose Vilniuje ir Kaune',
+    },
+  },
+  {
+    path: '/edukacija-mokykloms-tevams',
+    name: 'education',
+    component: () => import('./pages/Education.vue'),
+    meta: {
+      title: 'Skoliozės edukacija mokykloms, tėvams - Skoliozės Centras',
+      menuTitle: 'Skoliozės Edukacija mokykloms ir tėvams',
+      description:
+        'Innovamed Skoliozės Centras edukuoja vaikus, jų tėvus ir kitus kineziterapeutus apie laikyseną, fizinį aktyvumą ir skoliozės prevenciją.',
+    },
+  },
+  {
+    path: '/schroth-skoliozes-stovykla',
+    name: 'camp',
+    component: () => import('./pages/Camp.vue'),
+    meta: {
+      title: 'Schroth skoliozės stovykla - Skoliozės Centras',
+      menuTitle: 'Schroth skoliozės stovykla',
+      description:
+        'Skoliozės stovykla - tai intensyvus grupinis skoliozės gydymas, taikant Katharinos Schroth metodikos principus. Stovyklos vyks Vilniuje ir Kaune.',
+    },
+  },
+  {
+    path: '/klinikes-praktikos-supervizija',
+    name: 'supervision',
+    component: () => import('./pages/Supervision.vue'),
+    meta: {
+      title: 'Schroth klinikinė supervizija - Skoliozės Centras',
+      menuTitle: 'Schroth klinikinė supervizija',
+      description:
+        'Jei esate mokymus baigęs Schroth terapeutas ir norite pasitikrinti savo žinias ar siekiate patobulinti klinikinius įgūdžius, kviečiame susisiekti.',
+    },
+  },
+  {
+    path: '/skoliozes-gydymo-kursai-lietuvoje',
+    name: 'training',
+    component: () => import('./pages/Training.vue'),
+    meta: {
+      title: 'Skoliozės gydymo kursai Lietuvoje - Skoliozės Centras',
+      menuTitle: 'Skoliozės gydymo kursai Lietuvoje',
+      description:
+        'Schroth skoliozės gydymo kursai Lietuvoje. Įgykite pagrindines žinias apie idiopatinės skoliozės ir kifozės konservatyvų gydymą.',
     },
   },
   {
@@ -104,7 +170,7 @@ export const routes = [
       title: 'Tarptautinė SOSORT organizacija - Skoliozės Centras',
       menuTitle: 'Tarptautinė SOSORT organizacija',
       description:
-        'SOSORT – Tarptautinė skoliozės ortopedinio ir reabilitacinio gydymo draugija.',
+        'SOSORT - Tarptautinė skoliozės ortopedinio ir reabilitacinio gydymo draugija.',
     },
   },
   {
@@ -115,73 +181,7 @@ export const routes = [
       title: 'Tarptautinė PSSE asociacija - Skoliozės Centras',
       menuTitle: 'Tarptautinė PSSE asociacija',
       description:
-        'PSSE asociacija – tai tarptautinė organizacija, kurios veikla remiasi šešių skoliozės gydymo mokyklų sukaupta patirtimi ir tradicijomis.',
-    },
-  },
-  {
-    path: '/skoliozes-gydymo-kursai-lietuvoje',
-    name: 'training',
-    component: () => import('./pages/Training.vue'),
-    meta: {
-      title: 'Skoliozės gydymo kursai Lietuvoje - Skoliozės Centras',
-      menuTitle: 'Skoliozės gydymo kursai Lietuvoje',
-      description:
-        'Schroth skoliozės gydymo kursai Lietuvoje. Įgykite pagrindines žinias apie idiopatinės skoliozės ir kifozės konservatyvų gydymą.',
-    },
-  },
-  {
-    path: '/klinikes-praktikos-supervizija',
-    name: 'supervision',
-    component: () => import('./pages/Supervision.vue'),
-    meta: {
-      title: 'Schroth klinikinė supervizija - Skoliozės Centras',
-      menuTitle: 'Klinikės praktikos supervizija',
-      description:
-        'Jei esate mokymus baigęs Schroth terapeutas ir norite pasitikrinti savo žinias ar siekiate patobulinti klinikinius įgūdžius, kviečiame susisiekti.',
-    },
-  },
-  {
-    path: '/scoliteam',
-    name: 'scoliteam',
-    component: () => import('./pages/Scoliteam.vue'),
-    meta: {
-      title: 'ScoliTeam - skoliozės gydymo specialistai - Skoliozės Centras',
-      menuTitle: 'ScoliTeam',
-      description:
-        'ScoliTeam komandą sudaro įvairių sričių specialistai siekiantys užtikrinti aukščiausios kokybės skoliozės gydymą Lietuvoje.',
-    },
-  },
-  {
-    path: '/edukacija-mokykloms-tevams',
-    name: 'education',
-    component: () => import('./pages/Education.vue'),
-    meta: {
-      title: 'Skoliozės edukacija mokykloms, tėvams - Skoliozės Centras',
-      menuTitle: 'Edukacija mokykloms, tėvams',
-      description:
-        'Innovamed Skoliozės Centras edukuoja vaikus, jų tėvus ir kitus kineziterapeutus apie laikyseną, fizinį aktyvumą ir skoliozės prevenciją.',
-    },
-  },
-  {
-    path: '/schroth-skoliozes-stovykla',
-    name: 'camp',
-    component: () => import('./pages/Camp.vue'),
-    meta: {
-      title: 'Schroth skoliozės stovykla - Skoliozės Centras',
-      menuTitle: 'Schroth skoliozės stovykla',
-      description:
-        'Skoliozės stovykla - tai intensyvus grupinis skoliozės gydymas, taikant Katharinos Schroth metodikos principus. Stovyklos vyks Vilniuje ir Kaune.',
-    },
-  },
-  {
-    path: '/kontaktai',
-    name: 'contact',
-    component: () => import('./pages/Contact.vue'),
-    meta: {
-      title: 'Kontaktai - Skoliozės Centras',
-      menuTitle: 'Kontaktai',
-      description:
-        'Susisiekite su mumis! Mūsų komanda pasiruošusi atsakyti į visus jūsų klausimus ir padėti rasti geriausią sprendimą jūsų stuburo sveikatai.',
+        'PSSE asociacija - tai tarptautinė organizacija, kurios veikla remiasi šešių skoliozės gydymo mokyklų sukaupta patirtimi ir tradicijomis.',
     },
   },
   {

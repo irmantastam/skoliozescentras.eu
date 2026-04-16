@@ -20,18 +20,17 @@
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="lucide lucide-stethoscope text-sky-800"
+              class="text-sky-800"
             >
               <path
-                d="M20.2 14c-1.5 1.5-2.5 1.7-4 1-1.5-.7-2-2.2-2.5-4-1-.7-3-2-3-4"
+                d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.3.3 0 1 0 .2.3"
               />
-              <path d="M3 21h4v-3H3z" />
-              <path d="M20 21h1v-3h-1z" />
-              <path
-                d="M20.2 14c.7-2 .5-4.2-1.2-6.5C17.4 5 15.6 4.6 14 5.2c-1 0-1.5 0-2 0s-1 .5-2 1c-1.8 1.4-2.6 3.8-1.5 5.8 1 2 2.5 2 4 2s2-2 2-3c.5-1.5 2-2 4-2s2 1.5 2.5 2c.5.5.5 1 0 1.5z"
+              <path d="M8 15v1a6 6 0 0 0 6 6h2" />
+              <circle
+                cx="20"
+                cy="22"
+                r="2"
               />
-              <path d="M12 11V3h-2v8" />
-              <path d="M12 11a2 2 0 0 1 4 0v3a2 2 0 0 1-4 0z" />
             </svg>
           </div>
 

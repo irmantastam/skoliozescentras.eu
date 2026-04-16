@@ -25,7 +25,7 @@
     v-if="isMenuOpen"
     class="fixed inset-0 bg-white z-40 flex flex-col overflow-y-auto"
   >
-    <ContactTop class="block w-full py-4" />
+    <ContactTop class="block w-full py-4 xl:py-0" />
 
     <Logo
       class="hidden xl:block my-6"
@@ -72,33 +72,38 @@
         </li>
 
         <li class="border-b border-gray-100">
-          <RouterLink
-            :to="{ name: 'treatment' }"
-            @click="closeMobileMenu"
-            class="block py-4 text-xl font-semibold text-sky-900"
+          <button
+            @click="toggleSubmenu('treatment')"
+            class="w-full flex justify-between items-center py-4 text-xl font-semibold text-sky-900 focus:outline-none"
           >
-            Gydymas Schroth metodu
-          </RouterLink>
-        </li>
+            Skoliozės gydymas
+            <span
+              class="transition-transform duration-300"
+              :class="{ 'rotate-180': activeSubmenu === 'treatment' }"
+            >
+              <IconChevron />
+            </span>
+          </button>
 
-        <li class="border-b border-gray-100">
-          <RouterLink
-            :to="{ name: 'diagnostics' }"
-            @click="closeMobileMenu"
-            class="block py-4 text-xl font-semibold text-sky-900"
-          >
-            Diagnostika
-          </RouterLink>
-        </li>
-
-        <li class="border-b border-gray-100">
-          <RouterLink
-            :to="{ name: 'testing' }"
-            @click="closeMobileMenu"
-            class="block py-4 text-xl font-semibold text-sky-900"
-          >
-            Nemokamas laikysenos testavimas
-          </RouterLink>
+          <transition name="expand">
+            <ul
+              v-if="activeSubmenu === 'treatment'"
+              class="bg-sky-50 rounded-lg mb-2 overflow-hidden"
+            >
+              <li
+                v-for="link in treatmentLinks"
+                :key="link.name"
+              >
+                <RouterLink
+                  :to="{ name: link.name }"
+                  @click="closeMobileMenu"
+                  class="block px-6 py-3 text-lg text-gray-700 hover:text-sky-600"
+                >
+                  {{ link.title }}
+                </RouterLink>
+              </li>
+            </ul>
+          </transition>
         </li>
 
         <li class="border-b border-gray-100">
@@ -135,6 +140,41 @@
             </ul>
           </transition>
         </li>
+
+        <li class="border-b border-gray-100">
+          <button
+            @click="toggleSubmenu('blog')"
+            class="w-full flex justify-between items-center py-4 text-xl font-semibold text-sky-900 focus:outline-none"
+          >
+            Straipsniai
+            <span
+              class="transition-transform duration-300"
+              :class="{ 'rotate-180': activeSubmenu === 'blog' }"
+            >
+              <IconChevron />
+            </span>
+          </button>
+
+          <transition name="expand">
+            <ul
+              v-if="activeSubmenu === 'blog'"
+              class="bg-sky-50 rounded-lg mb-2 overflow-hidden"
+            >
+              <li
+                v-for="link in blogLinks"
+                :key="link.name"
+              >
+                <RouterLink
+                  :to="{ name: link.name }"
+                  @click="closeMobileMenu"
+                  class="block px-6 py-3 text-lg text-gray-700 hover:text-sky-600"
+                >
+                  {{ link.title }}
+                </RouterLink>
+              </li>
+            </ul>
+          </transition>
+        </li>
       </ul>
     </nav>
   </div>
@@ -160,6 +200,12 @@ const aboutLinks = [
   { name: 'contact', title: 'Kontaktai' },
 ]
 
+const treatmentLinks = [
+  { name: 'diagnostics', title: 'Diagnostika' },
+  { name: 'treatment', title: 'Gydymas Schroth metodu' },
+  { name: 'testing', title: 'Nemokamas laikysenos testavimas' },
+]
+
 const educationLinks = [
   { name: 'education', title: 'Skoliozės edukacija mokykloms ir tėvams' },
   { name: 'camp', title: 'Schroth skoliozės stovykla' },
@@ -169,6 +215,16 @@ const educationLinks = [
   { name: 'seas', title: 'SEAS metodas ir ISICO organizacija' },
   { name: 'sosort', title: 'Tarptautinė SOSORT organizacija' },
   { name: 'psse', title: 'Tarptautinė PSSE asociacija' },
+]
+
+const blogLinks = [
+  { name: 'straipsniai-skolioze', title: 'Skoliozė' },
+  { name: 'straipsniai-kaklo-skolioze', title: 'Sėkmės istorijos' },
+  { name: 'straipsniai-idiopatine-skolioze', title: 'Idiopatinė skoliozė' },
+  {
+    name: 'straipsniai-reabilitacija-po-skoliozes-operacijos',
+    title: 'Reabilitacija po skoliozės operacijos',
+  },
 ]
 
 const toggleMobileMenu = () => {
@@ -181,5 +237,6 @@ const toggleSubmenu = (name) => {
 
 const closeMobileMenu = () => {
   isMenuOpen.value = false
+  activeSubmenu.value = null
 }
 </script>

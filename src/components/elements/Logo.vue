@@ -10,7 +10,7 @@
         class="h-8 shadow-sm"
       />
 
-      <p class="text-xs md:text-sm uppercase text-sky-900">Skoliozės Centras</p>
+      <p class="text-xs uppercase text-sky-900">Skoliozės Centras</p>
     </RouterLink>
   </div>
 </template>
