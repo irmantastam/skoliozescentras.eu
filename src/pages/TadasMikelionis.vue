@@ -24,6 +24,10 @@
           </p>
 
           <p class="text-sky-900 leading-relaxed mb-4">
+            Tarptautinės PSSE asociacijos atstovas Lietuvoje
+          </p>
+
+          <p class="text-sky-900 leading-relaxed mb-4">
             Nuolat tobulinu žinias pasaulinio lygio lektorių seminaruose, tokių
             kaip:
           </p>
@@ -465,6 +469,32 @@
           <li>Sporto biomechanika - Vytauto Didžiojo universitetas</li>
 
           <li>Kineziterapijos pagrindai - Lietuvos Sporto universitetas</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
+      <div>
+        <h2 class="text-2xl font-semibold text-sky-900 mb-4">Narystės</h2>
+
+        <ul
+          class="list-disc list-inside text-sky-900 leading-relaxed space-y-2 mb-4"
+        >
+          <li>SOSORT</li>
+
+          <li>PSSE asociacija</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="p-6 bg-white sm:rounded-lg shadow-sm">
+      <div>
+        <h2 class="text-2xl font-semibold text-sky-900 mb-4">Konferencijos</h2>
+
+        <ul
+          class="list-disc list-inside text-sky-900 leading-relaxed space-y-2 mb-4"
+        >
+          <li>SOSORT 2026</li>
         </ul>
       </div>
     </section>

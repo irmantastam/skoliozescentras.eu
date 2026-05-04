@@ -45,7 +45,7 @@
           </p>
 
           <h3 class="text-xl font-semibold text-sky-800 mb-2 mt-6">
-            Sertifikuotos metodikos:
+            Sertifikuotos metodikos
           </h3>
           <ul
             class="list-disc list-inside text-sky-900 leading-relaxed space-y-2 mb-4"
@@ -63,6 +63,23 @@
               TMG, FMS level 1, SFMA level 1, Y-Balance, FCS metodikų
               specialistė.
             </li>
+          </ul>
+
+          <h3 class="text-xl font-semibold text-sky-800 mb-2 mt-6">Narystės</h3>
+          <ul
+            class="list-disc list-inside text-sky-900 leading-relaxed space-y-2 mb-4"
+          >
+            <li>SOSORT</li>
+            <li>PSSE asociacija</li>
+          </ul>
+
+          <h3 class="text-xl font-semibold text-sky-800 mb-2 mt-6">
+            Konferencijos
+          </h3>
+          <ul
+            class="list-disc list-inside text-sky-900 leading-relaxed space-y-2 mb-4"
+          >
+            <li>SOSORT 2026</li>
           </ul>
         </div>
 
@@ -447,7 +464,15 @@
           src="https://www.youtube.com/embed/uODSJheHeRw"
           title="YouTube video player"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
           allowfullscreen
         ></iframe>
       </div>
