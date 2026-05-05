@@ -33,6 +33,13 @@
           <strong class="font-semibold">Papildomos metodikos:</strong> DNS
           Pediatric.
         </p>
+        <p class="text-gray-700">
+          <strong class="font-semibold">Narystės:</strong> SOSORT, PSSE
+          asociacija.
+        </p>
+        <p class="text-gray-700">
+          <strong class="font-semibold">Konferencijos:</strong> SOSORT 2026.
+        </p>
       </RouterLink>
 
       <RouterLink
@@ -57,6 +64,16 @@
         <p class="text-gray-700">
           <strong class="font-semibold">Papildomos metodikos:</strong> DNS
           medical, Maitland, Mulligan.
+        </p>
+        <p class="text-gray-700">
+          <strong class="font-semibold">Narystės:</strong> SOSORT, PSSE
+          asociacija.
+        </p>
+        <p class="text-gray-700">
+          <strong class="font-semibold">Konferencijos:</strong> SOSORT 2026.
+        </p>
+        <p class="text-gray-700 mb-1">
+          Tarptautinės PSSE asociacijos atstovas Lietuvoje.
         </p>
       </RouterLink>
 

@@ -24,7 +24,7 @@
           </p>
 
           <p class="text-sky-900 leading-relaxed mb-4">
-            Tarptautinės PSSE asociacijos atstovas Lietuvoje
+            Tarptautinės PSSE asociacijos atstovas Lietuvoje.
           </p>
 
           <p class="text-sky-900 leading-relaxed mb-4">
@@ -35,17 +35,17 @@
           <ul
             class="list-disc list-inside text-sky-900 leading-relaxed space-y-2 mb-4"
           >
-            <li>Michael Shacklock – klinikinė neurodinamika</li>
+            <li>Michael Shacklock - klinikinė neurodinamika</li>
 
-            <li>Annina Schmid – kompresinės periferinės neuropatijos</li>
+            <li>Annina Schmid - kompresinės periferinės neuropatijos</li>
 
-            <li>Alison Grimaldi – klubo sąnario gydymas</li>
+            <li>Alison Grimaldi - klubo sąnario gydymas</li>
 
-            <li>Mark Jones – klinikinis mąstymas</li>
+            <li>Mark Jones - klinikinis mąstymas</li>
 
-            <li>Ben Cormack – nugaros skausmo gydymas</li>
+            <li>Ben Cormack - nugaros skausmo gydymas</li>
 
-            <li>Adam Meakins – peties gydymas ir kiti.</li>
+            <li>Adam Meakins - peties gydymas ir kiti.</li>
           </ul>
 
           <p class="text-sky-900 leading-relaxed mb-4">
