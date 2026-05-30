@@ -284,7 +284,7 @@ const specialists = ref([
     name: 'Giedrė Mikelionienė',
     specialization: 'Schroth terapijos specialistė. ISST atstovė Lietuvoje',
     image:
-      'https://innovamed.lt/wp-content/uploads/2025/07/IMG_3249-300x300.jpg.webp',
+      'https://innovamed.lt/wp-content/uploads/2026/05/0d5084e2-ff6c-444c-914f-6ccc7b74e3df-300x300.jpg.webp',
     bio: `Giedrė Mikelionienė yra viena iš pagrindinių Schroth terapijos specialisčių Lietuvoje, ISST (International Schroth Three-Dimensional Scoliosis Therapy) atstovė. Ji turi didelę patirtį dirbant su skoliozės pacientais ir nuolat tobulina savo žinias, dalyvaudama tarptautiniuose mokymuose ir konferencijose. Jos nuoširdumas ir empatija padeda pacientams jaustis saugiai ir motyvuotai gydymo metu.`,
     bioHtml: `
       <h4 class="font-semibold text-lg text-gray-900 mb-2">Išsilavinimas ir patirtis:</h4>

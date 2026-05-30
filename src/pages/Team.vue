@@ -10,7 +10,7 @@
         class="bg-white p-6 sm:rounded-lg shadow-md flex flex-col items-center text-center"
       >
         <img
-          src="https://innovamed.lt/wp-content/uploads/2025/07/IMG_3249-300x300.jpg.webp"
+          src="https://innovamed.lt/wp-content/uploads/2026/05/0d5084e2-ff6c-444c-914f-6ccc7b74e3df-300x300.jpg.webp"
           alt="Giedrė Mikelionienė"
           class="w-32 h-32 rounded-full object-cover mb-4 border-2 border-blue-400"
         />
