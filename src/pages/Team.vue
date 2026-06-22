@@ -35,7 +35,7 @@
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Narystės:</strong> SOSORT, PSSE
-          asociacija.
+          asociacija, IRSSD.
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Konferencijos:</strong> SOSORT 2026.
@@ -67,7 +67,7 @@
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Narystės:</strong> SOSORT, PSSE
-          asociacija.
+          asociacija, IRSSD.
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Konferencijos:</strong> SOSORT 2026.
