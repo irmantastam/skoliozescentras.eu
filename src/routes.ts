@@ -185,6 +185,17 @@ export const routes = [
     },
   },
   {
+    path: '/tarptautine-irssd-organizacija',
+    name: 'irssd',
+    component: () => import('./pages/Irssd.vue'),
+    meta: {
+      title: 'Tarptautinė IRSSD organizacija - Skoliozės Centras',
+      menuTitle: 'Tarptautinė IRSSD organizacija',
+      description:
+        'IRSSD - Tarptautinė stuburo deformacijų tyrimų draugija, vienijanti viso pasaulio mokslininkus ir gydytojus, siekiant skatinti pažangius stuburo deformacijų tyrimus ir gydymą.',
+    },
+  },
+  {
     path: '/straipsniai/skolioze',
     name: 'straipsniai-skolioze',
     component: () => import('./pages/blog/Scoliosis.vue'),

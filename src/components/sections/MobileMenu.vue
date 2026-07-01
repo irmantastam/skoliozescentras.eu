@@ -215,6 +215,7 @@ const educationLinks = [
   { name: 'seas', title: 'SEAS metodas ir ISICO organizacija' },
   { name: 'sosort', title: 'Tarptautinė SOSORT organizacija' },
   { name: 'psse', title: 'Tarptautinė PSSE asociacija' },
+  { name: 'irssd', title: 'Tarptautinė IRSSD asociacija' },
 ]
 
 const blogLinks = [
