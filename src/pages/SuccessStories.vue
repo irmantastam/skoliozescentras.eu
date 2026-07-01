@@ -10,7 +10,7 @@
         class="text-center flex flex-col items-center gap-4 text-gray-700 mx-6"
       >
         <p class="text-lg">
-          Kairėje nuotrauka – atvykus pirmai konsultacijai, dešinėje nuotrauka –
+          Kairėje nuotrauka - atvykus pirmai konsultacijai, dešinėje nuotrauka -
           gydymo procese:
         </p>
       </div>
@@ -143,39 +143,69 @@ const testimonials = ref([
 // Photo slides.
 const skoliozePhotos = ref([
   {
-    url: 'https://innovamed.lt/wp-content/uploads/2025/07/Giedrius-su-datom-768x717.jpg.webp',
+    url: '/images/successStories/story1.webp',
     alt: 'Skoliozės nuotrauka prieš ir gydymo procese 1',
     label: 'Nuotrauka prieš ir gydymo procese 1',
   },
   {
-    url: 'https://innovamed.lt/wp-content/uploads/2025/07/Izabele-su-datom-768x768.jpg.webp',
+    url: '/images/successStories/story2.webp',
     alt: 'Skoliozės nuotrauka prieš ir gydymo procese 2',
     label: 'Nuotrauka prieš ir gydymo procese 2',
   },
   {
-    url: 'https://innovamed.lt/wp-content/uploads/2025/06/IMG_2023-768x768.jpeg.webp',
+    url: '/images/successStories/story3.webp',
     alt: 'Skoliozės nuotrauka prieš ir gydymo procese 3',
     label: 'Nuotrauka prieš ir gydymo procese 3',
   },
   {
-    url: 'https://innovamed.lt/wp-content/uploads/2025/06/IMG_2018.jpeg.webp',
+    url: '/images/successStories/story4.webp',
     alt: 'Skoliozės nuotrauka prieš ir gydymo procese 4',
     label: 'Nuotrauka prieš ir gydymo procese 4',
   },
   {
-    url: 'https://innovamed.lt/wp-content/uploads/2025/07/Naomi-su-datom-768x768.jpg.webp',
+    url: '/images/successStories/story5.webp',
     alt: 'Skoliozės nuotrauka prieš ir gydymo procese 5',
     label: 'Nuotrauka prieš ir gydymo procese 5',
   },
   {
-    url: 'https://innovamed.lt/wp-content/uploads/2025/07/Saule-su-datom-768x768.jpg.webp',
+    url: '/images/successStories/story6.webp',
     alt: 'Skoliozės nuotrauka prieš ir gydymo procese 6',
     label: 'Nuotrauka prieš ir gydymo procese 6',
   },
   {
-    url: 'https://innovamed.lt/wp-content/uploads/2025/07/Justina-su-datom.jpg',
+    url: '/images/successStories/story7.webp',
     alt: 'Skoliozės nuotrauka prieš ir gydymo procese 7',
     label: 'Nuotrauka prieš ir gydymo procese 7',
+  },
+  {
+    url: '/images/successStories/story8.webp',
+    alt: 'Skoliozės nuotrauka prieš ir gydymo procese 8',
+    label: 'Nuotrauka prieš ir gydymo procese 8',
+  },
+  {
+    url: '/images/successStories/story9.webp',
+    alt: 'Skoliozės nuotrauka prieš ir gydymo procese 9',
+    label: 'Nuotrauka prieš ir gydymo procese 9',
+  },
+  {
+    url: '/images/successStories/story10.webp',
+    alt: 'Skoliozės nuotrauka prieš ir gydymo procese 10',
+    label: 'Nuotrauka prieš ir gydymo procese 10',
+  },
+  {
+    url: '/images/successStories/story11.webp',
+    alt: 'Skoliozės nuotrauka prieš ir gydymo procese 11',
+    label: 'Nuotrauka prieš ir gydymo procese 11',
+  },
+  {
+    url: '/images/successStories/story12.webp',
+    alt: 'Skoliozės nuotrauka prieš ir gydymo procese 12',
+    label: 'Nuotrauka prieš ir gydymo procese 12',
+  },
+  {
+    url: '/images/successStories/story13.webp',
+    alt: 'Skoliozės nuotrauka prieš ir gydymo procese 13',
+    label: 'Nuotrauka prieš ir gydymo procese 13',
   },
 ])
 </script>
