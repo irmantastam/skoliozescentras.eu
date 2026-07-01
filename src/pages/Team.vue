@@ -38,7 +38,8 @@
           asociacija, IRSSD.
         </p>
         <p class="text-gray-700">
-          <strong class="font-semibold">Konferencijos:</strong> SOSORT 2026.
+          <strong class="font-semibold">Konferencijos:</strong> SOSORT 2026,
+          IRSSD-SCOSYM 2026.
         </p>
       </RouterLink>
 
@@ -59,7 +60,12 @@
         </p>
         <p class="text-gray-700 mb-1">
           <strong class="font-semibold">Specializacija:</strong> Sertifikuotas
-          ISST Schroth specialistas + ISICO SEAS Level I.
+          ISST Schroth specialistas + ISST Schroth Refresher + ISICO SEAS Level
+          I.
+        </p>
+        <p class="text-gray-700 mb-1">
+          <strong class="font-semibold">ISST laipsnis:</strong> Klinikinės
+          praktikos vadovas.
         </p>
         <p class="text-gray-700">
           <strong class="font-semibold">Papildomos metodikos:</strong> DNS
@@ -70,7 +76,8 @@
           asociacija, IRSSD.
         </p>
         <p class="text-gray-700">
-          <strong class="font-semibold">Konferencijos:</strong> SOSORT 2026.
+          <strong class="font-semibold">Konferencijos:</strong> SOSORT 2026,
+          IRSSD-SCOSYM 2026.
         </p>
         <p class="text-gray-700 mb-1">
           Tarptautinės PSSE asociacijos atstovas Lietuvoje.
